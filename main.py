@@ -17,7 +17,7 @@ import time
 import shutil
 import argparse
 import warnings
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List, Tuple, Set
 from dataclasses import dataclass, field
 
@@ -170,11 +170,13 @@ def log_failed(url, reason):
         url: 请求的 URL
         reason: 失败原因
     """
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    timestamp = datetime.now()
+    timestamp_beijing = timestamp + timedelta(hours=8)
+    timestamp_str = timestamp_beijing.strftime('%Y-%m-%d %H:%M:%S')
     script_dir = os.path.dirname(os.path.abspath(__file__))
     log_path = os.path.join(script_dir, FAILED_LOG_FILE)
     with open(log_path, 'a', encoding='utf-8') as f:
-        f.write(f"[{timestamp}] {url} - {reason}\n")
+        f.write(f"[{timestamp_str}] {url} - {reason}\n")
 
 
 def log_github_source(url, status, extra=None):
@@ -186,8 +188,10 @@ def log_github_source(url, status, extra=None):
         status: 状态
         extra: 额外信息
     """
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    line = f"[{timestamp}] {status} - {url}"
+    timestamp = datetime.now()
+    timestamp_beijing = timestamp + timedelta(hours=8)
+    timestamp_str = timestamp_beijing.strftime('%Y-%m-%d %H:%M:%S')
+    line = f"[{timestamp_str}] {status} - {url}"
     if extra:
         line += f" - {extra}"
     script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -837,8 +841,12 @@ def generate_alias_demo_report(channels, alias_dict, regex_list, demo_categories
     
     suggested_aliases = {k: v for k, v in suggested_aliases.items() if v['count'] >= 3}
     
+    timestamp = datetime.now()
+    timestamp_beijing = timestamp + timedelta(hours=8)
+    timestamp_str = timestamp_beijing.strftime('%Y-%m-%d %H:%M:%S')
+    
     lines = []
-    lines.append(f"# 别名分类报告 - 生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+    lines.append(f"# 别名分类报告 - 生成时间: {timestamp_str}\n")
     lines.append(f"# 总频道数: {len(channels)}\n")
     lines.append(f"# 已知别名频道: {sum(len(v) for v in known_channels.values())} 个（去重后 {len(known_channels)} 个主名）\n")
     lines.append(f"# 未知别名频道: {sum(len(v) for v in unknown_channels.values())} 个（去重后 {len(set().union(*unknown_channels.values()))} 个名称）\n")
@@ -974,18 +982,21 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
             content = f.read()
             lines = content.split('\n')
             for line in lines:
-                if '【未知分类】' in line:
+                if '【未知分类】（需要添加到 demo.txt' in line:
                     in_unknown_cats = True
                     in_alias_suggestions = False
                     continue
-                elif '需要添加到 alias.txt 的别名' in line:
+                elif '【需要添加到 alias.txt 的别名】' in line:
                     in_unknown_cats = False
                     in_alias_suggestions = True
                     continue
-                elif '【' in line and line.strip().startswith('【'):
-                    in_unknown_cats = False
-                    in_alias_suggestions = False
-                    
+                elif line.strip().startswith('【') and not in_alias_suggestions and not in_unknown_cats:
+                    pass
+                elif line.strip().startswith('【') and (in_alias_suggestions or in_unknown_cats):
+                    if '需要添加到 alias.txt 的别名】' not in line and '未知分类】' not in line:
+                        in_unknown_cats = False
+                        in_alias_suggestions = False
+                        
                 if in_unknown_cats and line.strip().startswith('  ✗'):
                     cat = line.strip().replace('  ✗', '').strip()
                     if cat:
@@ -994,12 +1005,14 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
                     if ',' in line.strip():
                         alias_suggestions.append(line.strip())
     
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    timestamp = datetime.now()
+    timestamp_beijing = timestamp + timedelta(hours=8)
+    timestamp_str = timestamp_beijing.strftime('%Y-%m-%d %H:%M:%S')
     
     lines = [
         "# IPTV 播放列表\n",
         "\n",
-        f"> 最后更新：{timestamp} (北京时间)\n",
+        f"> 最后更新：{timestamp_str} (北京时间)\n",
         "\n",
         "## 📊 统计概览\n",
         "\n",
@@ -1019,6 +1032,17 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
         lines.append(f"{i}. **{cat}** - {count} 个频道\n")
     
     lines.extend([
+        "\n",
+        "## 📥 下载地址\n",
+        "\n",
+        "- [output.m3u](output.m3u) - M3U 格式\n",
+        "- [output.txt](output.txt) - TXT 格式\n",
+        "\n",
+        "## 📝 报告文件\n",
+        "\n",
+        "- [new-aliasdemo.txt](new-aliasdemo.txt) - 详细分类报告\n",
+        "- [failed_sources.log](failed_sources.log) - 失败源日志\n",
+        "- [github_sources.log](github_sources.log) - GitHub 来源日志\n",
         "\n",
         "## ⚠️ 需要人工处理的分类 (TOP 30)\n",
         "\n",
@@ -1045,20 +1069,6 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
     
     if len(alias_suggestions) > 20:
         lines.append(f"\n> 共 {len(alias_suggestions)} 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)\n")
-    
-    lines.extend([
-        "\n",
-        "## 📥 下载地址\n",
-        "\n",
-        "- [output.m3u](output.m3u) - M3U 格式\n",
-        "- [output.txt](output.txt) - TXT 格式\n",
-        "\n",
-        "## 📝 报告文件\n",
-        "\n",
-        "- [new-aliasdemo.txt](new-aliasdemo.txt) - 详细分类报告\n",
-        "- [failed_sources.log](failed_sources.log) - 失败源日志\n",
-        "- [github_sources.log](github_sources.log) - GitHub 来源日志\n",
-    ])
     
     with open(output_path, 'w', encoding='utf-8') as f:
         f.writelines(lines)
