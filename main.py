@@ -789,6 +789,9 @@ def generate_alias_demo_report(channels, alias_dict, regex_list, demo_categories
         regex_list: 正则表达式列表
         demo_categories: demo.txt 分类字典
         output_path: 输出文件路径
+        
+    Returns:
+        dict: 包含 unknown_categories 和 alias_suggestions 的字典
     """
     known_channels = {}
     unknown_channels = {}
@@ -942,9 +945,15 @@ def generate_alias_demo_report(channels, alias_dict, regex_list, demo_categories
     logger.info(f"已生成别名分类报告: {output_path}")
     logger.info(f"  已知别名频道: {sum(len(v) for v in known_channels.values())} 个")
     logger.info(f"  未知别名频道: {sum(len(v) for v in unknown_channels.values())} 个")
+    
+    return {
+        'unknown_categories': sorted(unknown_categories),
+        'alias_suggestions': [(name, info['count'], ','.join(sorted(info['samples'])[:3])) 
+                             for name, info in sorted(suggested_aliases.items(), key=lambda x: -x[1]['count'])]
+    }
 
 
-def generate_readme_report(channels, alias_dict, regex_list, demo_categories, failed_count, github_count, output_path):
+def generate_readme_report(channels, alias_dict, regex_list, demo_categories, failed_count, github_count, extra_data, output_path):
     """
     生成 README.md 报告文件
     
@@ -955,6 +964,7 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
         demo_categories: 分类字典
         failed_count: 失败源数量
         github_count: GitHub 来源数量
+        extra_data: 额外的报告数据（包含 unknown_categories 和 alias_suggestions）
         output_path: 输出路径
     """
     total_channels = len(channels)
@@ -969,41 +979,8 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
     
     top_categories = sorted(category_count.items(), key=lambda x: -x[1])[:15]
     
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    alias_demo_file = os.path.join(script_dir, ALIAS_DEMO_FILE)
-    
-    unknown_categories = []
-    alias_suggestions = []
-    in_unknown_cats = False
-    in_alias_suggestions = False
-    
-    if os.path.exists(alias_demo_file):
-        with open(alias_demo_file, 'r', encoding='utf-8') as f:
-            content = f.read()
-            lines = content.split('\n')
-            for line in lines:
-                if '【未知分类】（需要添加到 demo.txt' in line:
-                    in_unknown_cats = True
-                    in_alias_suggestions = False
-                    continue
-                elif '【需要添加到 alias.txt 的别名】' in line:
-                    in_unknown_cats = False
-                    in_alias_suggestions = True
-                    continue
-                elif line.strip().startswith('【') and not in_alias_suggestions and not in_unknown_cats:
-                    pass
-                elif line.strip().startswith('【') and (in_alias_suggestions or in_unknown_cats):
-                    if '需要添加到 alias.txt 的别名】' not in line and '未知分类】' not in line:
-                        in_unknown_cats = False
-                        in_alias_suggestions = False
-                        
-                if in_unknown_cats and line.strip().startswith('  ✗'):
-                    cat = line.strip().replace('  ✗', '').strip()
-                    if cat:
-                        unknown_categories.append(cat)
-                elif in_alias_suggestions and line.strip().startswith('  '):
-                    if ',' in line.strip():
-                        alias_suggestions.append(line.strip())
+    unknown_categories = extra_data.get('unknown_categories', [])
+    alias_suggestions = extra_data.get('alias_suggestions', [])
     
     timestamp = datetime.now()
     timestamp_beijing = timestamp + timedelta(hours=8)
@@ -1064,8 +1041,11 @@ def generate_readme_report(channels, alias_dict, regex_list, demo_categories, fa
         "\n",
     ])
     
-    for suggestion in alias_suggestions[:20]:
-        lines.append(f"- {suggestion}\n")
+    for name, count, samples in alias_suggestions[:20]:
+        if name:
+            lines.append(f"- **{name}** (出现 {count} 次): {samples}\n")
+        else:
+            lines.append(f"- 无主名 (出现 {count} 次): {samples}\n")
     
     if len(alias_suggestions) > 20:
         lines.append(f"\n> 共 {len(alias_suggestions)} 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)\n")
@@ -1166,7 +1146,7 @@ def run_full_mode():
     alias_dict, regex_list = parse_alias_file(alias_file)
     demo_categories = parse_demo_file(demo_file)
     
-    generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
+    extra_data = generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
     
     readme_file = os.path.join(script_dir, README_FILE)
     failed_count = 0
@@ -1177,7 +1157,7 @@ def run_full_mode():
     if os.path.exists(os.path.join(script_dir, GITHUB_LOG_FILE)):
         with open(os.path.join(script_dir, GITHUB_LOG_FILE), 'r', encoding='utf-8') as f:
             github_count = len(f.readlines())
-    generate_readme_report(merged_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, readme_file)
+    generate_readme_report(merged_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, extra_data, readme_file)
     
     logger.info(f"\n✅ 处理完成！共 {len(merged_channels)} 个频道")
     logger.info(f"📄 失败日志: {os.path.join(script_dir, FAILED_LOG_FILE)}")
@@ -1229,10 +1209,22 @@ def run_report_mode():
     alias_dict, regex_list = parse_alias_file(alias_file)
     demo_categories = parse_demo_file(demo_file)
     
-    generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
+    extra_data = generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
+    
+    readme_file = os.path.join(script_dir, README_FILE)
+    failed_count = 0
+    github_count = 0
+    if os.path.exists(os.path.join(script_dir, FAILED_LOG_FILE)):
+        with open(os.path.join(script_dir, FAILED_LOG_FILE), 'r', encoding='utf-8') as f:
+            failed_count = len(f.readlines())
+    if os.path.exists(os.path.join(script_dir, GITHUB_LOG_FILE)):
+        with open(os.path.join(script_dir, GITHUB_LOG_FILE), 'r', encoding='utf-8') as f:
+            github_count = len(f.readlines())
+    generate_readme_report(merged_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, extra_data, readme_file)
     
     logger.info(f"\n✅ 报告生成完成！共 {len(merged_channels)} 个频道")
     logger.info(f"📄 别名分类报告: {alias_demo_file}")
+    logger.info(f"📄 README 报告: {readme_file}")
 
 
 def main():
