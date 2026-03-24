@@ -35,7 +35,7 @@ jobs:
 
     - name: Commit and Push Results
       run: |
-        git add input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt 2>/dev/null || true
+        git add input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt
         if git diff --staged --quiet; then
           echo "没有变更需要提交"
         else
