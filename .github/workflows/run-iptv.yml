@@ -35,7 +35,11 @@ jobs:
 
     - name: Commit and Push Results
       run: |
-        git add input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt
+        for file in input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt; do
+          if [ -f "$file" ]; then
+            git add "$file"
+          fi
+        done
         if git diff --staged --quiet; then
           echo "没有变更需要提交"
         else
