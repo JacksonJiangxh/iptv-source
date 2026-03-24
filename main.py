@@ -36,6 +36,7 @@ GITHUB_LOG_FILE = 'github_sources.log'
 ALIAS_FILE = 'alias.txt'
 DEMO_FILE = 'demo.txt'
 ALIAS_DEMO_FILE = 'new-aliasdemo.txt'
+README_FILE = 'README.md'
 MAX_GITHUB_RESULTS = 500
 MAX_RETRIES = 3
 
@@ -935,6 +936,136 @@ def generate_alias_demo_report(channels, alias_dict, regex_list, demo_categories
     logger.info(f"  未知别名频道: {sum(len(v) for v in unknown_channels.values())} 个")
 
 
+def generate_readme_report(channels, alias_dict, regex_list, demo_categories, failed_count, github_count, output_path):
+    """
+    生成 README.md 报告文件
+    
+    Args:
+        channels: 频道列表
+        alias_dict: 别名字典
+        regex_list: 正则表达式列表
+        demo_categories: 分类字典
+        failed_count: 失败源数量
+        github_count: GitHub 来源数量
+        output_path: 输出路径
+    """
+    total_channels = len(channels)
+    known_alias_count = sum(len(v) for v in alias_dict.values()) if alias_dict else 0
+    
+    category_count = {}
+    for channel in channels:
+        group = channel.group_title or "未分类"
+        if group not in category_count:
+            category_count[group] = 0
+        category_count[group] += 1
+    
+    top_categories = sorted(category_count.items(), key=lambda x: -x[1])[:15]
+    
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    alias_demo_file = os.path.join(script_dir, ALIAS_DEMO_FILE)
+    
+    unknown_categories = []
+    alias_suggestions = []
+    in_unknown_cats = False
+    in_alias_suggestions = False
+    
+    if os.path.exists(alias_demo_file):
+        with open(alias_demo_file, 'r', encoding='utf-8') as f:
+            content = f.read()
+            lines = content.split('\n')
+            for line in lines:
+                if '【未知分类】' in line:
+                    in_unknown_cats = True
+                    in_alias_suggestions = False
+                    continue
+                elif '需要添加到 alias.txt 的别名' in line:
+                    in_unknown_cats = False
+                    in_alias_suggestions = True
+                    continue
+                elif '【' in line and line.strip().startswith('【'):
+                    in_unknown_cats = False
+                    in_alias_suggestions = False
+                    
+                if in_unknown_cats and line.strip().startswith('  ✗'):
+                    cat = line.strip().replace('  ✗', '').strip()
+                    if cat:
+                        unknown_categories.append(cat)
+                elif in_alias_suggestions and line.strip().startswith('  '):
+                    if ',' in line.strip():
+                        alias_suggestions.append(line.strip())
+    
+    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    
+    lines = [
+        "# IPTV 播放列表\n",
+        "\n",
+        f"> 最后更新：{timestamp} (北京时间)\n",
+        "\n",
+        "## 📊 统计概览\n",
+        "\n",
+        f"| 项目 | 数量 |\n",
+        f"|------|------|\n",
+        f"| 总频道数 | **{total_channels}** |\n",
+        f"| 已知别名 | {known_alias_count} |\n",
+        f"| 分类数量 | {len(category_count)} |\n",
+        f"| GitHub 来源 | {github_count} |\n",
+        f"| 失败源数 | {failed_count} |\n",
+        "\n",
+        "## 📺 频道分类 TOP 15\n",
+        "\n",
+    ]
+    
+    for i, (cat, count) in enumerate(top_categories, 1):
+        lines.append(f"{i}. **{cat}** - {count} 个频道\n")
+    
+    lines.extend([
+        "\n",
+        "## ⚠️ 需要人工处理的分类 (TOP 30)\n",
+        "\n",
+        "以下分类未在 demo.txt 中定义，建议添加：\n",
+        "\n",
+    ])
+    
+    for i, cat in enumerate(unknown_categories[:30], 1):
+        lines.append(f"{i}. `{cat}`\n")
+    
+    if unknown_categories:
+        lines.append(f"\n> 共 {len(unknown_categories)} 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)\n")
+    
+    lines.extend([
+        "\n",
+        "## 📝 待添加到 alias.txt 的别名建议\n",
+        "\n",
+        "以下频道名称建议添加别名映射：\n",
+        "\n",
+    ])
+    
+    for suggestion in alias_suggestions[:20]:
+        lines.append(f"- {suggestion}\n")
+    
+    if len(alias_suggestions) > 20:
+        lines.append(f"\n> 共 {len(alias_suggestions)} 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)\n")
+    
+    lines.extend([
+        "\n",
+        "## 📥 下载地址\n",
+        "\n",
+        "- [output.m3u](output.m3u) - M3U 格式\n",
+        "- [output.txt](output.txt) - TXT 格式\n",
+        "\n",
+        "## 📝 报告文件\n",
+        "\n",
+        "- [new-aliasdemo.txt](new-aliasdemo.txt) - 详细分类报告\n",
+        "- [failed_sources.log](failed_sources.log) - 失败源日志\n",
+        "- [github_sources.log](github_sources.log) - GitHub 来源日志\n",
+    ])
+    
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    
+    logger.info(f"已生成 README 报告: {output_path}")
+
+
 def run_full_mode():
     """
     完整运行模式
@@ -1027,10 +1158,22 @@ def run_full_mode():
     
     generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
     
+    readme_file = os.path.join(script_dir, README_FILE)
+    failed_count = 0
+    github_count = 0
+    if os.path.exists(os.path.join(script_dir, FAILED_LOG_FILE)):
+        with open(os.path.join(script_dir, FAILED_LOG_FILE), 'r', encoding='utf-8') as f:
+            failed_count = len(f.readlines())
+    if os.path.exists(os.path.join(script_dir, GITHUB_LOG_FILE)):
+        with open(os.path.join(script_dir, GITHUB_LOG_FILE), 'r', encoding='utf-8') as f:
+            github_count = len(f.readlines())
+    generate_readme_report(merged_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, readme_file)
+    
     logger.info(f"\n✅ 处理完成！共 {len(merged_channels)} 个频道")
     logger.info(f"📄 失败日志: {os.path.join(script_dir, FAILED_LOG_FILE)}")
     logger.info(f"📄 GitHub 日志: {os.path.join(script_dir, GITHUB_LOG_FILE)}")
     logger.info(f"📄 别名分类报告: {alias_demo_file}")
+    logger.info(f"📄 README 报告: {readme_file}")
 
 
 def run_report_mode():
