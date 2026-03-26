@@ -1,0 +1,2183 @@
+# 这是频道名称的别名名单，用于获取接口时将多种名称映射为一个名称的结果，可以提升获取量与准确率
+# 格式：主名（对应demo.txt模板中的频道名称）,别名1,别名2,别名3
+# 支持使用正则表达式匹配别名，以re:开头的别名将被识别为正则表达式，例如CCTV-1,re:CCTV[-\s]*0?1(?!\d)
+# This is the alias list for channel names, used to map multiple names to a single name when fetching from the interface, improving the fetch volume and accuracy.
+# Format: Main name (corresponds to channel name in demo.txt template), alias1, alias2, alias3
+# Aliases support regex matching. Aliases starting with re: are recognized as regular expressions, e\.g\. CCTV-1,re:CCTV[-\s]*0?1(?!\d)
+
+福建文体,福建体育
+福建经济,福建经视
+FZTV1,FZTV-1,福州综合,福州1-新闻
+FZTV3,FZTV-3,福州生活,福州3-生活
+
+
+
+中央電視台綜合頻道,中央電視台綜合頻道（CCTV-1綜合),CCTV-1綜合,RTHK33,RTHK 33,RTHK-33
+中國環球電視網紀錄頻道,中國環球電視網紀錄頻道 (CGTN紀錄頻道),CGTN紀錄頻道,RTHK34,RTHK 34,RTHK-34
+CGTN 英語頻道,RTHK35,RTHK 35,RTHK-35
+港台电视 36,港台電視 36,RTHK36,RTHK 36,RTHK-36
+
+*HOY 國際財經台,HOY 國際財經台,*HOY 国际财经台,HOY 国际财经台,HOY国际财经台
+*HOY TV,HOY TV
+*HOY 資訊台,HOY 資訊台,*HOY 资讯台,HOY 资讯台,HOY资讯台
+
+赣州新闻,GZSXW,GZSNews
+
+北京卡酷少儿,卡酷少儿,卡酷少儿高清,卡酷少儿HD,北京卡酷少儿HD,卡酷少儿高码,北京卡酷少儿高码,KAKU,kaku,KaKu,卡酷动画,卡酷动画HD
+
+黑莓电影,NewTV黑莓电影
+黑莓动画,NewTV黑莓动画
+家庭剧场,NewTV家庭剧场
+惊悚悬疑,NewTV惊悚悬疑
+超级电影,NewTV超级电影
+动作电影,NewTV动作电影
+哒啵电竞,NewTV哒啵电竞
+
+游戏风云,SiTV游戏风云
+动漫秀场,SiTV动漫秀场
+游戏风云.SiTV游戏风云
+
+爱动漫,iHOT爱动漫
+新动漫,iHOT新动漫
+爱幼教,iHOT爱幼教
+爱电竞,iHOT爱电竞
+
+电竞天堂,BesTV电竞天堂
+宝宝动画,BesTV宝宝动画
+
+
+金鹰卡通,湖南金鹰卡通
+哈哈炫动,炫动卡通,上海哈哈炫动
+优漫卡通,江苏优漫卡通
+
+# 📺央视频道,#genre#
+CCTV1综合,CCTV-1,re:.*CCTV[-\s]*0?1(?!\d).*,CCTV1,CCTV-01,CCTV-01_ITV,CCTV-01北联,CCTV-01电信,CCTV-01东联,CCTV-01高码,CCTV-01高清,CCTV-01广西,CCTV-01梅州,CCTV-01咪咕,CCTV-01汝阳,CCTV-01山东,CCTV-01上海,CCTV-01斯特,CCTV-01四川,CCTV-01太原,CCTV-01天津,CCTV-01影视,CCTV-01浙江,CCTV-01重庆,CCTV1综合,CCTV-1综合,CCTV1(B),CCTV1[1920*1080],CCTV1「IPV6」,CCTV1HD,CCTV-1HD,CCTV1-标清,CCTV1港澳牿,CCTV-1高清,CCTV1-综合,CCTV-1综合ᴴᴰ
+CCTV2财经,CCTV-2,re:.*CCTV[-\s]*0?2.*,CCTV2,CCTV-02,CCTV-02_ITV,CCTV-02北联,CCTV-02电信,CCTV-02东联,CCTV-02高码,CCTV-02高清,CCTV-02广西,CCTV-02梅州,CCTV-02咪咕,CCTV-02汝阳,CCTV-02山东,CCTV-02上海,CCTV-02斯特,CCTV-02四川,CCTV-02太原,CCTV-02天津,CCTV-02影视,CCTV-02浙江,CCTV-02重庆,CCTV2财经,CCTV-2财经,CCTV2[1280*720],CCTV2「IPV6」,CCTV20241,CCTV22,CCTV250,CCTV2HD,CCTV-2HD,CCTV2-标清,CCTV2-财经,CCTV-2财经ᴴᴰ,CCTV-2高清
+CCTV3综艺,CCTV-3,re:.*CCTV[-\s]*0?3.*,CCTV3,CCTV-03,CCTV-03_ITV,CCTV-03北联,CCTV-03电信,CCTV-03东联,CCTV-03高码,CCTV-03高清,CCTV-03广西,CCTV-03梅州,CCTV-03咪咕,CCTV-03汝阳,CCTV-03山东,CCTV-03上海,CCTV-03斯特,CCTV-03四川,CCTV-03太原,CCTV-03天津,CCTV-03影视,CCTV-03浙江,CCTV-03重庆,CCTV3综艺,CCTV-3综艺,CCTV3[1920*1080],CCTV3「IPV6」,CCTV3HD,CCTV-3HD,CCTV3-标清,CCTV-3高清,CCTV-3-高清,CCTV3-综艺,CCTV-3综艺ᴴᴰ
+CCTV4中文国际,CCTV-4,re:^(?!.*(美洲|欧洲)).*CCTV[-\s]*0?4(?!(?:[\s\-]*[Kk])|.*[Kk]).*,CCTV4,CCTV-04,CCTV-04_ITV,CCTV-04北联,CCTV-04电信,CCTV-04东联,CCTV-04高码,CCTV-04高清,CCTV-04广西,CCTV-04梅州,CCTV-04咪咕,CCTV-04汝阳,CCTV-04山东,CCTV-04上海,CCTV-04斯特,CCTV-04四川,CCTV-04太原,CCTV-04天津,CCTV-04影视,CCTV-04浙江,CCTV-04重庆,CCTV4中文国际,CCTV-4 中文国际,CCTV-4 中文国际 美洲,CCTV-4 中文国际欧洲,CCTV4（美洲）,CCTV4（欧洲）,CCTV4[1280*720],CCTV4[1920*1080],CCTV4「IPV6」,CCTV42,CCTV450,CCTV4HD,CCTV-4HD,CCTV-4K超高渿,CCTV-4标清,CCTV-4高清,CCTV4国际,CCTV4-国际,CCTV4-中文国际,CCTV-4中文国际,CCTV-4中文国际ᴴᴰ
+CCTV5体育,CCTV-5,re:^(?!.*(?i:cctv5\+|cctv5p)).*CCTV[-\s]*0?5.*,CCTV5,CCTV-05,CCTV-05_ITV,CCTV-05北联,CCTV-05电信,CCTV-05东联,CCTV-05高码,CCTV-05高清,CCTV-05广西,CCTV-05梅州,CCTV-05咪咕,CCTV-05汝阳,CCTV-05山东,CCTV-05上海,CCTV-05斯特,CCTV-05四川,CCTV-05太原,CCTV-05天津,CCTV-05影视,CCTV-05浙江,CCTV-05重庆,CCTV5体育,CCTV-5 体育,CCTV-5体育（高码率）,CCTV5[1920*1080],CCTV5「IPV6」,CCTV5HD,CCTV-5HD,CCTV5-标清,CCTV-5高清,CCTV-5-高清,CCTV-5高清测试,CCTV5-体育,CCTV-5体育,CCTV-5体育ᴴᴰ
+CCTV5+体育赛事,CCTV-5+,re:.*CCTV[-\s]*0?5\+.*,CCTV5+,CCTV5＋,CCTV5+ 体育赛事,CCTV-5+体育赛事,CCTV5+[1920*1080],CCTV-5+_ITV,CCTV5+「IPV6」,CCTV5+HD,CCTV-5+HD,CCTV-5+北联,CCTV-5+电信,CCTV-5+高码,CCTV-5+高清,CCTV-5+广西,CCTV-5+梅州,CCTV-5+咪咕,CCTV-5+汝阳,CCTV-5+四川,CCTV-5+太原,CCTV5+体育赛事,CCTV5+-体育赛事,CCTV-5+体育赛事ᴴᴰ,CCTV-5+天津,CCTV-5+影视,CCTV-5+浙江,CCTV-5+重庆,CCTV5+斯特,CCTV5+体育
+CCTV6电影,CCTV-6,re:.*CCTV[-\s]*0?6.*,CCTV6,CCTV-06,CCTV-06_ITV,CCTV-06北联,CCTV-06电信,CCTV-06东联,CCTV-06高码,CCTV-06高清,CCTV-06广西,CCTV-06梅州,CCTV-06咪咕,CCTV-06汝阳,CCTV-06山东,CCTV-06上海,CCTV-06斯特,CCTV-06四川,CCTV-06太原,CCTV-06天津,CCTV-06影视,CCTV-06浙江,CCTV-06重庆,CCTV6电影,CCTV-6电影,CCTV6[1920*1080],CCTV6「IPV6」,CCTV650,CCTV6HD,CCTV-6HD,CCTV6-标清,CCTV6-电影,CCTV-6电影ᴴᴰ,CCTV-6高清,CCTV-6-高清,CCTV-6高清测试
+CCTV7国防军事,CCTV-7,re:.*CCTV[-\s]*0?7.*,CCTV7,CCTV7 国防军事,CCTV-7国防军事,CCTV7[1920*1080],CCTV7「IPV6」,CCTV72,CCTV750,CCTV7HD,CCTV-7HD,CCTV7-标清,CCTV-7高清,CCTV7-国防军事,CCTV-7国防军事ᴴᴰ,CCTV7-军农,CCTV-07,CCTV-07_ITV,CCTV-07北联,CCTV-07电信,CCTV-07东联,CCTV-07高码,CCTV-07高清,CCTV-07广西,CCTV-07梅州,CCTV-07咪咕,CCTV-07汝阳,CCTV-07山东,CCTV-07上海,CCTV-07斯特,CCTV-07四川,CCTV-07太原,CCTV-07天津,CCTV-07影视,CCTV-07浙江,CCTV-07重庆,CCTV7军事,CCTV国防军事
+CCTV8电视剧,CCTV-8,re:.*CCTV[-\s]*0?8.*,CCTV8,CCTV8 电视剧,CCTV-8电视剧,CCTV8[1920*1080],CCTV8「IPV6」,CCTV8HD,CCTV-8HD,CCTV8-标清,CCTV8-电视剿,CCTV-8电视剿,CCTV8-电视剧,CCTV-8电视剧ᴴᴰ,CCTV-8高清,CCTV-8-高清,CCTV-08,CCTV-08_ITV,CCTV-08北联,CCTV-08电信,CCTV-08东联,CCTV-08高码,CCTV-08高清,CCTV-08广西,CCTV-08梅州,CCTV-08咪咕,CCTV-08汝阳,CCTV-08山东,CCTV-08上海,CCTV-08斯特,CCTV-08四川,CCTV-08太原,CCTV-08天津,CCTV-08影视,CCTV-08浙江,CCTV-08重庆,CCTV8电视剧
+CCTV9纪录,CCTV-9,re:.*CCTV[-\s]*0?9.*,CCTV9,CCTV9 纪录,CCTV-9纪录,CCTV9[1920*1080],CCTV9「IPV6」,CCTV92,CCTV950,CCTV9HD,CCTV-9HD,CCTV9-标清,CCTV-9高清,CCTV9-纪录,CCTV-9纪录ᴴᴰ,CCTV-09,CCTV-09_ITV,CCTV-09北联,CCTV-09电信,CCTV-09东联,CCTV-09高码,CCTV-09高清,CCTV-09广西,CCTV-09梅州,CCTV-09咪咕,CCTV-09汝阳,CCTV-09山东,CCTV-09上海,CCTV-09斯特,CCTV-09四川,CCTV-09太原,CCTV-09天津,CCTV-09影视,CCTV-09浙江,CCTV-09重庆,CCTV9纪录
+CCTV10科教,CCTV-10,re:.*CCTV[-\s]*0?10.*,CCTV10,CCTV10 科教,CCTV-10科教,CCTV10[1920*1080],CCTV-10_ITV,CCTV10「IPV6」,CCTV102,CCTV1050,CCTV10HD,CCTV-10HD,CCTV-10北联,CCTV10-标清,CCTV-10电信,CCTV-10东联,CCTV-10高码,CCTV-10高清,CCTV-10广西,CCTV10-科教,CCTV-10科教ᴴᴰ,CCTV-10梅州,CCTV-10咪咕,CCTV-10汝阳,CCTV-10山东,CCTV-10上海,CCTV-10斯特,CCTV-10四川,CCTV-10太原,CCTV-10天津,CCTV-10影视,CCTV-10浙江,CCTV-10重庆,CCTV10科教
+CCTV11戏曲,CCTV-11,re:.*CCTV[-\s]*0?11.*,CCTV11,CCTV11 戏曲,CCTV-11戏曲,CCTV11[1280*720],CCTV-11_ITV,CCTV11「IPV6」,CCTV1150,CCTV11HD,CCTV-11HD,CCTV-11北联,CCTV11-标清,CCTV-11电信,CCTV-11东联,CCTV-11高码,CCTV-11高清,CCTV-11广西,CCTV-11梅州,CCTV-11咪咕,CCTV-11汝阳,CCTV-11山东,CCTV-11上海,CCTV-11斯特,CCTV-11四川,CCTV-11太原,CCTV-11天津,CCTV11-戏曲,CCTV-11戏曲ᴴᴰ,CCTV-11影视,CCTV-11浙江,CCTV-11重庆,CCTV11戏曲,CCTV戏曲,CCTV-戏曲
+CCTV12社会与法,CCTV-12,re:.*CCTV[-\s]*0?12.*,CCTV12,CCTV12 社会与法,CCTV-12 社会与法,CCTV-12社会与法（5.1环绕声）,CCTV12[1920*1080],CCTV-12_ITV,CCTV12「IPV6」,CCTV122,CCTV1250,CCTV12HD,CCTV-12HD,CCTV-12北联,CCTV12-标清,CCTV-12电信,CCTV-12东联,CCTV-12高码,CCTV-12高清,CCTV-12广西,CCTV-12梅州,CCTV-12咪咕,CCTV-12汝阳,CCTV-12山东,CCTV-12上海,CCTV12-社会与法,CCTV-12社会与法,CCTV-12社会与法ᴴᴰ,CCTV-12斯特,CCTV-12四川,CCTV-12太原,CCTV-12天津,CCTV-12影视,CCTV-12浙江,CCTV-12重庆,CCTV12社会与法
+CCTV13新闻,CCTV-13,re:.*CCTV[-\s]*0?13.*,CCTV13,CCTV13 新闻,CCTV-13新闻,CCTV13[1920*1080],CCTV13「IPV6」,CCTV1350,CCTV13HD,CCTV-13HD,CCTV-13北联,CCTV13-标清,CCTV-13电信,CCTV-13东联,CCTV-13高码,CCTV-13高清,CCTV-13广西,CCTV-13梅州,CCTV-13咪咕,CCTV-13汝阳,CCTV-13山东,CCTV-13上海,CCTV-13斯特,CCTV-13四川,CCTV-13太原,CCTV-13天津,CCTV13听电视,CCTV13-新闻,CCTV-13新闻ᴴᴰ,CCTV-13影视,CCTV-13浙江,CCTV-13重庆,CCTV13新闻
+CCTV14少儿,CCTV-14,re:.*CCTV[-\s]*0?14.*,CCTV14,CCTV14 少儿,CCTV-14少儿,CCTV14[1920*1080],CCTV-14_ITV,CCTV14「IPV6」,CCTV1450,CCTV14HD,CCTV-14HD,CCTV-14北联,CCTV14-标清,CCTV-14电信,CCTV-14东联,CCTV-14高码,CCTV-14高清,CCTV-14广西,CCTV-14梅州,CCTV-14咪咕,CCTV-14汝阳,CCTV-14山东,CCTV-14上海,CCTV14-少儿,CCTV-14少儿ᴴᴰ,CCTV-14斯特,CCTV-14四川,CCTV-14太原,CCTV-14天津,CCTV-14影视,CCTV-14浙江,CCTV-14重庆,CCTV14少儿,CCTV少儿,CCTV-少儿
+CCTV15音乐,CCTV-15,re:.*CCTV[-\s]*0?15.*,CCTV15,CCTV15 音乐,CCTV-15音乐,CCTV-15(音乐),CCTV15[1280*720],CCTV-15_ITV,CCTV15「IPV6」,CCTV150,CCTV1550,CCTV15HD,CCTV-15HD,CCTV-15北联,CCTV15-标清,CCTV-15电信,CCTV-15东联,CCTV-15高码,CCTV-15高清,CCTV-15广西,CCTV-15梅州,CCTV-15咪咕,CCTV-15汝阳,CCTV-15山东,CCTV-15上海,CCTV-15斯特,CCTV-15四川,CCTV-15太原,CCTV-15天津,CCTV15-音乐,CCTV-15音乐ᴴᴰ,CCTV-15影视,CCTV-15浙江,CCTV-15重庆,CCTV15音乐,CCTV音乐,CCTV娱乐,CCTV-娱乐
+CCTV16奥林匹克,CCTV-16,re:.*CCTV[-\s]*0?16.*,CCTV16,CCTV16 4K,CCTV-16 4K,CCTV16 奥林匹克,CCTV-16 奥林匹克,CCTV-16奥林匹克（5.1环绕声）,CCTV-16奥林匹克4K（5.1环绕声）,CCTV16(4K),CCTV16[1920*1080],CCTV-16_ITV,CCTV16「IPV6」,CCTV16-4K,CCTV-16-4K,CCTV16-4K-25PHLG源,CCTV16HD,CCTV-16HD,CCTV16-奥林匹克,CCTV-16奥林匹克,CCTV16奥林匹克4K,CCTV-16奥林匹克ᴴᴰ,CCTV-16北联,CCTV-16电信,CCTV-16高码,CCTV-16高清,CCTV-16梅州,CCTV-16咪咕,CCTV-16汝阳,CCTV-16太原,CCTV-16天津,CCTV-16影视,CCTV-16浙江,CCTV16体育赛事
+CCTV17农业农村,CCTV-17,re:.*CCTV[-\s]*0?17.*,CCTV17,CCTV17 农业农村,CCTV-17 农业农村,CCTV-17农业农村（5.1环绕声）,CCTV17[1920*1080],CCTV-17_ITV,CCTV17「IPV6」,CCTV172,CCTV17HD,CCTV-17HD,CCTV-17北联,CCTV17-标清,CCTV-17电信,CCTV-17高码,CCTV-17高清,CCTV-17广西,CCTV-17梅州,CCTV-17咪咕,CCTV17-农业农村,CCTV-17农业农村,CCTV-17农业农村ᴴᴰ,CCTV-17汝阳,CCTV-17上海,CCTV-17四川,CCTV-17太原,CCTV-17天津,CCTV-17影视,CCTV-17浙江,CCTV-17重庆,CCTV17农业农村
+
+# 💰央视付费,#genre#
+CGTN英语,CGTN英语新闻
+CGTN俄语,CGTN俄罗斯语
+CETV1综合教育,CETV-1,CETV1,CETV1中国教育,CETV1 中国教育,中国教育1,中国教育1HD,中国教育电视台1台
+CETV2空中课堂,CETV-2,CETV2,CETV2中国教育,CETV2 中国教育,中国教育2,中国教育2HD,中国教育电视台2台
+CETV3教育服务,CETV-3,CETV3,CETV3中国教育,CETV3 中国教育,中国教育3,中国教育3HD,中国教育电视台3台
+CETV4职业教育,CETV-4,CETV4,CETV4中国教育,CETV4 中国教育,中国教育4,中国教育4HD,中国教育电视台4台
+CETV早期教育,CETV早教,早期教育,中国教育电视台早期教育频道,早期教育频道,早教频道,CETV-CECE,CETV早期教育4K
+CCTV4欧洲,CCTV-4欧洲,re:CCTV[-\s]*0?4.*欧洲,CCTV4欧洲咪咕,CCTV4中文国际欧洲,CCTV-4中文国际欧洲,CCTV4中文國際欧洲
+CCTV4美洲,CCTV-4美洲,re:CCTV[-\s]*0?4.*美洲,CCTV4美洲咪咕,CCTV4中文国际美洲,CCTV-4中文国际美洲,CCTV4中文國際美洲
+CCTV4K,CCTV-4K,re:CCTV[-\s]*0?4(?![0-9])\s*(?:[Kk]|Ｋ)\b[\s\S]*,CCTV4K,cctv4k_10m,CCTV4K超高清,CCTV-4K超高清,CCTV-4k高码,CCTV-4K广西,CCTV-4k浙江
+CCTV8K,CCTV-8K,re:CCTV[-\s]*0?8(?![0-9])\s*(?:[Kk]|Ｋ)\b[\s\S]*,CCTV8K,CCTV8K 超高清,CCTV-8K超高清[3840*2160],cctv8k_120m,cctv8k_36m,CCTV8K超高清,CCTV-8k高码
+老故事,CCTV老故事,CCTV老故事,CCTV-老故事,CCTV老故亿,中央新影-老故事,中央新影-老故亿
+中学生,CCTV中学生,re:.*(?:(?:CCTV|中央新影)[\s-]*)?中学生.*,CCTV中学生,CCTV 中学生,中央新影-中学生,中央新影中学生,中央新影 中学生
+发现之旅,CCTV发现之旅,re:.*(?:(?:CCTV|中央新影)[\s-]*)?发现之旅.*,CCTV-发现之旅,中央新影-发现之旅
+新科动漫,CCTV新科动漫,re:.*(?:(?:CCTV|中央新影)[\s-]*)?新科动漫.*,
+CCTV文化精品,文化精品,CCTV文化精品,CCTV-文化精品,CCTV央视文化精品,CCTV-央视文化精品,CCTV央视文化精品HD,央视文化精品,央视精品
+CCTV风云足球,风云足球,CCTV风云足球,CCTV-风云足球,CCTV风云足球HD,CCTV風雲足球
+CCTV央视台球,央视台球,CCTV央视台球,CCTV-央视台球,CCTV央视台球HD,CCTV-台球
+CCTV高尔夫网球,高尔夫网球,CCTV高尔夫球,CCTV高尔夫·网球,CCTV-高尔夫网琿,CCTV高尔夫网球,CCTV-高尔夫网球,CCTV高尔夫网球HD,CCTV-央视高网
+CCTV风云音乐,风云音乐,CCTV风云音乐,CCTV-风云音乐,CCTV风云音乐HD,CCTV風雲音樂
+CCTV第一剧场,第一剧场,CCTV第一剧场,CCTV-第一剧场,CCTV第一剧场HD,风云剧场,中国电影,CCTV电影轮播,CCTV第一劇場
+CCTV风云剧场,风云剧场,CCTV风云剧场,CCTV-风云剧场,CCTV风云剧场HD
+CCTV怀旧剧场,怀旧剧场,CCTV怀旧剧场,CCTV-怀旧剧场,CCTV怀旧剧场HD,CCTV怀旧剧圿,CCTV-怀旧剧圿
+CCTV电视指南,电视指南,CCTV-电视指南,CCTV电视指南HD
+CCTV世界地理,世界地理,CCTV-世界地理,CCTV世界地理HD
+CCTV兵器科技,兵器科技,CCTV兵器,CCTV-兵器科技,CCTV兵器科技HD
+CCTV卫生健康,百姓健康,CCTV卫生健康,CCTV-卫生健康,CCTV卫生与健康
+CCTV女性时尚,女性时尚,CCTV-女性时尚,CCTV女性时尚,CCTV-女性时尚,CCTV女性时尚HD
+CCTV早期教育
+CCTV移动传媒
+中国天气
+中国交通
+CGTN英语,CGTN 英语,CGTN
+CGTN新闻,CGTN 新闻
+CGTN纪录,CGTN 纪录,CGTN记录,CGTNDocumentary,CGTN外语纪录
+CGTN俄语,CGTN 俄语,CGTN Pусский
+CGTN法语,CGTN 法语,CGTN Français
+CGTN西语,CGTN 西语,CGTN Español,CGTN西班牙语,CGTN 西班牙语
+CGTN阿语,CGTN 阿语,CGTN العربية,CGTN阿拉伯语,CGTN 阿拉伯语
+# 📡卫视频道,#genre#
+香港卫视,re:.*(?:香港|香江)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,香港台,香港电视台,香港衛視,香港電視台,香江衛視
+广东卫视,re:.*(?:广东|廣東)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,广东台,广东电视台,廣東衛視,廣東電視台
+深圳卫视,re:.*深圳[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,深圳台,深圳电视台,深圳衛視,深圳電視台,深圳卫视4K
+大湾区卫视,re:.*(?:大湾区|大灣區|粵港澳)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,大湾区台,大湾区电视台,大灣區衛視,大灣區電視台,粵港澳衛視
+湖南卫视,re:.*(?:湖南|湘)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,湖南台,湖南电视台,湖南衛視,湖南電視台,湘台,湘衛視,湖南卫视4K,湖南卫视4K25,湖南卫视4K50
+浙江卫视,re:.*(?:浙江|浙)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,浙江卫视4K,浙江台,浙江电视台,浙江衛視,浙江電視台,浙台,浙衛視
+江苏卫视,re:.*(?:江苏|江蘇|苏|蘇)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,江苏卫视4K,江苏台,江苏电视台,江蘇衛視,江蘇電視台,苏台,蘇衛視
+广西卫视,re:.*(?:广西|廣西|桂)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,广西台,广西电视台,廣西衛視,廣西電視台,桂台,桂衛視
+东南卫视,re:.*(?:东南|東南)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,东南台,东南电视台,東南衛視,東南電視台
+厦门卫视,re:.*(?:厦门|廈門|厦|廈)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,厦门台,厦门电视台,廈門衛視,廈門電視台,厦视,廈視
+海峡卫视,re:.*(?:海峡|海峽)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,海峡台,海峡电视台,海峽衛視,海峽電視台,海峡两岸,re:.*[海海][峡峽][两兩][岸岸].*,海峡卫视,Strait TV,福建海峡卫视
+北京卫视,re:.*(?:北京|京)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,北京卫视4K,北京台,北京电视台,北京衛視,北京電視台,BTV,京台,京衛視
+天津卫视,re:.*(?:天津|津)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,天津台,天津电视台,天津衛視,天津電視台,津台,津衛視
+东方卫视,re:.*(?:东方|東方)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,东方台,东方电视台,東方衛視,東方電視台,DragonTV,上海东方卫视
+黑龙江卫视,re:.*(?:黑龙江|黑龍江|龙江|龍江)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,黑龙江台,黑龙江电视台,黑龍江衛視,黑龍江電視台,龙江卫视,龍江衛視,龙江卫视,re:.*(?:龙江|龍江)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,龙江台,龙江电视台,龍江衛視,龍江電視台,黑龙江都市频道
+辽宁卫视,re:.*(?:辽宁|遼寧|辽|遼)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,辽宁台,辽宁电视台,遼寧衛視,遼寧電視台,辽台,遼台
+吉林卫视,re:.*(?:吉林|吉)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,吉林台,吉林电视台,吉林衛視,吉林電視台,吉台,吉衛視
+湖北卫视,re:.*(?:湖北|鄂)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,湖北台,湖北电视台,湖北衛視,湖北電視台,鄂台,鄂衛視
+山东卫视,re:.*(?:山东|山東|鲁|魯)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,山东台,山东电视台,山東衛視,山東電視台,鲁台,魯衛視
+安徽卫视,re:.*(?:安徽|皖)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,安徽台,安徽电视台,安徽衛視,安徽電視台,皖台,皖衛視
+河北卫视,re:.*(?:河北|冀)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,河北台,河北电视台,河北衛視,河北電視台,冀台,冀衛視
+河南卫视,re:.*(?:河南|豫)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,河南台,河南电视台,河南衛視,河南電視台,豫台,豫衛視
+贵州卫视,re:.*(?:贵州|貴州|黔)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,贵州台,贵州电视台,貴州衛視,貴州電視台,黔台,黔衛視
+重庆卫视,re:.*(?:重庆|重慶|渝)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,重庆台,重庆电视台,重慶衛視,重慶電視台,渝台,渝衛視
+四川卫视,re:.*(?:四川|川)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,四川台,四川电视台,四川衛視,四川電視台,川台,川衛視,四川卫视,四川卫视4K,四川卫视4K25,四川卫视4K50
+江西卫视,re:.*(?:江西|赣|贛)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,江西台,江西电视台,江西衛視,江西電視台,赣台,贛衛視
+云南卫视,re:.*(?:云南|雲南|滇)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,云南台,云南电视台,雲南衛視,雲南電視台,滇台,滇衛視
+延边卫视,re:.*(?:延边|延邊)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,延边台,延边电视台,延邊衛視,延邊電視台,延邊台
+新疆卫视,re:.*(?:新疆|新)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,新疆台,新疆电视台,新疆衛視,新疆電視台,新台,新衛視
+青海卫视,re:.*(?:青海|青)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,青海台,青海电视台,青海衛視,青海電視台,青台,青衛視
+内蒙古卫视,re:.*(?:内蒙古|內蒙古|蒙)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,内蒙古台,内蒙古电视台,內蒙古衛視,內蒙古電視台,蒙台,蒙衛視
+宁夏卫视,re:.*(?:宁夏|寧夏|宁|寧)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,宁夏台,宁夏电视台,寧夏衛視,寧夏電視台,宁台,寧台
+甘肃卫视,re:.*(?:甘肃|甘肅|陇|隴)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,甘肃台,甘肃电视台,甘肅衛視,甘肅電視台,陇台,隴衛視
+陕西卫视,re:.*(?:陕西|陝西|秦)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,陕西台,陕西电视台,陝西衛視,陝西電視台,秦台,秦衛視
+山西卫视,re:.*(?:山西|晋|晉)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,山西台,山西电视台,山西衛視,山西電視台,晋台,晉衛視
+农林卫视,re:.*(?:农林|農林|农业|農業)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,农林台,农林电视台,農林衛視,農林電視台,农业卫视,農業衛視,陕西农林卫视,陕西农林,中国农林卫视
+兵团卫视,re:.*(?:兵团|兵團)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,兵团台,兵团电视台,兵團衛視,兵團電視台,新疆兵团卫视
+西藏卫视,re:.*(?:西藏|藏)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,西藏台,西藏电视台,西藏衛視,西藏電視台,藏台,藏衛視
+海南卫视,re:.*(?:海南|琼|瓊)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,海南台,海南电视台,海南衛視,海南電視台,琼台,瓊衛視
+三沙卫视,re:.*三沙[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,三沙台,三沙电视台,三沙衛視,三沙電視台
+康巴卫视,re:.*康巴[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,康巴台,康巴电视台,康巴衛視,康巴電視台
+安多卫视,re:.*安多[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,安多台,安多电视台,安多衛視,安多電視台
+
+
+# 🐤广东频道,#genre#
+广东卫视,re:.*(?:广东|廣東)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,广东台,广东电视台,廣東衛視,廣東電視台
+深圳卫视,re:.*深圳[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,深圳台,深圳电视台,深圳衛視,深圳電視台
+大湾区卫视,re:.*(?:大湾区|大灣區|粵港澳)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,大湾区台,大湾区电视台,大灣區衛視,大灣區電視台,粵港澳衛視
+广东珠江,re:.*[广廣][东東]珠江(?:[台臺]|[频頻][道道])?.*,珠江台,珠江频道,广东珠江台,广东珠江频道,广东广播电视台珠江频道,广东珠江GDTV-2,珠江,广东珠江高清,珠江高清
+广东公共,re:.*[广廣][东東][公公][共共](?:[台臺]|[频頻][道道])?.*,广东公共频道,广东公共台,广东广播电视台公共频道
+广东体育,re:.*[广廣][东東][体體][育育](?:[台臺]|[频頻][道道])?.*,广东体育频道,广东体育台,广东广播电视台体育频道
+广东新闻,re:.*[广廣][东東][新新聞][闻聞](?:[台臺]|[频頻][道道])?.*,广东新闻频道,广东新闻台,广东广播电视台新闻频道
+广东少儿,re:.*[广廣][东東][少少][儿兒](?:[台臺]|[频頻][道道])?.*,广东少儿频道,广东少儿台,广东广播电视台少儿频道
+广东民生,re:.*[广廣][东東][民民][生生](?:[台臺]|[频頻][道道])?.*,广东民生频道,广东民生台,广东广播电视台民生频道
+广东影视,re:.*[广廣][东東][影影][视視](?:剧劇)?(?:[台臺]|[频頻][道道])?.*,广东影视频道,影视剧频道,广东广播电视台影视剧频道
+广东综艺,re:.*[广廣][东東][综綜][艺藝](?:[台臺]|[频頻][道道])?.*,广东综艺频道,广东综艺台,广东广播电视台综艺频道
+广东科教,re:.*[广廣][东東][科科][教教](?:[台臺]|[频頻][道道])?.*,广东科教频道,广东科教台,广东广播电视台科教频道,广东经济科教
+广东岭南戏曲,岭南戏曲,re:.*[岭嶺][南南][戏戲][曲曲](?:[台臺]|[频頻][道道])?.*,广东戏曲频道,广东戏曲台,广东广播电视台戏曲频道
+广东移动,re:.*[广廣][东東][移移][动動](?:[电電][视視]|[频頻][道道])?.*,广东移动频道,广东移动电视,移动频道
+广东4K,广东4K超高清
+广东国际
+广东房产
+广东嘉佳卡通,嘉佳卡通,广东嘉佳卡通
+广东现代教育
+广东南方购物
+广州综合,re:.*[广廣][州州](?:[综綜][合合]|[新新聞][闻聞][综綜][合合])(?:[台臺]|[频頻][道道])?.*,广州台,广州综合频道,广州电视台,广州广播电视台综合频道
+广州新闻,re:.*[广廣][州州][新新聞][闻聞](?:[台臺]|[频頻][道道])?.*,广州新闻频道,广州新闻台,广州广播电视台新闻频道
+广州竞赛,re:.*[广廣][州州][竞競][赛賽](?:[台臺]|[频頻][道道])?.*,广州竞赛频道,广州竞赛台,广州广播电视台竞赛频道
+广州影视,re:.*[广廣][州州][影影][视視](?:[台臺]|[频頻][道道])?.*,广州影视频道,广州影视台,广州广播电视台影视频道
+广州法治,re:.*[广廣][州州][法法][治治](?:[台臺]|[频頻][道道])?.*,广州法治频道,广州法治台,广州广播电视台法治频道
+广州南国都市,re:.*[广廣][州州][南南][国國][都都][市市](?:[台臺]|[频頻][道道])?.*,南国都市,南国都市频道,广州广播电视台南国都市频道
+深圳都市,re:.*[深深][圳圳][都都][市市](?:[台臺]|[频頻][道道])?.*,深圳都市频道,深圳都市台,深圳广播电视台都市频道
+深圳娱乐,re:.*[深深][圳圳][娱娛][乐乐樂](?:[台臺]|[频頻][道道])?.*,深圳娱乐频道,深圳娱乐台,深圳广播电视台娱乐频道
+深圳公共,re:.*[深深][圳圳][公公][共共](?:[台臺]|[频頻][道道])?.*,深圳公共频道,深圳公共台,深圳广播电视台公共频道
+深圳财经,re:.*[深深][圳圳][财財][经經](?:[台臺]|[频頻][道道])?.*,财经频道,深圳财经频道,深圳财经台,深圳广播电视台财经频道
+深圳电视剧,re:.*[深深][圳圳][电電][视視]剧劇(?:[台臺]|[频頻][道道])?.*,深圳电视剧频道,深圳影视剧频道,深圳广播电视台电视剧频道
+深圳少儿,re:.*[深深][圳圳][少少][儿兒](?:[台臺]|[频頻][道道])?.*,深圳少儿频道,深圳少儿台,深圳广播电视台少儿频道
+深圳国际,re:.*[深深][圳圳][国國][际際](?:[台臺]|[频頻][道道])?.*,深圳国际频道,深圳国际台,深圳广播电视台国际频道
+深圳体育,深圳体育健康,深圳体育频道
+深圳宝安
+深圳龙岗
+深圳众创TV
+深圳移动电视,re:.*[深深][圳圳][移移][动動][电電][视視].*,深圳移动频道,深圳广播电视台移动电视
+深圳购物,re:.*[深深][圳圳][购購][物物](?:[台臺]|[频頻][道道])?.*,深圳购物频道,宜和购物,深圳广播电视台购物频道
+深圳东部,re:.*[深深][圳圳][东東][部部](?:[台臺]|[频頻][道道])?.*,深圳东部频道,深圳广播电视台东部频道
+潮商卫视,re:.*[潮潮][商商][卫衛][视視].*,潮商台,潮商电视台,潮商卫星电视
+揭阳综合,re:.*[揭揭][阳陽](?:[综綜][合合]|[新新聞][闻聞][综綜][合合])(?:[台臺]|[频頻][道道])?.*,揭阳台,揭阳综合频道,揭阳电视台,揭阳广播电视台综合频道
+揭阳公共,re:.*[揭揭][阳陽][公公][共共](?:[台臺]|[频頻][道道])?.*,揭阳公共频道,揭阳公共台,揭阳广播电视台公共频道
+揭阳生活,re:.*[揭揭][阳陽][生生][活活](?:[台臺]|[频頻][道道])?.*,揭阳生活频道,揭阳生活台,揭阳广播电视台生活频道
+汕头综合,re:.*[汕汕][头頭](?:[综綜][合合]|[新新聞][闻聞][综綜][合合])(?:[台臺]|[频頻][道道])?.*,汕头台,汕头综合频道,汕头电视台,汕头广播电视台综合频道
+汕头经济,re:.*[汕汕][头頭][经經][济濟](?:[台臺]|[频頻][道道])?.*,汕头经济频道,汕头经济台,汕头广播电视台经济频道
+汕头文旅,re:.*[汕汕][头頭][文文][旅旅](?:[台臺]|[频頻][道道])?.*,汕头文旅频道,汕头文旅台,汕头广播电视台文旅频道
+潮州公共,re:.*[潮潮][州州][公公][共共](?:[台臺]|[频頻][道道])?.*,潮州公共频道,潮州公共台,潮州广播电视台公共频道
+潮州综合,re:.*[潮潮][州州](?:[综綜][合合]|[新新聞][闻聞][综綜][合合])(?:[台臺]|[频頻][道道])?.*,潮州台,潮州综合频道,潮州电视台,潮州广播电视台综合频道
+东莞综合,东莞新闻综合
+东莞生活资讯
+佛山南海
+佛山城市生活
+佛山顺德
+佛山综合,re:.*佛山(?:[综綜][合合]|[新新聞][闻聞][综綜合合])(?:[台臺臺]|频道|頻道)?.*,佛山台,佛山综合频道,佛山电视台,佛山新聞綜合
+佛山公共,re:.*佛山[^a-zA-Z0-9]*[公公][共共][^a-zA-Z0-9]*(?:[台臺臺]|频道|頻道)?.*,佛山公眾,佛山公共台,佛山公共频道,佛山广播电视台公共频道
+汕尾新闻综合
+汕尾文化生活
+河源综合
+河源生活
+惠州1
+惠州2
+梅州综合
+梅州客家生活
+中山综合
+中山香山文化
+江门综合,re:.*[江江][门門](?:[综綜][合合]|[新新聞][闻聞][综綜][合合])(?:[台臺]|[频頻][道道])?.*,江门台,江门综合频道,江门电视台,江门广播电视台综合频道
+江门侨乡生活,re:.*[江江][门門][侨僑][乡鄉][生生][活活](?:[台臺]|[频頻][道道])?.*,侨乡生活,江门侨乡生活频道,江门广播电视台侨乡生活频道
+云浮综合
+云浮文旅
+清远综合
+湛江公共
+湛江新闻
+肇庆生活服务
+肇庆综合
+珠海1
+茂名综合,re:.*(?:茂名综合|茂名台|茂名综合频道|茂名电视台).*,茂名台,茂名综合频道,茂名电视台,茂名广播电视台综合频道
+茂名公共,re:.*(?:茂名公共|茂名公共频道|茂名公共台).*,茂名公共频道,茂名公共台,茂名广播电视台公共频道
+茂名文化生活
+韶关综合
+阳江-1
+阳江-2
+
+# 🌊台湾频道,#genre#
+中视,re:.*[中中][视視][台臺]?.*,中视台,中国电视公司,CTV Main
+华视,re:.*[华華][视視][台臺]?.*,华视台,中华电视台,CTS Main
+民视,re:.*[民民][视視][台臺]?.*,民视台,民间全民电视,FTV Main
+台视,re:.*[台臺][视視][台臺]?.*,台视台,台湾电视台,TTV Main
+中视新闻,re:.*[中中][视視][新新聞].*,中视新闻台,CTV News
+华视新闻,re:.*[华華][视視][新新聞].*,华视新闻台,CTS News
+民视新闻,re:.*[民民][视視][新新聞].*,民视新闻台,FTV News
+台视新闻,re:.*[台臺][视視][新新聞].*,台视新闻台,TTV News
+中天新闻,re:.*[中中][天天][新新聞].*,中天新闻台,CTi News
+非凡新闻,re:.*[非非][凡凡][新新聞].*,非凡新闻台,Unique News
+公视新闻,re:.*[公公][视視][新新聞].*,公视新闻台,PTS News
+三立新闻,re:.*[三三][立立][新新聞].*,三立新闻台,SET News
+镜新闻,re:.*[镜鏡][新新聞].*,镜新闻台,Mirror News
+东森新闻,re:.*[东東][森森][新新聞].*,东森新闻台,EBC News,東森新聞
+寰宇新闻,re:.*寰宇(?:新闻|新聞)(?:台|頻道)?.*,寰宇新闻台,寰宇新聞台,寰宇新闻,寰宇新聞,寰宇新聞頻道
+三立台湾,re:.*[三三][立立][台臺][湾灣].*,三立台湾台,SET Taiwan
+中天亚洲,re:.*[中中][天天][亚亞][洲洲].*,中天亚洲台,CTi Asia
+纬来体育,re:.*[纬緯][来来][体體][育育].*,纬来体育台,VL Sports,纬来体育台,re:.*纬来体育.*,纬来体育,纬来体育频道,緯來體育,緯來體育台,VL体育
+纬来育乐,re:.*[纬緯][来来][育育][乐乐樂].*,纬来育乐台,VL Variety
+纬来电影,re:.*[纬緯][来来][电電][影影].*,纬来电影台,VL Movie
+纬来篮球,re:.*[纬緯][来来][篮籃][球球].*,纬来篮球台,VL Basketball,NBATV Taiwan
+纬来日本,re:.*[纬緯][来来][日日][本本].*,纬来日本台,VL Japan
+纬来精彩,re:.*[纬緯][来来][精精][彩彩].*,纬来精彩台,VL Wonderful
+八大第一,re:.*[八八][大大][第第][一一].*,八大第一台,GTV First
+八大综合,re:.*[八八][大大][综綜][合合].*,八大综合台,GTV Variety
+龙华日韩,龍華日韓台,re:.*龍華日韓.*,龙华日韩台,龍華日本韓國台,Longhua Japan-Korea Channel,Longhua日韓台,龍華日韓頻道
+龙华经典,龍華經典台,re:.*龍華經典.*,龙华经典台,龍華經典電影台,Longhua Classic Channel,Longhua Classics,龍華經典頻道
+龙华电影
+龙华卡通
+龙华偶像
+龙华戏剧
+龙华洋片
+龙华影剧
+龙祥电影
+TVBS亚洲,re:.*TVBS[^a-zA-Z0-9]*[亚亞][洲洲].*,TVBS Asia,TVBS Asia Channel
+TVBS,re:.*TVBS(?!-[新新聞]).*,TVBS频道,TVBS电视台,TVBS綜合,TVBS综合,TVBS Channel
+TVBS新闻,re:.*TVBS[-\s]*[新新聞].*,TVBS新聞,TVBS 新聞,TVBS-新聞台,TVBS新闻台,TVBS新聞,TVBS News,TVBS-新闻,TVBS News Channel
+TVB1,re:.*TVB[^a-zA-Z0-9]*1.*,TVB1台,TVB Channel 1
+TVBe,re:.*TVBe.*,TVBe频道,TVBe Channel
+Viutv,re:.*Viutv.*,ViuTV,ViuTV频道
+ViuTV6+,re:.*ViuTV6\+.*,ViuTV6 plus,ViuTV6 加
+东森财经,re:.*[东東][森森][财財][经經].*,东森财经新闻台,EBC Financial News
+耀才财经,re:.*[耀耀][才才][财財][经經].*,耀才财经台,Bright Smart Finance
+东森综合,re:.*[东東][森森][综綜][合合].*,东森综合台,EBC Variety
+东森超视,re:.*[东東][森森][超超][视視].*,东森超视台,EBC Super
+东森电影,re:.*[东東][森森][电電][影影].*,东森电影台,EBC Movie
+AMC电影台
+axn电影,re:.*AXN[^a-zA-Z0-9]*[电電][影影].*,AXN电影台,AXN Movies
+CINEMAX电影,re:.*CINEMAX[^a-zA-Z0-9]*[电電][影影].*,CINEMAX电影台,Cinemax
+靖天资讯,re:.*[靖靖][天天][资資][讯訊].*,靖天资讯台,GT Information
+星光视界,re:.*[星星][光光][视視][界界].*,星光视界台,Starlight Vision
+星卫娱乐,re:.*[星星][卫衛][娱娛][乐乐樂].*,星卫娱乐台,Star Entertainment
+卫视卡式,re:.*[卫衛][视視][卡卡][式式].*,卫视卡式台,Star Chinese Movies
+千禧经典台,re:.*[千千][禧禧][经經][典典][台臺].*,千禧经典台,Millennium Classics
+经典影视台,re:.*[经經][典典][影影][视視][台臺].*,经典影视台,Classic Movie TV
+Channel[V],re:.*Channel[^a-zA-Z0-9]*[Vv].*,Channel V台,Channel V International
+番薯音乐,re:.*[番番][薯薯][音音][乐乐樂].*,番薯音乐台,Yam Music
+番薯,re:.*[番番][薯薯][台臺]?.*,番薯台,Yam TV
+大爱1台,re:.*[大大][爱愛][一1][台臺]?.*,大爱一台,DaAi One,DaAi TV1
+大爱2台,re:.*[大大][爱愛][二2][台臺]?.*,大爱二台,DaAi Two,DaAi TV2
+唯心电视,re:.*[唯唯][心心][电電][视視].*,唯心电视台,Weixin TV
+
+# 🇭🇰香港频道,#genre#
+凤凰中文,re:.*(?:凤凰|鳳凰).*(?:中文|中文台).*,凤凰卫视中文台,凤凰中文台,鳳凰中文台,鳳凰衛視中文台
+凤凰资讯,re:.*(?:凤凰|鳳凰).*(?:资讯|資訊).*,凤凰资讯台,凤凰卫视资讯台,鳳凰資訊台,鳳凰衛視資訊台
+凤凰香港,re:.*(?:凤凰|鳳凰).*香港.*,凤凰卫视香港台,凤凰香港台,鳳凰香港台,鳳凰衛視香港台
+香港卫视,re:.*(?<!凤凰|鳳凰).*(?:香港卫视|香港衛視).*,香港台,香港电视台,香港衛視,香港電視台
+TVB翡翠台,re:^(?i:TVB[\s-]*)?翡翠台(?:[\s-]*4[Kk])?$,翡翠台,TVb翡翠台,tvb翡翠台,TVB翡翠台,翡翠台4K,TVB翡翠台 4K,翡翠台 4K,TVB翡翠台 4K,TVb翡翠台,tvb翡翠台,TVB翡翠台,TVB Jade,无线翡翠台,Jade
+TVB明珠台,re:.*(?:[Tt][Vv][Bb][\s-]*)?(?:明珠台|Pearl).*,明珠台,TVb明珠台,tvb明珠台,TVB明珠台,TVB Pearl
+TVB黃金翡翠台,黃金翡翠,黃金翡翠台
+TVB翡翠剧集台(北美),TVB Drama,翡翠剧集台(北美)
+TVB明珠剧集台(北美),明珠剧集台(北美)
+TVB无线新闻台(北美),无线新闻台(北美)
+TVB无线新闻,无线新闻,无线新闻台,無綫新聞台,無線新聞台,TVB无线新闻,TVB无线新闻台
+TVB无线卫星新闻,无线卫星新闻
+TVB无线星河,TVB 星河台,无线星河
+TVB无线娱乐,无线娱乐
+TVB无线财经,无线财经
+TVB无线功夫,无线功夫
+TVB无线华丽,无线华丽
+TVB Plus,TVBPlus,TVB+
+TVB J1,TVBJ1,J1,tvbj1,翡翠综合台(北美),翡翠台北美版,TVBJ1翡翠台,翡翠台(北美),翡翠台北美版(TVB J1),TVBJ1(NY),翡翠綜合台（紐約TVBJ1）,紐約TVBJ1
+TVB J2,TVBJ2,J2,tvbj2,翡翠綜合台（洛杉機TVBJ2）
+TVB J3,TVBJ3,J3,tvbj3
+TVB J4,TVBJ4,J4,tvbj4
+TVB J5,TVBJ5,J5,tvbj5
+亚洲新闻,re:.*亚洲[新新聞].*,亚洲新闻台,亚洲新闻频道,Asia News,Asia News Channel,亞洲新聞,亞洲新聞台
+有线新闻,re:.*有线[新新聞].*,有线新闻台,有线新闻频道,Cable News,有線新聞,有線新聞台,有線新聞頻道
+美亚C+,re:.*美亚C\+,美亚C+频道,Meiya C+,美亞C+,美亞C+頻道,Meiya C Plus,C+台,C+频道，美亚C+台
+Now直播台,re:.*Now[.\s]*直播.*,Now直播
+Now星影台,re:.*Now[.\s]*星影.*,Now Star Movie,Now星影,Now Star Cinema,Now Star Movie Channel
+Now爆谷台,re:.*Now[.\s]*爆谷.*,Now爆谷,Now Popcorn,Now爆谷電影台,Now Popcorn Cinema,Now爆谷频道
+Now剧集台,Now剧集,re:.*Now[^a-zA-Z0-9]*[剧劇][集集].*,Now Drama
+Now华剧台,Now华剧,re:.*Now[^a-zA-Z0-9]*[华華][剧劇].*,Now Chinese Drama
+Now紫金国际
+Now报价台
+Now爆谷星影台
+Now财经台
+Now跑马668
+Now新闻台
+Now Golf 2
+Now Golf 3
+Now Sports 1
+Now Sports 2
+Now Sports 3
+Now Sports 4
+Now Sports 5
+Now Sports 6
+Now Sports 7
+Now Sports 641
+Now Sports 647
+Now Sports Plus
+Now Sports Premier 1
+Now Sports Premier 2
+Now Sports Premier 3
+Now Sports Premier 4
+Now Sports Premier 5
+Now Sports Premier 6
+Now Sports Premier 7
+Now Sports Prime
+娛樂新聞台(HK),re:.*(?:娛樂新聞|娱乐新闻).*(?:\(HK\)|HK|香港)?.*,娱乐新闻台,娱乐新闻台HK,Entertainment News HK,Entertainment News Hong Kong
+日本全天新聞,re:.*日本全天[新新聞].*,日本全天新闻,日本全天新闻台,Japan All Day News,Japan 24 Hour News
+美亞電影台(HK),re:.*美亞電影.*(?:\(HK\)|HK|香港)?.*,美亚电影台HK,Meiya Movie Channel HK,美亞電影頻道HK,Meiya Film Channel Hong Kong
+千禧經典台(HK),re:.*千禧經典.*(?:\(HK\)|HK|香港)?.*,千禧经典台HK,Millennium Classic HK,千禧經典電影台HK,Millennium Classic Movie Channel Hong Kong
+28 AI 智慧賽馬,re:.*28[.\s]*AI[.\s]*智慧[賽赛]馬.*,28 AI智慧赛马,28 AI賽馬,28 AI Smart Racing,28 AI Horse Racing,28 AI賽馬頻道
+myTV SUPER 18台,re:.*myTV[.\s]*SUPER[.\s]*18.*,myTV SUPER 18,myTV SUPER 18频道,myTV SUPER 18 Channel,myTV SUPER十八台
+PopC,re:.*PopC.*,PopC频道,PopC Channel,PopC动漫,PopC Anime,PopCartoon
+tvN,re:.*tvN.*,tvN频道,tvN Korea,tvN韩剧,tvN电视台,tvN Channel,朝鲜tvN
+viutv 99,re:.*viutv[.\s]*99.*,ViuTV 99,ViuTV99,ViuTV 99台,ViuTV Channel 99,viutv99,香港ViuTV 99
+viutv6 96,re:.*viutv6[.\s]*96.*,ViuTV6 96,ViuTV6 96台,ViuTV6 96频道,ViuTV Channel 6 96,viutv 6 96
+Animax(HK),re:.*Animax.*(?:\(HK\)|HK|香港)?.*,Animax香港,Animax Hong Kong,Animax动漫台HK,Animax Asia HK
+DW,re:.*DW.*,德国之声,DW电视台,DW TV,Deutsche Welle,DW News,DW Documentary
+France 24,re:.*France[.\s]*24.*,法国24台,France 24 English,France 24 French,法国24小时新闻,France 24 News
+KIX,re:.*KIX.*,KIX频道,KIX TV,KIX动作电影,KIX Action,KIX Movie Channel
+Love Nature HD,re:.*Love[.\s]*Nature.*,Love Nature,Love Nature频道,Love Nature高清,Love Nature野生动物,Love Nature Documentary
+Nick Jr,re:.*Nick[.\s]*Jr.*,Nick Jr频道,尼克少儿,Nick Junior,尼克幼儿,Nick Jr儿童频道
+Nickelodeon,re:.*Nickelodeon.*,尼克儿童频道,尼克卡通,Nick,尼克,Nickelodeon Asia
+ROCK Action,re:.*ROCK[.\s]*Action.*,Rock Action,ROCK动作台,ROCK动作电影,ROCK Action Movies,ROCK动作频道
+Thrill,re:.*Thrill.*,Thrill频道,Thrill电影,Thrill惊悚片,Thrill Channel,Thrill Movies
+ZooMoo,re:.*ZooMoo.*,ZooMoo频道,ZooMoo动物,ZooMoo Kids,ZooMoo儿童,ZooMoo Animals
+AXN,re:.*AXN.*,AXN频道,AXN动作台,AXN Movies,AXN亚洲,AXN Asia
+i-Fun 動漫台,re:.*i-Fun[.\s]*動漫.*,i-Fun动漫台,i-Fun动画,i-Fun Anime,i-Fun动漫频道,i-Fun Cartoon
+Astro AEC,re:.*Astro[.\s]*AEC.*,Astro AEC频道,Astro AEC中文台,Astro AEC Channel,马来西亚Astro AEC,Astro AEC Chinese
+Astro AOD,re:.*Astro[.\s]*AOD.*,Astro AOD频道,Astro AOD Channel,马来西亚Astro AOD,Astro AOD点播
+Astro iQIYI,re:.*Astro[.\s]*iQIYI.*,Astro爱奇艺,Astro iQIYI频道,Astro iQIYI Channel,Astro iQIYI平台
+Astro QJ,re:.*Astro[.\s]*QJ.*,Astro QJ频道,Astro QJ Channel,马来西亚Astro QJ,Astro QJ中文
+Astro Xing He,re:.*Astro[.\s]*Xing[.\s]*He.*,Astro星河,Astro Xing He频道,Astro Xing He Channel,Astro星河频道
+NHK東京総合,re:.*NHK[.\s]*東京総?合.*,NHK东京综合,NHK東京綜合,NHK Tokyo General,NHK东京台,NHK东京综合频道
+HOY77,Hoy 77,.*Hoy[.\s]*77.*
+H0Y78,Hoy 78,re:.*Hoy[.\s]*78.*,Hoy 78台,Hoy 78频道,Hoy78,香港开电视78,OpenTV 78
+中国香港环球,re:.*(?:中国香港环球|香港环球).*,香港环球频道,Hong Kong Global,香港环球电视台,中国香港环球频道,HK Global
+MOMOTV,re:.*MOMO[.\s]*TV.*,MOMO TV,MOMO电视台,MOMO频道,MOMO TV台,MOMO TV Channel
+港台电视31,港台電視 31,RTHK31,RTHK 31,RTHK-31,RTHK TV 31,香港31台
+港台电视32,港台电视 32,港台電視 32,RTHK32,RTHK 32,RTHK-32,RTHK TV 32,香港32台
+港台电视33,re:.*港台电视33.*,港台33,RTHK 33,香港电台33,香港電台33,香港電台电视33,RTHK TV 33,香港33台,港台電視 33,RTHK33,RTHK 33,RTHK-33,RTHK TV 33
+港台电视34,re:.*港台电视34.*,港台34,RTHK 34,香港电台34,香港電台34,香港電台电视34,RTHK TV 34,香港34台,港台電視 34,RTHK34,RTHK 34,RTHK-34,RTHK TV 34
+港台电视35,re:.*港台电视35.*,港台35,RTHK 35,香港电台35,香港電台35,香港電台电视35,RTHK TV 35,香港35台,港台電視 35,RTHK35,RTHK 35,RTHK-35,RTHK TV 35
+香港佛陀,re:.*香港佛陀.*,香港佛陀台,香港佛陀频道,Hong Kong Buddha,Buddha TV Hong Kong,香港佛教台
+香港面包台,re:.*香港面包.*,香港面包,香港面包频道,Hong Kong Bread,Bread TV Hong Kong,面包台
+香港電台(RTHK 34),re:.*香港電台.*\(?RTHK[.\s]*34\)?.*,香港电台RTHK 34,RTHK 34,香港電台34,香港电台34,港台RTHK 34
+# 🇲🇴澳门频道,#genre#
+澳门莲花卫视,re:.*莲花卫视.*,莲花卫视,re:.*(?:莲花|蓮花)[\s-]*(?:[电電][视視]|[卫衛][视視]|台).*,莲花台,莲花电视台,蓮花衛視,蓮花電視台,Macau Lotus TV
+澳视澳门,re:.*澳视澳门.*
+澳视卫星,澳亚卫视,澳门卫视
+澳门体育,re:.*澳门体育.*
+澳门综艺,re:.*澳门综艺.*
+
+# 🎬电影频道,#genre#
+1905电影,re:.*1905[^a-zA-Z0-9]*[电電][影影].*,1905电影网,1905 Movie Channel
+1905电影亚洲,re:.*1905[^a-zA-Z0-9]*[电電][影影][^a-zA-Z0-9]*[亚亞][洲洲].*,1905电影亚洲频道,1905 Movie Asia,1905电影(亚洲),1905电影网(亚洲),1905电影(国内),1905电影网(国内),1905电影网国内,1905亚洲电影
+1905电影国际,re:.*1905[^a-zA-Z0-9]*[电電][影影][^a-zA-Z0-9]*[国國][际際].*,1905电影国际频道,1905 Movie International,1905电影(国际),1905电影网(国际),1905电影(国外),1905电影网(国外),1905电影网国外,1905国际电影
+CHC动作电影,re:.*CHC[^a-zA-Z0-9]*[动動][作作][电電][影影].*,CHC动作电影频道,CHC Action Movies
+CHC影迷电影,re:.*CHC[^a-zA-Z0-9]*[影影][迷迷][电電][影影].*,CHC影迷电影频道,影迷电影
+CHC家庭影院,re:.*CHC[^a-zA-Z0-9]*[家家][庭庭][影影][院院].*,CHC家庭影院频道,家庭影院
+凤凰电影,re:.*[凤鳳][凰凰][电電][影影].*,凤凰电影台,Phoenix Movies
+古装妖魔
+海看大片,re:.*[海海][看看][大大][片片].*,海看大片频道,Haikan Blockbuster
+淘剧场,re:.*[淘淘][剧劇][场場].*,淘剧场频道,Tao Theater
+淘娱乐,re:.*[淘淘][娱娛][乐乐樂].*,淘娱乐频道,Tao Entertainment
+淘电影,re:.*[淘淘][电電][影影].*,淘电影频道,Tao Movie
+淘Baby,re:.*淘[^a-zA-Z0-9]*Baby.*,淘Baby频道,Tao Baby
+萌宠TV,re:.*[萌萌][宠寵][^a-zA-Z0-9]*TV.*,萌宠TV频道,Cute Pets TV
+淘精彩,re:.*[淘淘][精精][彩彩].*,淘精彩频道,Tao Highlights
+NewTV惊悚悬疑,re:.*New[^a-zA-Z0-9]*TV[^a-zA-Z0-9]*[惊驚][悚悚][悬懸][疑疑].*,NewTV惊悚悬疑频道,NewTV Thriller Suspense
+NewTV动作电影,re:.*New[^a-zA-Z0-9]*TV[^a-zA-Z0-9]*[动動][作作][电電][影影].*,NewTV动作电影频道,NewTV Action Movie
+黑莓电影,re:.*[黑黑][莓莓][电電][影影].*,黑莓电影频道,BlackBerry Movie
+靖天映画,re:.*[靖靖][天天][映映][画画].*,靖天映画频道,GT Eiga
+靖天戏剧,re:.*[靖靖][天天][戏戲][剧劇].*,靖天戏剧频道,GT Drama
+星卫娱乐,re:.*[星星][卫衛][娱娛][乐乐樂].*,星卫娱乐台,Star Entertainment
+艾尔达娱乐,re:.*[艾艾][尔爾][达達][娱娛][乐乐樂].*,艾尔达娱乐频道,ELTA Entertainment
+漫威电影,re:.*[漫漫][威威][电電][影影].*,漫威电影频道,Marvel Movies
+豆瓣电影,re:.*[豆豆][瓣瓣][电電][影影].*,豆瓣电影频道,Douban Movie
+星光影视,re:.*[星星][光光][影影][视視].*,星光影视频道,Starlight Film & TV
+IPTV经典电影,re:.*IPTV[^a-zA-Z0-9]*[经經][典典][电電][影影].*,IPTV经典电影频道,IPTV Classic Film,经典电影,re:.*[经經][典典][电電][影影].*,经典电影频道,Classic Movie
+天映经典,re:.*[天天][映映][经經][典典].*,天映经典频道,Celestial Classics
+无线星河,re:.*[无無][线線][星星][河河].*,无线星河频道,TVB星河,TVB Xing He
+龙祥电影,re:.*[龙龍][祥祥][电電][影影].*,龙祥电影台,LS Movie
+东森洋片,re:.*[东東][森森][洋洋][片片].*,东森洋片台,EBC Western Movies
+4K超高清电影,re:.*4K[^a-zA-Z0-9]*[超超][高高][清清][电電][影影].*,4K超高清电影频道,4K UHD Movie
+4K电影,re:.*4K[^a-zA-Z0-9]*[电電][影影].*,4K电影频道,4K Movie
+亚洲武侠,re:.*[亚亞][洲洲][武武][侠俠].*,亚洲武侠频道,Asia Wuxia
+八大戏剧,re:.*[八八][大大][戏戲][剧劇].*,八大戏剧台,GTV Drama
+三立戏剧,re:.*[三三][立立][戏戲][剧劇].*,三立戏剧台,SET Drama
+天映频道,re:.*[天天][映映][频頻][道道].*,天映频道,Celestial Channel
+AMC最爱电影,re:.*AMC[^a-zA-Z0-9]*[最最][爱愛][电電][影影].*,AMC最爱电影频道,AMC最爱电影台
+CatchPlay电影台,re:.*CatchPlay[^a-zA-Z0-9]*[电電][影影][台臺]?.*,CatchPlay电影台,CatchPlay Movies
+CinemaWorld,re:.*CinemaWorld.*,CinemaWorld频道, CinemaWorld
+CINEMAX,re:.*CINEMAX.*,CINEMAX频道,Cinemax
+HBO,re:.*HBO(?!\w).*,HBO频道,Home Box Office
+HBO signature,re:.*HBO[^a-zA-Z0-9]*signature.*,HBO原创电影,HBO Signature
+HBOFamily,re:.*HBO[^a-zA-Z0-9]*Family.*,HBO家庭影院,HBO Family
+StarMovies,re:.*Star[^a-zA-Z0-9]*Movies.*,卫视电影台,Star Movies
+WARNERTV,re:.*WARNER[^a-zA-Z0-9]*TV.*,华纳电视,Warner TV
+爱尔达影剧台,re:.*[爱愛][尔爾][达達][影影][剧劇][台臺]?.*,爱尔达影剧台
+采昌影剧台,re:.*[采採][昌昌][影影][剧劇][台臺]?.*,采昌影剧台
+好莱坞电影台,re:.*[好好][莱萊][坞塢][电電][影影][台臺]?.*,好莱坞电影台,Hollywood Movie
+靖天电影,re:.*靖天(?:电影|電影)(?:臺|台|頻道)?.*,靖天电影台,靖天電影台,靖天電影台,靖天电影台,靖天电影,靖天电影频道
+龙华电影,re:.*(?:龙华|龍華)(?:电影|電影)(?:臺|台|頻道)?.*,龙华电影台,龍華電影台
+美亚电影,re:.*[美美][亚亞][电電][影影].*,美亚电影台,MeiYa Movie
+星卫电影,re:.*[星星][卫衛][电電][影影].*,星卫电影台,Star Movie
+壹电视电影,re:.*[壹壹][电電][视視][电電][影影].*,壹电视电影台,Next TV Movie
+影迷数位电影,re:.*[影影][迷迷][数數][位位][电電][影影].*,影迷数位电影台,Cinephile Digital Movie
+东方影视,re:.*[东東][方方][影影][视視].*,东方影视频道,East Film & TV
+滨海影视,re:.*[滨濱][海海][影影][视視].*,滨海影视频道,Binhai Film & TV
+溧水影视,re:.*[溧溧][水水][影影][视視].*,溧水影视频道,LiShui Film & TV
+南京影视,re:.*[南南][京京][影影][视視].*,南京影视频道,Nanjing Film & TV
+南宁影视,re:.*[南南][宁寧][影影][视視].*,南宁影视频道,Nanning Film & TV
+平泉影视,re:.*[平平][泉泉][影影][视視].*,平泉影视频道,Pingquan Film & TV
+绍兴影视,re:.*[绍紹][兴興][影影][视視].*,绍兴影视频道,Shaoxing Film & TV
+石河子影视文体,re:.*[石石][河河][子子][影影][视視][文文][体體].*,石河子影视文体频道,Shihezi Film & TV Sports
+新昌休闲影视,re:.*[新新][昌昌][休休][闲閑][影影][视視].*,新昌休闲影视频道,Xinchang Leisure Film & TV
+烟台影视,re:.*[烟煙][台臺][影影][视視].*,烟台影视频道,Yantai Film & TV
+泽影视,re:.*[泽澤][影影][视視].*,泽影视频道,Ze Film & TV
+浙江教科影视,re:.*[浙浙][江江][教教][科科][影影][视視].*,浙江教科影视频道,Zhejiang Education Science Film & TV
+浙江影视,re:.*[浙浙][江江][影影][视視].*,浙江影视频道,Zhejiang Film & TV
+浙江影视娱乐,re:.*[浙浙][江江][影影][视視][娱娛][乐乐樂].*,浙江影视娱乐频道,Zhejiang Film & TV Entertainment
+# 🏀体育频道,#genre#
+CCTV5体育,re:.*CCTV[^a-zA-Z0-9]*5[^a-zA-Z0-9]*[体體][育育].*,CCTV5,中央电视台体育频道
+CCTV5+体育赛事,re:.*CCTV[^a-zA-Z0-9]*5\+[^a-zA-Z0-9]*[体體][育育][赛賽][事事].*,CCTV5+,中央电视台体育赛事频道
+CCTV16奥林匹克,re:.*CCTV[^a-zA-Z0-9]*16[^a-zA-Z0-9]*[奥奧][林林][匹匹][克克].*,CCTV16,中央电视台奥林匹克频道
+CCTV高尔夫网球,re:.*CCTV[^a-zA-Z0-9]*[高高][尔爾][夫夫][网網][球球].*,CCTV高尔夫网球频道,CCTV Golf Tennis
+CCTV央视台球,re:.*CCTV[^a-zA-Z0-9]*[央央][视視][台臺][球球].*,CCTV央视台球频道,CCTV Billiards
+广东体育,re:.*[广廣][东東][体體][育育].*,广东体育频道,Guangdong Sports
+北京体育,re:.*[北北][京京][体體][育育].*,北京体育频道,Beijing Sports
+广州竞赛,re:.*[广廣][州州][竞競][赛賽].*,广州竞赛频道,Guangzhou Competition
+深圳体育,re:.*[深深][圳圳][体體][育育].*,深圳体育频道,Shenzhen Sports
+山东体育,re:.*[山山][东東][体體][育育].*,山东体育频道,Shandong Sports
+福建体育,re:.*[福福][建建][体體][育育].*,福建体育频道,Fujian Sports
+辽宁体育,re:.*[辽遼][宁寧][体體][育育].*,辽宁体育频道,Liaoning Sports
+成都体育,re:.*[成成][都都][体體][育育].*,成都体育频道,Chengdu Sports
+天津体育,re:.*[天天][津津][体體][育育].*,天津体育频道,Tianjin Sports
+江苏体育,re:.*[江江][苏蘇][体體][育育].*,江苏体育频道,Jiangsu Sports
+安徽综艺体育,re:.*[安安][徽徽][综綜][艺藝][体體][育育].*,安徽综艺体育频道,Anhui Variety Sports
+陕西体育休闲,re:.*[陕陝][西西][体體][育育][休休][闲閑].*,陕西体育休闲频道,Shaanxi Sports & Leisure
+吉林篮球,re:.*[吉吉][林林][篮籃][球球].*,吉林篮球频道,Jilin Basketball
+熊猫体娱,re:.*[熊熊][猫貓][体體][娱娛].*,熊猫体娱频道,Panda Sports & Entertainment
+睛彩篮球,re:.*[睛晴][彩彩][篮籃][球球].*,睛彩篮球频道,NewTV睛彩篮球,晴彩篮球
+睛彩羽毛球,re:.*[睛睛][彩彩][羽羽][毛毛][球球].*,睛彩羽毛球频道,NewTV睛彩羽毛球,晴彩羽毛球
+睛彩竞技,re:.*[睛晴][彩彩][竞競][技技].*,睛彩竞技频道,NewTV睛彩竞技,晴彩竞技
+睛彩青少,re:.*[睛晴][彩彩][青青][少少].*,睛彩青少年频道,睛彩青少,NewTV睛彩青少,晴彩青少
+睛彩广场舞,re:.*[睛晴][彩彩][广廣][场場][舞舞].*,睛彩广场舞频道,NewTV睛彩广场舞,晴彩广场舞蹈
+CCTV风云足球,re:.*CCTV[^a-zA-Z0-9]*[风風][云雲][足足][球球].*,CCTV风云足球频道,CCTV Football
+足球频道,re:.*[足足][球球][频頻][道道].*,足球频道,Football Channel
+魅力足球,re:.*[魅魅][力力][足足][球球].*,魅力足球频道,Charming Football
+精彩足球,re:.*[精精][彩彩][足足][球球].*,精彩足球频道,Exciting Football
+天元围棋,re:.*[天天][元元][围圍][棋棋].*,天元围棋频道,Tianyuan Go/Weiqi
+精彩搏击,re:.*[精精][彩彩][搏搏][击擊].*,精彩搏击频道,Exciting Fight
+体育赛事,re:.*[体體][育育][赛賽][事事][频頻][道道]?.*,体育赛事频道,Sports Events Channel
+先锋乒羽,re:.*[先先][锋鋒][乒乒][羽羽].*,先锋乒羽频道,Vanguard Table Tennis & Badminton
+全民乒乓
+体育休闲,re:.*[体體][育育][休休][闲閑][频頻][道道]?.*,体育休闲频道,Sports & Leisure
+IHOT爱体育,re:.*IHOT[^a-zA-Z0-9]*[爱愛][体體][育育].*,IHOT爱体育频道,IHOT Love Sports
+超级体育,re:.*[超超][级級][体體][育育].*,超级体育频道,Super Sports
+精品体育,re:.*[精精][品品][体體][育育].*,精品体育频道,Boutique Sports
+五星体育,re:.*[五五][星星][体體][育育].*,五星体育频道,Five Star Sports
+劲爆体育,re:.*[劲勁][爆爆][体體][育育].*,劲爆体育频道,Explosive Sports
+武术世界,re:.*[武武][术術][世世][界界].*,武术世界频道,Wushu World
+武搏世界,re:.*[武武][搏搏][世世][界界].*,武搏世界频道,Martial Combat World
+IHOT爱赛车,re:.*IHOT[^a-zA-Z0-9]*[爱愛][赛賽][车車].*,IHOT爱赛车频道,IHOT Love Racing
+快乐垂钓,re:.*[快快][乐乐樂][垂垂][钓釣].*,快乐垂钓频道,Happy Fishing
+四海钓鱼,re:.*[四四][海海][钓釣][鱼魚].*,四海钓鱼频道,Four Seas Fishing
+JJ斗地主,re:.*JJ[^a-zA-Z0-9]*[斗鬥][地地][主主].*,JJ斗地主频道,JJ Dou Dizhu
+电竞天堂,re:.*[电電][竞競][天天][堂堂].*,电竞天堂频道,eSports Paradise
+爱电竞,re:.*[爱愛][电電][竞競].*,爱电竞频道,Love eSports
+哒啵赛事,re:.*[哒噠][啵啵][赛賽][事事].*,哒啵赛事频道,Dabo Events
+哒啵电竞,re:.*[哒噠][啵啵][电電][竞競].*,哒啵电竞频道,Dabo eSports
+掼蛋精英赛,re:.*[掼慣][蛋蛋][精精][英英][赛賽].*,掼蛋精英赛频道,Guandan Elite Match
+咪咕24小时体育台,re:.*[咪咪][咕咕]24[小][时时][体體][育育][台臺]?.*,咪咕24小时体育台,Migu 24/7 Sports
+体坛名栏汇,re:.*[体體][坛壇][名名][栏欄][汇匯].*,体坛名栏汇频道,Sports Column Collection
+香港有线体育台,re:.*[香香][港港][有有][线線][体體][育育][台臺]?.*,香港有线体育台,Hong Kong Cable Sports
+DAZN2,re:.*DAZN[^a-zA-Z0-9]*2.*,DAZN 2频道,DAZN 2
+Trace Sports,re:.*Trace[^a-zA-Z0-9]*Sports.*,Trace体育频道,Trace Sports
+J_SPORTS_1,re:.*J[^a-zA-Z0-9]*SPORTS[^a-zA-Z0-9]*1.*,J SPORTS 1,J SPORTS 1
+J_SPORTS_2,re:.*J[^a-zA-Z0-9]*SPORTS[^a-zA-Z0-9]*2.*,J SPORTS 2,J SPORTS 2
+J_SPORTS_3,re:.*J[^a-zA-Z0-9]*SPORTS[^a-zA-Z0-9]*3.*,J SPORTS 3,J SPORTS 3
+J_SPORTS_4,re:.*J[^a-zA-Z0-9]*SPORTS[^a-zA-Z0-9]*4.*,J SPORTS 4,J SPORTS 4
+# 🪁少儿频道,#genre#
+CCTV14少儿,re:.*CCTV[^a-zA-Z0-9]*14[^a-zA-Z0-9]*[少少][儿兒].*,CCTV14,中央电视台少儿频道
+内蒙古少儿,re:.*[内內][蒙蒙][古古][少少][儿兒].*,内蒙古少儿频道,Inner Mongolia Children
+南京少儿,re:.*[南南][京京][少少][儿兒].*,南京少儿频道,Nanjing Children
+浙江少儿,re:.*[浙浙][江江][少少][儿兒].*,浙江少儿频道,Zhejiang Children
+济南少儿,re:.*[济濟][南南][少少][儿兒].*,济南少儿频道,Jinan Children
+福州少儿,re:.*[福福][州州][少少][儿兒].*,福州少儿频道,Fuzhou Children
+河北少儿科教,re:.*[河河][北北][少少][儿兒][科科][教教].*,河北少儿科教频道,Hebei Children's Science & Education
+武汉少儿频道,re:.*[武武][汉漢][少少][儿兒][频頻][道道].*,武汉少儿频道,Wuhan Children's Channel
+黑龙江少儿,re:.*[黑黑][龙龍][江江][少少][儿兒].*,黑龙江少儿频道,Heilongjiang Children
+霸州少儿频道,re:.*[霸霸][州州][少少][儿兒][频頻][道道].*,霸州少儿频道,Bazhou Children's Channel
+少儿动画,re:.*[少少][儿兒][动動][画画][频頻][道道]?.*,少儿动画频道,Children's Cartoon
+少儿天地,re:.*[少少][儿兒][天天][地地][频頻][道道]?.*,少儿天地频道,Children's World
+卡酷动画,re:.*[卡卡][酷酷][动動][画画][频頻][道道]?.*,卡酷动画频道,KaKu Cartoon
+卡酷少儿,re:.*[卡卡][酷酷][少少][儿兒][频頻][道道]?.*,卡酷少儿频道,KaKu Children
+动漫秀场,re:.*[动動][漫漫][秀秀][场場][频頻][道道]?.*,动漫秀场频道,Anime Show
+新动漫,re:.*[新新][动動][漫漫][频頻][道道]?.*,新动漫频道,New Anime
+青春动漫,re:.*[青青][春春][动動][漫漫][频頻][道道]?.*,青春动漫频道,Youth Anime
+爱动漫,re:.*[爱愛][动動][漫漫][频頻][道道]?.*,爱动漫频道,Love Anime
+中录动漫,re:.*[中中][录錄][动動][漫漫][频頻][道道]?.*,中录动漫频道,Zhonglu Anime
+宝宝动画,re:.*[宝宝寶][宝宝寶][动動][画画][频頻][道道]?.*,宝宝动画频道,Baby Cartoon
+CN卡通,re:.*CN[^a-zA-Z0-9]*[卡卡][通通].*,CN卡通频道,CN Cartoon
+优漫卡通,re:.*[优優][漫漫][卡卡][通通][频頻][道道]?.*,优漫卡通频道,YouMan Cartoon
+金鹰卡通,re:.*[金金][鹰鷹][卡卡][通通][频頻][道道]?.*,金鹰卡通频道,Golden Eagle Cartoon
+NewTV黑莓动画,re:.*New[^a-zA-Z0-9]*TV[^a-zA-Z0-9]*[黑黑][莓莓][动動][画画].*,NewTV黑莓动画频道,NewTV BlackBerry Animation
+炫动卡通,re:.*[炫炫][动動][卡卡][通通][频頻][道道]?.*,炫动卡通频道,Xuan Dong Cartoon
+哈哈炫动,re:.*[哈哈][哈哈][炫炫][动動][频頻][道道]?.*,哈哈炫动频道,HaHa Xuan Dong
+韩国EBS少儿频道,re:.*[韩韓][国國]EBS[^a-zA-Z0-9]*[少少][儿兒][频頻][道道].*,韩国EBS少儿频道,Korea EBS Children
+韩国lEBS儿童频道,re:.*[韩韓][国國]EBS[^a-zA-Z0-9]*[儿兒][童童][频頻][道道].*,韩国EBS儿童频道,Korea EBS Kids
+24H国漫热播,re:.*24H[^a-zA-Z0-9]*[国國][漫漫][热熱][播播].*,24小时国漫热播频道,24H Chinese Anime Marathon
+七龙珠,re:.*[七七][龙龍][珠珠][动動][画画]?.*,七龙珠动画频道,Dragon Ball Anime
+火影忍者,re:.*[火火][影影][忍忍][者者][动動][画画]?.*,火影忍者动画频道,Naruto Anime
+斗鱼火影忍者,re:.*[斗鬥][鱼魚][火火][影影][忍忍][者者].*,斗鱼火影忍者频道,Douyu Naruto
+航海王,re:.*[航航][海海][王王][动動][画画]?.*,航海王动画频道,One Piece Anime
+航海王动漫,re:.*[航航][海海][王王][动動][漫漫].*,航海王动漫频道,One Piece Anime
+海绵宝宝,re:.*[海海][绵绵][宝宝寶][宝宝寶][动動][画画]?.*,海绵宝宝动画频道,SpongeBob SquarePants Anime
+中华小当家,re:.*[中中][华華][小小][当当][家家][动動][画画]?.*,中华小当家动画频道,Chūka Ichiban! Anime
+斗破苍穹玄幻剧,re:.*[斗鬥][破破][苍蒼][穹穹][玄玄][幻幻][剧劇].*,斗破苍穹玄幻剧频道,Fights Break Sphere Fantasy Drama
+猫和老鼠,re:.*[猫貓][和和][老老][鼠鼠][动動][画画]?.*,猫和老鼠动画频道,Tom and Jerry Anime
+经典动漫,re:.*[经經][典典][动動][漫漫][频頻][道道]?.*,经典动漫频道,Classic Anime
+蜡笔小新,re:.*[蜡蠟][笔筆][小小][新新][动動][画画]?.*,蜡笔小新动画频道,Crayon Shin-chan Anime
+漫画解说,re:.*[漫漫][画画][解解][说说][频頻][道道]?.*,漫画解说频道,Comic Explanation
+哆啦A梦,re:.*[哆哆][啦啦][A梦夢][动動][画画]?.*,哆啦A梦动画频道,Doraemon Anime
+灌篮高手,re:.*[灌灌][篮籃][高高][手手][动動][画画]?.*,灌篮高手动画频道,Slam Dunk Anime
+# 🎮游戏频道,#genre#
+游戏风云,re:.*[游遊][戏戲][风風][云雲][频頻][道道]?.*,游戏风云频道,Games & eSports
+游戏竞技,re:.*[游遊][戏戲][竞競][技技][频頻][道道]?.*,游戏竞技频道,Gaming Competition
+电竞游戏
+海看电竞,re:.*[海海][看看][电電][竞競][频頻][道道]?.*,海看电竞频道,Haikan eSports
+电竞天堂
+爱电竞
+# 🎵音乐频道,#genre#
+CCTV15音乐,re:.*CCTV[^a-zA-Z0-9]*15[^a-zA-Z0-9]*[音音][乐乐樂].*,CCTV15,中央电视台音乐频道
+CCTV风云音乐,re:.*CCTV[^a-zA-Z0-9]*[风風][云雲][音音][乐乐樂].*,CCTV风云音乐频道,CCTV Cloud Music
+音乐现场,re:.*[音音][乐乐樂][现現][场場][频頻][道道]?.*,音乐现场频道,Music Live
+音乐之声,re:.*[音音][乐乐樂][之之][声声][频頻][道道]?.*,音乐之声频道,Music Radio
+潮流音乐,re:.*[潮潮][流流][音音][乐乐樂][频頻][道道]?.*,潮流音乐频道,Trendy Music
+天津音乐,re:.*[天天][津津][音音][乐乐樂][频頻][道道]?.*,天津音乐频道,Tianjin Music
+音乐广播,re:.*[音音][乐乐樂][广廣][播播][频頻][道道]?.*,音乐广播频道,Music Broadcast
+音乐调频广播,re:.*[音音][乐乐樂][调調][频频頻][广廣][播播].*,音乐调频广播,Music FM Broadcast
+# 🔢数字频道,#genre#
+IPTV热播剧场
+IPTV经典电影
+IPTV谍战剧场
+IPTV军旅剧场
+IPTV动作影院
+IPTV喜剧剧场
+IPTV喜剧影院
+IPTV武侠剧场
+IPTV都市剧场
+IPTV家庭影院
+IPTV少儿动画
+IPTV魅力时尚
+IPTV相声小品
+IPTV精选
+IPTV影视
+IPTV野外
+IPTV地理
+IPTV军事
+IPTV法治
+IPTV武术
+IPTV光影
+IPTV墨宝
+IPTV戏曲
+IPTV星影
+IPTV动画
+IPTV早教
+IPTV美人
+IPTV美妆
+IPTV解密
+IPTV国学
+IPTV鉴赏
+IPTV音乐现场
+IPTV好学生
+IPTV爱生活
+IPTV高网
+IPTV足球
+华数4K,re:.*[华華][数數][^a-zA-Z0-9]*4K.*,华数4K频道,Wasu 4K
+华数少儿动画
+华数热播剧场
+华数爱大剧1
+华数爱大剧2
+华数爱电影
+华数爱电影
+华数电视剧
+华数谍战剧场
+环球旅游,环球旅游台,GTTV,环球旅游频道
+国学频道
+书画频道
+纯享4K,re:.*[纯純][享享][^a-zA-Z0-9]*4K.*,纯享4K频道,Pure 4K
+爱上4K,re:.*[爱愛][上上][^a-zA-Z0-9]*4K.*,爱上4K频道,Love 4K
+中录动漫4K,re:.*[中中][录錄][动動][漫漫][^a-zA-Z0-9]*4K.*,中录动漫4K频道,Zhonglu Anime 4K
+亲子趣学4K,re:.*[亲親][子子][趣趣][学學][^a-zA-Z0-9]*4K.*,亲子趣学4K频道,Parent-Child Fun Learning 4K
+绚影4K,re:.*[绚絢][影影][^a-zA-Z0-9]*4K.*,绚影4K频道,Gorgeous 4K
+津津悦读4K,re:.*[津津][津津][悦悅][读讀][^a-zA-Z0-9]*4K.*,津津悦读4K频道,Jinjin Happy Reading 4K
+军情观察4K,re:.*[军軍][情情][观觀][察察][^a-zA-Z0-9]*4K.*,军情观察4K频道,Military Watch 4K
+乐享4K,re:.*[乐乐樂][享享][^a-zA-Z0-9]*4K.*,乐享4K频道,Enjoy 4K
+重温经典,re:.*[重重][温溫][经經][典典][频頻][道道]?.*,重温经典频道,Revisit Classics
+金鹰纪实,re:.*[金金][鹰鷹][纪紀][实實][频頻][道道]?.*,金鹰纪实频道,Golden Eagle Documentary
+茶友频道,茶友频道,茶频道,茶友,茶,茶道频道
+梨园频道,re:.*[梨梨][园園][频頻][道道].*,梨园频道,Chinese Opera Channel
+
+# 🔢SITV,#genre#
+五星体育,SiTV五星体育
+动漫秀场,SiTV动漫秀场
+游戏风云,SiTV游戏风云
+法治天地,SiTV法治天地,re:.*[法法][治治][天天][地地][频頻][道道]?.*,法治天地频道
+劲爆体育,SiTV劲爆体育,re:.*[劲勁][爆爆][体體][育育][频頻][道道]?.*,劲爆体育频道,Explosive Sports
+魅力足球,SiTV魅力足球,re:.*[魅魅][力力][足足][球球][频頻][道道]?.*,魅力足球频道,Charming Football
+欢笑剧场,SiTV欢笑剧场,re:.*[欢歡][笑笑][剧劇][场場][频頻][道道]?.*,欢笑剧场频道,欢笑剧场4K
+七彩戏剧,SiTV七彩戏剧,re:.*[七七][彩彩][戏戲][剧劇][频頻][道道]?.*,七彩戏剧频道,Colorful Drama
+生活时尚,SiTV生活时尚,re:.*[生生][活活][时时][尚尚][频頻][道道]?.*,生活时尚频道,Lifestyle & Fashion
+乐游频道,SiTV乐游频道,SiTV乐游,乐游纪实,乐游
+都市剧场,SiTV都市剧场,re:.*[都都][市市][剧劇][场場][频頻][道道]?.*,都市剧场频道,Urban Theater
+东方财经,SiTV东方财经,re:.*[东東][方方][财財][经經][频頻][道道]?.*,东方财经频道,East Finance
+全纪实,SiTV全纪实,re:.*[全全][纪紀][实實][频頻][道道]?.*,全纪实频道,All Documentary
+新视觉,SiTV新视觉,re:.*[新新][视視][觉覺][频頻][道道]?.*,新视觉频道,New Vision
+金色学堂
+# 🔢BesTV百视,#genre#
+华语影院,re:.*[华華][语語][影影][院院][频頻][道道]?.*,华语影院频道,Chinese Cinema
+星光影院,re:.*[星星][光光][影影][院院][频頻][道道]?.*,星光影院频道,Starlight Cinema
+全球大片,re:.*[全全][球球][大大][片片][频頻][道道]?.*,全球大片频道,Global Blockbusters
+热门剧场,re:.*[热熱][门門][剧劇][场場][频頻][道道]?.*,热门剧场频道,Hot Theater
+谍战剧场,re:.*[谍諜][战戰][剧劇][场場][频頻][道道]?.*,谍战剧场频道,Spy War Theater
+青春动漫,re:.*[青青][春春][动動][漫漫][频頻][道道]?.*,青春动漫频道,Youth Anime
+戏曲精选,re:.*[戏戲][曲曲][精精][选選][频頻][道道]?.*,戏曲精选频道,Opera Selection
+热门综艺,re:.*[热熱][门門][综綜][艺藝][频頻][道道]?.*,热门综艺频道,Hot Variety Shows
+健康养生,re:.*[健健][康康][养養][生生][频頻][道道]?.*,健康养生频道,Health & Wellness
+百变课堂,re:.*[百百][变變][课課][堂堂][频頻][道道]?.*,百变课堂频道,Changeable Classroom
+看天下精选,re:.*[看看][天天][下下][精精][选選][频頻][道道]?.*,看天下精选频道,World Selection
+绚影超清,re:.*[绚絢][影影][超超][清清][频頻][道道]?.*,绚影超清频道,Gorgeous Ultra HD
+# 🔢NewTV,#genre#
+超级电影,re:NewTV[\s-]超级电影,re:.*[超超][级級][电電][影影][频頻][道道]?.*,超级电影频道,Super Movie
+黑莓电影,re:NewTV[\s-]黑莓电影,NewTV黑莓电影,NEWTV黑莓电影,黑莓电影
+中国功夫,re:NewTV[\s-]中国功夫,re:.*[中中][国國][功功][夫夫][频頻][道道]?.*,中国功夫频道,Chinese Kung Fu,NewTV中国功夫,NEWTV中国功夫,中国功夫
+动作电影,re:NewTV[\s-]动作电影,NewTV动作电影,NEWTV动作电影
+超级体育,re:NewTV[\s-]超级体育,NewTV超级体育,NEWTV超级体育,超级体育
+精品体育,re:NewTV[\s-]精品体育,NewTV精品体育,NEWTV精品体育,精品体育
+精彩足球,re:NewTV[\s-]精彩足球
+武搏世界,re:NewTV武搏世界,NewTV武博世界,武搏世界,武博世界,NewTV搏击
+精品综合,re:NewTV[\s-]精品综合,re:.*[精精][品品][综綜][合合][频頻][道道]?.*,精品综合频道,Boutique Variety
+哒啵赛事,re:NewTV[\s-]哒啵赛事,re:.*[哒噠][啵啵][赛賽][事事][频頻][道道]?.*,哒啵赛事频道,Dabo Events,NEWTV哒啵赛事,哒啵赛事
+哒啵电竞,re:NewTV[\s-]哒啵电竞,re:.*[哒噠][啵啵][电電][竞競][频頻][道道]?.*,哒啵电竞频道,Dabo eSports
+超级电视剧,re:NewTV[\s-]超级电视剧,re:.*[超超][级級][电電][视視][剧劇][频頻][道道]?.*,超级电视剧频道,Super TV Drama
+东北热剧,re:NewTV[\s-]东北热剧,re:.*[东東][北北][热熱][剧劇][频頻][道道]?.*,东北热剧频道,Northeast Hot Drama
+欢乐剧场,re:NewTV[\s-]欢乐剧场,re:.*[欢歡][乐乐樂][剧劇][场場][频頻][道道]?.*,欢乐剧场频道,Joy Theater
+海外剧场,re:NewTV[\s-]海外剧场,re:.*[海海][外外][剧劇][场場][频頻][道道]?.*,海外剧场频道,Overseas Theater,NewTV海外剧场,NEWTV海外剧场,海外剧场
+家庭剧场,re:NewTV[\s-]家庭剧场,re:.*[家家][庭庭][剧劇][场場][频頻][道道]?.*,家庭剧场频道,Family Theater,NewTV家庭剧场,NEWTV家庭剧场,家庭剧场
+古装剧场,re:NewTV[\s-]古装剧场,re:.*[古古][装裝][剧劇][场場][频頻][道道]?.*,古装剧场频道,NEWTV古装剧场,古装剧场
+军旅剧场,re:NewTV[\s-]军旅剧场,re:.*[军軍][旅旅][剧劇][场場][频頻][道道]?.*,军旅剧场频道,Military Drama Theater,NewTV军旅剧场,NEWTV军旅剧场,军旅剧场
+热播精选,re:NewTV[\s-]热播精选,re:.*[热熱][播播][精精][选選][频頻][道道]?.*,热播精选频道,Hot Pick
+精品大剧,re:NewTV[\s-]精品大剧,re:.*[精精][品品][大大][剧劇][频頻][道道]?.*,精品大剧频道,Boutique Blockbuster Drama,NewTV精品大剧,NEWTV精品大剧,精品大剧
+爱情喜剧,re:NewTV[\s-]爱情喜剧,re:.*[爱愛][情情][喜喜][剧劇][频頻][道道]?.*,爱情喜剧频道,Romantic Comedy,NEWTV爱情喜剧,爱情喜剧
+惊悚悬疑,re:NewTV[\s-]惊悚悬疑,re:.*[惊驚][悚悚][悬懸][疑疑][频頻][道道]?.*,惊悚悬疑频道,Thriller Suspense,NewTV惊悚悬疑,NEWTV惊悚悬疑,惊悚悬疑
+明星大片,re:NewTV[\s-]明星大片,re:.*[明星][星大][片大][片频][频道道]?.*,明星大片频道,Star Blockbusters,NewTV明星大片,NEWTV明星大片,明星大片
+明星剧场,re:NewTV[\s-]明星剧场,re:.*[明星][星剧][剧场][场频][频道道]?.*,明星剧场频道,Star Theater
+精品纪录,re:NewTV[\s-]精品纪录,re:.*[精精][品品][纪紀][录錄][频頻][道道]?.*,精品纪录频道,Boutique Documentary,NewTV精品记录,NEWTV精品记录,精品记录,NewTV精品纪录,NEWTV精品纪录,精品纪录
+军事评论,re:NewTV[\s-]军事评论,re:.*[军軍][事事][评評][论論][频頻][道道]?.*,军事评论频道,Military Review,NewTV军事评论,NEWTV军事评论,军事评论
+军事纪实,NewTV军事纪实,NEWTV军事纪实
+农业致富,re:NewTV[\s-]农业致富,re:.*[农農][业業][致致][富富][频頻][道道]?.*,农业致富频道,Agriculture & Get Rich,NewTV农业致富,NEWTV农业致富,农业致富
+精品萌宠,re:NewTV[\s-]精品萌宠,re:.*[精精][品品][萌萌][宠寵][频頻][道道]?.*,精品萌宠频道,Boutique Pets
+超级综艺,re:NewTV[\s-]超级综艺,re:.*[超超][级級][综綜][艺藝][频頻][道道]?.*,超级综艺频道,Super Variety Show
+金牌综艺,re:NewTV[\s-]金牌综艺,re:.*[金金][牌牌][综綜][艺藝][频頻][道道]?.*,金牌综艺频道,Gold Medal Variety Show,NewTV金牌综艺,NEWTV金牌综艺,金牌综艺
+潮妈辣婆,re:NewTV[\s-]潮妈辣婆,re:.*[潮潮][妈妈媽][辣辣][婆婆][频頻][道道]?.*,潮妈辣婆频道,Trendy Mom Hot Grandma
+炫舞未来,re:NewTV[\s-]炫舞未来,re:.*[炫炫][舞舞][未未][来来][频頻][道道]?.*,炫舞未来频道,Dazzle Dance Future
+全民热练,re:NewTV[\s-]全民热练,re:.*[全全][民民][热熱][练練][频頻][道道]?.*,全民热练频道,National Hot Workout
+黑莓动画,re:NewTV[\s-]黑莓动画,NewTV黑莓动画,NEWTV黑莓动画,黑莓动画
+怡伴健康,re:NewTV[\s-]怡伴健康,re:.*[怡怡][伴伴][健健][康康][频頻][道道]?.*,怡伴健康频道,YiBan Health,NewTV怡伴健康,NEWTV怡伴健康,怡伴健康
+健康有约,re:NewTV健康有约,re:.*[健健][康康][有有][约約][频頻][道道]?.*,健康有约频道,Health Appointment
+魅力潇湘,re:NewTV魅力潇湘,re:.*[魅魅][力力][潇瀟][湘湘][频頻][道道]?.*,魅力潇湘频道,Charming Xiaoxiang,NewTV魅力潇湘,NEWTV魅力潇湘,魅力潇湘
+睛彩篮球,re:.*[睛晴][彩彩][篮籃][球球].*,睛彩篮球频道,NewTV睛彩篮球,晴彩篮球
+睛彩羽毛球,re:.*[睛睛][彩彩][羽羽][毛毛][球球].*,睛彩羽毛球频道,NewTV睛彩羽毛球,晴彩羽毛球
+睛彩竞技,re:.*[睛晴][彩彩][竞競][技技].*,睛彩竞技频道,NewTV睛彩竞技,晴彩竞技
+睛彩青少,re:.*[睛晴][彩彩][青青][少少].*,睛彩青少年频道,睛彩青少,NewTV睛彩青少,晴彩青少
+睛彩广场舞,re:.*[睛晴][彩彩][广廣][场場][舞舞].*,睛彩广场舞频道,NewTV睛彩广场舞,晴彩广场舞蹈
+
+# 🔢IHOT,#genre#
+爱喜剧,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][喜喜][剧劇].*,IHOT爱喜剧,IHOT爱喜剧频道,IHOT Love Comedy
+爱科幻,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][科科][幻幻].*,IHOT爱科幻,IHOT爱科幻频道,IHOT Love Sci-Fi
+爱院线,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][院院][线線].*,IHOT爱院线,IHOT爱院线频道,IHOT Love Theatrical
+爱浪漫,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][浪浪][漫漫].*,IHOT爱浪漫,IHOT爱浪漫频道,IHOT Love Romance
+爱悬疑,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][悬懸][疑疑].*,IHOT爱悬疑,IHOT爱悬疑频道,IHOT Love Suspense
+爱谍战,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][谍諜][战戰].*,IHOT爱谍战,IHOT爱谍战频道,IHOT Love Spy War
+爱历史,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][历歷][史史].*,IHOT爱历史,IHOT爱历史频道,IHOT Love History
+爱科学,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][科科][学學].*,IHOT爱科学,IHOT爱科学频道,IHOT Love Science
+爱赛车,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][赛賽][车車].*,IHOT爱赛车,ihot爱赛车,IHOT爱赛车频道,IHOT Love Racing
+爱旅行,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][旅旅][行行].*,IHOT爱旅行,IHOT爱旅行频道,IHOT Love Travel
+爱奇谈,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][奇奇][谈谈].*,IHOT爱奇谈,IHOT爱奇谈频道,IHOT Love Odd Talk
+爱动漫,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][动動][漫漫].*,IHOT爱动漫,IHOT爱动漫频道,IHOT Love Anime
+爱体育,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][体體][育育].*,IHOT爱体育,IHOT爱体育频道,IHOT Love Sports
+爱玩具,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][玩玩][具具].*,IHOT爱玩具,IHOT爱玩具频道,IHOT Love Toys
+爱都市,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][都都][市市].*,IHOT爱都市,IHOT爱都市频道,IHOT Love Urban
+爱家庭,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][家家][庭庭].*,IHOT爱家庭,IHOT爱家庭频道,IHOT Love Family
+爱青春,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][青青][春春].*,IHOT爱青春,IHOT爱青春频道,IHOT Love Youth
+爱江湖,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][江江][湖湖].*,IHOT爱江湖,IHOT爱江湖频道,IHOT Love Jianghu
+爱电竞,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][电電][竞競].*,IHOT爱电竞,IHOT爱电竞频道,IHOT Love eSports
+爱怀旧,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][怀懷][旧舊].*,IHOT爱怀旧,IHOT爱怀旧频道,IHOT Love Nostalgia
+爱探索,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][探探][索索].*,IHOT爱探索,IHOT爱探索频道,IHOT Love Exploration
+爱经典,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][经經][典典].*,IHOT爱经典,IHOT爱经典频道,IHOT Love Classics
+爱美食,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][美美][食食].*,IHOT爱美食,IHOT爱美食频道,IHOT Love Food
+爱娱乐,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][娱娛][乐乐樂].*,IHOT爱娱乐,IHOT爱娱乐频道,IHOT Love Entertainment
+爱时尚,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][时时][尚尚].*,IHOT爱时尚,IHOT爱时尚频道,IHOT Love Fashion
+爱军武,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][军軍][武武].*,IHOT爱军武,IHOT爱军武频道,IHOT Love Military
+爱猎奇,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][猎獵][奇奇].*,IHOT爱猎奇,IHOT爱猎奇频道,IHOT Love Curiosity
+爱解密,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][解解][密密].*,IHOT爱解密,IHOT爱解密频道,IHOT Love Decryption
+爱世界,re:.*(?:IHOT[^a-zA-Z0-9]*)?[爱愛][世世][界界].*,IHOT爱世界,IHOT爱世界频道,IHOT Love World
+风尚音乐,re:.*[风風][尚尚][音音][乐乐樂][频頻][道道]?.*,风尚音乐频道,Vogue Music
+精彩影视,re:.*[精精][彩彩][影影][视視][频頻][道道]?.*,精彩影视频道,Exciting Film & TV
+求索纪录,re:.*[求求][索索][纪紀][录錄][频頻][道道]?.*,求索纪录频道,Qiusuo Documentary,求索记录
+求索生活,re:.*[求求][索索][生生][活活][频頻][道道]?.*,求索生活频道,Qiusuo Life
+求索动物,re:.*[求求][索索][动動][物物][频頻][道道]?.*,求索动物频道,Qiusuo Animals
+求索科学,re:.*[求求][索索][科科][学學][频頻][道道]?.*,求索科学频道,Qiusuo Science
+# 🔀平台轮播,#genre#
+虎牙周星星11342412,re:.*[虎虎][牙牙][周周][星星][星]?11342412.*,虎牙周星星频道11342412,Huya Zhou Xingxing 11342412
+虎牙周星星11336587,re:.*[虎虎][牙牙][周周][星星][星]?11336587.*,虎牙周星星频道11336587,Huya Zhou Xingxing 11336587
+周星星,re:.*[周周][星星][星星][星]?[频頻][道道]?.*,周星星频道,Zhou Xingxing Channel
+周星驰,re:.*[周周][星星][驰馳][频頻][道道]?.*,周星驰频道,Stephen Chow Channel
+虎牙李连杰1342390,re:.*[虎虎][牙牙][李李][连连連][杰傑]1342390.*,虎牙李连杰频道1342390,Huya Jet Li 1342390
+洪金宝,re:.*[洪洪][金金][宝宝寶][频頻][道道]?.*,洪金宝频道,Sammo Hung Channel
+刘德华,re:.*[刘劉][德德][华華][频頻][道道]?.*,刘德华频道,Andy Lau Channel
+星爷,re:.*[星星][爷爷爺][频頻][道道]?.*,星爷频道,Stephen Chow (Star Master) Channel
+成龙,re:.*[成成][龙龍][频頻][道道]?.*,成龙频道,Jackie Chan Channel
+王晶,re:.*[王王][晶晶][频頻][道道]?.*,王晶频道,Wong Jing Channel
+沈腾,re:.*[沈沈][腾腾][频頻][道道]?.*,沈腾频道,Shen Teng Channel
+林正英,re:.*[林林][正正][英英][频頻][道道]?.*,林正英频道,Lam Ching-ying Channel
+甄子丹,re:.*[甄甄][子子][丹丹][频頻][道道]?.*,甄子丹频道,Donnie Yen Channel
+电影_英叔,re:.*[电電][影影][^a-zA-Z0-9]*[英英][叔叔].*,电影_英叔频道,Movie_Uncle Ying
+电影_黄渤,re:.*[电電][影影][^a-zA-Z0-9]*[黄黃][渤渤].*,电影_黄渤频道,Movie_Huang Bo
+电影_周星星,re:.*[电電][影影][^a-zA-Z0-9]*[周周][星星][星星][星]?.*,电影_周星星频道,Movie_Zhou Xingxing
+电影_成龙,re:.*[电電][影影][^a-zA-Z0-9]*[成成][龙龍].*,电影_成龙频道,Movie_Jackie Chan
+电影_洪金宝,re:.*[电電][影影][^a-zA-Z0-9]*[洪洪][金金][宝宝寶].*,电影_洪金宝频道,Movie_Sammo Hung
+电影_星爷,re:.*[电電][影影][^a-zA-Z0-9]*[星星][爷爷爺].*,电影_星爷频道,Movie_Stephen Chow
+电影_强森,re:.*[电電][影影][^a-zA-Z0-9]*[强強][森森].*,电影_强森频道,Movie_The Rock
+电影_沈腾,re:.*[电電][影影][^a-zA-Z0-9]*[沈沈][腾腾].*,电影_沈腾频道,Movie_Shen Teng
+电影_李连杰,re:.*[电電][影影][^a-zA-Z0-9]*[李李][连连連][杰傑].*,电影_李连杰频道,Movie_Jet Li
+电影_梁家辉,re:.*[电電][影影][^a-zA-Z0-9]*[梁梁][家家][辉輝].*,电影_梁家辉频道,Movie_Tony Leung
+电影_刘德华,re:.*[电電][影影][^a-zA-Z0-9]*[刘劉][德德][华華].*,电影_刘德华频道,Movie_Andy Lau
+周星驰待分类,re:.*[周周][星星][驰馳][待待][分分][类類].*,周星驰待分类频道,Stephen Chow To Be Classified
+林正英【虎牙】,re:.*[林林][正正][英英][【\[]?[虎虎][牙牙][】\]]?.*,林正英虎牙频道,Lam Ching-ying Huya
+周润发【虎牙】,re:.*[周周][润潤][发發][【\[]?[虎虎][牙牙][】\]]?.*,周润发虎牙频道,Chow Yun-fat Huya
+成龙【虎牙】,re:.*[成成][龙龍][【\[]?[虎虎][牙牙][】\]]?.*,成龙虎牙频道,Jackie Chan Huya
+甄子丹【虎牙】,re:.*[甄甄][子子][丹丹][【\[]?[虎虎][牙牙][】\]]?.*,甄子丹虎牙频道,Donnie Yen Huya
+古天乐【虎牙】,re:.*[古古][天天][乐乐樂][【\[]?[虎虎][牙牙][】\]]?.*,古天乐虎牙频道,Louis Koo Huya
+沈腾【虎牙】,re:.*[沈沈][腾腾][【\[]?[虎虎][牙牙][】\]]?.*,沈腾虎牙频道,Shen Teng Huya
+黄渤【虎牙】,re:.*[黄黃][渤渤][【\[]?[虎虎][牙牙][】\]]?.*,黄渤虎牙频道,Huang Bo Huya
+强森【虎牙】,re:.*[强強][森森][【\[]?[虎虎][牙牙][】\]]?.*,强森虎牙频道,The Rock Huya
+王晶电影【虎牙】,re:.*[王王][晶晶][电電][影影][【\[]?[虎虎][牙牙][】\]]?.*,王晶电影虎牙频道,Wong Jing Movie Huya
+武侠虎牙,re:(?=.*武侠)(?=.*虎牙).*,武侠【虎牙】
+功夫虎牙,re:(?=.*功夫)(?=.*虎牙).*,功夫【虎牙】
+玄幻虎牙,re:(?=.*玄幻)(?=.*虎牙).*,玄幻【虎牙】
+喜剧虎牙,re:(?=.*喜剧)(?=.*虎牙).*,喜剧【虎牙】
+国产虎牙,re:(?=.*国产)(?=.*虎牙).*,国产【虎牙】
+警匪虎牙,re:(?=.*警匪)(?=.*虎牙).*,警匪【虎牙】
+罪犯虎牙,re:(?=.*罪犯)(?=.*虎牙).*,罪犯【虎牙】
+枪战虎牙,re:(?=.*枪战)(?=.*虎牙).*,枪战【虎牙】
+推荐虎牙,re:(?=.*推荐)(?=.*虎牙).*,推荐【虎牙】
+热血虎牙,re:(?=.*热血)(?=.*虎牙).*,热血【虎牙】
+谍战虎牙,re:(?=.*谍战)(?=.*虎牙).*,谍战【虎牙】
+战争虎牙,re:(?=.*战争)(?=.*虎牙).*,战争【虎牙】
+盗墓虎牙,re:(?=.*盗墓)(?=.*虎牙).*,盗墓【虎牙】
+# 🥬主题片,#genre#
+搞笑剧场
+功夫片,re:.*[功功][夫夫][片片][频頻][道道]?.*,功夫片频道,Kung Fu Film
+灾难片,re:.*[灾災][难難][片片][频頻][道道]?.*,灾难片频道,Disaster Film
+科幻电影,re:.*[科科][幻幻][电電][影影][频頻][道道]?.*,科幻电影频道,Sci-Fi Movie
+电影_怪兽,re:.*[电電][影影][^a-zA-Z0-9]*[怪怪][兽獸].*,电影_怪兽频道,Movie_Monster
+电影_喜乐影院,re:.*[电電][影影][^a-zA-Z0-9]*[喜喜][乐乐樂][影影][院院].*,电影_喜乐影院频道,Movie_Joy Cinema
+电影_喜剧专场,re:.*[电電][影影][^a-zA-Z0-9]*[喜喜][剧劇][专專][场場].*,电影_喜剧专场频道,Movie_Comedy Special
+电影_救援,re:.*[电電][影影][^a-zA-Z0-9]*[救救][援援].*,电影_救援频道,Movie_Rescue
+电影_玄幻,re:.*[电電][影影][^a-zA-Z0-9]*[玄玄][幻幻].*,电影_玄幻频道,Movie_Fantasy
+电影_古墓系列,re:.*[电電][影影][^a-zA-Z0-9]*[古古][墓墓][系系][列列].*,电影_古墓系列频道,Movie_Tomb Series
+电影_功夫片,re:.*[电電][影影][^a-zA-Z0-9]*[功功][夫夫][片片].*,电影_功夫片频道,Movie_Kung Fu Film
+电影_高能反转,re:.*[电電][影影][^a-zA-Z0-9]*[高高][能能][反反][转转].*,电影_高能反转频道,Movie_High-energy Reversal
+电影_盗墓,re:.*[电電][影影][^a-zA-Z0-9]*[盗盜][墓墓].*,电影_盗墓频道,Movie_Tomb Raiding
+电影_犯罪片,re:.*[电電][影影][^a-zA-Z0-9]*[犯犯][罪罪][片片].*,电影_犯罪片频道,Movie_Crime Film
+电影_不挤影院,re:.*[电電][影影][^a-zA-Z0-9]*[不不][挤擠][影影][院院].*,电影_不挤影院频道,Movie_No Crowd Cinema
+电影_武侠,re:.*[电電][影影][^a-zA-Z0-9]*[武武][侠俠].*,电影_武侠频道,Movie_Wuxia
+电影_黑帮片,re:.*[电電][影影][^a-zA-Z0-9]*[黑黑][帮幫][片片].*,电影_黑帮片频道,Movie_Gangster Film
+电影_丧尸片,re:.*[电電][影影][^a-zA-Z0-9]*[丧喪][尸屍][片片].*,电影_丧尸片频道,Movie_Zombie Film
+电影_动作电影,re:.*[电電][影影][^a-zA-Z0-9]*[动動][作作][电電][影影].*,电影_动作电影频道,Movie_Action Film
+电影_战争片,re:.*[电電][影影][^a-zA-Z0-9]*[战戰][争爭][片片].*,电影_战争片频道,Movie_War Film
+电影_搞笑喜剧,re:.*[电電][影影][^a-zA-Z0-9]*[搞搞][笑笑][喜喜][剧劇].*,电影_搞笑喜剧频道,Movie_Funny Comedy
+电影_搞笑恐怖,re:.*[电電][影影][^a-zA-Z0-9]*[搞搞][笑笑][恐恐][怖怖].*,电影_搞笑恐怖频道,Movie_Funny Horror
+电影_枪战,re:.*[电電][影影][^a-zA-Z0-9]*[枪槍][战戰].*,电影_枪战频道,Movie_Gunfight
+电影_许氏三杰,re:.*[电電][影影][^a-zA-Z0-9]*[许許][氏氏][三三][杰傑].*,电影_许氏三杰频道,Movie_Hui Brothers
+电影_谍战,re:.*[电電][影影][^a-zA-Z0-9]*[谍諜][战戰].*,电影_谍战频道,Movie_Spy War
+电影_谍战片,re:.*[电電][影影][^a-zA-Z0-9]*[谍諜][战戰][片片].*,电影_谍战片频道,Movie_Spy War Film
+电影_贺岁,re:.*[电電][影影][^a-zA-Z0-9]*[贺賀][岁歲].*,电影_贺岁频道,Movie_New Year
+电影_贺岁片,re:.*[电電][影影][^a-zA-Z0-9]*[贺賀][岁歲][片片].*,电影_贺岁片频道,Movie_New Year Film
+
+Channel 5# 📺国际频道,#genre#
+新传媒5频道【新】,CH5,M5,Channel5,,新传媒电视5频道,新传媒5频道,新传媒5台,M5,MediaCorp Channel 5,Channel 5 HD,re:.*Channel[.\s]*5.*,第五频道,Channel 5,Channel 5高清,新加坡第五频道,Singapore Channel 5
+新传媒8频道【新】,CH8,M8,Channel8,Channel 8,新传媒电视8频道,新传媒8频道,新传媒8台,第八波道,M8,MediaCorp Channel 8,Channel 8 HD,re:.*Channel[.\s]*8.*,第八频道,Channel 8,Channel 8高清,新加坡第八频道,Singapore Channel 8
+新加坡U频道【新】,CHU,MU,ChannelU,Channel U,新传媒电视U频道,Channel U HD,re:.*Channel[.\s]*U.*,U频道,Channel U,Channel U高清,新加坡U频道,Singapore Channel U,MediaCorp Channel U
+八度空间【马来】, re:.*[八][度][空][间間].*,八度空间,八度空間,8TV,TV8,EightTV,8度空间,8TV八度空间
+日本全天新闻,日本全天新聞,NHK World-Japan,NHK World Japan,re:.*NHK[.\s]*World[.\s]*-?[.\s]*Japan.*,NHK国际日本,NHK World,NHKワールド,NHK世界台
+BBC News,re:.*BBC[^a-zA-Z0-9]*News.*,BBC新闻,BBC World News
+CNA,re:.*CNA.*,CNA新闻,Channel NewsAsia
+NBC News Now,re:.*NBC[^a-zA-Z0-9]*News[^a-zA-Z0-9]*Now.*,NBC新闻现在,NBC News Now
+ABC News Live,re:.*ABC[^a-zA-Z0-9]*News[^a-zA-Z0-9]*Live.*,ABC新闻直播,ABC News Live
+WionNews,re:.*Wion[^a-zA-Z0-9]*News.*,WION新闻,Wion News
+AXS TV Now,re:.*AXS[^a-zA-Z0-9]*TV[^a-zA-Z0-9]*Now.*,AXS TV现在,AXS TV Now
+Fox LiveNow,re:.*Fox[^a-zA-Z0-9]*Live[^a-zA-Z0-9]*Now.*,Fox直播现在,Fox LiveNow
+Al Jazeera,re:.*Al[^a-zA-Z0-9]*Jazeera.*,半岛电视台,Al Jazeera English
+Newsmax,re:.*Newsmax.*,Newsmax新闻,Newsmax TV
+CBN News,re:.*CBN[^a-zA-Z0-9]*News.*,CBN新闻,Christian Broadcasting Network News
+RT News,re:.*RT[^a-zA-Z0-9]*News.*,RT新闻,Russia Today News
+Africa News,re:.*Africa[^a-zA-Z0-9]*News.*,非洲新闻,Africa News
+Arirang,re:.*Arirang.*,阿里郎电视台,Arirang TV
+Fashion TV,re:.*Fashion[^a-zA-Z0-9]*TV.*,时尚电视台,Fashion Television
+Kids TV,re:.*Kids[^a-zA-Z0-9]*TV.*,儿童电视,Kids Television
+RT Documentary,re:.*RT[^a-zA-Z0-9]*Documentary.*,RT纪录片,RT Documentary
+Taiwan Plus,re:.*Taiwan[^a-zA-Z0-9]*Plus.*,台湾+,Taiwan Plus
+BBC Impossible,re:.*BBC[^a-zA-Z0-9]*Impossible.*,BBC不可思议,BBC Impossible
+TED Conference,re:.*TED[^a-zA-Z0-9]*Conference.*,TED大会,TED Conference
+Ted Talks,re:.*Ted[^a-zA-Z0-9]*Talks.*,TED演讲,Ted Talks
+Mytime,re:.*Mytime.*,我的时间频道,MyTime
+MovieDome,re:.*MovieDome.*,电影圆顶频道,MovieDome
+New Movies,re:.*New[^a-zA-Z0-9]*Movies.*,新电影频道,New Movies
+ION Plus,re:.*ION[^a-zA-Z0-9]*Plus.*,ION加频道,ION Plus
+Today Allday,re:.*Today[^a-zA-Z0-9]*Allday.*,今日全天频道,Today Allday
+LoveStories,re:.*LoveStories.*,爱情故事频道,Love Stories
+Travel XP,re:.*Travel[^a-zA-Z0-9]*XP.*,旅行XP频道,Travel XP
+Ondemand China,re:.*Ondemand[^a-zA-Z0-9]*China.*,中国点播,Ondemand China
+Young Hollywood,re:.*Young[^a-zA-Z0-9]*Hollywood.*,年轻好莱坞,Young Hollywood
+Food,re:.*Food.*,美食频道,Food Network
+RT News（英语国际）,re:.*RT[^a-zA-Z0-9]*News[^a-zA-Z0-9]*（[英英][语語][国國][际際]）.*,RT新闻（英语国际）,RT News (English International)
+RT Español（西语）,re:.*RT[^a-zA-Z0-9]*Español[^a-zA-Z0-9]*（[西西][语語]）.*,RT Español（西语）,RT Español (Spanish)
+RT Français（法语）,re:.*RT[^a-zA-Z0-9]*Français[^a-zA-Z0-9]*（[法法][语語]）.*,RT Français（法语）,RT Français (French)
+RT Arabic（阿语）,re:.*RT[^a-zA-Z0-9]*Arabic[^a-zA-Z0-9]*（[阿阿][语語]）.*,RT Arabic（阿语）,RT Arabic (Arabic)
+RT DE（德语）,re:.*RT[^a-zA-Z0-9]*DE[^a-zA-Z0-9]*（[德德][语語]）.*,RT DE（德语）,RT DE (German)
+RT Balkan （塞尔维亚语）,re:.*RT[^a-zA-Z0-9]*Balkan[^a-zA-Z0-9]*（[塞塞][尔爾][维維][亚亞][语語]）.*,RT Balkan （塞尔维亚语）,RT Balkan (Serbian)
+RT Documentary（英语纪录）,re:.*RT[^a-zA-Z0-9]*Documentary[^a-zA-Z0-9]*（[英英][语語][纪紀][录錄]）.*,RT纪录片（英语）,RT Documentary (English)
+RT Doc-Русский（俄语纪录）,re:.*RT[^a-zA-Z0-9]*Doc[^a-zA-Z0-9]*-?[^a-zA-Z0-9]*Русский[^a-zA-Z0-9]*（[俄俄][语語][纪紀][录錄]）.*,RT纪录片-俄语（俄语纪录）,RT Doc-Russian (Russian Documentary)
+TBS,re:.*TBS.*,TBS电视台,Tokyo Broadcasting System
+Love Nature,re:.*Love[^a-zA-Z0-9]*Nature.*,热爱自然频道,Love Nature
+Fight Network,re:.*Fight[^a-zA-Z0-9]*Network.*,格斗网络频道,Fight Network
+Wild Earth,re:.*Wild[^a-zA-Z0-9]*Earth.*,野生地球频道,Wild Earth
+CGNTV,re:.*CGNTV(?!\d).*,CGNTV频道,China Global Network TV
+CGNTV1,re:.*CGNTV[^a-zA-Z0-9]*1.*,CGNTV1台,CGNTV Channel 1
+CGNTV2,re:.*CGNTV[^a-zA-Z0-9]*2.*,CGNTV2台,CGNTV Channel 2
+CGNTV3,re:.*CGNTV[^a-zA-Z0-9]*3.*,CGNTV3台,CGNTV Channel 3
+CGNTV4,re:.*CGNTV[^a-zA-Z0-9]*4.*,CGNTV4台,CGNTV Channel 4
+CGNTV5,re:.*CGNTV[^a-zA-Z0-9]*5.*,CGNTV5台,CGNTV Channel 5
+CGNTV6,re:.*CGNTV[^a-zA-Z0-9]*6.*,CGNTV6台,CGNTV Channel 6
+CGNTV7,re:.*CGNTV[^a-zA-Z0-9]*7.*,CGNTV7台,CGNTV Channel 7
+CGNTV8,re:.*CGNTV[^a-zA-Z0-9]*8.*,CGNTV8台,CGNTV Channel 8
+CGNTV9,re:.*CGNTV[^a-zA-Z0-9]*9.*,CGNTV9台,CGNTV Channel 9
+CGNTV10,re:.*CGNTV[^a-zA-Z0-9]*10.*,CGNTV10台,CGNTV Channel 10
+CGNTV11,re:.*CGNTV[^a-zA-Z0-9]*11.*,CGNTV11台,CGNTV Channel 11
+
+# 🇨🇳北京频道,#genre#
+北京卫视
+北京体育
+北京新闻
+北京影视
+北京文艺
+北京财经
+北京国际
+北京生活
+纪实科教
+卡酷少儿
+北京影院
+北京科教
+北京青年
+BTV纪实
+清华大学电视台
+石景山有线
+通州电视台
+
+# 🇨🇳上海频道,#genre#
+东方卫视
+东方卫视国际,re:.*东方卫视[国國]际.*,东方卫视国际频道,Dragon TV International,東方衛視國際,東方衛視國際頻道
+上海新闻综合,re:.*(?:上视|SMG[\s-]*)?[上上][海海](?:[新新聞][闻聞][综綜]?[合合]?|[新新聞][闻聞][综綜合合])(?:[台臺臺]|频道|頻道)?.*,上视新闻综合,SMG新闻综合,上海新闻综合台,上海新聞綜合頻道,上海新聞綜合,上海新闻综合
+东方影视
+上海教育
+上海都市
+上海外语
+财富天下
+第一财经
+上海纪实
+七彩戏剧
+上海点掌财经
+上海第一财经
+上海金山电视台
+上视外语
+上视新闻
+东方财经
+全纪实
+动漫秀场
+哈哈炫动
+嘉定电视台
+天水公共
+崇明电视台
+新闻综合
+欢笑剧场
+法治天地
+生活时尚
+都市剧场
+金山电视台
+
+# 🇨🇳山东频道,#genre#
+山东卫视
+山东教育
+山东影视
+山东少儿
+山东新闻
+山东国际
+山东居家购物
+山东农科
+山东齐鲁
+山东生活
+山东体育
+山东文旅
+山东综艺
+济南综合
+济南新闻综合
+济南都市
+济南生活
+济南影视
+济南娱乐
+济南少儿
+济南商务
+济南教育
+济南鲁中
+青岛城阳
+青州电视台文化旅游
+青州电视台新闻综合
+青州电视台生活
+青州综合
+济宁公共
+济宁图文
+济宁教育
+济宁新闻综合
+济宁综合
+威海一套新闻综合
+威海三套海洋
+威海二套公共
+东营综合
+中华美食
+临沂公共
+临沂农科
+临沂新闻综合
+垦利新闻
+岱岳综合
+日照公共
+日照新闻综合
+日照科教
+枣庄公共
+枣庄教育
+枣庄新闻综合
+泰安新闻综合
+淄博生活
+淄博都市
+滨州公共
+滨州新闻综合
+潍坊三套公共
+潍坊二套经济生活
+潍坊公共
+潍坊四套科教
+潍坊新闻综合
+潍坊滨海新闻综合
+烟台公共
+烟台新闻综合
+烟台经济科技
+菏泽一套新闻综合
+菏泽二套经济生活
+菏泽三套影视
+菏泽影
+菏泽新闻综合
+菏泽经济生活
+
+# 🇨🇳浙江频道,#genre#
+浙江卫视
+浙江新闻
+浙江国际
+浙江少儿
+浙江教科
+之江纪录
+浙江民生
+浙江经济
+浙江钱江
+浙江钱江都市
+浙江钱江台
+浙江生活
+浙江经济生活
+浙江教育
+杭州综合
+杭州明珠
+杭州西湖明珠
+杭州生活
+杭州影视
+杭州青少
+杭州少体
+杭州导视
+宁波TV1
+宁波TV2
+宁波TV3
+宁波TV4
+宁波TV5
+宁波电视台1套
+宁波电视台2套
+宁波电视台3套
+宁波电视台4套
+宁波4套影视
+NBTV-1
+NBTV-2
+NBTV-3
+NBTV-4
+嘉兴新闻综合
+嘉兴公共
+嘉兴文化影视
+丽水公共
+丽水新闻
+湖州公共
+湖州新闻综合
+湖州文化娱乐
+衢州公共
+衢州新闻综合
+金华教育科技
+金华新闻综合
+金华公共
+舟山新闻综合
+舟山公共
+温州新闻综合
+浙江经视
+浙江留学
+浙江民生休闲
+浙江松阳
+浙江数码时代
+浙江教科影院
+浙江教科影视
+浙江公共新闻
+浙江休闲台
+浙江龙泉
+浙江青田
+浙江遂昌
+诸暨新闻综合
+龙游生活娱乐
+龙游新闻综合
+龙泉新闻综合
+青田电视台
+镇海先锋影院
+金华都市农村
+鄞州二套
+鄞州一套
+遂昌综合
+遂昌新闻综合
+象山综合
+象山电视台新闻综合
+象山新闻综合
+衢江新闻综合
+萧山生活
+萧山新闻综合
+苍南新闻综合
+舟山群岛旅游
+舟山公共生活
+缙云综合
+缙云新闻综合
+绍兴电视台公共
+绍兴新闻综合
+绍兴文化影院
+绍兴文化影视
+绍兴公共
+湖州公共民生
+温州都市生活
+温州经济科教
+淳安电视台
+海盐新闻
+海宁生活服务
+海宁新闻综合
+洞头综合
+永嘉新闻综合
+武义新闻综合
+桐庐综合
+桐乡新闻综合
+松阳综合
+松阳新闻综合
+普陀电视台
+普陀新闻综合
+新昌生活
+新昌新闻综合
+文成综合
+文成新闻综合
+数码时代
+德清新闻综合
+德清文化生活
+开化新闻综合
+开化国家公园
+庆元综合
+庆元新闻综合
+平湖民生休闲
+平湖新闻综合
+嵊泗综合
+嵊泗新闻综合
+嵊州新闻综合
+北仑电视台
+兰溪新闻综合
+余杭综合
+余杭未来E
+余姚综合
+余姚新闻综合
+余姚姚江文化
+云和新闻综合
+义乌新闻综合
+中国蓝新闻
+东阳影视生活
+上虞新闻综合
+上虞新商都
+上虞文化影院
+上虞文化影视
+
+# 🇨🇳江苏频道,#genre#
+江苏卫视
+苏州4K,re:.*[苏蘇][州州][^a-zA-Z0-9]*4[Kk].*,苏州4K频道,Suzhou4K,苏州超高清,苏州四K,苏州4k,苏州4K
+优漫卡通
+江苏教育
+江苏城市
+江苏国际
+江苏影视
+江苏综艺
+南京新闻
+南京教科
+南京十八
+东台综合
+东海新闻
+仪征新闻综合
+仪征生活
+六合新闻综合
+南京信息
+南京娱乐
+南京少儿
+南京新闻综合
+南京生活
+南通三套公共
+南通二套社教
+南通崇川综合
+南通影院娱乐
+南通新闻综合
+南通电视台一套
+南通都市生活
+句容党建
+句容影院
+句容新闻综合
+句容生活
+大丰公共
+如东一套新闻综合
+如东新闻综合
+姜堰新闻综合
+宜兴新闻
+宜兴紫砂
+宿迁公共
+常州公共
+常州新闻综合
+常州生活
+常州都市
+常熟新闻
+常熟民生
+张家港新闻综合
+张家港民生
+徐州-1
+徐州-3
+徐州-4
+徐州公共頻道
+徐州公共
+徐州文艺影院
+徐州新聞綜合
+徐州經濟生活
+徐州贾汪旅游
+扬中党建民生
+扬中新闻
+扬州城市
+扬州新闻
+扬州生活
+扬州邗江
+新沂新闻
+新沂生活
+无锡娱乐
+无锡新闻综合
+无锡生活
+无锡经济
+无锡都市资讯
+武进新闻
+武进生活
+江宁新闻
+江宁电视台综合
+江苏体育,江苏体育休闲
+江苏公共
+沛县新闻综合
+沭阳综合
+泗洪新闻综合
+泗阳综合
+泗阳资讯
+泰州一套新闻综合
+泰州三套影视娱乐
+海安新闻综合
+涟水电视台综合
+涟水综合
+淮安公共
+淮安影院娱乐
+淮安新闻综合
+淮阴影院
+淮阴综合
+溧水影视娱乐
+溧水新闻综合
+滨海新闻综合
+盐都综合
+睢宁三农
+睢宁生活教育
+睢宁综合
+睢宁资讯
+苏州文化生活
+苏州新闻综合
+苏州生活资讯
+苏州电影娱乐
+苏州社会经济
+贾汪新闻
+贾汪旅游
+赣榆新闻综合
+连云港公共
+连云港新闻综合
+金坛新闻
+镇江二套社会民生
+镇江新闻综合
+靖江新闻综合
+高邮一套新闻综合
+高邮综合
+
+# 🇨🇳江西频道,#genre#
+崇仁电视台
+宁都综合
+万载电视台1
+广丰电视台
+
+# 🇨🇳内蒙古频道,#genre#
+内蒙新闻
+内蒙经济
+内蒙少儿
+内蒙文体
+内蒙农牧
+蒙语卫视,内蒙古蒙语卫视
+蒙语文化,内蒙古蒙语文化
+内蒙古综合
+内蒙古经济生活
+内蒙古少儿
+内蒙古文体娱乐
+内蒙古农牧
+呼市新闻综合
+包头新闻综合
+鄂尔多斯新闻
+巴彦淖尔新闻
+赤峰新闻综合
+乌兰察布新闻
+
+# 🇨🇳重庆频道,#genre#
+璧山综合
+万源新闻综合
+铜梁综合
+重庆汽摩
+荣昌综合
+潼南综合
+涪陵电视台
+江津新闻综合
+武隆综合
+大足综合
+垫江综合
+北碚综合
+中国交通重庆
+万州综合
+万州三峡移民
+重庆新闻
+重庆时尚购物
+
+# 🇨🇳辽宁频道,#genre#
+朝阳教育
+朝阳新闻综合
+辽宁北方
+辽宁影视剧
+辽宁教育青少
+辽宁生活
+辽宁经济
+辽宁都市
+锦州一套新闻综合
+锦州二套教育
+
+# 🇨🇳湖南频道,#genre#
+湖南都市
+湖南视剧
+湖南经视
+湖南电视剧
+湖南电影
+湖南爱晚
+湖南教育
+湖南娱乐
+湖南国际
+湖南公共
+金鹰纪实
+湖南金鹰纪实
+长沙新闻综合
+长沙新闻
+长沙政法
+长沙影视
+醴陵综合
+衡阳新闻综合
+衡阳公共
+茶陵新闻综合
+益阳新闻综合
+益阳教育
+益阳公共
+湘潭新闻综合
+湘潭县综合
+湘潭公共
+湘潭公共都市
+洪江市综合
+泸溪电视台
+汨罗新闻综合
+江华综合
+汝城综合
+永顺综合
+桑植新闻综合
+新化新闻综合
+屈原综合
+宁乡综合
+娄底综合
+保靖时政
+云溪新闻综合
+
+# 🇨🇳湖北频道,#genre#
+湖北新闻综合
+湖北综合
+湖北经视
+湖北生活
+湖北教育
+湖北影视
+湖北公共新闻
+湖北公共
+湖北经济
+湖北垄上
+武汉一台新闻综合
+武汉二台电视剧
+武汉三台科技生活
+武汉四台经济
+武汉五台文体
+武汉六台外语
+武汉1新闻综合
+武汉2电视剧
+武汉3科技生活
+武汉教育
+湖北武汉教育
+武汉经济
+武汉新闻综合
+武汉文体
+武汉外语
+江夏经济生活
+江夏新闻综合
+建始综合
+崇阳新闻综合
+十堰新闻
+十堰公共
+保康新闻综合
+仙桃生活文体
+仙桃新闻综合
+麻城综合
+郧阳新闻综合
+荆门新闻综合
+云梦综合
+云梦党建农业
+武汉生活
+武汉新闻
+崇阳综合
+潜江综合
+
+# 🇨🇳广西频道,#genre#
+乐业综合
+凭祥综合
+北海新闻综合
+北海经济科教
+南宁公共
+南宁影娱乐
+南宁新闻综合
+南宁都市生活
+博白综合
+天等综合
+宾阳综合
+岑溪综合
+崇左综合
+巴马综合
+昭平综合
+来宾综合
+桂平综合
+灌阳新闻综合
+灵川综合
+田东综合
+田阳综合
+罗城综合
+融水综合
+西林综合
+贺州综合
+资源电视台
+那坡综合
+都安综合
+钦州公共
+钦州综合
+靖西综合
+龙州综合
+广西新闻
+北海新闻
+桂林新闻
+广西贺州
+广西国际
+广西乐思购
+南宁影视娱乐
+
+# 🇨🇳天津频道,#genre#
+天津影视
+天津都市
+天津新闻
+天津文艺
+天津卫视
+宁河新闻
+滨海新闻
+滨海综艺
+滨海影院
+津南一套
+武清综合
+
+# 🇨🇳四川频道,#genre#
+四川科教
+四川影视文艺
+四川经济
+四川文化旅游
+四川公共乡村
+万源新闻综合
+东兴综合
+乐山公共
+乐山新闻综合
+乐至综合
+九寨沟新闻综合
+井研综合
+什邡新闻
+仁和综合
+仁寿综合
+凉山新闻综合
+凉山语
+利州综合
+前锋电视台
+剑阁综合
+北川电视一套
+南充公共
+南充新闻
+南充科教
+双流综合
+叙州新闻综合
+叙永综合
+名山综合
+大竹新闻综合
+大竹阳光政务
+夹江新闻综合
+威远新闻综合
+宁南综合
+安岳综合
+宜宾公共
+宜宾新闻综合
+宝兴综合
+小金综合
+岳池新闻综合
+峨边电视台
+平昌新闻综合
+平武综合
+广元公共
+广元综合
+广安公共
+康定综合
+康巴卫视
+开江新闻综合
+德阳公共
+德阳新闻综合
+成都高新电视
+攀枝花新闻综合
+新都综合
+旺苍新闻综合
+昭化综合
+朝天综合
+松潘新闻综合
+梓潼新闻综合
+武胜综合
+汉源综合
+江油新闻综合
+汶川新闻综合
+沐川综合
+沙湾综合
+泸县新闻综合
+渠县新闻综合
+珙县综合
+甘孜综合
+甘洛综合
+盐亭综合
+石棉综合
+筠连综合
+纳溪新闻
+绵阳科技
+绵阳综合
+茂县综合
+荥经综合
+营山电视台
+蓬安新闻综合
+蓬溪新闻综合
+西昌综合
+遂宁公共
+遂宁新闻综合
+邻水新闻综合
+金口河综合
+金堂电视台
+金川乡村
+金川新闻综合
+金阳综合
+长宁综合
+阿坝文艺
+阿坝综合
+隆昌新闻综合
+雅安公共
+雅安新闻综合
+雅安雨城
+青川综合
+青神综合
+马尔康综合
+马边电视台
+龙泉驿新闻综合
+
+# 🇨🇳陕西频道,#genre#
+陕西一套新闻资讯
+陕西二套都市青春
+陕西三套生活
+陕西五套公共
+陕西七套体育休闲
+延安一套新闻综合
+延安二套公共
+陕西新闻资讯
+陕西都市青春
+陕西生活
+陕西公共
+陕西购物
+陕西体育休闲
+陕西影视
+汉中综合
+洋县电视台
+
+# 🇨🇳福建频道,#genre#
+三明公共
+三明新闻综合
+云霄综合
+厦门卫视
+宁化电视一套
+将乐综合
+建宁综合
+德化新闻综合
+新罗电视一套
+晋江电视台
+永安综合
+永泰综合
+泰宁新闻
+漳州新闻综合
+漳浦综合
+石狮综合
+福州少儿
+福州影院
+福州生活
+福州综合
+霞浦综合
+龙岩公共
+龙岩新闻综合
+福建文体
+福建新闻
+福建电视剧
+福建经济
+福建综合
+福建公共
+福建旅游
+福建经视
+福建体育
+福建少儿
+漳州新闻
+龙岩综合
+
+# 🇨🇳海南频道,#genre#
+海南新闻
+海南自贸
+海南文旅
+海南少儿
+海南公共
+海南电视台经济
+海口一套综合
+海口二套生活娱乐
+海口三套城乡经济
+
+# 🇨🇳河南频道,#genre#
+河南公共
+河南新闻
+河南法制
+河南都市
+河南民生
+梨园
+临颍综合
+义马新闻综合
+光山综合
+兰考新闻
+卫辉综合
+叶县
+周口扶沟
+唐河一套
+固始综合
+宝丰综合
+巩义新闻综合
+扶沟综合
+新乡县电视台
+新县综合
+新蔡综合
+桐柏新闻综合
+泌阳新闻综合
+淅川电视
+渑池新闻综合
+温县综合
+潢川综合
+焦作综合
+登封综合
+禹州综合
+西华综合
+郏县综合
+郸城新闻综合
+鄢陵综合
+项城新闻
+鹤壁综合
+邓州新闻
+许昌农业科教
+许昌公共
+荥阳综合
+禹州公共
+睛彩许昌
+睛彩焦作
+焦作教育
+焦作公共
+灵宝新闻综合
+濮阳公共
+滑县新闻
+济源电视一套
+洛阳综合
+洛阳科教
+洛阳文旅
+沁阳新闻综合
+永城综合
+永城卫建
+方城一套
+新野综合
+新安新闻综合
+开封新闻综合
+开封文化旅游
+嵩县综合新闻
+宜阳综合
+周口新闻综合
+内黄综合
+内乡综合
+偃师新闻
+
+# 🇨🇳河北频道,#genre#
+河北4K,河北4k
+河北卫视
+河北经济
+河北都市
+河北公共
+河北少儿
+河北影视
+河北农民
+河北睛彩
+隆尧电视
+鹿泉一套
+邯郸科技教育
+邯郸公共
+邯郸新闻
+邯郸科教
+邢台综合
+邢台城生
+衡水公共
+石家庄都市
+石家庄生活
+石家庄新闻综合
+石家庄娱乐
+滦平新闻
+昌黎综合,昌黎
+任丘文娱
+任丘综合
+兴隆综合
+大厂一套
+平泉影视
+平泉综合
+清河新闻综合
+清河经济综艺
+衡山
+
+# 🇨🇳贵州频道,#genre#
+松桃新闻
+石阡新闻
+七星关电视台
+道真新闻综合
+凤冈综合
+黔南一套
+黔南二套
+安顺新闻
+清镇新闻综合
+思南综合
+松新闻
+罗甸综合
+湄潭综合
+仁怀新闻
+贵州2
+贵州3
+贵州4
+贵州5
+贵州6
+贵州移动电视
+遵义新闻综合
+遵义公共
+
+# 🇨🇳甘肃频道,#genre#
+崆峒综合
+甘肃经济
+甘肃公共
+甘肃都市
+甘肃文化
+临夏州公共
+临夏州综合
+临夏市电视台
+临洮综合
+临潭综合
+华亭综合
+华池综合
+卓尼综合
+合水综合
+嘉峪关综合
+夏河综合
+天水公共
+天水新闻综合
+天祝综合
+宁县综合
+定西公共
+定西综合
+岷县综合
+崇信综合
+平凉公共
+平凉新闻综合
+庆城综合
+张掖公共
+张掖新闻综合
+徽县综合
+成县综合
+敦煌综合
+景泰综合
+正宁综合
+武威凉州
+武威新闻
+武山综合
+武都综合
+民乐新闻
+民勤综合
+永昌综合
+永靖综合
+泾川综合
+渭源新闻
+漳县新闻综合
+灵台综合
+玉门综
+玛曲综合
+环县综合
+瓜州综合
+甘南综合
+甘南藏语
+甘肃少儿
+白银公共
+白银文化教育
+白银综合
+皋兰综合
+碌曲综合
+礼县综合
+秦安综合
+积石山综合
+肃北综合
+肃州综合
+舟曲新闻
+西和综合
+西峰综合
+迭部综合
+通渭综合
+酒泉公共
+酒泉综合
+金塔综合
+金川综合
+金昌综合
+镇原综合
+阿克塞综合
+陇西综合
+靖远综合
+静宁综合
+高台综合
+
+# 🇨🇳新疆频道,#genre#
+克拉玛依汉语综合
+克拉玛依维语综合
+克拉玛依影剧场
+克拉玛依生活娱乐
+克拉玛依新闻
+哈密一套
+哈密二套
+哈密三套
+伊犁汉语综合
+伊犁维吾尔
+伊犁哈萨克
+伊犁经济法制
+裕民汉语
+裕民哈语
+兵团四师可克达拉综合
+兵团五师双河新闻综合
+兵团七师胡杨河新闻综合
+兵团八师石河子新闻综合
+兵团八师石河子影视文体
+兵团八师石河子经济生活
+兵团八师石河子教育
+兵团十三师新星综合
+兵团十四师昆玉综合
+奎屯哈萨克语
+伊宁汉语综合
+伊宁维吾尔语
+昭苏哈语
+昭苏汉语
+霍尔果斯综合
+玛纳斯综合
+新疆卫视
+克拉玛依影视
+可克达拉综合
+奎屯汉语综合
+巴音郭楞州
+石河子影视文体
+石河子教育
+石河子新闻综合
+石河子经济生活
+
+# 🇨🇳山西频道,#genre#
+万荣综合
+五台综合
+优购物电视购物
+原平综合
+古县综合
+吉县新闻综合
+大同1套新闻综合
+大同2套公共
+大同3套煤都生活
+大宁综合
+太谷新闻综合
+宁武综合
+定襄综合
+屯留综合
+山西影视
+山西影院
+山西文体
+山西文体生活
+山西法治
+山西社会与法治
+山西经济
+山西经济与科技
+山西经济与科教
+平遥新闻综合
+怀仁综合
+昔阳电视台
+柳林综合
+武乡新闻综合
+汾西综合
+潞城新闻综合
+灵石新闻综合
+祁县新闻综合
+离石综合
+襄垣电视
+襄汾综合
+运城一套新闻综合
+运城三套科教
+运城二套公共
+运城公共
+运城新闻综合
+运城科技教育
+长子综合
+长治公共
+长治教育
+长治新闻综合
+闻喜综合
+阳曲综合
+高平综合
+黄河电视台
+黎城综合
+
+# 🇨🇳安徽频道,#genre#
+安徽国际
+安徽影视
+安徽经济生活
+安徽综艺体育
+安徽导视
+合肥公共
+合肥新闻
+固镇新闻
+歙县综合
+肥西新闻
+肥西综合
+黟县综合
+黄山新闻综合
+黄山公共生活
+霍邱新闻综合
+霍山综合
+阜南新闻综合
+铜陵新闻综合
+铜陵公共
+金寨综合
+芜湖生活
+芜湖新闻综合
+芜湖公共
+肥东经济生活
+繁昌新闻综合
+繁昌文体娱乐
+祁门综合
+石台综合
+灵璧综合
+潜山新闻综合
+滁州科教
+滁州新闻综合
+滁州市广播电视台 科教
+滁州市广播电视台 新闻综合
+滁州市广播电视台 公共
+滁州公共
+湾沚区新闻综合
+淮南新闻综合
+淮南公共
+涡阳新闻综合
+池州新闻综合
+池州公共
+桐城新闻
+枞阳综合
+当涂新闻综合
+广德生活
+广德新闻综合
+岳西综合
+屯溪融媒
+宿松新闻综合
+宿州科教
+宿州新闻综合
+宿州公共
+定远综合
+定远新闻综合
+安徽影院
+铜陵综合
+郎溪综合台
+淮北综合
+淮北公共
+安庆教育
+安庆公共
+太和新闻综合
+南陵新闻综合
+利辛综合
+利辛影
+凤台综合
+凤台文化生活
+六安新闻综合
+六安公共
+全椒综合
+全椒生活
+休宁新闻综合
+亳州新闻
+亳州农村
+临泉新闻
+东至新闻综合
+
+# 🇨🇳宁夏频道,#genre#
+宁夏公共
+宁夏经济
+宁夏少儿
+宁夏电视台影视
+银川生活
+银川公共
+银川文体
+吴忠综合
+吴忠公共
+中宁综合
+石嘴山综合
+
+# 🇨🇳吉林频道,#genre#
+延边卫视
+吉林都市
+吉林生活
+吉林影院
+吉林乡村
+吉林公共
+吉林7频道
+东北戏曲频道
+延边-1
+延边-2
+延边朝鲜语综合
+延边汉语综合
+长白山电视台
+德惠综合
+九台综合
+长白新闻综合
+长白朝语
+靖宇综合
+敦化一套
+珲春新闻综合
+龙井综合
+梅河口综合
+桦甸综合
+磐石综合
+舒兰新闻综合
+东丰综合
+双辽综合
+辉南新闻综合
+柳河综合
+通化县综合
+汪清综合
+
+# 🇨🇳云南频道,#genre#
+丘北电视台
+元阳综合
+安宁综合
+宾川一套
+屏边综合
+峨山电视
+巧家综合
+广南电视台
+开远综合
+彝良综合
+文山州公共
+文山州新闻综合
+施甸综合
+昆明公共
+昆明影综艺
+昆明新闻综合
+昆明科学教育
+昆明经济生活
+易门综合
+普洱公共
+普洱新闻综合
+梁河综合
+永善综合
+江川综合
+泸水综合
+瑞丽综合
+盈江综合
+石屏综合
+砚山电视台
+福贡综合
+红塔电视台
+红河县综合
+红河州新闻综合
+绥江综合
+美丽云南
+腾冲综合
+芒市综合
+蒙自综合
+西双版纳公共
+西双版纳综合
+贡山综合
+通海电视台
+金平综合
+陇川综合
+马关电视台
+麻栗坡电视台
+云南都市
+云南娱乐
+云南公共
+云南少儿
+云南澜湄国际
+西双版纳一套
+西双版纳二套
+
+# 🇨🇳青海频道,#genre#
+安多卫视
+西宁新闻综合
+西宁生活服务
+玉树新闻
+海西州综合
+德令哈综合
+门源综合
+贵南综合
+化隆综合
+民和综合
+兴海综合
+大通电视台
+湟中电视台
+青海经视
+青海都市
+青海综合
+
+# 🇨🇳黑龙江频道,#genre#
+黑龙江文体
+黑龙江新闻法治
+黑龙江公共农业
+黑龙江影视
+黑龙江都市
+黑龙江少儿
+黑龙江新闻
+黑龙江科教
+哈尔滨新闻综合
+哈尔滨影视
+哈尔滨资讯
+哈尔滨生活
+哈尔滨娱乐
+哈尔滨都市咨询
+大庆新闻综合
+大庆公共
+鹤岗新闻综合
+鹤岗公共
+七台河新闻综合
+七台河公共
+佳木斯新闻综合
+萝北综合
+甘南县综合
+哈尔滨都市资讯
+齐齐哈尔新闻综合
+齐齐哈尔经济法制
+双鸭山综合
+
+七台河民生社教
+

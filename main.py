@@ -13,6 +13,8 @@ import os
 import re
 import logging
 import requests
+import asyncio
+import aiohttp
 import time
 import shutil
 import argparse
@@ -39,6 +41,10 @@ ALIAS_DEMO_FILE = 'new-aliasdemo.txt'
 README_FILE = 'README.md'
 MAX_GITHUB_RESULTS = 500
 MAX_RETRIES = 3
+
+VALIDITY_CHECK_TIMEOUT = 2
+VALIDITY_CHECK_CONCURRENCY = 100
+VALIDITY_CHECK_BATCH_SIZE = 500
 
 GITHUB_TOKEN = os.getenv("GH_TOKEN", "")
 
@@ -510,6 +516,73 @@ def merge_and_deduplicate(channel_lists):
     
     logger.info(f"合并后共 {len(merged_channels)} 个频道（已去重）")
     return merged_channels
+
+
+async def check_single_channel(session, channel, semaphore):
+    """
+    检查单个频道的有效性（异步）
+    
+    Args:
+        session: aiohttp ClientSession
+        channel: Channel 对象
+        semaphore: 异步信号量
+        
+    Returns:
+        (channel, is_valid): 频道和是否有效
+    """
+    async with semaphore:
+        url = channel.url
+        if not url:
+            return channel, False
+        
+        try:
+            timeout = aiohttp.ClientTimeout(total=VALIDITY_CHECK_TIMEOUT)
+            async with session.head(url, timeout=timeout, allow_redirects=True, ssl=False) as response:
+                if response.status < 400:
+                    return channel, True
+                if response.status == 404:
+                    async with session.get(url, timeout=timeout, allow_redirects=True, ssl=False) as get_response:
+                        if get_response.status < 400:
+                            return channel, True
+                return channel, False
+        except asyncio.TimeoutError:
+            return channel, False
+        except Exception:
+            return channel, False
+
+
+async def check_channels_validity(channels: List[Channel]) -> List[Channel]:
+    """
+    异步批量检查频道有效性
+    
+    Args:
+        channels: 频道列表
+        
+    Returns:
+        有效的频道列表
+    """
+    semaphore = asyncio.Semaphore(VALIDITY_CHECK_CONCURRENCY)
+    valid_channels = []
+    total = len(channels)
+    
+    connector = aiohttp.TCPConnector(limit=VALIDITY_CHECK_CONCURRENCY, ssl=False)
+    
+    async with aiohttp.ClientSession(connector=connector) as session:
+        tasks = []
+        for channel in channels:
+            task = asyncio.create_task(check_single_channel(session, channel, semaphore))
+            tasks.append(task)
+        
+        completed = 0
+        for coro in asyncio.as_completed(tasks):
+            channel, is_valid = await coro
+            if is_valid:
+                valid_channels.append(channel)
+            completed += 1
+            if completed % 1000 == 0 or completed == total:
+                logger.info(f"  进度: {completed}/{total} ({completed*100//total}%)")
+    
+    return valid_channels
 
 
 def group_channels_by_category(channels):
@@ -1130,15 +1203,28 @@ def run_full_mode():
     
     logger.info("\n🔄 第五步：合并去重所有频道...")
     merged_channels = merge_and_deduplicate(all_channels)
-    
-    logger.info("\n💾 第六步：生成输出文件...")
+    logger.info(f"  合并后共 {len(merged_channels)} 个频道")
+
+    logger.info("\n🔍 第六步：快速有效性筛选...")
+    logger.info(f"  筛选参数: 超时={VALIDITY_CHECK_TIMEOUT}秒, 并发={VALIDITY_CHECK_CONCURRENCY}")
+    valid_channels = asyncio.run(check_channels_validity(merged_channels))
+    invalid_count = len(merged_channels) - len(valid_channels)
+    logger.info(f"  ✅ 有效频道: {len(valid_channels)} 个, ❌ 无效频道: {invalid_count} 个")
+
+    if invalid_count > 0:
+        logger.info(f"  💾 记录无效源到 failed_sources.log...")
+        for channel in merged_channels:
+            if channel not in valid_channels:
+                log_failed(channel.url, "快速有效性检测失败")
+
+    logger.info("\n💾 第七步：生成输出文件...")
     output_m3u = os.path.join(script_dir, OUTPUT_M3U_FILE)
     output_txt = os.path.join(script_dir, OUTPUT_TXT_FILE)
     
-    generate_m3u_output(merged_channels, output_m3u)
-    generate_txt_output(merged_channels, output_txt)
-    
-    logger.info("\n📊 第七步：生成别名分类报告...")
+    generate_m3u_output(valid_channels, output_m3u)
+    generate_txt_output(valid_channels, output_txt)
+
+    logger.info("\n📊 第八步：生成别名分类报告...")
     alias_file = os.path.join(script_dir, ALIAS_FILE)
     demo_file = os.path.join(script_dir, DEMO_FILE)
     alias_demo_file = os.path.join(script_dir, ALIAS_DEMO_FILE)
@@ -1146,8 +1232,8 @@ def run_full_mode():
     alias_dict, regex_list = parse_alias_file(alias_file)
     demo_categories = parse_demo_file(demo_file)
     
-    extra_data = generate_alias_demo_report(merged_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
-    
+    extra_data = generate_alias_demo_report(valid_channels, alias_dict, regex_list, demo_categories, alias_demo_file)
+
     readme_file = os.path.join(script_dir, README_FILE)
     failed_count = 0
     github_count = 0
@@ -1157,9 +1243,9 @@ def run_full_mode():
     if os.path.exists(os.path.join(script_dir, GITHUB_LOG_FILE)):
         with open(os.path.join(script_dir, GITHUB_LOG_FILE), 'r', encoding='utf-8') as f:
             github_count = len(f.readlines())
-    generate_readme_report(merged_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, extra_data, readme_file)
-    
-    logger.info(f"\n✅ 处理完成！共 {len(merged_channels)} 个频道")
+    generate_readme_report(valid_channels, alias_dict, regex_list, demo_categories, failed_count, github_count, extra_data, readme_file)
+
+    logger.info(f"\n✅ 处理完成！共 {len(valid_channels)} 个有效频道（筛选前: {len(merged_channels)} 个）")
     logger.info(f"📄 失败日志: {os.path.join(script_dir, FAILED_LOG_FILE)}")
     logger.info(f"📄 GitHub 日志: {os.path.join(script_dir, GITHUB_LOG_FILE)}")
     logger.info(f"📄 别名分类报告: {alias_demo_file}")
@@ -1227,12 +1313,62 @@ def run_report_mode():
     logger.info(f"📄 README 报告: {readme_file}")
 
 
+def run_validity_check_mode():
+    """
+    有效性筛选模式
+    仅从现有 output 文件进行有效性筛选测试
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    output_m3u = os.path.join(script_dir, OUTPUT_M3U_FILE)
+    output_txt = os.path.join(script_dir, OUTPUT_TXT_FILE)
+
+    logger.info("\n📂 加载现有 output 文件...")
+
+    if os.path.exists(output_m3u):
+        channels = parse_m3u_file(output_m3u)
+        logger.info(f"  ✅ output.m3u: {len(channels)} 个频道")
+    elif os.path.exists(output_txt):
+        channels = parse_txt_file(output_txt)
+        logger.info(f"  ✅ output.txt: {len(channels)} 个频道")
+    else:
+        logger.error("❌ 没有找到任何 output 文件，请先运行完整模式")
+        return
+
+    logger.info("\n🔍 开始有效性筛选测试...")
+    logger.info(f"  筛选参数: 超时={VALIDITY_CHECK_TIMEOUT}秒, 并发={VALIDITY_CHECK_CONCURRENCY}")
+
+    start_time = time.time()
+    valid_channels = asyncio.run(check_channels_validity(channels))
+    elapsed_time = time.time() - start_time
+
+    invalid_count = len(channels) - len(valid_channels)
+    valid_rate = len(valid_channels) / len(channels) * 100 if channels else 0
+
+    logger.info(f"\n📊 有效性筛选结果:")
+    logger.info(f"  ✅ 有效频道: {len(valid_channels)} 个 ({valid_rate:.1f}%)")
+    logger.info(f"  ❌ 无效频道: {invalid_count} 个 ({100-valid_rate:.1f}%)")
+    logger.info(f"  ⏱️  耗时: {elapsed_time:.1f} 秒")
+    logger.info(f"  📈 处理速度: {len(channels)/elapsed_time:.1f} 个/秒")
+
+    logger.info(f"\n💾 保存有效频道到 output 文件...")
+    output_m3u_valid = os.path.join(script_dir, 'output_valid.m3u')
+    output_txt_valid = os.path.join(script_dir, 'output_valid.txt')
+
+    generate_m3u_output(valid_channels, output_m3u_valid)
+    generate_txt_output(valid_channels, output_txt_valid)
+
+    logger.info(f"\n✅ 有效性筛选完成！")
+    logger.info(f"  📄 有效源文件: {output_m3u_valid}, {output_txt_valid}")
+
+
 def main():
     """
     主函数
-    支持两种运行模式：
+    支持三种运行模式：
     - 无参数：完整运行模式
     - --report 或 -r：仅生成报告模式
+    - --validity 或 -v：仅有效性筛选模式
     """
     parser = argparse.ArgumentParser(
         description='IPTV 播放列表聚合器',
@@ -1242,6 +1378,8 @@ def main():
   python main.py              # 完整运行模式（搜索、合并、去重、生成报告）
   python main.py --report     # 仅生成报告模式（从现有 output 文件生成报告）
   python main.py -r           # 同上
+  python main.py --validity   # 仅有效性筛选模式（测试有效性检测功能）
+  python main.py -v           # 同上
         '''
     )
     parser.add_argument(
@@ -1249,12 +1387,20 @@ def main():
         action='store_true',
         help='仅生成别名分类报告（不从 GitHub 搜索新数据）'
     )
+    parser.add_argument(
+        '-v', '--validity',
+        action='store_true',
+        help='仅进行有效性筛选（从现有 output 文件测试有效性检测）'
+    )
     
     args = parser.parse_args()
     
     if args.report:
         logger.info("🎯 运行模式：仅生成报告")
         run_report_mode()
+    elif args.validity:
+        logger.info("🎯 运行模式：仅有效性筛选")
+        run_validity_check_mode()
     else:
         logger.info("🎯 运行模式：完整运行")
         run_full_mode()
