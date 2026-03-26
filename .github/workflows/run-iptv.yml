@@ -12,6 +12,14 @@ jobs:
       contents: write
 
     steps:
+    # ============================================================
+    # ⚠️ 提示：如果你想要更高的 GitHub API 速率限制，可以设置隐私密钥：
+    # 1. 进入仓库设置 -> Secrets and variables -> Actions
+    # 2. 新建 Repository secret，名称为: IPTV_GH_TOKEN
+    # 3. 创建一个带有 repo 权限的 Personal Access Token
+    # 4. 这样可以获得更高的 API 速率限制（5000次/小时 vs 60次/小时）
+    # ============================================================
+
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
@@ -28,7 +36,7 @@ jobs:
     - name: Run script
       run: python main.py
       env:
-        GH_TOKEN: ${{ github.token }}
+        GH_TOKEN: ${{ secrets.IPTV_GH_TOKEN || github.token }}
 
     - name: Configure Git
       run: |
