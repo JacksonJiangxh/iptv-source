@@ -37,7 +37,7 @@ jobs:
 
     - name: Commit and Push Results
       run: |
-        for file in input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt README.md; do
+        for file in input.m3u input.txt output.m3u output.txt failed_sources.log github_sources.log new-aliasdemo.txt README.md channel_blacklist.txt; do
           if [ -f "$file" ]; then
             git add "$file"
           fi

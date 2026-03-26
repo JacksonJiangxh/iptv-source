@@ -39,6 +39,8 @@ ALIAS_FILE = 'alias.txt'
 DEMO_FILE = 'demo.txt'
 ALIAS_DEMO_FILE = 'new-aliasdemo.txt'
 README_FILE = 'README.md'
+BLACKLIST_FILE = 'channel_blacklist.txt'
+BLACKLIST_VALID_HOURS = 7 * 24
 MAX_GITHUB_RESULTS = 500
 MAX_RETRIES = 3
 
@@ -125,6 +127,156 @@ def replace_input_with_output():
     if os.path.exists(output_txt):
         shutil.copyfile(output_txt, input_txt)
         logger.info(f"✅ {OUTPUT_TXT_FILE} 已复制到 {INPUT_TXT_FILE}")
+
+
+def get_blacklist_path():
+    """获取黑名单文件路径"""
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(script_dir, BLACKLIST_FILE)
+
+
+def load_blacklist():
+    """
+    加载黑名单并检查是否在有效期内
+    
+    Returns:
+        (blacklist_urls: set, is_valid: bool, created_time: datetime or None)
+        - blacklist_urls: 黑名单中的URL集合
+        - is_valid: 黑名单是否在有效期内
+        - created_time: 黑名单创建时间（北京时间）
+    """
+    blacklist_path = get_blacklist_path()
+    
+    if not os.path.exists(blacklist_path):
+        logger.info("📋 黑名单文件不存在，将创建新黑名单")
+        return set(), False, None
+    
+    try:
+        with open(blacklist_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except Exception as e:
+        logger.warning(f"⚠️ 读取黑名单文件失败: {e}，将创建新黑名单")
+        return set(), False, None
+    
+    if not lines:
+        return set(), False, None
+    
+    created_time = None
+    blacklist_urls = set()
+    
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith('#') or line.startswith('-'):
+            if 'Created:' in line:
+                try:
+                    time_str = line.split('Created:')[1].strip()
+                    created_time = datetime.strptime(time_str, '%Y-%m-%d %H:%M:%S')
+                except:
+                    pass
+            continue
+        
+        if '|' in line:
+            url = line.split('|')[0].strip()
+            if url:
+                blacklist_urls.add(url)
+    
+    if not blacklist_urls:
+        return set(), False, None
+    
+    if created_time is None:
+        logger.info(f"📋 黑名单无创建时间记录，视为过期，将重新生成")
+        return blacklist_urls, False, None
+    
+    now_beijing = datetime.now() + timedelta(hours=8)
+    created_beijing = created_time
+    hours_diff = (now_beijing - created_beijing).total_seconds() / 3600
+    
+    is_valid = hours_diff < BLACKLIST_VALID_HOURS
+    
+    if is_valid:
+        logger.info(f"📋 黑名单有效: {len(blacklist_urls)} 个URL, 剩余有效期: {BLACKLIST_VALID_HOURS - hours_diff:.1f} 小时")
+    else:
+        logger.info(f"📋 黑名单已过期 (已存在 {hours_diff:.1f} 小时)，将重新生成")
+    
+    return blacklist_urls, is_valid, created_time
+
+
+def save_blacklist(blacklist_urls):
+    """
+    保存黑名单到文件
+    
+    Args:
+        blacklist_urls: 黑名单URL集合
+    """
+    blacklist_path = get_blacklist_path()
+    now_beijing = datetime.now() + timedelta(hours=8)
+    now_str = now_beijing.strftime('%Y-%m-%d %H:%M:%S')
+    
+    lines = []
+    lines.append(f"# 黑名单生成时间（UTC+8）\n")
+    lines.append(f"# Created: {now_str}\n")
+    lines.append(f"# 有效期（小时）: {BLACKLIST_VALID_HOURS}\n")
+    lines.append(f"# -------------------\n")
+    
+    for url in sorted(blacklist_urls):
+        lines.append(f"{url}|{now_str}\n")
+    
+    with open(blacklist_path, 'w', encoding='utf-8') as f:
+        f.writelines(lines)
+    
+    logger.info(f"💾 已保存黑名单: {len(blacklist_urls)} 个URL到 {BLACKLIST_FILE}")
+
+
+def filter_channels_by_blacklist(channels, blacklist_urls):
+    """
+    用黑名单过滤频道
+    
+    Args:
+        channels: 频道列表
+        blacklist_urls: 黑名单URL集合
+        
+    Returns:
+        过滤后的频道列表（不在黑名单中的）
+    """
+    if not blacklist_urls:
+        return channels
+    
+    filtered_channels = []
+    filtered_count = 0
+    
+    for channel in channels:
+        if channel.url not in blacklist_urls:
+            filtered_channels.append(channel)
+        else:
+            filtered_count += 1
+    
+    if filtered_count > 0:
+        logger.info(f"  🚫 黑名单过滤: 过滤了 {filtered_count} 个无效频道")
+    
+    return filtered_channels
+
+
+def add_to_blacklist(blacklist_urls, channels):
+    """
+    将无效频道追加到黑名单
+    
+    Args:
+        blacklist_urls: 现有黑名单URL集合
+        channels: 被测试为无效的频道列表
+        
+    Returns:
+        更新后的黑名单集合
+    """
+    added_count = 0
+    for channel in channels:
+        if channel.url not in blacklist_urls:
+            blacklist_urls.add(channel.url)
+            added_count += 1
+    
+    if added_count > 0:
+        logger.info(f"  ➕ 黑名单新增: {added_count} 个无效频道")
+    
+    return blacklist_urls
 
 
 def validate_token(token):
@@ -1205,17 +1357,30 @@ def run_full_mode():
     merged_channels = merge_and_deduplicate(all_channels)
     logger.info(f"  合并后共 {len(merged_channels)} 个频道")
 
-    logger.info("\n🔍 第六步：快速有效性筛选...")
+    logger.info("\n🔍 第六步：黑名单过滤与有效性筛选...")
+    blacklist_urls, is_blist_valid, _ = load_blacklist()
+    
+    if is_blist_valid and blacklist_urls:
+        logger.info(f"  📋 黑名单有效期内，使用黑名单预过滤...")
+        prefiltered_count = len(merged_channels)
+        merged_channels = filter_channels_by_blacklist(merged_channels, blacklist_urls)
+        logger.info(f"  📋 预过滤后剩余: {len(merged_channels)} 个频道 (过滤了 {prefiltered_count - len(merged_channels)} 个)")
+    
     logger.info(f"  筛选参数: 超时={VALIDITY_CHECK_TIMEOUT}秒, 并发={VALIDITY_CHECK_CONCURRENCY}")
     valid_channels = asyncio.run(check_channels_validity(merged_channels))
     invalid_count = len(merged_channels) - len(valid_channels)
     logger.info(f"  ✅ 有效频道: {len(valid_channels)} 个, ❌ 无效频道: {invalid_count} 个")
 
+    invalid_channels = [ch for ch in merged_channels if ch not in valid_channels]
+    if invalid_channels:
+        blacklist_urls = add_to_blacklist(blacklist_urls, invalid_channels)
+        save_blacklist(blacklist_urls)
+        logger.info(f"  💾 已更新黑名单，共 {len(blacklist_urls)} 个无效URL")
+
     if invalid_count > 0:
         logger.info(f"  💾 记录无效源到 failed_sources.log...")
-        for channel in merged_channels:
-            if channel not in valid_channels:
-                log_failed(channel.url, "快速有效性检测失败")
+        for channel in invalid_channels:
+            log_failed(channel.url, "快速有效性检测失败")
 
     logger.info("\n💾 第七步：生成输出文件...")
     output_m3u = os.path.join(script_dir, OUTPUT_M3U_FILE)
