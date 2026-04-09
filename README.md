@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-08 09:29:41 (北京时间)
+> 最后更新：2026-04-09 09:20:47 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16644** |
+| 总频道数 | **16068** |
 | 已知别名 | 1863 |
-| 分类数量 | 578 |
-| GitHub 来源 | 10163 |
-| 失败源数 | 278661 |
+| 分类数量 | 584 |
+| GitHub 来源 | 10685 |
+| 失败源数 | 280481 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2017 个频道
-2. **麻豆传媒** - 687 个频道
+1. **未分类** - 2015 个频道
+2. **麻豆传媒** - 686 个频道
 3. **HHH_798798** - 585 个频道
 4. **🎎｜VIP直播测试_0721** - 519 个频道
-5. **卫视频道** - 494 个频道
-6. **🎎｜VIP直播资源3_0721** - 478 个频道
-7. **Albania** - 472 个频道
-8. **🔞欧美高清免翻成人直播** - 386 个频道
-9. **央视频道** - 369 个频道
-10. **传媒壹一_00** - 366 个频道
-11. **纪录片频道** - 364 个频道
-12. **Turkey** - 353 个频道
-13. **🔞国产传媒_8585** - 352 个频道
-14. **VIP私密精选_00** - 303 个频道
-15. **Sport** - 292 个频道
+5. **🎎｜VIP直播资源3_0721** - 478 个频道
+6. **Albania** - 472 个频道
+7. **🔞欧美高清免翻成人直播** - 386 个频道
+8. **传媒壹一_00** - 366 个频道
+9. **纪录片频道** - 363 个频道
+10. **Turkey** - 353 个频道
+11. **🔞国产传媒_8585** - 352 个频道
+12. **VIP私密精选_00** - 303 个频道
+13. **Sport** - 292 个频道
+14. **卫视频道** - 254 个频道
+15. **传媒贰二_00** - 245 个频道
 
 ## 📥 下载地址
 
@@ -63,44 +63,44 @@
 16. `Anak-Anak`
 17. `Badminiton`
 18. `Bangla`
-19. `CCTV`
-20. `CNR•广播`
-21. `CS`
-22. `Croatia`
-23. `DEN'S TV`
-24. `DJ`
-25. `DJ舞曲`
-26. `DJ音乐`
-27. `Disney channel`
-28. `Documentary`
-29. `Doordarshan`
-30. `EL SALVADOR`
+19. `Business News`
+20. `CCTV`
+21. `CNR•广播`
+22. `CS`
+23. `Comedy`
+24. `Croatia`
+25. `DEN'S TV`
+26. `DIY`
+27. `DJ`
+28. `DJ舞曲`
+29. `DJ音乐`
+30. `Devotional`
 
-> 共 522 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 529 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD MASALLAR 2 HD,TR: BLUMAX HD TURKU HD,TR: BLUMAX HD YESILCAM 7 HD
-- 无主名 (出现 15 次): ,4K高清岳云鹏,直播中国
-- **CCTV** (出现 10 次): CCTV-4K,CCTV4K,CCTV4K超高清
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD YESILCAM 4  HD,TR: BLUMAX HD YESILCAM 4 4K,TR: BLUMAX HD YESILCAM 7 HD
+- 无主名 (出现 16 次): ,4K高清岳云鹏,直播中国
 - **TVB星河** (出现 9 次): TVB星河,TVB星河频道
+- **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4K超高清
 - **浙江国际** (出现 8 次): 浙江国际
-- **CHC家庭影院** (出现 7 次): CHC家庭影院,CHC家庭影院HD
-- **CHC动作电影** (出现 7 次): CHC动作电影
 - **人间** (出现 7 次): 人间卫视
 - **浙江新闻** (出现 7 次): 浙江新闻
-- **FANT** (出现 7 次): FANTHD2,FANTHD3,FANTHD7
+- **FANT** (出现 7 次): FANTHD2,FANTHD5,FANTHD7
 - **CGTN法语** (出现 6 次): CGTN法语
+- **CHC动作电影** (出现 6 次): CHC动作电影
 - **CGTN纪录** (出现 6 次): CGTN纪录
+- **CHC家庭影院** (出现 6 次): CHC家庭影院,CHC家庭影院HD
 - **6** (出现 6 次): 6
 - **3** (出现 6 次): 3
-- **7** (出现 6 次): 7
 - **4** (出现 6 次): 4
+- **7** (出现 6 次): 7
 - **Hustler** (出现 6 次): Hustler,Hustler HD orig,HustlerHDEurope
 - **13** (出现 5 次): 13
 - **Eroxxx** (出现 5 次): Eroxxx,Eroxxx HD
 - **CGTN** (出现 5 次): CGTN,CGTN高清
 
-> 共 138 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 135 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
