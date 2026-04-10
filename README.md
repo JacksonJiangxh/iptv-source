@@ -1,21 +1,21 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-09 09:20:47 (北京时间)
+> 最后更新：2026-04-10 09:30:19 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16068** |
+| 总频道数 | **15975** |
 | 已知别名 | 1863 |
-| 分类数量 | 584 |
-| GitHub 来源 | 10685 |
-| 失败源数 | 280481 |
+| 分类数量 | 582 |
+| GitHub 来源 | 11203 |
+| 失败源数 | 280855 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2015 个频道
-2. **麻豆传媒** - 686 个频道
+1. **未分类** - 2008 个频道
+2. **麻豆传媒** - 685 个频道
 3. **HHH_798798** - 585 个频道
 4. **🎎｜VIP直播测试_0721** - 519 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
@@ -76,28 +76,28 @@
 29. `DJ音乐`
 30. `Devotional`
 
-> 共 529 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 527 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD YESILCAM 4  HD,TR: BLUMAX HD YESILCAM 4 4K,TR: BLUMAX HD YESILCAM 7 HD
-- 无主名 (出现 16 次): ,4K高清岳云鹏,直播中国
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 5 HD,TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD YESILCAM 2 4K
+- 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 9 次): TVB星河,TVB星河频道
 - **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4K超高清
 - **浙江国际** (出现 8 次): 浙江国际
 - **人间** (出现 7 次): 人间卫视
 - **浙江新闻** (出现 7 次): 浙江新闻
-- **FANT** (出现 7 次): FANTHD2,FANTHD5,FANTHD7
+- **FANT** (出现 7 次): FANTHD1,FANTHD2,FANTHD4
 - **CGTN法语** (出现 6 次): CGTN法语
-- **CHC动作电影** (出现 6 次): CHC动作电影
 - **CGTN纪录** (出现 6 次): CGTN纪录
 - **CHC家庭影院** (出现 6 次): CHC家庭影院,CHC家庭影院HD
-- **6** (出现 6 次): 6
-- **3** (出现 6 次): 3
+- **CHC动作电影** (出现 6 次): CHC动作电影
 - **4** (出现 6 次): 4
+- **3** (出现 6 次): 3
 - **7** (出现 6 次): 7
+- **6** (出现 6 次): 6
 - **Hustler** (出现 6 次): Hustler,Hustler HD orig,HustlerHDEurope
 - **13** (出现 5 次): 13
 - **Eroxxx** (出现 5 次): Eroxxx,Eroxxx HD
