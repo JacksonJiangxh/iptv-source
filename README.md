@@ -1,22 +1,22 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-13 09:52:08 (北京时间)
+> 最后更新：2026-04-14 09:48:44 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15834** |
+| 总频道数 | **15796** |
 | 已知别名 | 1863 |
-| 分类数量 | 592 |
-| GitHub 来源 | 12758 |
-| 失败源数 | 287280 |
+| 分类数量 | 588 |
+| GitHub 来源 | 13279 |
+| 失败源数 | 287891 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1923 个频道
+1. **未分类** - 1917 个频道
 2. **麻豆传媒** - 669 个频道
-3. **HHH_798798** - 585 个频道
+3. **HHH_798798** - 580 个频道
 4. **🎎｜VIP直播测试_0721** - 514 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
@@ -82,22 +82,22 @@
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD COMEDY TURK,TR: BLUMAX HD KADIR INANIR HD,TR: BLUMAX HD KEMAL SUNAL 1 4K
-- 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD ILYAS SALMAN
+- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **人间** (出现 9 次): 人间卫视
 - **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4K超高清
 - **CHC动作电影** (出现 7 次): CHC动作电影
 - **CHC家庭影院** (出现 7 次): CHC家庭影院,CHC家庭影院HD
-- **FANT** (出现 7 次): FANTHD4,FANTHD5,FANTHD6
+- **FANT** (出现 7 次): FANTHD2,FANTHD4,FANTHD6
+- **CGTN纪录** (出现 6 次): CGTN纪录
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **CGTN法语** (出现 6 次): CGTN法语
-- **CGTN纪录** (出现 6 次): CGTN纪录
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **6** (出现 6 次): 6
 - **4** (出现 6 次): 4
 - **7** (出现 6 次): 7
 - **3** (出现 6 次): 3
-- **6** (出现 6 次): 6
 - **Hustler** (出现 6 次): Hustler,Hustler HD orig,HustlerHDEurope
 - **浙江国际** (出现 6 次): 浙江国际
 - **13** (出现 5 次): 13
