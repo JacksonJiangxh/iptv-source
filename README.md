@@ -1,27 +1,27 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-15 09:30:31 (北京时间)
+> 最后更新：2026-04-16 09:52:03 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15543** |
+| 总频道数 | **15533** |
 | 已知别名 | 1863 |
-| 分类数量 | 583 |
-| GitHub 来源 | 13799 |
-| 失败源数 | 288333 |
+| 分类数量 | 584 |
+| GitHub 来源 | 14321 |
+| 失败源数 | 289613 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1860 个频道
+1. **未分类** - 1878 个频道
 2. **麻豆传媒** - 669 个频道
 3. **HHH_798798** - 580 个频道
 4. **🎎｜VIP直播测试_0721** - 514 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **传媒壹一_00** - 364 个频道
-8. **纪录片频道** - 361 个频道
+8. **纪录片频道** - 360 个频道
 9. **Turkey** - 353 个频道
 10. **🔞国产传媒_8585** - 348 个频道
 11. **VIP私密精选_00** - 303 个频道
@@ -76,31 +76,31 @@
 29. `Devotional`
 30. `Disney channel`
 
-> 共 529 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 530 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD COMEDY TURK,TR: BLUMAX HD KEMAL SUNAL 5 4K,TR: BLUMAX HD YESILCAM 4  HD
-- 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD TURKU HD
+- 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **TVB星河** (出现 11 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **人间** (出现 9 次): 人间卫视
 - **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4K超高清
-- **CHC动作电影** (出现 7 次): CHC动作电影
 - **CHC家庭影院** (出现 7 次): CHC家庭影院,CHC家庭影院HD
-- **FANT** (出现 7 次): FANTHD1,FANTHD3,FANTHD5
+- **CHC动作电影** (出现 7 次): CHC动作电影
+- **FANT** (出现 7 次): FANTHD1,FANTHD2,FANTHD6
 - **CGTN法语** (出现 6 次): CGTN法语
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **CGTN纪录** (出现 6 次): CGTN纪录
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **3** (出现 6 次): 3
-- **7** (出现 6 次): 7
-- **4** (出现 6 次): 4
 - **6** (出现 6 次): 6
+- **4** (出现 6 次): 4
+- **7** (出现 6 次): 7
+- **3** (出现 6 次): 3
 - **浙江国际** (出现 6 次): 浙江国际
 - **13** (出现 5 次): 13
-- **Eroxxx** (出现 5 次): Eroxxx,Eroxxx HD
+- **CGTN** (出现 5 次): CGTN,CGTN高清
 - **CNN** (出现 5 次): CNN,[MY]CNN
 
 > 共 136 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
