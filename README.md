@@ -1,30 +1,30 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-16 09:52:03 (北京时间)
+> 最后更新：2026-04-17 09:48:00 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15533** |
+| 总频道数 | **15353** |
 | 已知别名 | 1863 |
-| 分类数量 | 584 |
-| GitHub 来源 | 14321 |
-| 失败源数 | 289613 |
+| 分类数量 | 581 |
+| GitHub 来源 | 14846 |
+| 失败源数 | 290351 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1878 个频道
-2. **麻豆传媒** - 669 个频道
+1. **未分类** - 1801 个频道
+2. **麻豆传媒** - 668 个频道
 3. **HHH_798798** - 580 个频道
 4. **🎎｜VIP直播测试_0721** - 514 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
-7. **传媒壹一_00** - 364 个频道
-8. **纪录片频道** - 360 个频道
+7. **传媒壹一_00** - 363 个频道
+8. **纪录片频道** - 359 个频道
 9. **Turkey** - 353 个频道
 10. **🔞国产传媒_8585** - 348 个频道
-11. **VIP私密精选_00** - 303 个频道
+11. **VIP私密精选_00** - 302 个频道
 12. **Sport** - 292 个频道
 13. **传媒贰二_00** - 245 个频道
 14. **EX-Yu** - 242 个频道
@@ -76,31 +76,31 @@
 29. `Devotional`
 30. `Disney channel`
 
-> 共 530 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 528 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD TURKU HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 1 4K,TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD TURKU HD
 - 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 11 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **熊猫** (出现 11 次): 熊猫频道01高清,熊猫频道6,熊猫频道9
 - **人间** (出现 9 次): 人间卫视
-- **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4K超高清
-- **CHC家庭影院** (出现 7 次): CHC家庭影院,CHC家庭影院HD
-- **CHC动作电影** (出现 7 次): CHC动作电影
-- **FANT** (出现 7 次): FANTHD1,FANTHD2,FANTHD6
-- **CGTN法语** (出现 6 次): CGTN法语
-- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
+- **CHC家庭影院** (出现 8 次): CHC家庭影院,CHC家庭影院HD
+- **CHC动作电影** (出现 8 次): CHC动作电影
+- **CGTN法语** (出现 7 次): CGTN法语
+- **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4K超高清
+- **FANT** (出现 7 次): FANTHD2,FANTHD5,FANTHD7
 - **CGTN纪录** (出现 6 次): CGTN纪录
+- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **6** (出现 6 次): 6
+- **CGTN** (出现 6 次): CGTN,CGTN高清
+- **CHC影迷电影** (出现 6 次): CHC影迷电影,CHC影迷电影HD
 - **4** (出现 6 次): 4
-- **7** (出现 6 次): 7
+- **6** (出现 6 次): 6
 - **3** (出现 6 次): 3
+- **7** (出现 6 次): 7
 - **浙江国际** (出现 6 次): 浙江国际
-- **13** (出现 5 次): 13
-- **CGTN** (出现 5 次): CGTN,CGTN高清
-- **CNN** (出现 5 次): CNN,[MY]CNN
 
-> 共 136 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 143 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
