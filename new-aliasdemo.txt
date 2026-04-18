@@ -1,7 +1,7 @@
-# 别名分类报告 - 生成时间: 2026-04-17 09:47:59
-# 总频道数: 15353
-# 已知别名频道: 597 个（去重后 188 个主名）
-# 未知别名频道: 12307 个（去重后 11239 个名称）
+# 别名分类报告 - 生成时间: 2026-04-18 09:26:47
+# 总频道数: 15329
+# 已知别名频道: 596 个（去重后 187 个主名）
+# 未知别名频道: 12288 个（去重后 11221 个名称）
 
 ================================================================================
 一、分类名汇总
@@ -19,7 +19,6 @@
   ✓ ☘️浙江
   ✓ ☘️湖南
   ✓ ☘️澳门
-  ✓ ☘️福建
   ✓ ☘️陕西
   ✓ ☘️香港
   ✓ ☘️黑龙江
@@ -670,9 +669,6 @@
       澳门体育 (2 个变体)
       澳门综艺 (1 个变体)
 
-  📁 ☘️福建
-      福州少儿 (1 个变体)
-
   📁 ☘️陕西
       陕西体育休闲 (1 个变体)
 
@@ -789,16 +785,16 @@
   ── 建议别名组（出现 3 次以上的相似名称）──
     🔸 TR: BLUMAX
         出现次数: 40, 原始分类: Turkey
-        示例: TR: BLUMAX HD KEMAL SUNAL 1 4K, TR: BLUMAX HD MASALLAR 1 HD, TR: BLUMAX HD TURKU HD
+        示例: TR: BLUMAX  HD YESILCAM 3  HD, TR: BLUMAX HD HALK MUZIGI 2 HD, TR: BLUMAX HD KEMAL SUNAL 5 HD
     🔸 
         出现次数: 16, 原始分类: 未分类
         示例: , 4K60PSDR-H264-AAC测试, 4K高清岳云鹏
     🔸 TVB星河
-        出现次数: 11, 原始分类: 港澳台频道
+        出现次数: 11, 原始分类: 未分类
         示例: TVB星河, TVB星河频道, [MY]TVB星河
     🔸 熊猫
         出现次数: 11, 原始分类: 熊猫
-        示例: 熊猫频道01高清, 熊猫频道6, 熊猫频道9
+        示例: 熊猫频道01高清, 熊猫频道5, 熊猫频道8
     🔸 人间
         出现次数: 9, 原始分类: 港澳台频道
         示例: 人间卫视
@@ -808,36 +804,33 @@
     🔸 CHC动作电影
         出现次数: 8, 原始分类: 未分类
         示例: CHC动作电影
-    🔸 CGTN法语
-        出现次数: 7, 原始分类: 未分类
-        示例: CGTN法语
     🔸 CCTV
         出现次数: 7, 原始分类: 未分类
         示例: CCTV-8k, CCTV4K, CCTV4K超高清
+    🔸 CGTN法语
+        出现次数: 7, 原始分类: 未分类
+        示例: CGTN法语
     🔸 FANT
         出现次数: 7, 原始分类: Adult
-        示例: FANTHD2, FANTHD5, FANTHD7
-    🔸 CGTN纪录
-        出现次数: 6, 原始分类: 未分类
-        示例: CGTN纪录
+        示例: FANTHD2, FANTHD3, FANTHD7
     🔸 HBO
         出现次数: 6, 原始分类: 未分类
         示例: HBO, [MY]HBO, [TW]HBO HD
-    🔸 Arirang
-        出现次数: 6, 原始分类: groupName=国际
-        示例: Arirang, Arirang[1280x720], Arirang[640x360]
+    🔸 CGTN纪录
+        出现次数: 6, 原始分类: 未分类
+        示例: CGTN纪录
     🔸 CGTN
         出现次数: 6, 原始分类: 国际
         示例: CGTN, CGTN高清
-    🔸 CHC影迷电影
-        出现次数: 6, 原始分类: 电影
-        示例: CHC影迷电影, CHC影迷电影HD
-    🔸 4
-        出现次数: 6, 原始分类: 🐶另一类
-        示例: 4
+    🔸 Arirang
+        出现次数: 6, 原始分类: groupName=国际
+        示例: Arirang, Arirang[1280x720], Arirang[640x360]
     🔸 6
         出现次数: 6, 原始分类: 🐶另一类
         示例: 6
+    🔸 4
+        出现次数: 6, 原始分类: 🐶另一类
+        示例: 4
     🔸 3
         出现次数: 6, 原始分类: 🐶另一类
         示例: 3
@@ -868,6 +861,9 @@
     🔸 14
         出现次数: 5, 原始分类: 韩国频道
         示例: 14, 14[1280x720]
+    🔸 CHC影迷电影
+        出现次数: 5, 原始分类: 电影
+        示例: CHC影迷电影, CHC影迷电影HD
     🔸 Blonde
         出现次数: 5, 原始分类: $redtraffic adult iptv
         示例: Blonde
@@ -877,54 +873,54 @@
     🔸 Hustler
         出现次数: 5, 原始分类: 🌘午夜直播
         示例: Hustler, Hustler HD, Hustler HD orig
-    🔸 11
-        出现次数: 5, 原始分类: 🐶另一类
-        示例: 11
-    🔸 2
-        出现次数: 5, 原始分类: 🐶另一类
-        示例: 2
-    🔸 9
-        出现次数: 5, 原始分类: 🐶另一类
-        示例: 9
-    🔸 5
-        出现次数: 5, 原始分类: 🐶另一类
-        示例: 5
     🔸 10
         出现次数: 5, 原始分类: 🐶另一类
         示例: 10
+    🔸 9
+        出现次数: 5, 原始分类: 🐶另一类
+        示例: 9
+    🔸 2
+        出现次数: 5, 原始分类: 🐶另一类
+        示例: 2
+    🔸 5
+        出现次数: 5, 原始分类: 🐶另一类
+        示例: 5
     🔸 8
         出现次数: 5, 原始分类: 🐶另一类
         示例: 8
+    🔸 11
+        出现次数: 5, 原始分类: 🐶另一类
+        示例: 11
     🔸 1
         出现次数: 5, 原始分类: 🐶另一类
         示例: 1, 1 HD[1280x720]
     🔸 浙江新闻
         出现次数: 5, 原始分类: 浙江
         示例: 浙江新闻
+    🔸 FOX NEWS
+        出现次数: 4, 原始分类: 未分类
+        示例: FOX NEWS
+    🔸 凤凰中文台
+        出现次数: 4, 原始分类: 未分类
+        示例: 凤凰中文台
+    🔸 茶
+        出现次数: 4, 原始分类: 未分类
+        示例: 茶, 茶频道, 茶频道高清
+    🔸 29
+        出现次数: 4, 原始分类: 未分类
+        示例: 29
+    🔸 黎城综合
+        出现次数: 4, 原始分类: 未分类
+        示例: 黎城综合, 黎城综合频道
+    🔸 CGTN西班牙语
+        出现次数: 4, 原始分类: 未分类
+        示例: CGTN西班牙语
     🔸 龙华电影
         出现次数: 4, 原始分类: 港澳台频道
         示例: 龙华电影
     🔸 华丽翡翠台
         出现次数: 4, 原始分类: 港澳台频道
         示例: 华丽翡翠台
-    🔸 茶
-        出现次数: 4, 原始分类: 未分类
-        示例: 茶, 茶频道, 茶频道高清
-    🔸 CGTN西班牙语
-        出现次数: 4, 原始分类: 未分类
-        示例: CGTN西班牙语
-    🔸 黎城综合
-        出现次数: 4, 原始分类: 未分类
-        示例: 黎城综合, 黎城综合频道
-    🔸 29
-        出现次数: 4, 原始分类: 未分类
-        示例: 29
-    🔸 凤凰中文台
-        出现次数: 4, 原始分类: 未分类
-        示例: 凤凰中文台
-    🔸 FOX NEWS
-        出现次数: 4, 原始分类: 未分类
-        示例: FOX NEWS
     🔸 TLC
         出现次数: 4, 原始分类: Turkey
         示例: TLC, TLC HD TR, TLC[1280x720]
@@ -1006,7 +1002,7 @@
     📂 Macedonia: 26 个频道
     📂 Mak: 1 个频道
     📂 Malaysia: 5 个频道
-    📂 Movies: 15 个频道
+    📂 Movies: 14 个频道
     📂 Music: 13 个频道
     📂 NASIONAL: 4 个频道
     📂 NASIONAL SD: 1 个频道
@@ -1033,7 +1029,7 @@
     📂 Tokyo: 1 个频道
     📂 Travel: 1 个频道
     📂 Turkey: 351 个频道
-    📂 UNITED KINGDOM: 61 个频道
+    📂 UNITED KINGDOM: 58 个频道
     📂 Undefined: 2 个频道
     📂 United Arab Emirates-SERVER4: 1 个频道
     📂 V4精选: 2 个频道
@@ -1121,7 +1117,7 @@
     📂 來路不明2: 4 个频道
     📂 俄罗斯: 100 个频道
     📂 俄罗斯成人_00: 7 个频道
-    📂 儿歌: 2 个频道
+    📂 儿歌: 1 个频道
     📂 儿童专享: 1 个频道
     📂 全佳: 1 个频道
     📂 全国卫视: 2 个频道
@@ -1161,7 +1157,7 @@
     📂 地方: 50 个频道
     📂 地方台: 8 个频道
     📂 地方台直播: 2 个频道
-    📂 地方电视台: 10 个频道
+    📂 地方电视台: 7 个频道
     📂 境外: 3 个频道
     📂 备用频道: 1 个频道
     📂 外国▪电影: 8 个频道
@@ -1217,7 +1213,7 @@
     📂 景区: 1 个频道
     📂 更新时间: 1 个频道
     📂 最新电影: 1 个频道
-    📂 未分类: 1358 个频道
+    📂 未分类: 1353 个频道
     📂 未分组: 19 个频道
     📂 本地: 8 个频道
     📂 极速awei: 1 个频道
@@ -1283,11 +1279,11 @@
     📂 科教频道: 2 个频道
     📂 童年频道: 4 个频道
     📂 粤港澳闽: 2 个频道
-    📂 精选: 3 个频道
+    📂 精选: 2 个频道
     📂 綜藝: 1 个频道
     📂 纪实: 4 个频道
     📂 纪录片: 1 个频道
-    📂 纪录片频道: 355 个频道
+    📂 纪录片频道: 353 个频道
     📂 经典剧场: 2 个频道
     📂 经典小品: 1 个频道
     📂 综艺: 1 个频道
@@ -1323,7 +1319,7 @@
     📂 马来西亚(粤) Malaysia: 1 个频道
     📂 鳳凰: 1 个频道
     📂 麻豆-MSD: 27 个频道
-    📂 麻豆传媒: 668 个频道
+    📂 麻豆传媒: 666 个频道
     📂 黑龙江: 2 个频道
     📂 ️電影點播: 1 个频道
     📂 ﻿戏剧文化: 1 个频道
@@ -1360,7 +1356,7 @@
     📂 🍃  甘肃: 2 个频道
     📂 🍏香港频道: 1 个频道
     📂 🍹定制台☕️: 1 个频道
-    📂 🎀央视卫视: 3 个频道
+    📂 🎀央视卫视: 2 个频道
     📂 🎎｜18开车_9527: 89 个频道
     📂 🎎｜18欧美福利_9527: 2 个频道
     📂 🎎｜VIP直播测试_0721: 58 个频道
@@ -2003,23 +1999,22 @@
   🪁动画频道,#genre#
 
 【需要添加到 alias.txt 的别名】
-  TR: BLUMAX,TR: BLUMAX HD KEMAL SUNAL 1 4K,TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD TURKU HD
+  TR: BLUMAX,TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD KEMAL SUNAL 5 HD
   ,,4K60PSDR-H264-AAC测试,4K高清岳云鹏
   TVB星河,TVB星河,TVB星河频道,[MY]TVB星河
-  熊猫,熊猫频道01高清,熊猫频道6,熊猫频道9
+  熊猫,熊猫频道01高清,熊猫频道5,熊猫频道8
   人间,人间卫视
   CHC家庭影院,CHC家庭影院,CHC家庭影院HD
   CHC动作电影,CHC动作电影
-  CGTN法语,CGTN法语
   CCTV,CCTV-8k,CCTV4K,CCTV4K超高清
-  FANT,FANTHD2,FANTHD5,FANTHD7
-  CGTN纪录,CGTN纪录
+  CGTN法语,CGTN法语
+  FANT,FANTHD2,FANTHD3,FANTHD7
   HBO,HBO,[MY]HBO,[TW]HBO HD
-  Arirang,Arirang,Arirang[1280x720],Arirang[640x360]
+  CGTN纪录,CGTN纪录
   CGTN,CGTN,CGTN高清
-  CHC影迷电影,CHC影迷电影,CHC影迷电影HD
-  4,4
+  Arirang,Arirang,Arirang[1280x720],Arirang[640x360]
   6,6
+  4,4
   3,3
   7,7
   浙江国际,浙江国际
@@ -2030,111 +2025,112 @@
   重温经典,重温经典
   Playboy,Playboy,PlayboyHD(KR)
   14,14,14[1280x720]
+  CHC影迷电影,CHC影迷电影,CHC影迷电影HD
   Blonde,Blonde
   Anal,Anal,Anal 4K
   Hustler,Hustler,Hustler HD,Hustler HD orig
-  11,11
-  2,2
-  9,9
-  5,5
   10,10
+  9,9
+  2,2
+  5,5
   8,8
+  11,11
   1,1,1 HD[1280x720]
   浙江新闻,浙江新闻
+  FOX NEWS,FOX NEWS
+  凤凰中文台,凤凰中文台
+  茶,茶,茶频道,茶频道高清
+  29,29
+  黎城综合,黎城综合,黎城综合频道
+  CGTN西班牙语,CGTN西班牙语
   龙华电影,龙华电影
   华丽翡翠台,华丽翡翠台
-  茶,茶,茶频道,茶频道高清
-  CGTN西班牙语,CGTN西班牙语
-  黎城综合,黎城综合,黎城综合频道
-  29,29
-  凤凰中文台,凤凰中文台
-  FOX NEWS,FOX NEWS
   TLC,TLC,TLC HD TR,TLC[1280x720]
   Dorcel,Dorcel,Dorcel HD orig
   MTV,MTV,MTV[1280x720],[MY]MTV
   CNBC,CNBC,[MY]CNBC
   XXL,XXL
-  乐至综合,乐至综合,乐至综合频道
   KCTV,KCTV
+  乐至综合,乐至综合,乐至综合频道
   动作电影,动作电影
-  Russian,Russian
-  Hardcore,Hardcore
   Interracial,Interracial
   Cuckold,Cuckold
-  浙江民生休闲,浙江民生休闲,浙江民生休闲[1920*1080]
-  浙江钱江,浙江钱江,浙江钱江频道[1920*1080]
+  Hardcore,Hardcore
+  Russian,Russian
   Brunette,Brunette
   Blowjob,Blowjob
+  浙江钱江,浙江钱江,浙江钱江频道[1920*1080]
+  浙江民生休闲,浙江民生休闲,浙江民生休闲[1920*1080]
   Redlight,Redlight,Redlight HD,Redlight HD orig
-  20,20
-  19,19
-  18,18
-  23,23
   17,17
-  16,16
   15,15
-  21,21
+  16,16
+  23,23
+  19,19
   22,22
+  20,20
+  18,18
+  21,21
   12,12
   Dorcel TV,Dorcel TV,Dorcel TV HD,Dorcel TV HD orig
   金鹰纪实,金鹰纪实,金鹰纪实HD
   星空,星空卫视,星空卫视国际,星空卫视频道
+  Gay,Gay
+  37,37
+  CGTN俄语,CGTN俄语
+  CETV1,CETV1
+  CGTN阿拉伯语,CGTN阿拉伯语
+  CHC,CHC高清电影,CHC高清电影 7M1080
+  龙华戏剧,龙华戏剧
+  CHU,CHU
   翡翠台,翡翠台4K,翡翠台4k
   澳门莲花,澳门莲花
-  CHU,CHU
-  龙华戏剧,龙华戏剧
-  Gay,Gay
-  CGTN俄语,CGTN俄语
-  CGTN阿拉伯语,CGTN阿拉伯语
-  37,37
-  CHC,CHC高清电影,CHC高清电影 7M1080
-  CETV1,CETV1
   ATV,ATV,ATV HD (Армения)[1920x1080],ATV HD TR
   Animal Planet,Animal Planet,Animal Planet HD TR
   四海钓鱼,四海钓鱼
-  Erox,Erox,Erox HD
   Brazzers,Brazzers,Brazzers HD,Brazzers HD eXXtra
+  Erox,Erox,Erox HD
   好消息,好消息,好消息电视台1,好消息电视台2
   半岛新闻,「QA」半岛新闻「阿拉伯」,半岛新闻,半岛新闻「阿拉伯」
   CETV4,CETV4
   CinemaWorld,CinemaWorld,[MY]CinemaWorld
-  国家地理野生,国家地理野生,国家地理野生频道[1920*1080]
   三立iNEWS,三立iNEWS
-  河源公共,河源公共,河源公共频道
+  国家地理野生,国家地理野生,国家地理野生频道[1920*1080]
   亚洲,亚洲
   BBC,BBC,[MY]BBC
+  河源公共,河源公共,河源公共频道
   新加坡英语,新加坡英语电视台[480*270],新加坡英语电视台[640*360],新加坡英语电视台[960*540]
   玛纳斯综合,「新疆」玛纳斯综合,玛纳斯综合
   宜兴新闻,「江苏」宜兴新闻频道,宜兴新闻,宜兴新闻频道
   湖南电影,湖南电影
-  鹤壁综合,鹤壁综合频道
-  历史,历史频道,历史频道2,历史频道[1280x720]
-  天映经典,[MY]天映经典,[TW]天映经典,天映经典
   家庭影院,家庭影院
-  第一剧场,第一剧场
+  天映经典,[MY]天映经典,[TW]天映经典,天映经典
+  历史,历史频道,历史频道2,历史频道[1280x720]
+  鹤壁综合,鹤壁综合频道
   CCTV第一剧场,CCTV第一剧场
+  第一剧场,第一剧场
   Big Tits,Big Tits
-  河源综合,河源综合,河源综合[960*540]
-  浙江经济生活,浙江经济生活,浙江经济生活[1920*1080]
-  POV,POV
-  Compilation,Compilation
-  Latina,Latina
   MILF,MILF
-  Teen,Teen
-  Gangbang,Gangbang
   Asian,Asian
   Fetish,Fetish
-  Big Ass,Big Ass
+  POV,POV
+  Latina,Latina
+  Compilation,Compilation
+  Teen,Teen
+  Gangbang,Gangbang
+  浙江经济生活,浙江经济生活,浙江经济生活[1920*1080]
+  河源综合,河源综合,河源综合[960*540]
   NBA TV,NBA TV
+  Big Ass,Big Ass
   28,28
+  30,30
   24,24
   26,26
-  42,42
   25,25
-  30,30
   27,27
-  湖南都市,湖南都市
+  42,42
   天映,天映频道,天映频道1080p,天映频道2
+  湖南都市,湖南都市
   浙江经济,浙江经济
   浙江民生,浙江民生
   Discovery,Discovery,[MY]Discovery
@@ -2143,6 +2139,6 @@
   Al Horreya TV,Al Horreya TV
   ADULTTiny,ADULTTiny 4K - VOD 05,ADULTTiny 4K - VOD 09,ADULTTiny 4K - VOD 11
   国会,国会频道1,国会频道2,国会频道2台
-  山东教育,山东教育,山东教育卫视
   笑傲江湖,笑傲江湖
+  山东教育,山东教育,山东教育卫视
   游戏风云,游戏风云,游戏风云高清
