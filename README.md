@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-22 09:33:54 (北京时间)
+> 最后更新：2026-04-23 09:52:11 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16685** |
+| 总频道数 | **17257** |
 | 已知别名 | 1863 |
-| 分类数量 | 592 |
-| GitHub 来源 | 17473 |
-| 失败源数 | 301571 |
+| 分类数量 | 610 |
+| GitHub 来源 | 18009 |
+| 失败源数 | 306621 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1796 个频道
+1. **未分类** - 1810 个频道
 2. **GETROK** - 1230 个频道
 3. **麻豆传媒** - 655 个频道
 4. **HHH_798798** - 580 个频道
 5. **🎎｜VIP直播测试_0721** - 508 个频道
 6. **🎎｜VIP直播资源3_0721** - 478 个频道
 7. **Albania** - 472 个频道
-8. **传媒壹一_00** - 359 个频道
-9. **纪录片频道** - 355 个频道
+8. **传媒壹一_00** - 356 个频道
+9. **纪录片频道** - 354 个频道
 10. **Turkey** - 353 个频道
 11. **🔞国产传媒_8585** - 346 个频道
 12. **Sport** - 292 个频道
-13. **VIP私密精选_00** - 276 个频道
-14. **EX-Yu** - 242 个频道
-15. **🔞欧美福利_8585** - 240 个频道
+13. **VIP私密精选_00** - 274 个频道
+14. **卫视频道** - 257 个频道
+15. **EX-Yu** - 242 个频道
 
 ## 📥 下载地址
 
@@ -71,36 +71,36 @@
 24. `CNR•广播`
 25. `Comedy`
 26. `Croatia`
-27. `DEN'S TV`
-28. `DIY`
-29. `DJ`
-30. `DJ舞曲`
+27. `Cyprus`
+28. `DEN'S TV`
+29. `DIY`
+30. `DJ`
 
-> 共 538 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 551 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD YESILCAM 6 HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 1 HD,TR: BLUMAX HD KADIR INANIR HD,TR: BLUMAX HD KEMAL SUNAL 5 4K
 - 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 11 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **熊猫** (出现 11 次): 熊猫频道5,熊猫频道7,熊猫频道9
-- **CHC家庭影院** (出现 8 次): CHC家庭影院,CHC家庭影院HD
+- **熊猫** (出现 11 次): 熊猫频道2,熊猫频道4,熊猫频道9
 - **人间** (出现 8 次): 人间卫视
-- **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4K超高清
+- **CHC家庭影院** (出现 7 次): CHC家庭影院,CHC家庭影院HD
 - **CHC动作电影** (出现 7 次): CHC动作电影
+- **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4K超高清
+- **CGTN** (出现 7 次): CGTN,CGTN高清
+- **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
+- **7** (出现 7 次): 7
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **CGTN法语** (出现 6 次): CGTN法语
 - **CGTN纪录** (出现 6 次): CGTN纪录
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **浙江新闻** (出现 6 次): 浙江新闻
-- **CGTN** (出现 6 次): CGTN,CGTN高清
+- **Dorcel** (出现 6 次): Dorcel,Dorcel HD orig
+- **Eroxxx** (出现 6 次): Eroxxx,Eroxxx HD
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
-- **4** (出现 6 次): 4
-- **6** (出现 6 次): 6
-- **5** (出现 6 次): 5,5 HD |D
-- **7** (出现 6 次): 7
-- **3** (出现 6 次): 3
+- **14** (出现 6 次): 14,14[1280x720]
 
-> 共 152 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 198 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
