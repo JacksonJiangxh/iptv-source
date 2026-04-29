@@ -1,7 +1,7 @@
-# 别名分类报告 - 生成时间: 2026-04-28 10:05:15
-# 总频道数: 17068
-# 已知别名频道: 568 个（去重后 181 个主名）
-# 未知别名频道: 13824 个（去重后 12607 个名称）
+# 别名分类报告 - 生成时间: 2026-04-29 10:06:07
+# 总频道数: 17011
+# 已知别名频道: 567 个（去重后 181 个主名）
+# 未知别名频道: 13775 个（去重后 12568 个名称）
 
 ================================================================================
 一、分类名汇总
@@ -226,7 +226,6 @@
   ✗ 内蒙古
   ✗ 剧集轮播
   ✗ 加密
-  ✗ 动作专属_1010
   ✗ 动画频道
   ✗ 北方广电
   ✗ 北美
@@ -385,7 +384,6 @@
   ✗ 经典小品
   ✗ 综合广播
   ✗ 缁煎悎
-  ✗ 网络广播
   ✗ 网络源
   ✗ 美国
   ✗ 美女&野兽 _00
@@ -482,7 +480,6 @@
   ✗ 🎸DJ音乐会
   ✗ 🎸MTV 👉
   ✗ 🏀体育频道
-  ✗ 🏆咪咕体育🏆
   ✗ 🏐排球少年
   ✗ 🏓MDSport
   ✗ 🏵️台湾频道
@@ -575,7 +572,6 @@
   ✗ 🕘️更新时间
   ✗ 🚀•精彩视频
   ✗ 🤩3D频道🤩
-  ✗ 🥝精品频道🥝
   ✗ 🧲玩轉原力_666666
   ✗ 🪁动画频道
 
@@ -630,7 +626,7 @@
       大爱2台 (3 个变体)
       寰宇新闻 (6 个变体)
       星卫娱乐 (1 个变体)
-      民视 (16 个变体)
+      民视 (15 个变体)
       民视新闻 (2 个变体)
       番薯 (1 个变体)
       纬来体育 (2 个变体)
@@ -799,16 +795,16 @@
   ── 建议别名组（出现 3 次以上的相似名称）──
     🔸 TR: BLUMAX
         出现次数: 40, 原始分类: Turkey
-        示例: TR: BLUMAX HD ILYAS SALMAN, TR: BLUMAX HD KEMAL SUNAL 1 HD, TR: BLUMAX HD MASALLAR 2 HD
+        示例: TR: BLUMAX HD CUNETY ARKIN, TR: BLUMAX HD HABABAM TV, TR: BLUMAX HD MASALLAR 1 HD
     🔸 
         出现次数: 16, 原始分类: 未分类
         示例: , 4K60PSDR-H264-AAC测试, 4K高清岳云鹏
     🔸 TVB星河
-        出现次数: 10, 原始分类: 港澳台频道
+        出现次数: 10, 原始分类: 未分类
         示例: TVB星河, TVB星河频道, [MY]TVB星河
     🔸 CCTV
         出现次数: 9, 原始分类: 未分类
-        示例: CCTV-8k, CCTV4K, CCTV8K
+        示例: CCTV4K, CCTV4k, CCTV8K
     🔸 HBO
         出现次数: 7, 原始分类: 未分类
         示例: HBO, [MY]HBO, [TW]HBO HD
@@ -819,32 +815,29 @@
         出现次数: 7, 原始分类: 🐶另一类
         示例: 7
     🔸 浙江新闻
-        出现次数: 7, 原始分类: ☘️浙江频道
+        出现次数: 7, 原始分类: 浙江
         示例: 浙江新闻
     🔸 浙江国际
-        出现次数: 7, 原始分类: ☘️浙江频道
+        出现次数: 7, 原始分类: 浙江
         示例: 浙江国际
-    🔸 CGTN纪录
-        出现次数: 6, 原始分类: 未分类
-        示例: CGTN纪录
     🔸 CGTN
         出现次数: 6, 原始分类: 未分类
         示例: CGTN
     🔸 重温经典
         出现次数: 6, 原始分类: 未分类
         示例: 重温经典
-    🔸 CHC动作电影
+    🔸 CGTN纪录
         出现次数: 6, 原始分类: 未分类
-        示例: CHC动作电影
+        示例: CGTN纪录
     🔸 Arirang
         出现次数: 6, 原始分类: groupName=国际
         示例: Arirang, Arirang[1280x720], Arirang[640x360]
-    🔸 Eroxxx
-        出现次数: 6, 原始分类: 成人
-        示例: Eroxxx, Eroxxx HD
     🔸 14
         出现次数: 6, 原始分类: 韩国频道
         示例: 14, 14[1280x720]
+    🔸 Eroxxx
+        出现次数: 6, 原始分类: $other adult iptv
+        示例: Eroxxx, Eroxxx HD
     🔸 HISTORY
         出现次数: 6, 原始分类: 台湾
         示例: HISTORY, HISTORY[1280x720], HISTORY频道
@@ -854,72 +847,78 @@
     🔸 Redlight
         出现次数: 6, 原始分类: 🌘午夜直播
         示例: Redlight, Redlight HD, Redlight HD orig
-    🔸 4
-        出现次数: 6, 原始分类: 🐶另一类
-        示例: 4
     🔸 6
         出现次数: 6, 原始分类: 🐶另一类
         示例: 6
-    🔸 3
-        出现次数: 6, 原始分类: 🐶另一类
-        示例: 3
     🔸 5
         出现次数: 6, 原始分类: 🐶另一类
         示例: 5, 5 HD |D
+    🔸 3
+        出现次数: 6, 原始分类: 🐶另一类
+        示例: 3
+    🔸 4
+        出现次数: 6, 原始分类: 🐶另一类
+        示例: 4
     🔸 FANT
         出现次数: 6, 原始分类: Adult
-        示例: FANTHD3, FANTHD5, FANTHD6
-    🔸 CGTN法语
-        出现次数: 5, 原始分类: 未分类
-        示例: CGTN法语
-    🔸 CHC家庭影院
-        出现次数: 5, 原始分类: 未分类
-        示例: CHC家庭影院
+        示例: FANTHD3, FANTHD4, FANTHD7
     🔸 13
         出现次数: 5, 原始分类: 未分类
         示例: 13
+    🔸 CHC家庭影院
+        出现次数: 5, 原始分类: 未分类
+        示例: CHC家庭影院
+    🔸 CGTN法语
+        出现次数: 5, 原始分类: 未分类
+        示例: CGTN法语
+    🔸 CHC动作电影
+        出现次数: 5, 原始分类: 未分类
+        示例: CHC动作电影
     🔸 ATV
         出现次数: 5, 原始分类: Turkey
         示例: ATV, ATV HD (Армения)[1920x1080], ATV HD TR
+    🔸 Playboy
+        出现次数: 5, 原始分类: 📀欧美1
+        示例: Playboy, PlayboyHD(KR)
     🔸 Dorcel
         出现次数: 5, 原始分类: 成人
         示例: Dorcel, Dorcel HD orig
     🔸 CNBC
         出现次数: 5, 原始分类: 海外
         示例: CNBC, [MY]CNBC
-    🔸 Playboy
-        出现次数: 5, 原始分类: 📀欧美1
-        示例: Playboy, PlayboyHD(KR)
     🔸 Anal
         出现次数: 5, 原始分类: $redtraffic adult iptv
         示例: Anal, Anal 4K
     🔸 Blonde
         出现次数: 5, 原始分类: $redtraffic adult iptv
         示例: Blonde
-    🔸 11
+    🔸 1
         出现次数: 5, 原始分类: 🐶另一类
-        示例: 11
+        示例: 1, 1 HD[1280x720]
+    🔸 8
+        出现次数: 5, 原始分类: 🐶另一类
+        示例: 8
     🔸 10
         出现次数: 5, 原始分类: 🐶另一类
         示例: 10
     🔸 9
         出现次数: 5, 原始分类: 🐶另一类
         示例: 9
-    🔸 8
+    🔸 11
         出现次数: 5, 原始分类: 🐶另一类
-        示例: 8
-    🔸 1
-        出现次数: 5, 原始分类: 🐶另一类
-        示例: 1, 1 HD[1280x720]
+        示例: 11
     🔸 Dorcel TV
         出现次数: 5, 原始分类: HHH_798798
         示例: Dorcel TV, Dorcel TV HD, Dorcel TV HD orig
-    🔸 华丽翡翠台
-        出现次数: 4, 原始分类: 港澳台频道
-        示例: 华丽翡翠台
-    🔸 龙华电影
-        出现次数: 4, 原始分类: 港澳台频道
-        示例: 龙华电影
+    🔸 松視3台
+        出现次数: 4, 原始分类: 未分类
+        示例: 松視3台
+    🔸 凤凰中文台
+        出现次数: 4, 原始分类: 未分类
+        示例: 凤凰中文台
+    🔸 浙江经济生活
+        出现次数: 4, 原始分类: 未分类
+        示例: 浙江经济生活, 浙江经济生活[1920*1080]
     🔸 29
         出现次数: 4, 原始分类: 未分类
         示例: 29
@@ -929,24 +928,21 @@
     🔸 黎城综合
         出现次数: 4, 原始分类: 未分类
         示例: 黎城综合, 黎城综合频道
-    🔸 松視3台
-        出现次数: 4, 原始分类: 未分类
-        示例: 松視3台
     🔸 FOX NEWS
         出现次数: 4, 原始分类: 未分类
         示例: FOX NEWS
-    🔸 凤凰中文台
-        出现次数: 4, 原始分类: 未分类
-        示例: 凤凰中文台
-    🔸 浙江经济生活
-        出现次数: 4, 原始分类: 未分类
-        示例: 浙江经济生活, 浙江经济生活[1920*1080]
+    🔸 龙华电影
+        出现次数: 4, 原始分类: 港澳台频道
+        示例: 龙华电影
+    🔸 华丽翡翠台
+        出现次数: 4, 原始分类: 港澳台频道
+        示例: 华丽翡翠台
     🔸 TLC
         出现次数: 4, 原始分类: Turkey
         示例: TLC, TLC HD TR, TLC[1280x720]
     🔸 TRT 1
         出现次数: 4, 原始分类: Turkey
-        示例: TRT 1 4K, TRT 1 4K |D, TRT 1 HD TR
+        示例: TRT 1 4K, TRT 1 HD TR, TRT 1 HD |D
 
   ── 按原始分类统计 ──
     📂 $adultiptv: 24 个频道
@@ -1008,7 +1004,7 @@
     📂 Home: 2 个频道
     📂 INDIAN BANGLA CHANNELS: 1 个频道
     📂 IPTV2024: 1 个频道
-    📂 IPV4央卫: 21 个频道
+    📂 IPV4央卫: 12 个频道
     📂 Indian Bangla: 3 个频道
     📂 International Entertainment: 1 个频道
     📂 International News: 2 个频道
@@ -1087,7 +1083,7 @@
     📂 ☘️山西频道: 2 个频道
     📂 ☘️广东频道: 1 个频道
     📂 ☘️广西频道: 1 个频道
-    📂 ☘️江苏频道: 8 个频道
+    📂 ☘️江苏频道: 7 个频道
     📂 ☘️河北频道: 1 个频道
     📂 ☘️河南频道: 3 个频道
     📂 ☘️浙江频道: 22 个频道
@@ -1097,7 +1093,7 @@
     📂 ☘️辽宁频道: 5 个频道
     📂 ☘️陕西频道: 8 个频道
     📂 ☘️黑龙江频道: 6 个频道
-    📂 ⚡电影轮播台: 111 个频道
+    📂 ⚡电影轮播台: 110 个频道
     📂 ⚡音乐台: 3 个频道
     📂 ⚽体育: 8 个频道
     📂 ❤综合感性电影: 1 个频道
@@ -1129,7 +1125,7 @@
     📂 亚洲频道: 1 个频道
     📂 休闲生活: 3 个频道
     📂 传媒叁三_00: 216 个频道
-    📂 传媒壹一_00: 340 个频道
+    📂 传媒壹一_00: 336 个频道
     📂 传媒肆四_00: 63 个频道
     📂 传媒贰二_00: 220 个频道
     📂 伦理电影专辑: 29 个频道
@@ -1151,13 +1147,12 @@
     📂 内蒙古: 3 个频道
     📂 剧集轮播: 6 个频道
     📂 加密: 14 个频道
-    📂 动作专属_1010: 1 个频道
     📂 动画频道: 1 个频道
     📂 北方广电: 24 个频道
     📂 北美: 2 个频道
     📂 华丽台: 3 个频道
     📂 卫视: 8 个频道
-    📂 卫视频道: 12 个频道
+    📂 卫视频道: 11 个频道
     📂 印度: 7 个频道
     📂 历届🌟春晚: 1 个频道
     📂 历年春晚: 28 个频道
@@ -1198,8 +1193,8 @@
     📂 小地方: 1 个频道
     📂 小屁孩禁地: 13 个频道
     📂 少儿: 1 个频道
-    📂 少儿频道: 12 个频道
-    📂 山东移动: 3 个频道
+    📂 少儿频道: 11 个频道
+    📂 山东移动: 2 个频道
     📂 山西: 4 个频道
     📂 广东: 5 个频道
     📂 广东地方: 5 个频道
@@ -1235,7 +1230,7 @@
     📂 景区: 1 个频道
     📂 更新时间: 44 个频道
     📂 最新电影: 1 个频道
-    📂 未分类: 1380 个频道
+    📂 未分类: 1372 个频道
     📂 未分组: 18 个频道
     📂 本地: 8 个频道
     📂 梦幻频道: 210 个频道
@@ -1270,7 +1265,7 @@
     📂 港澳台频道C: 1 个频道
     📂 港澳频道: 3 个频道
     📂 湖北: 2 个频道
-    📂 湖南: 24 个频道
+    📂 湖南: 23 个频道
     📂 湖南频道: 10 个频道
     📂 滚石30周年: 13 个频道
     📂 点播电影: 3 个频道
@@ -1287,7 +1282,7 @@
     📂 珠江: 2 个频道
     📂 生活: 2 个频道
     📂 电信网络: 1 个频道
-    📂 电影: 12 个频道
+    📂 电影: 7 个频道
     📂 电影直播: 1 个频道
     📂 电影频道: 11 个频道
     📂 电视: 98 个频道
@@ -1310,7 +1305,6 @@
     📂 经典小品: 1 个频道
     📂 综合广播: 14 个频道
     📂 缁煎悎: 3 个频道
-    📂 网络广播: 1 个频道
     📂 网络源: 1 个频道
     📂 美国: 22 个频道
     📂 美女&野兽 _00: 2 个频道
@@ -1358,7 +1352,7 @@
     📂 🇨🇳 韩舞 DJ: 5 个频道
     📂 🇨🇳IPV4线路: 11 个频道
     📂 🇨🇳地方: 6 个频道
-    📂 🇨🇳央视频道: 2 个频道
+    📂 🇨🇳央视频道: 1 个频道
     📂 🇨🇳影院频道: 18 个频道
     📂 🇨🇳影音频道: 57 个频道
     📂 🇨🇳浙江地方: 20 个频道
@@ -1397,18 +1391,17 @@
     📂 🎤MV: 1 个频道
     📂 🎤丨MTV: 1 个频道
     📂 🎥新加坡频道: 3 个频道
-    📂 🎥港澳台: 23 个频道
+    📂 🎥港澳台: 22 个频道
     📂 🎥直播: 1 个频道
     📂 🎬电影频道: 4 个频道
     📂 🎬邵氏电影: 7 个频道
     📂 🎯小鹏奇葩行: 23 个频道
     📂 🎴TEST: 17 个频道
     📂 🎵MV🎧: 7 个频道
-    📂 🎸DJ音乐会: 86 个频道
+    📂 🎸DJ音乐会: 85 个频道
     📂 🎸MTV 👉: 30 个频道
     📂 🏀体育频道: 2 个频道
-    📂 🏆咪咕体育🏆: 1 个频道
-    📂 🏐排球少年: 40 个频道
+    📂 🏐排球少年: 31 个频道
     📂 🏓MDSport: 2 个频道
     📂 🏵️台湾频道: 1 个频道
     📂 🐂［斗牛］: 13 个频道
@@ -1491,7 +1484,7 @@
     📂 🔖韩国频道: 1 个频道
     📂 🔞一本道道_8585: 19 个频道
     📂 🔞其他肾宝_8585: 1 个频道
-    📂 🔞国产传媒_8585: 309 个频道
+    📂 🔞国产传媒_8585: 308 个频道
     📂 🔞松視CR(更新日期114.06.30)_1818: 5 个频道
     📂 🔞欧美福利_8585: 235 个频道
     📂 🔞歐美_1818: 15 个频道
@@ -1500,7 +1493,6 @@
     📂 🕘️更新时间: 2 个频道
     📂 🚀•精彩视频: 40 个频道
     📂 🤩3D频道🤩: 9 个频道
-    📂 🥝精品频道🥝: 1 个频道
     📂 🧲玩轉原力_666666: 8 个频道
     📂 🪁动画频道: 1 个频道
 
@@ -1711,7 +1703,6 @@
   内蒙古,#genre#
   剧集轮播,#genre#
   加密,#genre#
-  动作专属_1010,#genre#
   动画频道,#genre#
   北方广电,#genre#
   北美,#genre#
@@ -1870,7 +1861,6 @@
   经典小品,#genre#
   综合广播,#genre#
   缁煎悎,#genre#
-  网络广播,#genre#
   网络源,#genre#
   美国,#genre#
   美女&野兽 _00,#genre#
@@ -1967,7 +1957,6 @@
   🎸DJ音乐会,#genre#
   🎸MTV 👉,#genre#
   🏀体育频道,#genre#
-  🏆咪咕体育🏆,#genre#
   🏐排球少年,#genre#
   🏓MDSport,#genre#
   🏵️台湾频道,#genre#
@@ -2060,196 +2049,192 @@
   🕘️更新时间,#genre#
   🚀•精彩视频,#genre#
   🤩3D频道🤩,#genre#
-  🥝精品频道🥝,#genre#
   🧲玩轉原力_666666,#genre#
   🪁动画频道,#genre#
 
 【需要添加到 alias.txt 的别名】
-  TR: BLUMAX,TR: BLUMAX HD ILYAS SALMAN,TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD MASALLAR 2 HD
+  TR: BLUMAX,TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD HABABAM TV,TR: BLUMAX HD MASALLAR 1 HD
   ,,4K60PSDR-H264-AAC测试,4K高清岳云鹏
   TVB星河,TVB星河,TVB星河频道,[MY]TVB星河
-  CCTV,CCTV-8k,CCTV4K,CCTV8K
+  CCTV,CCTV4K,CCTV4k,CCTV8K
   HBO,HBO,[MY]HBO,[TW]HBO HD
   Hustler,Hustler,Hustler HD,Hustler HD orig
   7,7
   浙江新闻,浙江新闻
   浙江国际,浙江国际
-  CGTN纪录,CGTN纪录
   CGTN,CGTN
   重温经典,重温经典
-  CHC动作电影,CHC动作电影
+  CGTN纪录,CGTN纪录
   Arirang,Arirang,Arirang[1280x720],Arirang[640x360]
-  Eroxxx,Eroxxx,Eroxxx HD
   14,14,14[1280x720]
+  Eroxxx,Eroxxx,Eroxxx HD
   HISTORY,HISTORY,HISTORY[1280x720],HISTORY频道
   浙江钱江,浙江钱江,浙江钱江频道[1920*1080]
   Redlight,Redlight,Redlight HD,Redlight HD orig
-  4,4
   6,6
-  3,3
   5,5,5 HD |D
-  FANT,FANTHD3,FANTHD5,FANTHD6
-  CGTN法语,CGTN法语
-  CHC家庭影院,CHC家庭影院
+  3,3
+  4,4
+  FANT,FANTHD3,FANTHD4,FANTHD7
   13,13
+  CHC家庭影院,CHC家庭影院
+  CGTN法语,CGTN法语
+  CHC动作电影,CHC动作电影
   ATV,ATV,ATV HD (Армения)[1920x1080],ATV HD TR
+  Playboy,Playboy,PlayboyHD(KR)
   Dorcel,Dorcel,Dorcel HD orig
   CNBC,CNBC,[MY]CNBC
-  Playboy,Playboy,PlayboyHD(KR)
   Anal,Anal,Anal 4K
   Blonde,Blonde
-  11,11
+  1,1,1 HD[1280x720]
+  8,8
   10,10
   9,9
-  8,8
-  1,1,1 HD[1280x720]
+  11,11
   Dorcel TV,Dorcel TV,Dorcel TV HD,Dorcel TV HD orig
-  华丽翡翠台,华丽翡翠台
-  龙华电影,龙华电影
+  松視3台,松視3台
+  凤凰中文台,凤凰中文台
+  浙江经济生活,浙江经济生活,浙江经济生活[1920*1080]
   29,29
   上海,上海卫视
   黎城综合,黎城综合,黎城综合频道
-  松視3台,松視3台
   FOX NEWS,FOX NEWS
-  凤凰中文台,凤凰中文台
-  浙江经济生活,浙江经济生活,浙江经济生活[1920*1080]
+  龙华电影,龙华电影
+  华丽翡翠台,华丽翡翠台
   TLC,TLC,TLC HD TR,TLC[1280x720]
-  TRT 1,TRT 1 4K,TRT 1 4K |D,TRT 1 HD TR
+  TRT 1,TRT 1 4K,TRT 1 HD TR,TRT 1 HD |D
   CNN,CNN,[MY]CNN
-  Extasy,Extasy,Extasy 4K,Extasy HD
-  Brazzers,Brazzers,Brazzers HD,Brazzers HD eXXtra
   XXL,XXL
-  MTV,MTV,MTV[1280x720],[MY]MTV
+  Brazzers,Brazzers,Brazzers HD,Brazzers HD eXXtra
+  Extasy,Extasy,Extasy 4K,Extasy HD
   人间,人间卫视
+  MTV,MTV,MTV[1280x720],[MY]MTV
   KCTV,KCTV
   乐至综合,乐至综合,乐至综合频道
   浙江民生休闲,浙江民生休闲,浙江民生休闲[1920*1080]
-  CCTV第一剧场,CCTV第一剧场
   NBA TV,NBA TV,NBA TV HD |D
   Cuckold,Cuckold
-  Hardcore,Hardcore
-  Interracial,Interracial
   Russian,Russian
-  Brunette,Brunette
+  Interracial,Interracial
+  Hardcore,Hardcore
   Blowjob,Blowjob
-  16,16
+  Brunette,Brunette
+  23,23
   2,2
+  15,15
+  16,16
+  19,19
+  20,20
+  22,22
+  17,17
+  18,18
   21,21
   24,24,24 HD |D
-  18,18
-  15,15
-  19,19
-  17,17
-  20,20
-  23,23
-  22,22
   12,12
   浙江经济,浙江经济
   浙江民生,浙江民生
   Reality Kings,Reality Kings HD
   山东教育,山东教育,山东教育卫视
-  龙华戏剧,龙华戏剧
-  CHU,CHU
-  澳门莲花,澳门莲花
-  DJ《我们不再是从前》,DJ《我们不再是从前》
-  DJ《心在跳情在烧》,DJ《心在跳情在烧》,DJ《心在跳情在烧》[1920x1080]
-  公共,公共频道,公共频道移动
-  DJ版《三月里的小雨》,DJ版《三月里的小雨》,DJ版《三月里的小雨》[1920x1080]
-  风云音乐,风云音乐,风云音乐高清
-  DJ版《爱不得忘不舍》,DJ版《爱不得忘不舍》
-  忘记你需要多久(DJ小鱼儿版),忘记你需要多久(DJ小鱼儿版)
-  DJ版《一个人挺好》,DJ版《一个人挺好》
-  郭镐鸣《野摩托》,郭镐鸣《野摩托》
-  《爱你到最后一刻》,《爱你到最后一刻》
-  DJ情歌《爱情迷了路》,DJ情歌《爱情迷了路》
-  松視2台,松視2台
-  DJ版《望爱却步》,DJ版《望爱却步》
-  CNA,CNA,CNA HD
-  动感DJ《苦了累了听听歌》,动感DJ《苦了累了听听歌》,动感DJ《苦了累了听听歌》[1920x1080]
-  松視1台,松視1台
-  37,37
-  澳视葡文,澳视葡文
-  伤感DJ《等》,伤感DJ《等》
-  《唱着情歌流着泪》,《唱着情歌流着泪》
-  Wonder,Wonder
+  韩可可《错位时空》DJ版,韩可可《错位时空》DJ版
+  赵蕾蕾《寂寞的城伤心的人》,赵蕾蕾《寂寞的城伤心的人》
   《无味》 DJ版,《无味》 DJ版
   DJ《等爱》,DJ《等爱》
-  Lust Cinema,Lust Cinema
-  Gay,Gay
-  《人间惊鸿客》,《人间惊鸿客》
-  CCTV风云剧场,CCTV风云剧场
-  海来阿木《浪子心》DJ沈念版,海来阿木《浪子心》DJ沈念版,海来阿木《浪子心》DJ沈念版[1920x1080]
-  孙艺琪《寂寞的人别听伤感情歌》,孙艺琪《寂寞的人别听伤感情歌》
-  情难断,情难断
-  韩可可《错位时空》DJ版,韩可可《错位时空》DJ版
-  经典老歌DJ舞曲七首,经典老歌DJ舞曲七首
-  DJ《醉过多少回》,DJ《醉过多少回》
-  河南新闻,河南新闻
-  DJ舞曲《让我做你的眼睛》,DJ舞曲《让我做你的眼睛》
-  DJ版《时间会知道你好不好》,DJ版《时间会知道你好不好》
+  DJ情歌《爱情迷了路》,DJ情歌《爱情迷了路》
+  DJ《心在跳情在烧》,DJ《心在跳情在烧》,DJ《心在跳情在烧》[1920x1080]
   DJ版《原谅你的谎》,DJ版《原谅你的谎》
-  赵蕾蕾《寂寞的城伤心的人》,赵蕾蕾《寂寞的城伤心的人》
-  第一剧场,第一剧场,第一剧场高清
-  精选五首DJ男声串烧,精选五首DJ男声串烧
-  CCTV-2 财经,CCTV-2 财经
-  DJ版《蜜雪冰城》,DJ版《蜜雪冰城》
-  潘朵拉完美,潘朵拉完美
+  DJ版《时间会知道你好不好》,DJ版《时间会知道你好不好》
+  DJ版《一个人挺好》,DJ版《一个人挺好》
+  公共,公共频道,公共频道移动
+  Wonder,Wonder
+  情难断,情难断
+  DJ舞曲《让我做你的眼睛》,DJ舞曲《让我做你的眼睛》
+  DJ版《爱不得忘不舍》,DJ版《爱不得忘不舍》
+  《唱着情歌流着泪》,《唱着情歌流着泪》
   车载DJ《多年以后》,车载DJ《多年以后》
+  DJ《我们不再是从前》,DJ《我们不再是从前》
+  Gay,Gay
+  《爱你到最后一刻》,《爱你到最后一刻》
+  忘记你需要多久(DJ小鱼儿版),忘记你需要多久(DJ小鱼儿版)
+  DJ版《望爱却步》,DJ版《望爱却步》
+  经典老歌DJ舞曲七首,经典老歌DJ舞曲七首
   DJ 流浪兄弟,DJ 流浪兄弟
+  伤感DJ《等》,伤感DJ《等》
+  《人间惊鸿客》,《人间惊鸿客》
+  海来阿木《浪子心》DJ沈念版,海来阿木《浪子心》DJ沈念版,海来阿木《浪子心》DJ沈念版[1920x1080]
+  精选五首DJ男声串烧,精选五首DJ男声串烧
+  澳视葡文,澳视葡文
+  松視1台,松視1台
+  松視2台,松視2台
   CETV1,CETV1
-  Animal Planet,Animal Planet,Animal Planet HD TR
+  动感DJ《苦了累了听听歌》,动感DJ《苦了累了听听歌》,动感DJ《苦了累了听听歌》[1920x1080]
+  潘朵拉完美,潘朵拉完美
+  河南新闻,河南新闻
+  37,37
+  郭镐鸣《野摩托》,郭镐鸣《野摩托》
+  DJ版《三月里的小雨》,DJ版《三月里的小雨》,DJ版《三月里的小雨》[1920x1080]
+  CNA,CNA,CNA HD
+  孙艺琪《寂寞的人别听伤感情歌》,孙艺琪《寂寞的人别听伤感情歌》
+  DJ版《蜜雪冰城》,DJ版《蜜雪冰城》
+  第一剧场,第一剧场,第一剧场高清
+  DJ《醉过多少回》,DJ《醉过多少回》
+  CCTV-2 财经,CCTV-2 财经
+  Lust Cinema,Lust Cinema
+  CHU,CHU
+  澳门莲花,澳门莲花
+  龙华戏剧,龙华戏剧
   NTV,NTV HD TR,NTV HD | TH Ngh? An[1920x1080],NTV HD |D
+  Animal Planet,Animal Planet,Animal Planet HD TR
   半岛新闻,「QA」半岛新闻「阿拉伯」,半岛新闻,半岛新闻「阿拉伯」
   亚洲,亚洲
+  Tiny,Tiny,Tiny4K
   Erox,Erox,Erox HD
-  新加坡英语,新加坡英语电视台[480*270],新加坡英语电视台[640*360],新加坡英语电视台[960*540]
   BBC,BBC,[MY]BBC
   MSNBC,MSNBC,MSNBC HD
   Global News,Global News
-  Tiny,Tiny,Tiny4K
-  三立iNEWS,三立iNEWS
-  CinemaWorld,CinemaWorld,[MY]CinemaWorld
+  新加坡英语,新加坡英语电视台[480*270],新加坡英语电视台[640*360],新加坡英语电视台[960*540]
   国家地理野生,国家地理野生,国家地理野生频道[1920*1080]
+  CinemaWorld,CinemaWorld,[MY]CinemaWorld
+  三立iNEWS,三立iNEWS
   BOOMERANG,BOOMERANG,BOOMERANG HD |D,[MY]BOOMERANG
-  美亚电影,美亚电影
   历史,历史频道,历史频道2,历史频道[1280x720]
   天映经典,[MY]天映经典,[TW]天映经典,天映经典
+  美亚电影,美亚电影
   宜兴新闻,「江苏」宜兴新闻频道,宜兴新闻,宜兴新闻频道
   玛纳斯综合,「新疆」玛纳斯综合,玛纳斯综合
-  Big Tits,Big Tits
+  CCTV第一剧场,CCTV第一剧场
   欧美10,欧美10
-  Teen,Teen
-  Asian,Asian
-  Latina,Latina
+  Big Tits,Big Tits
   Fetish,Fetish
+  Compilation,Compilation
+  Latina,Latina
   MILF,MILF
   POV,POV
+  Teen,Teen
+  Asian,Asian
   Gangbang,Gangbang
-  Compilation,Compilation
   Big Ass,Big Ass
   CHC影迷电影,CHC影迷电影
+  28,28
+  26,26
+  27,27
   30,30
   25,25
-  26,26
-  28,28
-  27,27
   Blacked,Blacked,Blacked HD
   鹤壁综合,鹤壁综合频道
   Discovery,Discovery,[MY]Discovery
   之江纪录,之江纪录
-  Hard X,Hard X
-  Hot and Mean,Hot and Mean
   Nubiles TV,Nubiles TV HD
-  Bang Bros,Bang Bros HD
+  Hot and Mean,Hot and Mean
   White Boxxx,White Boxxx
-  Playboy Plus,Playboy Plus
   Sexy Hot,Sexy Hot
+  Bang Bros,Bang Bros HD
+  Hard X,Hard X
   XY Mix,XY Mix HD
+  Playboy Plus,Playboy Plus
   Al Horreya TV,Al Horreya TV
-  金鹰纪实,金鹰纪实
+  XY Plus,XY Plus,XY Plus HD
   SuperOne,SuperOne,SuperOne HD
   Exxxotica,Exxxotica HD,Exxxotica HD orig
-  XY Plus,XY Plus,XY Plus HD
   Japan,Japan,Japan HDV
   NAT GEO WILD,NAT GEO WILD HD |D,NAT GEO WILD HD+ |D,[MY]NAT GEO WILD
   BEIN SPORTS,BEIN SPORTS 4K FEED(KUTU) |D,BEIN SPORTS 4K FEED(UYDU) |D,BEIN SPORTS 8K FEED |D
