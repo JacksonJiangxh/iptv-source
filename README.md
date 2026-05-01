@@ -1,33 +1,33 @@
 # IPTV 播放列表
 
-> 最后更新：2026-04-30 10:05:36 (北京时间)
+> 最后更新：2026-05-01 10:09:55 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16915** |
+| 总频道数 | **16684** |
 | 已知别名 | 1863 |
-| 分类数量 | 610 |
-| GitHub 来源 | 21721 |
-| 失败源数 | 335466 |
+| 分类数量 | 607 |
+| GitHub 来源 | 22252 |
+| 失败源数 | 337015 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1878 个频道
+1. **未分类** - 1843 个频道
 2. **GETROK** - 1230 个频道
-3. **麻豆传媒** - 637 个频道
+3. **麻豆传媒** - 616 个频道
 4. **HHH_798798** - 580 个频道
-5. **🎎｜VIP直播测试_0721** - 485 个频道
+5. **🎎｜VIP直播测试_0721** - 483 个频道
 6. **🎎｜VIP直播资源3_0721** - 478 个频道
 7. **Albania** - 472 个频道
 8. **Turkey** - 353 个频道
 9. **纪录片频道** - 347 个频道
-10. **🔞国产传媒_8585** - 340 个频道
+10. **🔞国产传媒_8585** - 338 个频道
 11. **传媒壹一_00** - 336 个频道
 12. **Sport** - 292 个频道
 13. **VIP私密精选_00** - 266 个频道
-14. **卫视频道** - 250 个频道
+14. **卫视频道** - 249 个频道
 15. **EX-Yu** - 242 个频道
 
 ## 📥 下载地址
@@ -76,22 +76,22 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 546 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 544 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 1 HD,TR: BLUMAX HD HALK MUZIGI 1 HD,TR: BLUMAX HD KEMAL SUNAL 5 4K
-- 无主名 (出现 16 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD AKSIYON HD,TR: BLUMAX HD HALK MUZIGI 1 HD
+- 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV8K
+- **CCTV** (出现 8 次): CCTV-8k,CCTV4K,CCTV4k
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
 - **7** (出现 7 次): 7
 - **浙江国际** (出现 7 次): 浙江国际
-- **CGTN纪录** (出现 6 次): CGTN纪录
 - **CGTN** (出现 6 次): CGTN
+- **CGTN纪录** (出现 6 次): CGTN纪录
 - **重温经典** (出现 6 次): 重温经典
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **14** (出现 6 次): 14,14[1280x720]
@@ -99,8 +99,8 @@
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **浙江钱江** (出现 6 次): 浙江钱江,浙江钱江频道[1920*1080]
 - **Redlight** (出现 6 次): Redlight,Redlight HD,Redlight HD orig
-- **5** (出现 6 次): 5,5 HD |D
-- **4** (出现 6 次): 4
 - **3** (出现 6 次): 3
+- **5** (出现 6 次): 5,5 HD |D
+- **6** (出现 6 次): 6
 
-> 共 182 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 175 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
