@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-05 10:00:37 (北京时间)
+> 最后更新：2026-05-06 09:59:39 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16277** |
+| 总频道数 | **16096** |
 | 已知别名 | 1863 |
-| 分类数量 | 602 |
-| GitHub 来源 | 24389 |
-| 失败源数 | 338548 |
+| 分类数量 | 598 |
+| GitHub 来源 | 24921 |
+| 失败源数 | 338735 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1649 个频道
-2. **GETROK** - 1230 个频道
+1. **未分类** - 1641 个频道
+2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 616 个频道
 4. **HHH_798798** - 580 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **🎎｜VIP直播测试_0721** - 460 个频道
 8. **Turkey** - 353 个频道
-9. **纪录片频道** - 345 个频道
+9. **纪录片频道** - 344 个频道
 10. **🔞国产传媒_8585** - 337 个频道
 11. **传媒壹一_00** - 335 个频道
 12. **Sport** - 292 个频道
-13. **VIP私密精选_00** - 266 个频道
+13. **VIP私密精选_00** - 255 个频道
 14. **EX-Yu** - 242 个频道
-15. **卫视频道** - 240 个频道
+15. **卫视频道** - 239 个频道
 
 ## 📥 下载地址
 
@@ -76,16 +76,16 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 539 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 536 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD KEMAL SUNAL 5 4K,TR: BLUMAX HD MASALLAR 2 HD
-- 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX HD KEMAL SUNAL 5 4K,TR: BLUMAX HD YESILCAM 6 HD
+- 无主名 (出现 15 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 8 次): CCTV4K,CCTV4k,CCTV8K
+- **CCTV** (出现 7 次): CCTV4K,CCTV4k,CCTV8K
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
 - **7** (出现 7 次): 7
@@ -97,10 +97,10 @@
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **浙江钱江** (出现 6 次): 浙江钱江,浙江钱江频道[1920*1080]
 - **Redlight** (出现 6 次): Redlight,Redlight HD,Redlight HD orig
-- **5** (出现 6 次): 5,5 HD |D
-- **6** (出现 6 次): 6
 - **4** (出现 6 次): 4
+- **6** (出现 6 次): 6
+- **5** (出现 6 次): 5,5 HD |D
 - **3** (出现 6 次): 3
 - **浙江新闻** (出现 6 次): 浙江新闻
 
-> 共 173 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 171 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
