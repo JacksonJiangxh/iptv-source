@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-08 10:09:52 (北京时间)
+> 最后更新：2026-05-09 10:04:02 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15949** |
+| 总频道数 | **15920** |
 | 已知别名 | 1863 |
-| 分类数量 | 593 |
-| GitHub 来源 | 25893 |
-| 失败源数 | 339174 |
+| 分类数量 | 592 |
+| GitHub 来源 | 26422 |
+| 失败源数 | 340082 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1615 个频道
+1. **未分类** - 1609 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 614 个频道
 4. **HHH_798798** - 580 个频道
@@ -76,17 +76,17 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 532 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 531 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD KEMAL SUNAL 3 4K
-- 无主名 (出现 14 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD CUNETY ARKIN
+- 无主名 (出现 14 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **CCTV** (出现 7 次): CCTV4K,CCTV4k,CCTV8K
+- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
 - **浙江国际** (出现 7 次): 浙江国际
 - **CGTN纪录** (出现 6 次): CGTN纪录
@@ -97,10 +97,10 @@
 - **浙江钱江** (出现 6 次): 浙江钱江,浙江钱江频道[1920*1080]
 - **Redlight** (出现 6 次): Redlight,Redlight HD,Redlight HD orig
 - **浙江新闻** (出现 6 次): 浙江新闻
-- **FANT** (出现 6 次): FANTHD5,FANTHD6,FANTHD7
+- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD7
+- **CGTN法语** (出现 5 次): CGTN法语
 - **CHC家庭影院** (出现 5 次): CHC家庭影院
 - **CHC动作电影** (出现 5 次): CHC动作电影
-- **CGTN法语** (出现 5 次): CGTN法语
 - **重温经典** (出现 5 次): 重温经典
 
 > 共 167 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
