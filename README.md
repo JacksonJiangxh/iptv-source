@@ -1,28 +1,28 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-09 10:04:02 (北京时间)
+> 最后更新：2026-05-10 10:02:46 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15920** |
+| 总频道数 | **15870** |
 | 已知别名 | 1863 |
-| 分类数量 | 592 |
-| GitHub 来源 | 26422 |
-| 失败源数 | 340082 |
+| 分类数量 | 589 |
+| GitHub 来源 | 26952 |
+| 失败源数 | 340139 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1609 个频道
+1. **未分类** - 1593 个频道
 2. **GETROK** - 1148 个频道
-3. **麻豆传媒** - 614 个频道
+3. **麻豆传媒** - 612 个频道
 4. **HHH_798798** - 580 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **🎎｜VIP直播测试_0721** - 460 个频道
 8. **Turkey** - 353 个频道
-9. **纪录片频道** - 344 个频道
+9. **纪录片频道** - 343 个频道
 10. **🔞国产传媒_8585** - 337 个频道
 11. **传媒壹一_00** - 335 个频道
 12. **Sport** - 292 个频道
@@ -76,16 +76,16 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 531 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 528 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD CUNETY ARKIN
-- 无主名 (出现 14 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD YESILCAM 6 HD,TR: BLUMAX HD YESILCAM 7 4K
+- 无主名 (出现 14 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 7 次): CCTV4K,CCTV4k,CCTV8K
+- **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4k
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
 - **浙江国际** (出现 7 次): 浙江国际
@@ -97,10 +97,10 @@
 - **浙江钱江** (出现 6 次): 浙江钱江,浙江钱江频道[1920*1080]
 - **Redlight** (出现 6 次): Redlight,Redlight HD,Redlight HD orig
 - **浙江新闻** (出现 6 次): 浙江新闻
-- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD7
-- **CGTN法语** (出现 5 次): CGTN法语
-- **CHC家庭影院** (出现 5 次): CHC家庭影院
-- **CHC动作电影** (出现 5 次): CHC动作电影
+- **FANT** (出现 6 次): FANTHD1,FANTHD4,FANTHD6
 - **重温经典** (出现 5 次): 重温经典
+- **CGTN法语** (出现 5 次): CGTN法语
+- **13** (出现 5 次): 13
+- **CGTN** (出现 5 次): CGTN
 
-> 共 167 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 166 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
