@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-12 10:08:08 (北京时间)
+> 最后更新：2026-05-13 10:15:08 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16339** |
+| 总频道数 | **16470** |
 | 已知别名 | 1863 |
-| 分类数量 | 633 |
-| GitHub 来源 | 28026 |
-| 失败源数 | 356720 |
+| 分类数量 | 636 |
+| GitHub 来源 | 28568 |
+| 失败源数 | 358604 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1557 个频道
+1. **未分类** - 1554 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 612 个频道
 4. **HHH_798798** - 580 个频道
@@ -22,7 +22,7 @@
 6. **Albania** - 472 个频道
 7. **🎎｜VIP直播测试_0721** - 460 个频道
 8. **Turkey** - 353 个频道
-9. **纪录片频道** - 343 个频道
+9. **纪录片频道** - 342 个频道
 10. **🔞国产传媒_8585** - 336 个频道
 11. **传媒壹一_00** - 335 个频道
 12. **Sport** - 292 个频道
@@ -76,20 +76,20 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 563 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 570 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD HALK MUZIGI 1 HD,TR: BLUMAX HD KEMAL SUNAL 4 4K
-- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD KEMAL SUNAL 1 4K,TR: BLUMAX HD KEMAL SUNAL 5 4K
+- 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **TVB星河** (出现 10 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **斗鱼游戏** (出现 10 次): 斗鱼游戏HD14,斗鱼游戏HD22,斗鱼游戏HD7
-- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **斗鱼游戏** (出现 10 次): 斗鱼游戏4K2,斗鱼游戏HD16,斗鱼游戏HD22
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
-- **CGTN** (出现 7 次): CGTN
+- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4k
+- **CGTN** (出现 7 次): CGTN
 - **Hustler** (出现 7 次): Hustler,Hustler HD,Hustler HD orig
 - **浙江国际** (出现 7 次): 浙江国际
 - **CGTN纪录** (出现 6 次): CGTN纪录
@@ -98,9 +98,9 @@
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **Anal** (出现 6 次): Anal,Anal 4K
 - **Redlight** (出现 6 次): Redlight,Redlight HD,Redlight HD orig
-- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD4
-- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD12,斗鱼歌舞HD4,斗鱼歌舞HD7
-- **重温经典** (出现 5 次): 重温经典
+- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD7
+- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD11,斗鱼歌舞HD5,斗鱼歌舞HD7
+- **13** (出现 5 次): 13
 - **CGTN法语** (出现 5 次): CGTN法语
 
-> 共 175 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 176 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
