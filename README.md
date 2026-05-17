@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-16 10:06:29 (北京时间)
+> 最后更新：2026-05-17 10:09:19 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16367** |
+| 总频道数 | **16330** |
 | 已知别名 | 1863 |
-| 分类数量 | 648 |
-| GitHub 来源 | 30189 |
-| 失败源数 | 360673 |
+| 分类数量 | 645 |
+| GitHub 来源 | 30728 |
+| 失败源数 | 361006 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1542 个频道
+1. **未分类** - 1524 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 611 个频道
 4. **HHH_798798** - 534 个频道
@@ -76,31 +76,31 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 584 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 581 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD TURKU HD,TR: BLUMAX HD YESILCAM 2 4K
-- 无主名 (出现 18 次): ,4K高清岳云鹏,高清电影
-- **斗鱼游戏** (出现 10 次): 斗鱼游戏4K2,斗鱼游戏HD25,斗鱼游戏HD28
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD AKSIYON HD,TR: BLUMAX HD HALK MUZIGI 1 HD
+- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **斗鱼游戏** (出现 10 次): 斗鱼游戏HD14,斗鱼游戏HD16,斗鱼游戏HD20
 - **TVB星河** (出现 9 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 7 次): CCTV4K,CCTV4k,CCTV8K
 - **CGTN** (出现 7 次): CGTN
-- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **CCTV** (出现 7 次): CCTV-8k,CCTV4K,CCTV4k
+- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **浙江国际** (出现 7 次): 浙江国际
 - **CGTN纪录** (出现 6 次): CGTN纪录
-- **14** (出现 6 次): 14,14[1280x720]
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **Anal** (出现 6 次): Anal,Anal 4K
 - **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD3,FANTHD6,FANTHD7
-- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD4,斗鱼歌舞HD5,斗鱼歌舞HD7
-- **重温经典** (出现 5 次): 重温经典
-- **13** (出现 5 次): 13
+- **FANT** (出现 6 次): FANTHD4,FANTHD5,FANTHD6
+- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD11,斗鱼歌舞HD12,斗鱼歌舞HD5
 - **CGTN法语** (出现 5 次): CGTN法语
-- **ATV** (出现 5 次): ATV,ATV HD (Армения)[1920x1080],ATV HD TR
+- **13** (出现 5 次): 13
+- **重温经典** (出现 5 次): 重温经典
+- **14** (出现 5 次): 14,14[1280x720]
+- **ATV** (出现 5 次): ATV HD (Армения)[1920x1080],ATV HD TR,ATV HD |D
 
-> 共 166 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 164 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
