@@ -1,22 +1,22 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-18 10:31:11 (北京时间)
+> 最后更新：2026-05-19 10:31:05 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16300** |
+| 总频道数 | **16262** |
 | 已知别名 | 1863 |
-| 分类数量 | 644 |
-| GitHub 来源 | 31276 |
-| 失败源数 | 361903 |
+| 分类数量 | 642 |
+| GitHub 来源 | 31818 |
+| 失败源数 | 362286 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1512 个频道
+1. **未分类** - 1507 个频道
 2. **GETROK** - 1148 个频道
-3. **麻豆传媒** - 611 个频道
+3. **麻豆传媒** - 610 个频道
 4. **HHH_798798** - 534 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
@@ -76,31 +76,31 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 577 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 575 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HALK MUZIGI 1 HD,TR: BLUMAX HD KEMAL SUNAL 5 HD,TR: BLUMAX HD YESILCAM 4 4K
-- 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **斗鱼游戏** (出现 10 次): 斗鱼游戏HD14,斗鱼游戏HD20,斗鱼游戏HD28
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD YESILCAM 2 4K,TR: BLUMAX HD YESILCAM 6 HD,TR: BLUMAX HD YESILCAM 7 4K
+- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **斗鱼游戏** (出现 10 次): 斗鱼游戏HD14,斗鱼游戏HD18,斗鱼游戏HD7
 - **TVB星河** (出现 9 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
-- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CGTN** (出现 7 次): CGTN
+- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **浙江国际** (出现 7 次): 浙江国际
-- **CGTN纪录** (出现 6 次): CGTN纪录
-- **CCTV** (出现 6 次): CCTV-8k,CCTV4K,CCTV8K
+- **CCTV** (出现 6 次): CCTV4K,CCTV4k,CCTV8K
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
-- **Anal** (出现 6 次): Anal,Anal 4K
 - **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD6
-- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD11,斗鱼歌舞HD12,斗鱼歌舞HD13
+- **Anal** (出现 6 次): Anal,Anal 4K
+- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD5
+- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD12,斗鱼歌舞HD4,斗鱼歌舞HD5
+- **13** (出现 5 次): 13
 - **重温经典** (出现 5 次): 重温经典
 - **CGTN法语** (出现 5 次): CGTN法语
-- **13** (出现 5 次): 13
 - **14** (出现 5 次): 14,14[1280x720]
-- **ATV** (出现 5 次): ATV HD (Армения)[1920x1080],ATV HD TR,ATV HD |D
+- **ATV** (出现 5 次): ATV HD (H265) |D,ATV HD (Армения)[1920x1080],ATV HD TR
+- **CNN** (出现 5 次): CNN,[MY]CNN
 
 > 共 164 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
