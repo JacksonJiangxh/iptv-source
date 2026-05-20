@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-19 10:31:05 (北京时间)
+> 最后更新：2026-05-20 10:32:32 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16262** |
+| 总频道数 | **16915** |
 | 已知别名 | 1863 |
-| 分类数量 | 642 |
-| GitHub 来源 | 31818 |
-| 失败源数 | 362286 |
+| 分类数量 | 649 |
+| GitHub 来源 | 32361 |
+| 失败源数 | 368744 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1507 个频道
+1. **未分类** - 1483 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 610 个频道
 4. **HHH_798798** - 534 个频道
@@ -51,56 +51,56 @@
 4. `$redtraffic adult iptv`
 5. `-`
 6. `168需要科学［美］节`
-7. `18+频道`
-8. `336个地区`
-9. `4GTV豪華套餐`
-10. `4K`
-11. `4K频道`
-12. `74.91.26.218:82`
-13. `ABD`
-14. `AEC`
-15. `AKTV`
-16. `Ac25`
-17. `Adult`
-18. `Afghan`
-19. `Albania`
-20. `Anak-Anak`
-21. `Badminiton`
-22. `Bangla`
-23. `Business News`
-24. `CCTV`
-25. `CNR•广播`
-26. `Comedy`
-27. `Croatia`
-28. `Cyprus`
-29. `DEN'S TV`
-30. `DIY`
+7. `336个地区`
+8. `4GTV豪華套餐`
+9. `4K频道`
+10. `74.91.26.218:82`
+11. `ABD`
+12. `AEC`
+13. `AKTV`
+14. `Ac25`
+15. `Adult`
+16. `Afghan`
+17. `Albania`
+18. `Anak-Anak`
+19. `Badminiton`
+20. `Bangla`
+21. `Business News`
+22. `CCTV`
+23. `CNR•广播`
+24. `Comedy`
+25. `Croatia`
+26. `Cyprus`
+27. `DEN'S TV`
+28. `DIY`
+29. `DJ`
+30. `DJ舞曲`
 
-> 共 575 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 588 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD YESILCAM 2 4K,TR: BLUMAX HD YESILCAM 6 HD,TR: BLUMAX HD YESILCAM 7 4K
-- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
-- **斗鱼游戏** (出现 10 次): 斗鱼游戏HD14,斗鱼游戏HD18,斗鱼游戏HD7
-- **TVB星河** (出现 9 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD YESILCAM 3 4K
+- 无主名 (出现 18 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
+- **斗鱼游戏** (出现 10 次): 斗鱼游戏4K2,斗鱼游戏HD18,斗鱼游戏HD25
+- **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **CGTN** (出现 7 次): CGTN
-- **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **CNN** (出现 7 次): CNN,[MY]CNN
+- **CNBC** (出现 7 次): CNBC,[MY]CNBC
 - **浙江国际** (出现 7 次): 浙江国际
-- **CCTV** (出现 6 次): CCTV4K,CCTV4k,CCTV8K
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
-- **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
 - **Anal** (出现 6 次): Anal,Anal 4K
-- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD5
-- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD12,斗鱼歌舞HD4,斗鱼歌舞HD5
-- **13** (出现 5 次): 13
-- **重温经典** (出现 5 次): 重温经典
+- **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
+- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD5
+- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD11,斗鱼歌舞HD12,斗鱼歌舞HD13
 - **CGTN法语** (出现 5 次): CGTN法语
+- **CCTV** (出现 5 次): CCTV4K,CCTV4k,CCTV8K
+- **重温经典** (出现 5 次): 重温经典
+- **13** (出现 5 次): 13
 - **14** (出现 5 次): 14,14[1280x720]
-- **ATV** (出现 5 次): ATV HD (H265) |D,ATV HD (Армения)[1920x1080],ATV HD TR
-- **CNN** (出现 5 次): CNN,[MY]CNN
 
-> 共 164 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 184 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
