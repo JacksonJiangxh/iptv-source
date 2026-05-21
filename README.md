@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-20 10:32:32 (北京时间)
+> 最后更新：2026-05-21 10:36:27 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16915** |
+| 总频道数 | **18150** |
 | 已知别名 | 1863 |
-| 分类数量 | 649 |
-| GitHub 来源 | 32361 |
-| 失败源数 | 368744 |
+| 分类数量 | 688 |
+| GitHub 来源 | 32948 |
+| 失败源数 | 386990 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1483 个频道
+1. **未分类** - 1496 个频道
 2. **GETROK** - 1148 个频道
-3. **麻豆传媒** - 610 个频道
+3. **麻豆传媒** - 608 个频道
 4. **HHH_798798** - 534 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **🎎｜VIP直播测试_0721** - 460 个频道
-8. **Turkey** - 353 个频道
-9. **纪录片频道** - 341 个频道
-10. **🔞国产传媒_8585** - 336 个频道
-11. **传媒壹一_00** - 335 个频道
-12. **Sport** - 292 个频道
-13. **VIP私密精选_00** - 254 个频道
-14. **EX-Yu** - 242 个频道
-15. **🔞欧美福利_8585** - 235 个频道
+8. **美食** - 357 个频道
+9. **Turkey** - 353 个频道
+10. **纪录片频道** - 340 个频道
+11. **🔞国产传媒_8585** - 336 个频道
+12. **传媒壹一_00** - 335 个频道
+13. **卫视频道** - 294 个频道
+14. **Sport** - 292 个频道
+15. **VIP私密精选_00** - 254 个频道
 
 ## 📥 下载地址
 
@@ -76,31 +76,31 @@
 29. `DJ`
 30. `DJ舞曲`
 
-> 共 588 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 618 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD YESILCAM 3 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD YESILCAM 4 4K
 - 无主名 (出现 18 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **斗鱼游戏** (出现 10 次): 斗鱼游戏4K2,斗鱼游戏HD18,斗鱼游戏HD25
+- **浙江国际** (出现 9 次): 浙江国际
+- **CCTV** (出现 8 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **HBO** (出现 8 次): HBO,[MY]HBO,[TW]HBO HD
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **CNN** (出现 8 次): CNN,[MY]CNN
 - **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
 - **CGTN** (出现 7 次): CGTN
-- **CNN** (出现 7 次): CNN,[MY]CNN
+- **浙江新闻** (出现 7 次): 浙江新闻
+- **浙江钱江** (出现 7 次): 浙江钱江
 - **CNBC** (出现 7 次): CNBC,[MY]CNBC
-- **浙江国际** (出现 7 次): 浙江国际
+- **CHC动作电影** (出现 7 次): CHC动作电影
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **Anal** (出现 6 次): Anal,Anal 4K
 - **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD5
-- **斗鱼歌舞** (出现 6 次): 斗鱼歌舞HD11,斗鱼歌舞HD12,斗鱼歌舞HD13
+- **FANT** (出现 6 次): FANTHD3,FANTHD4,FANTHD6
 - **CGTN法语** (出现 5 次): CGTN法语
-- **CCTV** (出现 5 次): CCTV4K,CCTV4k,CCTV8K
 - **重温经典** (出现 5 次): 重温经典
 - **13** (出现 5 次): 13
-- **14** (出现 5 次): 14,14[1280x720]
 
-> 共 184 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 219 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
