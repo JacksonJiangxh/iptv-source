@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-26 10:18:39 (北京时间)
+> 最后更新：2026-05-27 10:35:50 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **17320** |
+| 总频道数 | **17113** |
 | 已知别名 | 1863 |
-| 分类数量 | 674 |
-| GitHub 来源 | 35686 |
-| 失败源数 | 393957 |
+| 分类数量 | 666 |
+| GitHub 来源 | 36227 |
+| 失败源数 | 394236 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1520 个频道
+1. **未分类** - 1507 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 600 个频道
 4. **HHH_798798** - 534 个频道
@@ -24,7 +24,7 @@
 8. **美食** - 357 个频道
 9. **Turkey** - 353 个频道
 10. **🔞国产传媒_8585** - 334 个频道
-11. **纪录片频道** - 334 个频道
+11. **纪录片频道** - 331 个频道
 12. **传媒壹一_00** - 322 个频道
 13. **Sport** - 292 个频道
 14. **VIP私密精选_00** - 254 个频道
@@ -76,31 +76,31 @@
 29. `DJ舞曲`
 30. `DJ音乐`
 
-> 共 603 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 594 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD YESILCAM 5 HD
-- 无主名 (出现 28 次): ,[EL GRAN DICTADOR],[EL_CHE EL ARGENTINO]
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD YILMAZ GUNEY HD
+- 无主名 (出现 28 次): ,[LA LARGA NOCHE],[LA RED AVISPA 2019]
 - **CCTV** (出现 8 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **浙江国际** (出现 8 次): 浙江国际
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CGTN** (出现 7 次): CGTN
 - **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **HBO** (出现 7 次): HBO,[MY]HBO,[TW]HBO HD
+- **CGTN** (出现 7 次): CGTN
 - **CNN** (出现 7 次): CNN,[MY]CNN
 - **CNBC** (出现 7 次): CNBC,[MY]CNBC
-- **浙江新闻** (出现 6 次): 浙江新闻
+- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **浙江钱江** (出现 6 次): 浙江钱江
+- **浙江新闻** (出现 6 次): 浙江新闻
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **Anal** (出现 6 次): Anal,Anal 4K
 - **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD1,FANTHD4,FANTHD5
+- **FANT** (出现 6 次): FANTHD3,FANTHD5,FANTHD7
 - **重温经典** (出现 5 次): 重温经典
-- **CGTN法语** (出现 5 次): CGTN法语
 - **13** (出现 5 次): 13
+- **CGTN法语** (出现 5 次): CGTN法语
 - **14** (出现 5 次): 14,14[1280x720]
 
-> 共 176 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 171 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
