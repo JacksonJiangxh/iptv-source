@@ -1,33 +1,33 @@
 # IPTV 播放列表
 
-> 最后更新：2026-05-31 10:37:00 (北京时间)
+> 最后更新：2026-06-01 10:47:21 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **17079** |
+| 总频道数 | **16788** |
 | 已知别名 | 1863 |
-| 分类数量 | 663 |
-| GitHub 来源 | 38332 |
-| 失败源数 | 397351 |
+| 分类数量 | 656 |
+| GitHub 来源 | 38865 |
+| 失败源数 | 397643 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1412 个频道
+1. **未分类** - 1394 个频道
 2. **GETROK** - 1148 个频道
 3. **麻豆传媒** - 600 个频道
 4. **HHH_798798** - 533 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **🎎｜VIP直播测试_0721** - 459 个频道
-8. **卫视频道** - 409 个频道
+8. **卫视频道** - 372 个频道
 9. **美食** - 357 个频道
 10. **Turkey** - 353 个频道
 11. **🔞国产传媒_8585** - 334 个频道
-12. **央视频道** - 331 个频道
-13. **传媒壹一_00** - 322 个频道
-14. **纪录片频道** - 319 个频道
+12. **传媒壹一_00** - 322 个频道
+13. **纪录片频道** - 318 个频道
+14. **央视频道** - 301 个频道
 15. **Sport** - 292 个频道
 
 ## 📥 下载地址
@@ -76,31 +76,31 @@
 29. `Cyprus`
 30. `DEN'S TV`
 
-> 共 590 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 583 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 6 4K,TR: BLUMAX HD MASALLAR 2 HD,TR: BLUMAX HD YESILCAM 7 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD ILYAS SALMAN,TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD KEMAL SUNAL 4 4K
 - 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **浙江国际** (出现 8 次): 浙江国际
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 7 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
-- **CGTN** (出现 7 次): CGTN
 - **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **CNN** (出现 7 次): CNN,[MY]CNN
-- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
+- **CGTN** (出现 7 次): CGTN
+- **CCTV** (出现 7 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **浙江钱江** (出现 6 次): 浙江钱江
+- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **浙江新闻** (出现 6 次): 浙江新闻
-- **CNBC** (出现 6 次): CNBC,[MY]CNBC
+- **CNN** (出现 6 次): CNN,[MY]CNN
 - **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
+- **CNBC** (出现 6 次): CNBC,[MY]CNBC
 - **CHC动作电影** (出现 6 次): CHC动作电影
 - **Anal** (出现 6 次): Anal,Anal 4K
 - **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD5
+- **FANT** (出现 6 次): FANTHD5,FANTHD6,FANTHD7
 - **CGTN法语** (出现 5 次): CGTN法语
 - **重温经典** (出现 5 次): 重温经典
 - **Blonde** (出现 5 次): Blonde
 
-> 共 166 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 161 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
