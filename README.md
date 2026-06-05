@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-06-04 10:48:15 (北京时间)
+> 最后更新：2026-06-05 10:36:46 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **16170** |
+| 总频道数 | **15621** |
 | 已知别名 | 1863 |
-| 分类数量 | 633 |
-| GitHub 来源 | 40461 |
-| 失败源数 | 399281 |
+| 分类数量 | 666 |
+| GitHub 来源 | 41013 |
+| 失败源数 | 409258 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1305 个频道
-2. **GETROK** - 1148 个频道
-3. **麻豆传媒** - 599 个频道
-4. **HHH_798798** - 532 个频道
-5. **🎎｜VIP直播资源3_0721** - 478 个频道
-6. **Albania** - 472 个频道
-7. **🎎｜VIP直播测试_0721** - 458 个频道
-8. **美食** - 357 个频道
-9. **Turkey** - 353 个频道
-10. **卫视频道** - 350 个频道
-11. **🔞国产传媒_8585** - 334 个频道
-12. **传媒壹一_00** - 322 个频道
-13. **纪录片频道** - 318 个频道
-14. **Sport** - 292 个频道
-15. **央视频道** - 291 个频道
+1. **未分类** - 1460 个频道
+2. **麻豆传媒** - 599 个频道
+3. **HHH_798798** - 532 个频道
+4. **🎎｜VIP直播资源3_0721** - 478 个频道
+5. **Albania** - 472 个频道
+6. **🎎｜VIP直播测试_0721** - 458 个频道
+7. **美食** - 357 个频道
+8. **Turkey** - 353 个频道
+9. **🔞国产传媒_8585** - 334 个频道
+10. **传媒壹一_00** - 322 个频道
+11. **卫视频道** - 320 个频道
+12. **纪录片频道** - 318 个频道
+13. **Sport** - 292 个频道
+14. **央视频道** - 269 个频道
+15. **EX-Yu** - 242 个频道
 
 ## 📥 下载地址
 
@@ -76,31 +76,31 @@
 29. `DEN'S TV`
 30. `DIY`
 
-> 共 563 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 593 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 6 4K,TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD YESILCAM 5 HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HABABAM TV,TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD YESILCAM 4 4K
 - 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CCTV** (出现 7 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **Arirang** (出现 7 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **CCTV** (出现 7 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **CGTN** (出现 7 次): CGTN
-- **浙江国际** (出现 6 次): 浙江国际
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **浙江新闻** (出现 6 次): 浙江新闻
+- **浙江国际** (出现 6 次): 浙江国际
+- **重温经典** (出现 6 次): 重温经典
 - **CNN** (出现 6 次): CNN,[MY]CNN
-- **HISTORY** (出现 6 次): HISTORY,HISTORY[1280x720],HISTORY频道
 - **CHC动作电影** (出现 6 次): CHC动作电影
-- **Anal** (出现 6 次): Anal,Anal 4K
-- **Hustler** (出现 6 次): Hustler,Hustler HD,Hustler HD orig
-- **FANT** (出现 6 次): FANTHD4,FANTHD5,FANTHD6
+- **FANT** (出现 6 次): FANTHD1,FANTHD4,FANTHD7
 - **CGTN法语** (出现 5 次): CGTN法语
 - **浙江钱江** (出现 5 次): 浙江钱江
-- **重温经典** (出现 5 次): 重温经典
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
+- **Anal** (出现 5 次): Anal
 - **Blonde** (出现 5 次): Blonde
+- **Gay** (出现 4 次): Gay
+- **松視3台** (出现 4 次): 松視3台
 
-> 共 153 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 137 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
