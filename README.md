@@ -1,34 +1,34 @@
 # IPTV 播放列表
 
-> 最后更新：2026-06-15 10:49:31 (北京时间)
+> 最后更新：2026-06-16 10:51:26 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14775** |
+| 总频道数 | **14691** |
 | 已知别名 | 1863 |
-| 分类数量 | 646 |
-| GitHub 来源 | 46300 |
-| 失败源数 | 412136 |
+| 分类数量 | 644 |
+| GitHub 来源 | 46863 |
+| 失败源数 | 412225 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1406 个频道
+1. **未分类** - 1403 个频道
 2. **麻豆传媒** - 588 个频道
 3. **HHH_798798** - 532 个频道
 4. **🎎｜VIP直播资源3_0721** - 478 个频道
 5. **Albania** - 472 个频道
 6. **🎎｜VIP直播测试_0721** - 444 个频道
-7. **美食** - 357 个频道
+7. **美食** - 355 个频道
 8. **Turkey** - 353 个频道
-9. **🔞国产传媒_8585** - 328 个频道
-10. **传媒壹一_00** - 317 个频道
-11. **纪录片频道** - 313 个频道
+9. **🔞国产传媒_8585** - 326 个频道
+10. **传媒壹一_00** - 314 个频道
+11. **纪录片频道** - 308 个频道
 12. **Sport** - 292 个频道
 13. **卫视频道** - 273 个频道
 14. **EX-Yu** - 242 个频道
-15. **央视频道** - 240 个频道
+15. **央视频道** - 239 个频道
 
 ## 📥 下载地址
 
@@ -76,31 +76,31 @@
 29. `Croatia`
 30. `Cyprus`
 
-> 共 576 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 575 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 1 HD,TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD ILYAS SALMAN
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD COMEDY TURK
 - 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **重温经典** (出现 7 次): 重温经典
 - **CGTN** (出现 7 次): CGTN
-- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **重温经典** (出现 7 次): 重温经典
 - **浙江新闻** (出现 6 次): 浙江新闻
-- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
+- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **浙江国际** (出现 6 次): 浙江国际
+- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CNN** (出现 6 次): CNN,[MY]CNN
 - **CHC动作电影** (出现 6 次): CHC动作电影
-- **FANT** (出现 6 次): FANTHD1,FANTHD3,FANTHD7
-- **CGTN法语** (出现 5 次): CGTN法语
+- **FANT** (出现 6 次): FANTHD1,FANTHD4,FANTHD5
 - **浙江钱江** (出现 5 次): 浙江钱江
+- **CGTN法语** (出现 5 次): CGTN法语
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Blonde** (出现 5 次): Blonde
 - **Anal** (出现 5 次): Anal
-- **凤凰中文台** (出现 4 次): 凤凰中文台
-- **Gay** (出现 4 次): Gay
+- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
+- **CGTN纪录** (出现 4 次): CGTN纪录
 
 > 共 136 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
