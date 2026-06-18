@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-06-17 10:48:01 (北京时间)
+> 最后更新：2026-06-18 10:45:54 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14550** |
+| 总频道数 | **14464** |
 | 已知别名 | 1863 |
-| 分类数量 | 640 |
-| GitHub 来源 | 47327 |
-| 失败源数 | 412371 |
+| 分类数量 | 639 |
+| GitHub 来源 | 47884 |
+| 失败源数 | 412476 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1397 个频道
+1. **未分类** - 1393 个频道
 2. **麻豆传媒** - 588 个频道
 3. **HHH_798798** - 532 个频道
 4. **🎎｜VIP直播资源3_0721** - 478 个频道
@@ -25,10 +25,10 @@
 9. **🔞国产传媒_8585** - 326 个频道
 10. **传媒壹一_00** - 314 个频道
 11. **Sport** - 292 个频道
-12. **纪录片频道** - 276 个频道
-13. **卫视频道** - 270 个频道
+12. **纪录片频道** - 274 个频道
+13. **卫视频道** - 269 个频道
 14. **EX-Yu** - 242 个频道
-15. **央视频道** - 238 个频道
+15. **央视频道** - 235 个频道
 
 ## 📥 下载地址
 
@@ -76,31 +76,31 @@
 29. `Croatia`
 30. `Cyprus`
 
-> 共 571 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 570 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD YESILCAM 5 HD,TR: BLUMAX HD YESILCAM 7 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD YILMAZ GUNEY HD
 - 无主名 (出现 16 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **CGTN** (出现 7 次): CGTN
 - **重温经典** (出现 7 次): 重温经典
-- **浙江新闻** (出现 6 次): 浙江新闻
+- **CGTN** (出现 7 次): CGTN
+- **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
+- **浙江新闻** (出现 6 次): 浙江新闻
 - **浙江国际** (出现 6 次): 浙江国际
-- **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CNN** (出现 6 次): CNN,[MY]CNN
 - **CHC动作电影** (出现 6 次): CHC动作电影
-- **FANT** (出现 6 次): FANTHD4,FANTHD5,FANTHD7
 - **浙江钱江** (出现 5 次): 浙江钱江
 - **CGTN法语** (出现 5 次): CGTN法语
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
-- **Anal** (出现 5 次): Anal
 - **Blonde** (出现 5 次): Blonde
+- **Anal** (出现 5 次): Anal
 - **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
 - **凤凰中文台** (出现 4 次): 凤凰中文台
+- **松視3台** (出现 4 次): 松視3台
 
-> 共 136 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 135 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
