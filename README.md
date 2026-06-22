@@ -1,21 +1,21 @@
 # IPTV 播放列表
 
-> 最后更新：2026-06-21 10:48:53 (北京时间)
+> 最后更新：2026-06-22 10:51:44 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14205** |
+| 总频道数 | **14023** |
 | 已知别名 | 1863 |
-| 分类数量 | 628 |
-| GitHub 来源 | 49556 |
-| 失败源数 | 413314 |
+| 分类数量 | 625 |
+| GitHub 来源 | 50114 |
+| 失败源数 | 413502 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1371 个频道
-2. **麻豆传媒** - 583 个频道
+1. **未分类** - 1281 个频道
+2. **麻豆传媒** - 582 个频道
 3. **HHH_798798** - 532 个频道
 4. **🎎｜VIP直播资源3_0721** - 478 个频道
 5. **Albania** - 472 个频道
@@ -25,8 +25,8 @@
 9. **🔞国产传媒_8585** - 323 个频道
 10. **传媒壹一_00** - 312 个频道
 11. **Sport** - 292 个频道
-12. **纪录片频道** - 274 个频道
-13. **卫视频道** - 268 个频道
+12. **纪录片频道** - 273 个频道
+13. **卫视频道** - 266 个频道
 14. **EX-Yu** - 242 个频道
 15. **央视频道** - 230 个频道
 
@@ -76,31 +76,31 @@
 29. `Croatia`
 30. `Cyprus`
 
-> 共 561 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 559 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD TURKU HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KEMAL SUNAL 4 4K,TR: BLUMAX HD YESILCAM 5 HD
 - 无主名 (出现 16 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **CGTN** (出现 7 次): CGTN
 - **TVB星河** (出现 7 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **重温经典** (出现 6 次): 重温经典
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
-- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
 - **浙江新闻** (出现 6 次): 浙江新闻
 - **浙江国际** (出现 6 次): 浙江国际
+- **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
+- **重温经典** (出现 6 次): 重温经典
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **CNN** (出现 6 次): CNN,[MY]CNN
-- **CGTN法语** (出现 5 次): CGTN法语
 - **浙江钱江** (出现 5 次): 浙江钱江
+- **CGTN法语** (出现 5 次): CGTN法语
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
-- **Anal** (出现 5 次): Anal
 - **Blonde** (出现 5 次): Blonde
-- **松視3台** (出现 4 次): 松視3台
+- **Anal** (出现 5 次): Anal
 - **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
-- **CGTN纪录** (出现 4 次): CGTN纪录
 - **凤凰中文台** (出现 4 次): 凤凰中文台
+- **CGTN纪录** (出现 4 次): CGTN纪录
+- **松視3台** (出现 4 次): 松視3台
 
-> 共 128 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 122 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
