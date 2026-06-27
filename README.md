@@ -1,21 +1,21 @@
 # IPTV 播放列表
 
-> 最后更新：2026-06-26 10:32:22 (北京时间)
+> 最后更新：2026-06-27 10:16:50 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **12676** |
+| 总频道数 | **12635** |
 | 已知别名 | 1863 |
-| 分类数量 | 562 |
-| GitHub 来源 | 52330 |
-| 失败源数 | 415125 |
+| 分类数量 | 559 |
+| GitHub 来源 | 52886 |
+| 失败源数 | 415171 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1162 个频道
-2. **麻豆传媒** - 574 个频道
+1. **未分类** - 1151 个频道
+2. **麻豆传媒** - 567 个频道
 3. **HHH_798798** - 532 个频道
 4. **🎎｜VIP直播资源3_0721** - 478 个频道
 5. **Albania** - 472 个频道
@@ -62,45 +62,45 @@
 15. `Ac25`
 16. `Adult`
 17. `Adventure`
-18. `Afghan`
-19. `Albania`
-20. `Aleatórios`
-21. `Anak-Anak`
-22. `BD`
-23. `Badminiton`
-24. `Bangla`
-25. `Business News`
-26. `CCTV`
-27. `CNR•广播`
-28. `Comedy`
-29. `Croatia`
-30. `Cyprus`
+18. `Albania`
+19. `Aleatórios`
+20. `Anak-Anak`
+21. `BD`
+22. `Badminiton`
+23. `Bangla`
+24. `Business News`
+25. `CCTV`
+26. `CNR•广播`
+27. `Comedy`
+28. `Croatia`
+29. `Cyprus`
+30. `DEN'S TV`
 
-> 共 511 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 508 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD KEMAL SUNAL 1 4K,TR: BLUMAX HD YESILCAM 8 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 2 HD,TR: BLUMAX HD YESILCAM 2 4K,TR: BLUMAX HD YILMAZ GUNEY HD
 - 无主名 (出现 16 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **浙江新闻** (出现 6 次): 浙江新闻
-- **浙江国际** (出现 6 次): 浙江国际
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **浙江国际** (出现 6 次): 浙江国际
+- **浙江新闻** (出现 6 次): 浙江新闻
 - **HBO** (出现 6 次): HBO,[MY]HBO,[TW]HBO HD
-- **浙江钱江** (出现 5 次): 浙江钱江
 - **CGTN** (出现 5 次): CGTN
+- **浙江钱江** (出现 5 次): 浙江钱江
 - **CNN** (出现 5 次): CNN,[MY]CNN
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
-- **Blonde** (出现 5 次): Blonde
 - **Anal** (出现 5 次): Anal
-- **Gay** (出现 4 次): Gay
+- **Blonde** (出现 5 次): Blonde
 - **松視3台** (出现 4 次): 松視3台
-- **重温经典** (出现 4 次): 重温经典
 - **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
+- **重温经典** (出现 4 次): 重温经典
+- **Gay** (出现 4 次): Gay
 - **Global News** (出现 4 次): Global News
 - **TVB星河** (出现 4 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **14** (出现 4 次): 14,14[1280x720]
 
-> 共 108 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 107 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
