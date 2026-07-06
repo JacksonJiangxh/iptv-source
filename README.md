@@ -1,21 +1,21 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-05 10:08:56 (北京时间)
+> 最后更新：2026-07-06 10:13:56 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14354** |
+| 总频道数 | **14145** |
 | 已知别名 | 1863 |
-| 分类数量 | 566 |
-| GitHub 来源 | 57054 |
-| 失败源数 | 433742 |
+| 分类数量 | 565 |
+| GitHub 来源 | 57412 |
+| 失败源数 | 434033 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2496 个频道
-2. **轮播频道** - 624 个频道
+1. **未分类** - 2445 个频道
+2. **轮播频道** - 545 个频道
 3. **HHH_798798** - 532 个频道
 4. **麻豆传媒** - 485 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
@@ -76,31 +76,31 @@
 29. `Cyprus`
 30. `DEN'S TV`
 
-> 共 513 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 512 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD YESILCAM 2 4K
-- 无主名 (出现 17 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **浙江国际** (出现 6 次): 浙江国际
-- **Blonde** (出现 6 次): Blonde
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD COMEDY TURK,TR: BLUMAX HD KEMAL SUNAL 4 4K
+- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
-- **浙江新闻** (出现 6 次): 浙江新闻
+- **Blonde** (出现 6 次): Blonde
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
+- **浙江国际** (出现 5 次): 浙江国际
 - **Gangbang** (出现 5 次): Gangbang
-- **浙江钱江** (出现 5 次): 浙江钱江
 - **CNN** (出现 5 次): CNN,[MY]CNN
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
-- **23** (出现 4 次): 23
 - **松視3台** (出现 4 次): 松視3台
+- **23** (出现 4 次): 23
+- **CGTN** (出现 4 次): CGTN
+- **浙江新闻** (出现 4 次): 浙江新闻
+- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
 - **Gay** (出现 4 次): Gay
 - **三立iNEWS** (出现 4 次): 三立iNEWS
-- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
-- **CGTN** (出现 4 次): CGTN
 - **重温经典** (出现 4 次): 重温经典
+- **14** (出现 4 次): 14,14[1280x720]
 
-> 共 117 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 113 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
