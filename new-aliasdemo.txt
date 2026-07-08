@@ -1,7 +1,7 @@
-# 别名分类报告 - 生成时间: 2026-07-07 10:10:14
-# 总频道数: 13906
-# 已知别名频道: 488 个（去重后 169 个主名）
-# 未知别名频道: 11447 个（去重后 10516 个名称）
+# 别名分类报告 - 生成时间: 2026-07-08 09:50:44
+# 总频道数: 13778
+# 已知别名频道: 487 个（去重后 169 个主名）
+# 未知别名频道: 11359 个（去重后 10429 个名称）
 
 ================================================================================
 一、分类名汇总
@@ -95,7 +95,6 @@
   ✗ Kids
   ✗ Lifestyle
   ✗ Local Channel
-  ✗ M'sia News
   ✗ MTV
   ✗ Macedonia
   ✗ Mak
@@ -362,7 +361,6 @@
   ✗ 精品推荐
   ✗ 精选
   ✗ 綜合
-  ✗ 綜藝
   ✗ 纪录片频道
   ✗ 经典剧场
   ✗ 经典小品
@@ -563,7 +561,7 @@
       Channel[V] (1 个变体)
       TVBS (13 个变体)
       TVBS亚洲 (3 个变体)
-      TVBS新闻 (4 个变体)
+      TVBS新闻 (3 个变体)
       Viutv (2 个变体)
       三立台湾 (1 个变体)
       三立新闻 (4 个变体)
@@ -748,7 +746,7 @@
   ── 建议别名组（出现 3 次以上的相似名称）──
     🔸 TR: BLUMAX
         出现次数: 40, 原始分类: Turkey
-        示例: TR: BLUMAX  HD KEMAL SUNAL 3 HD, TR: BLUMAX HD KEMAL SUNAL 3 4K, TR: BLUMAX HD YESILCAM 2 4K
+        示例: TR: BLUMAX HD KEMAL SUNAL 3 4K, TR: BLUMAX HD YESILCAM 2 4K, TR: BLUMAX HD YESILCAM 8 4K
     🔸 
         出现次数: 17, 原始分类: 未分类
         示例: , 4K60PSDR-H264-AAC测试, 4K高清岳云鹏
@@ -767,135 +765,135 @@
     🔸 浙江国际
         出现次数: 5, 原始分类: 未分类
         示例: 浙江国际
-    🔸 CNN
-        出现次数: 5, 原始分类: 国际
-        示例: CNN, [MY]CNN
     🔸 HBO
         出现次数: 5, 原始分类: 港澳台
         示例: HBO, [MY]HBO, [TW]HBO HD
+    🔸 CNN
+        出现次数: 5, 原始分类: 国际
+        示例: CNN, [MY]CNN
     🔸 CNBC
         出现次数: 5, 原始分类: 台湾
         示例: CNBC, [MY]CNBC
     🔸 Anal
         出现次数: 5, 原始分类: $redtraffic adult iptv
         示例: Anal
-    🔸 松視3台
-        出现次数: 4, 原始分类: 未分类
-        示例: 松視3台
-    🔸 三立iNEWS
-        出现次数: 4, 原始分类: 未分类
-        示例: 三立iNEWS
-    🔸 重温经典
-        出现次数: 4, 原始分类: 未分类
-        示例: 重温经典
     🔸 浙江新闻
         出现次数: 4, 原始分类: 未分类
         示例: 浙江新闻
     🔸 Gay
         出现次数: 4, 原始分类: 未分类
         示例: Gay
-    🔸 Extasy
+    🔸 松視3台
         出现次数: 4, 原始分类: 未分类
-        示例: Extasy, [2160]Extasy 4K, [720]Extasy HD
-    🔸 CGTN
-        出现次数: 4, 原始分类: 未分类
-        示例: CGTN
+        示例: 松視3台
     🔸 23
         出现次数: 4, 原始分类: 未分类
         示例: 23
-    🔸 14
-        出现次数: 4, 原始分类: 韩国频道
-        示例: 14, 14[1280x720]
+    🔸 Extasy
+        出现次数: 4, 原始分类: 未分类
+        示例: Extasy, [2160]Extasy 4K, [720]Extasy HD
+    🔸 重温经典
+        出现次数: 4, 原始分类: 未分类
+        示例: 重温经典
+    🔸 三立iNEWS
+        出现次数: 4, 原始分类: 未分类
+        示例: 三立iNEWS
+    🔸 CGTN
+        出现次数: 4, 原始分类: 未分类
+        示例: CGTN
     🔸 Global News
         出现次数: 4, 原始分类: 海外
         示例: Global News
-    🔸 HISTORY
-        出现次数: 4, 原始分类: 台湾
-        示例: HISTORY, HISTORY频道, [MY]HISTORY
+    🔸 14
+        出现次数: 4, 原始分类: 韩国频道
+        示例: 14, 14[1280x720]
     🔸 TVB星河
         出现次数: 4, 原始分类: TVB频道
         示例: TVB星河, TVB星河频道, [MY]TVB星河
+    🔸 HISTORY
+        出现次数: 4, 原始分类: 台湾
+        示例: HISTORY, HISTORY频道, [MY]HISTORY
     🔸 CHC家庭影院
         出现次数: 4, 原始分类: 电影频道
         示例: CHC家庭影院
-    🔸 Russian
-        出现次数: 4, 原始分类: 成人电视
-        示例: Russian
-    🔸 Interracial
-        出现次数: 4, 原始分类: 成人电视
-        示例: Interracial
-    🔸 Cuckold
-        出现次数: 4, 原始分类: 成人电视
-        示例: Cuckold
     🔸 Hardcore
-        出现次数: 4, 原始分类: 成人电视
-        示例: Hardcore
-    🔸 Brunette
         出现次数: 4, 原始分类: $redtraffic adult iptv
-        示例: Brunette
+        示例: Hardcore
+    🔸 Cuckold
+        出现次数: 4, 原始分类: $redtraffic adult iptv
+        示例: Cuckold
+    🔸 Interracial
+        出现次数: 4, 原始分类: $redtraffic adult iptv
+        示例: Interracial
     🔸 Blowjob
         出现次数: 4, 原始分类: $redtraffic adult iptv
         示例: Blowjob
+    🔸 Russian
+        出现次数: 4, 原始分类: $redtraffic adult iptv
+        示例: Russian
+    🔸 Brunette
+        出现次数: 4, 原始分类: $redtraffic adult iptv
+        示例: Brunette
     🔸 Asian
         出现次数: 4, 原始分类: $redtraffic adult iptv
         示例: Asian
     🔸 乐至综合
         出现次数: 4, 原始分类: ☘️四川频道
         示例: 乐至综合, 乐至综合频道
-    🔸 2
+    🔸 郭镐鸣《野摩托》
         出现次数: 3, 原始分类: 未分类
-        示例: 2
-    🔸 DJ版《一个人挺好》
+        示例: 郭镐鸣《野摩托》
+    🔸 浙江钱江
         出现次数: 3, 原始分类: 未分类
-        示例: DJ版《一个人挺好》
-    🔸 精选五首DJ男声串烧
+        示例: 浙江钱江
+    🔸 车载DJ《多年以后》
         出现次数: 3, 原始分类: 未分类
-        示例: 精选五首DJ男声串烧
-    🔸 DJ版《时间会知道你好不好》
+        示例: 车载DJ《多年以后》
+    🔸 湖北综合
         出现次数: 3, 原始分类: 未分类
-        示例: DJ版《时间会知道你好不好》
-    🔸 Erox
-        出现次数: 3, 原始分类: 未分类
-        示例: Erox, Erox HD, [1080]Erox HD
-    🔸 Eroxxx
-        出现次数: 3, 原始分类: 未分类
-        示例: Eroxxx, Eroxxx HD, [1080]Eroxxx HD
-    🔸 Real Wild
-        出现次数: 3, 原始分类: 未分类
-        示例: Real Wild
-    🔸 柳林综合
-        出现次数: 3, 原始分类: 未分类
-        示例: 柳林综合
-    🔸 15
-        出现次数: 3, 原始分类: 未分类
-        示例: 15
+        示例: 湖北综合
     🔸 《人间惊鸿客》
         出现次数: 3, 原始分类: 未分类
         示例: 《人间惊鸿客》
+    🔸 Eroxxx
+        出现次数: 3, 原始分类: 未分类
+        示例: Eroxxx, Eroxxx HD, [1080]Eroxxx HD
     🔸 《唱着情歌流着泪》
         出现次数: 3, 原始分类: 未分类
         示例: 《唱着情歌流着泪》
-    🔸 第一剧场
-        出现次数: 3, 原始分类: 未分类
-        示例: 第一剧场, 第一剧场高清
-    🔸 《无味》 DJ版
-        出现次数: 3, 原始分类: 未分类
-        示例: 《无味》 DJ版
-    🔸 松視1台
-        出现次数: 3, 原始分类: 未分类
-        示例: 松視1台
-    🔸 经典老歌DJ舞曲七首
-        出现次数: 3, 原始分类: 未分类
-        示例: 经典老歌DJ舞曲七首
-    🔸 孙艺琪《寂寞的人别听伤感情歌》
-        出现次数: 3, 原始分类: 未分类
-        示例: 孙艺琪《寂寞的人别听伤感情歌》
     🔸 DJ 流浪兄弟
         出现次数: 3, 原始分类: 未分类
         示例: DJ 流浪兄弟
-    🔸 DJ《等爱》
+    🔸 DJ《我们不再是从前》
         出现次数: 3, 原始分类: 未分类
-        示例: DJ《等爱》
+        示例: DJ《我们不再是从前》
+    🔸 DJ舞曲《让我做你的眼睛》
+        出现次数: 3, 原始分类: 未分类
+        示例: DJ舞曲《让我做你的眼睛》
+    🔸 假出租車中出彙編＃1
+        出现次数: 3, 原始分类: 未分类
+        示例: 假出租車中出彙編＃1 HD
+    🔸 松視2台
+        出现次数: 3, 原始分类: 未分类
+        示例: 松視2台
+    🔸 29
+        出现次数: 3, 原始分类: 未分类
+        示例: 29
+    🔸 《无味》 DJ版
+        出现次数: 3, 原始分类: 未分类
+        示例: 《无味》 DJ版
+    🔸 年代新闻
+        出现次数: 3, 原始分类: 未分类
+        示例: [TW]年代新闻, 年代新闻
+    🔸 伤感DJ《等》
+        出现次数: 3, 原始分类: 未分类
+        示例: 伤感DJ《等》
+    🔸 13
+        出现次数: 3, 原始分类: 未分类
+        示例: 13
+    🔸 经典老歌DJ舞曲七首
+        出现次数: 3, 原始分类: 未分类
+        示例: 经典老歌DJ舞曲七首
 
   ── 按原始分类统计 ──
     📂 $adultiptv: 24 个频道
@@ -903,7 +901,7 @@
     📂 $other adult iptv: 3 个频道
     📂 $redtraffic adult iptv: 29 个频道
     📂 -: 6 个频道
-    📂 168需要科学［美］节: 17 个频道
+    📂 168需要科学［美］节: 15 个频道
     📂 336个地区: 2 个频道
     📂 4GTV豪華套餐: 1 个频道
     📂 4K频道: 4 个频道
@@ -967,12 +965,11 @@
     📂 Kids: 2 个频道
     📂 Lifestyle: 5 个频道
     📂 Local Channel: 1 个频道
-    📂 M'sia News: 1 个频道
     📂 MTV: 24 个频道
     📂 Macedonia: 26 个频道
     📂 Mak: 1 个频道
     📂 Movies: 7 个频道
-    📂 Music: 73 个频道
+    📂 Music: 72 个频道
     📂 NASIONAL: 3 个频道
     📂 NEW UPDATE REQUIRED: 1 个频道
     📂 National News: 13 个频道
@@ -1032,7 +1029,7 @@
     📂 ▶YOUTUBE直播【3】: 13 个频道
     📂 ☘️北京频道: 6 个频道
     📂 ☘️四川频道: 4 个频道
-    📂 ☘️安徽频道: 2 个频道
+    📂 ☘️安徽频道: 1 个频道
     📂 ☘️山东频道: 2 个频道
     📂 ☘️广东频道: 2 个频道
     📂 ☘️河南频道: 2 个频道
@@ -1131,11 +1128,11 @@
     📂 备用频道: 1 个频道
     📂 外国: 8 个频道
     📂 外国▪电影: 1 个频道
-    📂 大时代粤: 24 个频道
+    📂 大时代粤: 8 个频道
     📂 大陆频道: 1 个频道
     📂 央视: 12 个频道
     📂 央视IPV4: 1 个频道
-    📂 央视频道: 24 个频道
+    📂 央视频道: 23 个频道
     📂 好听歌曲: 2 个频道
     📂 宝岛频道: 1 个频道
     📂 小屁孩禁地: 2 个频道
@@ -1175,7 +1172,7 @@
     📂 景区直播: 2 个频道
     📂 更新时间: 11 个频道
     📂 最新电影: 1 个频道
-    📂 未分类: 1826 个频道
+    📂 未分类: 1801 个频道
     📂 未分组: 12 个频道
     📂 欣赏频道: 2 个频道
     📂 欧美松视彩虹版🌈: 2 个频道
@@ -1188,7 +1185,7 @@
     📂 法国: 26 个频道
     📂 法语: 6 个频道
     📂 波兰: 2 个频道
-    📂 泰国: 3 个频道
+    📂 泰国: 2 个频道
     📂 测试频道: 3 个频道
     📂 浙江: 1 个频道
     📂 浙江频道: 8 个频道
@@ -1234,7 +1231,6 @@
     📂 精品推荐: 17 个频道
     📂 精选: 2 个频道
     📂 綜合: 1 个频道
-    📂 綜藝: 1 个频道
     📂 纪录片频道: 4 个频道
     📂 经典剧场: 1 个频道
     📂 经典小品: 1 个频道
@@ -1253,7 +1249,7 @@
     📂 解说频道: 2 个频道
     📂 超高清频道: 1 个频道
     📂 车载电台: 1 个频道
-    📂 轮播频道: 452 个频道
+    📂 轮播频道: 415 个频道
     📂 重庆: 3 个频道
     📂 電影頻道: 2 个频道
     📂 韩国御姐: 3 个频道
@@ -1265,7 +1261,7 @@
     📂 音樂(vpn): 5 个频道
     📂 香港: 1 个频道
     📂 香港澳门: 2 个频道
-    📂 马来西亚: 2 个频道
+    📂 马来西亚: 1 个频道
     📂 高清秒播1VIP: 12 个频道
     📂 鳳凰: 1 个频道
     📂 麻豆-MSD: 18 个频道
@@ -1283,7 +1279,7 @@
     📂 🇨🇳浙江地方: 12 个频道
     📂 🇬🇧英国: 1 个频道
     📂 🇰🇷Korea: 11 个频道
-    📂 🇰🇷韓國: 8 个频道
+    📂 🇰🇷韓國: 7 个频道
     📂 🇹🇼1030更新: 4 个频道
     📂 🇹🇼1119更新: 2 个频道
     📂 🇹🇼全球频道: 1 个频道
@@ -1482,7 +1478,6 @@
   Kids,#genre#
   Lifestyle,#genre#
   Local Channel,#genre#
-  M'sia News,#genre#
   MTV,#genre#
   Macedonia,#genre#
   Mak,#genre#
@@ -1749,7 +1744,6 @@
   精品推荐,#genre#
   精选,#genre#
   綜合,#genre#
-  綜藝,#genre#
   纪录片频道,#genre#
   经典剧场,#genre#
   经典小品,#genre#
@@ -1924,111 +1918,111 @@
   🪁动画频道,#genre#
 
 【需要添加到 alias.txt 的别名】
-  TR: BLUMAX,TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD YESILCAM 2 4K
+  TR: BLUMAX,TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD YESILCAM 2 4K,TR: BLUMAX HD YESILCAM 8 4K
   ,,4K60PSDR-H264-AAC测试,4K高清岳云鹏
   Blonde,Blonde
   CCTV,CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
   Arirang,Arirang,Arirang[1280x720],Arirang[640x360]
   Gangbang,Gangbang
   浙江国际,浙江国际
-  CNN,CNN,[MY]CNN
   HBO,HBO,[MY]HBO,[TW]HBO HD
+  CNN,CNN,[MY]CNN
   CNBC,CNBC,[MY]CNBC
   Anal,Anal
-  松視3台,松視3台
-  三立iNEWS,三立iNEWS
-  重温经典,重温经典
   浙江新闻,浙江新闻
   Gay,Gay
-  Extasy,Extasy,[2160]Extasy 4K,[720]Extasy HD
-  CGTN,CGTN
+  松視3台,松視3台
   23,23
-  14,14,14[1280x720]
+  Extasy,Extasy,[2160]Extasy 4K,[720]Extasy HD
+  重温经典,重温经典
+  三立iNEWS,三立iNEWS
+  CGTN,CGTN
   Global News,Global News
-  HISTORY,HISTORY,HISTORY频道,[MY]HISTORY
+  14,14,14[1280x720]
   TVB星河,TVB星河,TVB星河频道,[MY]TVB星河
+  HISTORY,HISTORY,HISTORY频道,[MY]HISTORY
   CHC家庭影院,CHC家庭影院
-  Russian,Russian
-  Interracial,Interracial
-  Cuckold,Cuckold
   Hardcore,Hardcore
-  Brunette,Brunette
+  Cuckold,Cuckold
+  Interracial,Interracial
   Blowjob,Blowjob
+  Russian,Russian
+  Brunette,Brunette
   Asian,Asian
   乐至综合,乐至综合,乐至综合频道
-  2,2
-  DJ版《一个人挺好》,DJ版《一个人挺好》
-  精选五首DJ男声串烧,精选五首DJ男声串烧
-  DJ版《时间会知道你好不好》,DJ版《时间会知道你好不好》
-  Erox,Erox,Erox HD,[1080]Erox HD
+  郭镐鸣《野摩托》,郭镐鸣《野摩托》
+  浙江钱江,浙江钱江
+  车载DJ《多年以后》,车载DJ《多年以后》
+  湖北综合,湖北综合
+  《人间惊鸿客》,《人间惊鸿客》
   Eroxxx,Eroxxx,Eroxxx HD,[1080]Eroxxx HD
-  Real Wild,Real Wild
+  《唱着情歌流着泪》,《唱着情歌流着泪》
+  DJ 流浪兄弟,DJ 流浪兄弟
+  DJ《我们不再是从前》,DJ《我们不再是从前》
+  DJ舞曲《让我做你的眼睛》,DJ舞曲《让我做你的眼睛》
+  假出租車中出彙編＃1,假出租車中出彙編＃1 HD
+  松視2台,松視2台
+  29,29
+  《无味》 DJ版,《无味》 DJ版
+  年代新闻,[TW]年代新闻,年代新闻
+  伤感DJ《等》,伤感DJ《等》
+  13,13
+  经典老歌DJ舞曲七首,经典老歌DJ舞曲七首
+  7,7
+  FOX NEWS,FOX NEWS
+  0,0
+  精选五首DJ男声串烧,精选五首DJ男声串烧
+  DJ版《三月里的小雨》,DJ版《三月里的小雨》,DJ版《三月里的小雨》[1920x1080]
+  DJ版《爱不得忘不舍》,DJ版《爱不得忘不舍》
+  CETV1,CETV1
+  Erox,Erox,Erox HD,[1080]Erox HD
+  DJ版《时间会知道你好不好》,DJ版《时间会知道你好不好》
+  DJ版《一个人挺好》,DJ版《一个人挺好》
+  潘朵拉完美,潘朵拉完美
+  4,4
+  韩可可《错位时空》DJ版,韩可可《错位时空》DJ版
   柳林综合,柳林综合
   15,15
-  《人间惊鸿客》,《人间惊鸿客》
-  《唱着情歌流着泪》,《唱着情歌流着泪》
-  第一剧场,第一剧场,第一剧场高清
-  《无味》 DJ版,《无味》 DJ版
-  松視1台,松視1台
-  经典老歌DJ舞曲七首,经典老歌DJ舞曲七首
-  孙艺琪《寂寞的人别听伤感情歌》,孙艺琪《寂寞的人别听伤感情歌》
-  DJ 流浪兄弟,DJ 流浪兄弟
-  DJ《等爱》,DJ《等爱》
-  电视剧,电视剧,电视剧频道
-  DJ《我们不再是从前》,DJ《我们不再是从前》
   赵蕾蕾《寂寞的城伤心的人》,赵蕾蕾《寂寞的城伤心的人》
-  假出租車中出彙編＃1,假出租車中出彙編＃1 HD
-  车载DJ《多年以后》,车载DJ《多年以后》
-  0,0
-  潘朵拉完美,潘朵拉完美
-  松視2台,松視2台
-  DJ版《三月里的小雨》,DJ版《三月里的小雨》,DJ版《三月里的小雨》[1920x1080]
-  29,29
-  4,4
-  DJ舞曲《让我做你的眼睛》,DJ舞曲《让我做你的眼睛》
-  韩可可《错位时空》DJ版,韩可可《错位时空》DJ版
-  3,3
-  浙江钱江,浙江钱江
-  郭镐鸣《野摩托》,郭镐鸣《野摩托》
-  伤感DJ《等》,伤感DJ《等》
-  7,7
-  湖北综合,湖北综合
-  FOX NEWS,FOX NEWS
-  13,13
+  DJ《等爱》,DJ《等爱》
+  第一剧场,第一剧场,第一剧场高清
   CNA,CNA,CNA HD
+  3,3
+  电视剧,电视剧,电视剧频道
+  Real Wild,Real Wild
+  松視1台,松視1台
   忘记你需要多久(DJ小鱼儿版),忘记你需要多久(DJ小鱼儿版)
-  年代新闻,[TW]年代新闻,年代新闻
-  CETV1,CETV1
-  DJ版《爱不得忘不舍》,DJ版《爱不得忘不舍》
+  孙艺琪《寂寞的人别听伤感情歌》,孙艺琪《寂寞的人别听伤感情歌》
+  2,2
   TLC,TLC,TLC HD TR,[MY]TLC
   亚洲,亚洲
   Playboy,Playboy,PlayboyHD(KR)
   BBC,BBC,[MY]BBC
   Dorcel,Dorcel
-  电影,电影
   CinemaWorld,CinemaWorld,[MY]CinemaWorld
+  电影,电影
   人间,人间卫视
   新加坡英语,新加坡英语电视台[480*270],新加坡英语电视台[640*360],新加坡英语电视台[960*540]
   YTN,YTN
   天映经典,[MY]天映经典,[TW]天映经典,天映经典
+  POV,POV
+  Teen,Teen
+  Latina,Latina
+  Compilation,Compilation
+  MILF,MILF
+  Fetish,Fetish
   Big Tits,Big Tits
   欧美版K,欧美版K频道
-  欧美版玩美,欧美版玩美
   欧美版松視4,欧美版松視4
-  欧美版松視3,欧美版松視3
   欧美版二本道,欧美版二本道
   欧美媒松視2,欧美媒松視2
-  MILF,MILF
-  POV,POV
-  Fetish,Fetish
-  Teen,Teen
-  Compilation,Compilation
-  Latina,Latina
+  欧美版玩美,欧美版玩美
+  欧美版松視3,欧美版松視3
   Big Ass,Big Ass
   18,18
-  20,20
   17,17
   19,19
+  20,20
   21,21
   CCTV第一剧场,CCTV第一剧场
   Al Horreya TV,Al Horreya TV
