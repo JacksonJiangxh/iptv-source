@@ -1,28 +1,28 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-08 09:50:45 (北京时间)
+> 最后更新：2026-07-09 10:03:47 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **13778** |
+| 总频道数 | **13629** |
 | 已知别名 | 1863 |
-| 分类数量 | 558 |
-| GitHub 来源 | 58531 |
-| 失败源数 | 434438 |
+| 分类数量 | 553 |
+| GitHub 来源 | 59096 |
+| 失败源数 | 434593 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2335 个频道
+1. **未分类** - 2275 个频道
 2. **HHH_798798** - 532 个频道
 3. **麻豆传媒** - 485 个频道
 4. **🎎｜VIP直播资源3_0721** - 478 个频道
 5. **Albania** - 472 个频道
-6. **轮播频道** - 451 个频道
+6. **轮播频道** - 424 个频道
 7. **🎎｜VIP直播测试_0721** - 394 个频道
 8. **Turkey** - 353 个频道
-9. **美食** - 352 个频道
+9. **美食** - 351 个频道
 10. **🔞国产传媒_8585** - 304 个频道
 11. **传媒壹一_00** - 294 个频道
 12. **Sport** - 292 个频道
@@ -76,31 +76,31 @@
 29. `Cyprus`
 30. `DEN'S TV`
 
-> 共 507 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 502 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 3 4K,TR: BLUMAX HD YESILCAM 2 4K,TR: BLUMAX HD YESILCAM 8 4K
-- 无主名 (出现 17 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
-- **Blonde** (出现 6 次): Blonde
-- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD MASALLAR 1 HD,TR: BLUMAX HD YESILCAM 5 4K,TR: BLUMAX HD YILMAZ GUNEY HD
+- 无主名 (出现 15 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **Gangbang** (出现 5 次): Gangbang
+- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **Blonde** (出现 6 次): Blonde
 - **浙江国际** (出现 5 次): 浙江国际
-- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
+- **Gangbang** (出现 5 次): Gangbang
 - **CNN** (出现 5 次): CNN,[MY]CNN
+- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
-- **浙江新闻** (出现 4 次): 浙江新闻
-- **Gay** (出现 4 次): Gay
+- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
 - **松視3台** (出现 4 次): 松視3台
 - **23** (出现 4 次): 23
-- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
-- **重温经典** (出现 4 次): 重温经典
 - **三立iNEWS** (出现 4 次): 三立iNEWS
+- **浙江新闻** (出现 4 次): 浙江新闻
 - **CGTN** (出现 4 次): CGTN
+- **Gay** (出现 4 次): Gay
+- **重温经典** (出现 4 次): 重温经典
 - **Global News** (出现 4 次): Global News
 
-> 共 113 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 112 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
