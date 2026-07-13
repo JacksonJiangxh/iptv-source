@@ -1,29 +1,29 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-12 09:52:06 (北京时间)
+> 最后更新：2026-07-13 09:54:40 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14465** |
+| 总频道数 | **14519** |
 | 已知别名 | 1863 |
-| 分类数量 | 581 |
-| GitHub 来源 | 60786 |
-| 失败源数 | 441602 |
+| 分类数量 | 585 |
+| GitHub 来源 | 61254 |
+| 失败源数 | 442257 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2299 个频道
+1. **未分类** - 2283 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **麻豆传媒** - 476 个频道
 5. **Albania** - 472 个频道
-6. **yy电影频道** - 441 个频道
+6. **yy电影频道** - 404 个频道
 7. **🎎｜VIP直播测试_0721** - 382 个频道
-8. **轮播频道** - 355 个频道
+8. **美食** - 355 个频道
 9. **Turkey** - 353 个频道
-10. **美食** - 349 个频道
+10. **轮播频道** - 319 个频道
 11. **传媒壹一_00** - 294 个频道
 12. **Sport** - 292 个频道
 13. **🔞国产传媒_8585** - 290 个频道
@@ -76,31 +76,31 @@
 29. `Comedy`
 30. `Croatia`
 
-> 共 521 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 525 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KADIR INANIR HD,TR: BLUMAX HD YESILCAM 5 4K,TR: BLUMAX HD YESILCAM 7 4K
-- 无主名 (出现 15 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **CCTV** (出现 9 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
-- **Blonde** (出现 6 次): Blonde
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD YILMAZ GUNEY HD
+- 无主名 (出现 15 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **CCTV** (出现 10 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **重温经典** (出现 6 次): 重温经典
 - **浙江国际** (出现 6 次): 浙江国际
+- **Blonde** (出现 6 次): Blonde
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
-- **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **重温经典** (出现 5 次): 重温经典
+- **浙江新闻** (出现 5 次): 浙江新闻
 - **Gangbang** (出现 5 次): Gangbang
+- **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
+- **Sky News** (出现 5 次): Sky News
 - **CNN** (出现 5 次): CNN,[MY]CNN
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
-- **Gay** (出现 4 次): Gay
-- **浙江新闻** (出现 4 次): 浙江新闻
-- **第一剧场** (出现 4 次): 第一剧场,第一剧场高清
-- **潘朵拉完美** (出现 4 次): 潘朵拉完美
-- **松視3台** (出现 4 次): 松視3台
-- **三立iNEWS** (出现 4 次): 三立iNEWS
 - **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
+- **Gay** (出现 4 次): Gay
+- **第一剧场** (出现 4 次): 第一剧场,第一剧场高清
+- **风云剧场** (出现 4 次): 风云剧场,风云剧场高清
+- **Real Wild** (出现 4 次): Real Wild
 
-> 共 115 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 127 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
