@@ -1,32 +1,32 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-14 09:30:49 (北京时间)
+> 最后更新：2026-07-15 09:27:42 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **14389** |
+| 总频道数 | **14221** |
 | 已知别名 | 1863 |
-| 分类数量 | 582 |
-| GitHub 来源 | 61813 |
-| 失败源数 | 442608 |
+| 分类数量 | 576 |
+| GitHub 来源 | 62373 |
+| 失败源数 | 442782 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 2270 个频道
+1. **未分类** - 2240 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **麻豆传媒** - 476 个频道
 5. **Albania** - 472 个频道
 6. **🎎｜VIP直播测试_0721** - 382 个频道
-7. **yy电影频道** - 372 个频道
-8. **美食** - 355 个频道
-9. **Turkey** - 353 个频道
+7. **美食** - 355 个频道
+8. **Turkey** - 353 个频道
+9. **yy电影频道** - 338 个频道
 10. **传媒壹一_00** - 294 个频道
 11. **Sport** - 292 个频道
 12. **🔞国产传媒_8585** - 290 个频道
-13. **轮播频道** - 276 个频道
+13. **轮播频道** - 249 个频道
 14. **EX-Yu** - 242 个频道
 15. **🔞欧美福利_8585** - 225 个频道
 
@@ -76,31 +76,31 @@
 29. `Comedy`
 30. `Croatia`
 
-> 共 523 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 519 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD COMEDY TURK,TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD KEMAL SUNAL 2 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD YESILCAM 7 4K,TR: BLUMAX HD YESILCAM 7 HD
 - 无主名 (出现 15 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
-- **CCTV** (出现 10 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **CCTV** (出现 9 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **浙江国际** (出现 6 次): 浙江国际
 - **重温经典** (出现 6 次): 重温经典
 - **Blonde** (出现 6 次): Blonde
-- **浙江国际** (出现 6 次): 浙江国际
 - **Arirang** (出现 6 次): Arirang,Arirang[1280x720],Arirang[640x360]
 - **Gangbang** (出现 5 次): Gangbang
 - **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
-- **浙江新闻** (出现 5 次): 浙江新闻
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **Sky News** (出现 5 次): Sky News
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
-- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
-- **潘朵拉完美** (出现 4 次): 潘朵拉完美
+- **浙江新闻** (出现 4 次): 浙江新闻
+- **CGTN** (出现 4 次): CGTN
+- **风云剧场** (出现 4 次): 风云剧场,风云剧场高清
 - **Gay** (出现 4 次): Gay
-- **23** (出现 4 次): 23
+- **潘朵拉完美** (出现 4 次): 潘朵拉完美
+- **Extasy** (出现 4 次): Extasy,[2160]Extasy 4K,[720]Extasy HD
 - **第一剧场** (出现 4 次): 第一剧场,第一剧场高清
-- **松視3台** (出现 4 次): 松視3台
 
-> 共 124 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 121 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
