@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-21 09:49:17 (北京时间)
+> 最后更新：2026-07-22 09:48:46 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **13198** |
+| 总频道数 | **13129** |
 | 已知别名 | 1863 |
-| 分类数量 | 565 |
-| GitHub 来源 | 65517 |
-| 失败源数 | 443935 |
+| 分类数量 | 564 |
+| GitHub 来源 | 65974 |
+| 失败源数 | 444010 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1958 个频道
+1. **未分类** - 1924 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **麻豆传媒** - 474 个频道
@@ -76,13 +76,13 @@
 29. `Comedy`
 30. `Croatia`
 
-> 共 509 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 508 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD AKSIYON HD,TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD YESILCAM 7 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD YESILCAM 5 HD,TR: BLUMAX HD YESILCAM 7 4K
 - 无主名 (出现 14 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **CCTV** (出现 7 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **Blonde** (出现 6 次): Blonde
@@ -95,11 +95,11 @@
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
 - **浙江国际** (出现 5 次): 浙江国际
+- **CGTN** (出现 4 次): CGTN
 - **23** (出现 4 次): 23
 - **Gay** (出现 4 次): Gay
 - **浙江新闻** (出现 4 次): 浙江新闻
 - **松視3台** (出现 4 次): 松視3台
-- **CGTN** (出现 4 次): CGTN
 - **CNN** (出现 4 次): CNN,[MY]CNN
 - **Global News** (出现 4 次): Global News
 
