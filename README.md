@@ -1,29 +1,29 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-25 09:51:30 (北京时间)
+> 最后更新：2026-07-26 09:54:00 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **12781** |
+| 总频道数 | **12650** |
 | 已知别名 | 1863 |
-| 分类数量 | 557 |
-| GitHub 来源 | 67344 |
-| 失败源数 | 444851 |
+| 分类数量 | 551 |
+| GitHub 来源 | 67799 |
+| 失败源数 | 444988 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1681 个频道
+1. **未分类** - 1665 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
-5. **麻豆传媒** - 472 个频道
+5. **麻豆传媒** - 470 个频道
 6. **🎎｜VIP直播测试_0721** - 365 个频道
-7. **美食** - 355 个频道
-8. **Turkey** - 353 个频道
+7. **Turkey** - 353 个频道
+8. **美食** - 353 个频道
 9. **Sport** - 292 个频道
-10. **🔞国产传媒_8585** - 286 个频道
+10. **🔞国产传媒_8585** - 284 个频道
 11. **传媒壹一_00** - 279 个频道
 12. **EX-Yu** - 242 个频道
 13. **🔞欧美福利_8585** - 225 个频道
@@ -64,33 +64,33 @@
 17. `Albania`
 18. `Aleatórios`
 19. `Anak-Anak`
-20. `BD`
-21. `BS2 (primehome)`
-22. `Badminiton`
-23. `Bangla`
-24. `Business News`
-25. `CCTV`
-26. `CNR•广播`
-27. `CS3 (primehome)`
-28. `Comedy`
-29. `Croatia`
-30. `Cyprus`
+20. `BS2 (primehome)`
+21. `Badminiton`
+22. `Bangla`
+23. `Business News`
+24. `CCTV`
+25. `CNR•广播`
+26. `CS3 (primehome)`
+27. `Comedy`
+28. `Croatia`
+29. `Cyprus`
+30. `DEN'S TV`
 
-> 共 504 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 498 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD CUNETY ARKIN,TR: BLUMAX HD KEMAL SUNAL 2 4K,TR: BLUMAX HD YESILCAM 2 4K
-- 无主名 (出现 14 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
-- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 1 HD,TR: BLUMAX HD KEMAL SUNAL 4 4K,TR: BLUMAX HD TURKU HD
+- 无主名 (出现 14 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **Blonde** (出现 6 次): Blonde
+- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
 - **重温经典** (出现 5 次): 重温经典
 - **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **Gangbang** (出现 5 次): Gangbang
-- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
+- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **Sky News** (出现 5 次): Sky News
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
@@ -103,4 +103,4 @@
 - **Russian** (出现 4 次): Russian
 - **Cuckold** (出现 4 次): Cuckold
 
-> 共 103 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 102 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
