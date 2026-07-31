@@ -1,24 +1,24 @@
 # IPTV 播放列表
 
-> 最后更新：2026-07-30 09:30:48 (北京时间)
+> 最后更新：2026-07-31 09:56:54 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **12351** |
+| 总频道数 | **12269** |
 | 已知别名 | 1863 |
-| 分类数量 | 541 |
-| GitHub 来源 | 69947 |
-| 失败源数 | 445544 |
+| 分类数量 | 536 |
+| GitHub 来源 | 70511 |
+| 失败源数 | 445660 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1621 个频道
+1. **未分类** - 1592 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
-5. **麻豆传媒** - 466 个频道
+5. **麻豆传媒** - 465 个频道
 6. **🎎｜VIP直播测试_0721** - 364 个频道
 7. **Turkey** - 353 个频道
 8. **Sport** - 292 个频道
@@ -76,14 +76,14 @@
 29. `Cyprus`
 30. `DEN'S TV`
 
-> 共 487 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 482 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD KEMAL SUNAL 1 4K,TR: BLUMAX HD KEMAL SUNAL 4 4K,TR: BLUMAX HD KEMAL SUNAL 5 4K
-- 无主名 (出现 13 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HABABAM TV,TR: BLUMAX HD ILYAS SALMAN,TR: BLUMAX HD YESILCAM 8 4K
+- 无主名 (出现 13 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **Blonde** (出现 6 次): Blonde
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
 - **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
@@ -99,8 +99,8 @@
 - **Global News** (出现 4 次): Global News
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
-- **Interracial** (出现 4 次): Interracial
-- **Cuckold** (出现 4 次): Cuckold
 - **Russian** (出现 4 次): Russian
+- **Hardcore** (出现 4 次): Hardcore
+- **Cuckold** (出现 4 次): Cuckold
 
 > 共 100 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
