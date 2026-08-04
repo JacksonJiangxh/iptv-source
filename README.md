@@ -1,33 +1,33 @@
 # IPTV 播放列表
 
-> 最后更新：2026-08-03 09:55:46 (北京时间)
+> 最后更新：2026-08-04 09:31:44 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **12136** |
+| 总频道数 | **12105** |
 | 已知别名 | 1863 |
 | 分类数量 | 532 |
-| GitHub 来源 | 72203 |
-| 失败源数 | 445890 |
+| GitHub 来源 | 72767 |
+| 失败源数 | 445962 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1523 个频道
+1. **未分类** - 1516 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
-5. **麻豆传媒** - 454 个频道
+5. **麻豆传媒** - 453 个频道
 6. **🎎｜VIP直播测试_0721** - 359 个频道
 7. **Turkey** - 353 个频道
 8. **Sport** - 292 个频道
-9. **🔞国产传媒_8585** - 281 个频道
-10. **传媒壹一_00** - 279 个频道
+9. **🔞国产传媒_8585** - 280 个频道
+10. **传媒壹一_00** - 278 个频道
 11. **美食** - 270 个频道
 12. **EX-Yu** - 242 个频道
 13. **🔞欧美福利_8585** - 225 个频道
-14. **传媒贰二_00** - 190 个频道
+14. **传媒贰二_00** - 189 个频道
 15. **传媒叁三_00** - 181 个频道
 
 ## 📥 下载地址
@@ -82,15 +82,15 @@
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD CANIM KARDESIM HD,TR: BLUMAX HD YESILCAM 6 4K
-- 无主名 (出现 13 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD AKSIYON HD,TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD CANIM KARDESIM HD
+- 无主名 (出现 13 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
 - **Blonde** (出现 6 次): Blonde
 - **重温经典** (出现 5 次): 重温经典
 - **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **Gangbang** (出现 5 次): Gangbang
-- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
+- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **Sky News** (出现 5 次): Sky News
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
@@ -98,9 +98,9 @@
 - **Global News** (出现 4 次): Global News
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
+- **Blowjob** (出现 4 次): Blowjob
+- **Asian** (出现 4 次): Asian
 - **Brunette** (出现 4 次): Brunette
 - **Hardcore** (出现 4 次): Hardcore
-- **Russian** (出现 4 次): Russian
-- **Asian** (出现 4 次): Asian
 
 > 共 99 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
