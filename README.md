@@ -1,24 +1,24 @@
 # IPTV 播放列表
 
-> 最后更新：2026-08-06 09:45:44 (北京时间)
+> 最后更新：2026-08-07 10:11:24 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **12008** |
+| 总频道数 | **11997** |
 | 已知别名 | 1863 |
-| 分类数量 | 529 |
-| GitHub 来源 | 73895 |
-| 失败源数 | 446157 |
+| 分类数量 | 528 |
+| GitHub 来源 | 74459 |
+| 失败源数 | 446202 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1483 个频道
+1. **未分类** - 1478 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
-5. **麻豆传媒** - 452 个频道
+5. **麻豆传媒** - 451 个频道
 6. **Turkey** - 353 个频道
 7. **🎎｜VIP直播测试_0721** - 350 个频道
 8. **Sport** - 292 个频道
@@ -76,21 +76,21 @@
 29. `DEN'S TV`
 30. `DJ`
 
-> 共 476 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 475 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KADIR INANIR HD,TR: BLUMAX HD YESILCAM 5 4K
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD YESILCAM 6 4K,TR: BLUMAX HD YESILCAM 8 4K
 - 无主名 (出现 13 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
 - **Blonde** (出现 6 次): Blonde
+- **Gangbang** (出现 5 次): Gangbang
 - **TVB星河** (出现 5 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **重温经典** (出现 5 次): 重温经典
-- **Gangbang** (出现 5 次): Gangbang
-- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
+- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **Sky News** (出现 5 次): Sky News
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
@@ -98,9 +98,9 @@
 - **Global News** (出现 4 次): Global News
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
-- **Russian** (出现 4 次): Russian
+- **Brunette** (出现 4 次): Brunette
 - **Interracial** (出现 4 次): Interracial
-- **Cuckold** (出现 4 次): Cuckold
-- **Hardcore** (出现 4 次): Hardcore
+- **Blowjob** (出现 4 次): Blowjob
+- **Asian** (出现 4 次): Asian
 
-> 共 98 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 96 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
