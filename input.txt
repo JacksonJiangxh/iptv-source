@@ -749,8 +749,8 @@ Business News,#genre#
 Zee Business,https://amg02481-amg02481c2-lg-in-5172.playouts.now.amagi.tv/playlist/amg02481-indiadotcomdigitalprivatelimitedfast-zeebusiness-lgin/playlist.m3u8
 
 CCTV,#genre#
-CCTV4K,http://198.204.240.250:82/live/cctv4k.m3u8?jsbt=1760495957&jsbk=138a7cd8fb02f369c744cf0ceb413e85
 CCTV4K,http://198.204.240.250:82/live/cctv4k.m3u8?jsbt=1760148172&jsbk=8ce47519e62b009dfa80f8fbfb2dd932
+CCTV4K,http://198.204.240.250:82/live/cctv4k.m3u8?jsbt=1760495957&jsbk=138a7cd8fb02f369c744cf0ceb413e85
 
 CNR•广播,#genre#
 CNR 经济之声,http://ngcdn002.cnr.cn/live/jjzs/index.m3u8
@@ -3205,10 +3205,6 @@ ZCTV频道,#genre#
 重温经典,http://120.76.248.139/live/bfgd/4200000636.m3u8
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
 
-[通用]广东频道,#genre#
-广东少儿,http://120.238.85.131:9901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&down=1
-广东珠江,http://120.238.85.131:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&down=1
-
 bm,#genre#
 Channel 82,https://service.webvideocore.net/CL1olYogIrDWvwqiIKK7eBmnWbRkKKsu3nqabm9GlX02JOj3CDNXzodJMDEN2dk3/a_bq9clxfbupwg.m3u8
 
@@ -3384,8 +3380,8 @@ iptv12k Testing,#genre#
 [MY]全佳,http://iptv12k.com:35461/live/test167/12345/710.m3u8
 [MY]双星,http://iptv12k.com:35461/live/test167/12345/706.m3u8
 [MY]天映经典,http://iptv12k.com:35461/live/test167/12345/693.m3u8
-[MY]天映頻道,http://iptv12k.com:35461/live/test167/12345/692.m3u8
 [MY]天映頻道,http://iptv12k.com:35461/live/test167/12345/581.m3u8
+[MY]天映頻道,http://iptv12k.com:35461/live/test167/12345/692.m3u8
 [MY]小太阳,http://iptv12k.com:35461/live/test167/12345/700.m3u8
 [MY]欢喜台,http://iptv12k.com:35461/live/test167/12345/707.m3u8
 [MY]爱奇艺,http://iptv12k.com:35461/live/test167/12345/708.m3u8
@@ -3545,7 +3541,6 @@ Z (Запоріжжя),https://stream.ztv.zp.ua/hls/live.m3u8
 ABC News,https://www.youtube.com/watch?v=u8gyCHfITHw
 ABC News(Australia),https://www.youtube.com/watch?v=vOTiJkg1voo
 Al Jazeera,https://www.youtube.com/watch?v=gCNeDWCI0vo
-Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
 CCTV-4,https://www.youtube.com/watch?v=9sE12tg3CmA&ab_channel=LIVENOW
 DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
 Euronews,https://www.youtube.com/watch?v=pykpO5kQJ98
@@ -3619,14 +3614,12 @@ FC火之鸟,https://www.youtube.com/watch?v=HtvGvt6KpHM
 中华特产,http://120.76.248.139/live/bfgd/4200000158.m3u8
 北京新闻,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=btv9&videoTVChannel=btv9&P2PChannelID=pd://cctv_p2p_hdbtv9&tai=btv9&VideoName=btv9&channelID=btv9
 北京生活,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=btv7&videoTVChannel=btv7&P2PChannelID=pd://cctv_p2p_hdbtv7&tai=btv7&VideoName=btv7&channelID=btv7
-北京财经,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=btv5&videoTVChannel=btv5&P2PChannelID=pd://cctv_p2p_hdbtv5&tai=btv5&VideoName=btv5&channelID=btv5
 四海钓鱼,http://120.76.248.139/live/bfgd/4200000229.m3u8
 环球旅游,http://120.76.248.139/live/bfgd/4200000147.m3u8
 
 ☘️四川频道,#genre#
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd
 乐至综合,http://175.155.106.72:89/live1/live1.m3u8?zsicd;http://rmlive.lzxrmtzx.com/live1/live1.m3u8?zsicd
-营山电视台,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
 
 ☘️安徽频道,#genre#
 合肥新闻,http://112.27.235.94:8000/hls/18/index.m3u8
@@ -3638,7 +3631,6 @@ FC火之鸟,https://www.youtube.com/watch?v=HtvGvt6KpHM
 广东大湾区,http://222.128.55.152:9080/live/dwq.m3u8
 广东新闻,http://38.75.136.137:98/gslb/dsdqpub/gdxw.m3u8?auth=testpub
 广东新闻,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdxw
-广东新闻,http://116.77.239.26:44300/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
 广东珠江,http://38.75.136.137:98/gslb/dsdqpub/gdzj.m3u8?auth=testpub
 广东珠江,http://38.75.136.137:98/gslb/dsdqbv/gdzj.m3u8?auth=test20251009
 广东珠江,http://198.204.228.26/live/gdzj.m3u8
@@ -4227,7 +4219,6 @@ l🐸12传媒01,https://10j991.cdnedge.live/file/avple-asserts/hls/639985bd2c279
 🌏10传媒33,https://zo3921.cdnedge.live/file/avple-asserts/hls/635c80208e0ba231034c2a3d/playlist.m3u8
 🌏10传媒34,https://10j991.cdnedge.live/file/avple-asserts/hls/635c328bd78c10293225b64f/playlist.m3u8
 🌏10传媒39,https://8bb881.cdnedge.live/file/avple-asserts/hls/635ba8568e0ba231034c2a2c/playlist.m3u8
-🌏10传媒41,https://d862cp1.cdnedge.live/file/avple-asserts/hls/635ba8c98e0ba231034c2a2d/playlist.m3u8
 🌏10传媒43,https://u89ey1.cdnedge.live/file/avple-asserts/hls/635a3146877aa7388ca75460/playlist.m3u8
 🌏10传媒44,https://u89ey1.cdnedge.live/file/avple-asserts/hls/63599ff3877aa7388ca7545f/playlist.m3u8
 🌏10传媒46,https://10j991.cdnedge.live/file/avple-asserts/hls/635954f3877aa7388ca7545d/playlist.m3u8
@@ -4760,7 +4751,6 @@ TRACE SPORT STARS,http://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
 央视台球,http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
 广东体育,http://183.62.8.58:50085/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 广东体育,http://120.233.73.4:19901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
-广东体育,http://116.77.239.26:44300/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0
 广东体育,http://cdn2.163189.xyz/163189/gdty
 风云足球,http://207.56.13.146:81/cdnlive/fyzq.m3u8
 高尔网球,http://192.151.150.154/live/gefwq.m3u8
@@ -5276,9 +5266,9 @@ Bloomberg TV US,https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virgini
 河北卫视,http://153.0.171.163:85/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4
 河南卫视,http://192.151.150.154/live/hawshd.m3u8
 河南卫视,http://198.204.228.26/live/hawshd.m3u8
-河南卫视,http://1.94.31.214/php/hntv.php?id=hnws$LR•IPV4•48『线路3』
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws$LR•IPV4•48『线路18』
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws$LR•IPV4•48『线路37』
+河南卫视,http://1.94.31.214/php/hntv.php?id=hnws$LR•IPV4•48『线路3』
 河南卫视,http://58.56.162.102:4466/newlive/live/hls/37/live.m3u8
 浙江卫视,http://61.136.172.236:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0$湖北酒店源|
 浙江卫视,http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub$LR•IPV4•65『线路59』
@@ -5292,7 +5282,6 @@ Bloomberg TV US,https://liveproduseast.akamaized.net/us/Channel-USTV-AWS-virgini
 海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8$LR•IPV4•53『线路4』
 深圳卫视,http://61.136.172.236:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0$湖北酒店源
 深圳卫视,http://112.27.235.94:8000/hls/33/index.m3u8#http://183.215.134.239:19901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,http://112.27.235.94:8000/hls/33/index.m3u8
 深圳卫视,http://107.150.60.122/live/szwshd.m3u8
 湖北卫视,http://38.75.136.137:98/gslb/dsdqpub/hbwshd.m3u8?auth=testpub$LR•IPV4•42『线路11』
 湖北卫视,http://38.75.136.137:98/gslb/dsdqpub/hbwshd.m3u8?auth=testpub$LR•IPV4•42『线路36』
@@ -5643,8 +5632,8 @@ Reality,https://reality-rakuten-tv-uk.fast.rakuten.tv/v1/manifest/0547f18649bd78
 Reuters,https://dbrb49pjoymg4.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/e7493ea5-5c1c-4d7a-a3f7-e95516048ad8/3.m3u8
 Romance Movies,https://romance-rakuten-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6194/master.m3u8?ads.app_bundle=[APP_BUNDLE]&ads.app_name=LG%20Channel%20Plus&ads.app_store_url=[APP_STOREURL]&ads.app_version=[APP_VERSION]&ads.brand_name=[DEVICE_MAKE]&ads.content_livestream=0&ads.device_lmt=[LMT]&ads.device_model=[DEVICE_MODEL]&ads.did=[IFA]&ads.fck=[FCK]&ads.gdpr_consent=[GDPR_CONSENT]&ads.ifa_type=[IFA_TYPE]&ads.market=uk&ads.platform=lg_channelplus&ads.pod_type=playerpage_midroll&ads.rtv_channel_name=romance-rakuten-tv_uk&ads.rtv_content_id=6194&ads.rtv_language=en&ads.viewsize=[VIEWSIZE]&channel_id=6194&disable_subtitles=true&publishing_platform_id=2
 Romance Movies,https://romance-rakuten-tv-uk.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6194/812b4d9e-f255-46f1-9071-decd622f8e1b/4.m3u8
-Sci-Fi,https://sci-fi-rakuten-tv-uk.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6241/2633b8e1-37ed-4477-9e50-d6b4f489d363/4.m3u8
 Sci-Fi,https://sci-fi-rakuten-tv-uk.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6241/master.m3u8?ads.app_bundle=[APP_BUNDLE]&ads.app_name=LG%20Channel%20Plus&ads.app_store_url=[APP_STOREURL]&ads.app_version=[APP_VERSION]&ads.brand_name=[DEVICE_MAKE]&ads.content_livestream=0&ads.device_lmt=[LMT]&ads.device_model=[DEVICE_MODEL]&ads.did=[IFA]&ads.fck=[FCK]&ads.gdpr_consent=[GDPR_CONSENT]&ads.ifa_type=[IFA_TYPE]&ads.market=uk&ads.platform=lg_channelplus&ads.pod_type=playerpage_midroll&ads.rtv_channel_name=sci-fi-rakuten-tv_uk&ads.rtv_content_id=6241&ads.rtv_language=en&ads.viewsize=[VIEWSIZE]&channel_id=6241&disable_subtitles=true&publishing_platform_id=2
+Sci-Fi,https://sci-fi-rakuten-tv-uk.fast.rakuten.tv/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6241/2633b8e1-37ed-4477-9e50-d6b4f489d363/4.m3u8
 Showtime Extreme,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/648984.ts
 Sky News,https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8
 Sky Sports Football,http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/2188.ts
@@ -5681,9 +5670,6 @@ Afghanistan International[1280x720],https://hls.afintl.com/hls/stream.m3u8
 电视剧,http://183.239.236.91:8088/hls/14/index.m3u8
 都市剧场,http://183.239.236.91:8088/hls/127/index.m3u8
 
-地方频道,#genre#
-浙江新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8
-
 境外,#genre#
 DW English (1080p),https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 Fox 15 West Texas Abilene,https://livevideo01.myfoxzone.com/hls/live/2017381/newscasts/live.m3u8
@@ -5704,7 +5690,6 @@ CGTN,http://112.27.235.94:8000/hls/17/index.m3u8
 江西卫视,http://112.27.235.94:8000/hls/44/index.m3u8
 河南卫视,http://112.27.235.94:8000/hls/37/index.m3u8
 湖南卫视,http://112.27.235.94:8000/hls/31/index.m3u8
-贵州卫视,http://112.27.235.94:8000/hls/46/index.m3u8
 辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8
 重庆卫视,http://112.27.235.94:8000/hls/36/index.m3u8
 陕西卫视,http://112.27.235.94:8000/hls/43/index.m3u8
@@ -5907,9 +5892,7 @@ CCTV第一剧场,http://207.56.13.146:81/cdnlive/dyjc.m3u8
 CCTV老故事,http://38.75.136.137:98/gslb/dsdqpub/lgs.m3u8?auth=testpub
 CCTV风云剧场,http://107.150.60.122/live/fyjc.m3u8
 CCTV高尔夫网球,http://207.56.13.146:81/cdnlive/gefwq.m3u8
-CETV1,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv1&videoTVChannel=cetv1&P2PChannelID=pd://cctv_p2p_hdcetv1&tai=cetv1&VideoName=cetv1&channelID=cetv1
 CETV1,https://piccpndali.v.myalicdn.com/audio/cetv1_2.m3u8
-CETV2,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv2&videoTVChannel=cetv2&P2PChannelID=pd://cctv_p2p_hdcetv2&tai=cetv2&VideoName=cetv2&channelID=cetv2
 CETV2,https://piccpndali.v.myalicdn.com/audio/cetv2_2.m3u8
 CETV4,http://player.cntv.cn/standard/live_HLSDRM20180524.swf?ChannelID=cetv4&videoTVChannel=cetv4&P2PChannelID=pd://cctv_p2p_hdcetv4&tai=cetv4&VideoName=cetv4&channelID=cetv4
 CETV4,https://piccpndali.v.myalicdn.com/audio/cetv4_2.m3u8
@@ -5970,8 +5953,8 @@ ToonGoggles,https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/play
 广东体育,http://php.jdshipin.com/TVOD/iptv.php?id=gdty$LR•IPV4『线路8』
 广东体育,http://php.jdshipin.com/PLTV/iptv.php?id=gdty$LR•IPV4『线路41』
 广东体育,http://php.jdshipin.com/PLTV/iptv.php?id=gdty$LR•IPV4『线路8』
-广东体育,http://120.198.95.220:9901/tsfile/live/1010_1.m3u8?key=txiptv$LR•IPV4『线路11』
 广东体育,http://120.198.95.220:9901/tsfile/live/1010_1.m3u8?key=txiptv$LR•IPV4『线路15』
+广东体育,http://120.198.95.220:9901/tsfile/live/1010_1.m3u8?key=txiptv$LR•IPV4『线路11』
 广东体育,http://183.237.95.108:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=0&authid=0$LR•IPV4『线路14』
 
 广东地方,#genre#
@@ -6337,8 +6320,8 @@ The Design Network,https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amag
 ,https://live.redtraffic.net/woman.m3u8
 ,https://github.com/serviciosinformaticoselbachi/REPROTRUEQ/raw/master/SERCICIO%20DESCONECTADO.mp4
 #EXTINF:-1 . ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23541/23541_720p.mp4
-#EXTINF:-1 . ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23511/23511_720p.mp4
 #EXTINF:-1 . ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23513/23513_720p.mp4
+#EXTINF:-1 . ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23511/23511_720p.mp4
 (1979) / Первая Звезда Галактики,https://video1.tizam.cc/films/star_virgin.mp4
 (1997) / Вечеринка в саду,https://video1.tizam.cc/films/vecherinka_v_sadu.mp4
 02 寰宇新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV02.m3u8
@@ -6605,8 +6588,8 @@ AdultIPTV.net Gay (720p),https://cdn.adultiptv.net/gay.m3u8
 Aghapy TV (1080p) [Not 24/7],https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 Agro TV (480p),https://restr2.bgtv.bg/agro/hls/agro.m3u8
 Ai Video,https://lbgo.bozztv.com/07/ushba-aivideo/index.m3u8
-Al Hurra (720p),https://mbningestworld-i.akamaihd.net/hls/live/586122/worldsafe/master.m3u8
 Al Hurra (720p),https://mbningestworld-i.akamaihd.net/hls/live/644021/iraqworldsafe/master.m3u8
+Al Hurra (720p),https://mbningestworld-i.akamaihd.net/hls/live/586122/worldsafe/master.m3u8
 Al Jazeera Arabic (1080p),https://live-hls-v3-aja.getaj.net/AJA-V3/index.m3u8
 Al Masirah (720p) [Not 24/7],https://svs.itworkscdn.net/almasiralive/almasira.smil/playlist.m3u8
 Al Masirah Mubacher (642p) [Not 24/7],https://svs.itworkscdn.net/almasiramubacherlive/almasira.smil/playlist.m3u8
@@ -6644,10 +6627,10 @@ CBSN Boston (720p),https://cbsn-bos.cbsnstream.cbsnews.com/out/v1/589d66ec6eb843
 CCTV-1,http://110.53.235.13:19901/tsfile/live/0001_1.m3u8
 CCTV-1,http://39.164.138.145:8899/hls/1/index.m3u8
 CCTV-1,http://39.164.138.145:8899/hls/21/index.m3u8
-CCTV-1,http://39.164.138.145:9082/hls/21/index.m3u8
 CCTV-1,http://39.164.138.145:9082/hls/1/index.m3u8
 CCTV-1,http://120.233.73.4:19901/tsfile/live/1020_1.m3u8
 CCTV-1,http://120.226.246.71:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&down=1
+CCTV-1,http://39.164.138.145:9082/hls/21/index.m3u8
 CCTV-1 (1080p),http://198.204.240.250:82/live/cctv1.m3u8
 CCTV-10,http://39.164.138.145:8899/hls/10/index.m3u8
 CCTV-10,http://39.164.138.145:9082/hls/10/index.m3u8
@@ -6674,8 +6657,8 @@ CCTV-17,http://39.164.138.145:8899/hls/17/index.m3u8
 CCTV-17,http://39.164.138.145:9082/hls/17/index.m3u8
 CCTV-2,http://110.53.235.13:19901/tsfile/live/0002_1.m3u8
 CCTV-2,http://1.24.39.180:808/hls/2/index.m3u8
-CCTV-2,http://39.164.138.145:8899/hls/2/index.m3u8
 CCTV-2,http://39.164.138.145:9082/hls/2/index.m3u8
+CCTV-2,http://39.164.138.145:8899/hls/2/index.m3u8
 CCTV-2,http://120.233.73.4:19901/tsfile/live/1028_1.m3u8
 CCTV-2 财经,http://112.27.235.94:8000/hls/2/index.m3u8
 CCTV-2高清,http://113.26.251.182:8009/hls/2/index.m3u8
@@ -6878,8 +6861,8 @@ KTV 1 (1080p),https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chu
 KTV 2 (1080p),https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8
 KTV Al Qurain (1080p),https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8
 KTV Al Qurain (1080p),https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:ktvaq.stream.smil/chunklist.m3u8
-KTV Arabe (1080p),https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
 KTV Arabe (1080p),https://kwtktvata.cdn.mangomolo.com/ktva/smil:ktva.stream.smil/chunklist.m3u8
+KTV Arabe (1080p),https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
 KTV Drama (1080p),https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
 KTV Ethraa (1080p),https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8
 KTV News (360p),https://cdn-globecast.akamaized.net/live/eds/ktv_al_akhbar/hls_roku/ktv_al_akhbar.m3u8
@@ -6943,7 +6926,6 @@ MyCamTV Big Ass (720p),https://live.mycamtv.com/defstream.m3u8
 NAT TV (1080p),https://livefta.malimarcdn.com/ftaedge00/nat.sdp/playlist.m3u8
 NET (1080p),https://stream.smashmalta.com:25463/live/webplayer/livestream/22.m3u8
 NGOD-188 森泽佳奈★忧郁勃起NTR！隣の郁闷人妻の無意識な尻肉挑発に興奮し全勃起の巨根旦那の留守中高潮迭起で鬼突击…。2023（无字幕）,https://play.hgm4u9.com/20230509/X9Pyg1Y7/index.m3u8
-NHK Kishou Saigai (360p) [Not 24/7],https://newssimul-stream.nhk.jp/hls/live/2010561/nhknewssimul/master.m3u8
 NHK WORLD,http://61.221.215.25:8800/hls/51/index.m3u8
 News 24 (392p) [Not 24/7],https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 News98新闻台,http://stream.rcs.revma.com/55tyxsy4qtzuv
@@ -7159,68 +7141,68 @@ ahlakid.com - BY  : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18311/18311
 ahlakid.com - BY  : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18309/18309_720p.mp4
 ahlakid.com - BY  : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18771/18771_720p.mp4
 ahlakid.com - BY  : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17771/17771_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/20/20244/20244_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18966/18966_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23620/23620_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22518/22518_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18965/18965_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22519/22519_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18966/18966_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22518/22518_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23621/23621_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/20/20244/20244_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23828/23828_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18965/18965_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23829/23829_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24066/24066_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23612/23612_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23621/23621_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23828/23828_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23424/23424_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/20/20262/20262_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23424/23424_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23619/23619_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17576/17576_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22509/22509_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18959/18959_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18946/18946_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23825/23825_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24064/24064_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/23/23825/23825_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17570/17570_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24069/24069_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22508/22508_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22511/22511_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17567/17567_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24055/24055_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24058/24058_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17567/17567_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22510/22510_720p.mp4
+ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/24/24058/24058_720p.mp4
 ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22514/22514_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17576/17576_720p.mp4
-ahlakid.com - By : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22509/22509_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21088/21088_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18524/18524_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17211/17211_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18516/18516_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18522/18522_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18148/18148_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18149/18149_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18524/18524_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18151/18151_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17216/17216_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18523/18523_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17216/17216_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21088/21088_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17205/17205_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18516/18516_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18149/18149_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17211/17211_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18158/18158_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18514/18514_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18506/18506_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/10/10829/10829_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18513/18513_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18506/18506_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21096/21096_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/10/10829/10829_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22871/22871_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18512/18512_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21097/21097_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22875/22875_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21083/21083_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17234/17234_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/16/16736/16736_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21083/21083_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18521/18521_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/11/11282/11282_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17212/17212_720p.mp4
+ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18543/18543_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/11/11423/11423_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22890/22890_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/17/17212/17212_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18521/18521_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18543/18543_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/21/21092/21092_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18515/18515_720p.mp4
 ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18162/18162_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/22/22871/22871_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/18/18512/18512_720p.mp4
-ahlakid.com - Website : ahlakid.com,https://ovhv47.twincdn.com/videos/16/16736/16736_720p.mp4
 animadas,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LISTAS/animadas.m3u
 apart TV (1080p),https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8
 cctv13,http://154.12.36.187:656/index.php?token=7777&id=cctv13
@@ -7458,7 +7440,6 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 全纪实,http://110.53.235.13:19901/tsfile/live/1003_1.m3u8
 公视新闻,http://stream-ali1.csslcloud.net/live/Ubmbfd2yeiurTa7IAZwc9yg3WHBILRp5ueNjYcnKl8MRCOrVoC.flv
 兰州新闻综合广播 FM97.3,http://live.xmcdn.com/live/294/64.m3u8
-内蒙古卫视,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8$雷蒙影视•IPV4『线路32』
 农林卫视,http://154.12.36.187:656/index.php?token=7777&id=nlws
 初恋,https://vd2.bdstatic.com/mda-jecre7pwujhk9za9/mda-jecre7pwujhk9za9.mp4
 北京体育,http://114.242.62.109:888/hls/22/index.m3u8
@@ -7467,8 +7448,8 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 北京卫视,http://218.206.193.218:8888/hls/79/index.m3u8
 北京卫视,http://39.164.138.145:8899/hls/36/index.m3u8
 北京卫视,http://39.164.138.145:9082/hls/36/index.m3u8
-北京卫视,http://120.226.246.71:9901/tsfile/live/0122_1.m3u8?key=txiptv
 北京卫视,http://120.233.73.4:19901/tsfile/live/1040_1.m3u8
+北京卫视,http://120.226.246.71:9901/tsfile/live/0122_1.m3u8?key=txiptv
 北京国际,http://114.242.62.109:888/hls/27/index.m3u8
 北京外语广播 AM774,http://live.xmcdn.com/live/96/64.m3u8
 北京影视,http://114.242.62.109:888/hls/20/index.m3u8
@@ -7634,8 +7615,8 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 河南卫视,http://116.76.254.170:44330/tsfile/live/0139_1.m3u8
 河南卫视,http://39.164.138.145:8899/hls/19/index.m3u8
 河南卫视,http://39.164.138.145:9082/hls/19/index.m3u8
-河南卫视,http://120.226.246.71:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&down=1
 河南卫视,http://120.226.246.71:9901/tsfile/live/0139_1.m3u8?key=txiptv
+河南卫视,http://120.226.246.71:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&down=1
 河南卫视,http://49.235.65.250:600/henan/henan.php
 河南新闻,http://49.235.65.250:600/henan/henan.php?id=hnxw
 河南法治,http://49.235.65.250:600/henan/henan.php?id=hmfz
@@ -7651,13 +7632,8 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 浙江卫视,http://154.12.36.187:656/index.php?token=7777&id=zjws
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$雷蒙影视•IPV4『线路51』
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$雷蒙影视•IPV4『线路46』
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$雷蒙影视•IPV4『线路123』
-浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8$雷蒙影视•IPV4『线路125』
 浙江卫视,http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8$雷蒙影视•IPV4『线路49』
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$雷蒙影视•IPV4『线路44』
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8$雷蒙影视•IPV4『线路122』
 浙江女主播电台 FM104.5,http://live.xmcdn.com/live/636/64.m3u8
-浙江数码时代,https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8/r/n
 浪子的心情,https://vd3.bdstatic.com/mda-jircwmh3x254qy3a/v1-cae/mda-jircwmh3x254qy3a.mp4
 海南卫视,http://39.164.138.145:8899/hls/59/index.m3u8
 海南卫视,http://39.164.138.145:9082/hls/59/index.m3u8
@@ -7733,8 +7709,8 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 老歌DJ,https://vd2.bdstatic.com/mda-ncvm0bnkt2pcev81/sc/cae_h264_delogo/1648675885400529387/mda-ncvm0bnkt2pcev81.mp4
 背叛情歌,https://vd2.bdstatic.com/mda-nd9g7g9pdc9d06hz/sc/cae_h264_delogo/1649669454990045825/mda-nd9g7g9pdc9d06hz.mp4
 苏州4K,http://live-auth.51kandianshi.com/szgd/csztv4k_fhd.m3u8
-苏州新闻综合,http://live-auth.51kandianshi.com/szgd/csztv1.flv
 苏州新闻综合,http://live-auth.51kandianshi.com/szgd/csztv1.m3u8
+苏州新闻综合,http://live-auth.51kandianshi.com/szgd/csztv1.flv
 苏州社会经济,http://live-auth.51kandianshi.com/szgd/csztv2.m3u8
 衡阳交通广播 FM101.8,http://live.xmcdn.com/live/1181/64.m3u8
 裸眼3D,https://vd2.bdstatic.com/mda-kka520dkkf8mrujz/sc/mda-kka520dkkf8mrujz.mp4
@@ -7815,6 +7791,8 @@ terror-suspenso,https://raw.githubusercontent.com/BRIAN-JESHUA/PLAYFREE/main/LIS
 舒适歌曲3首《舞女》《泛水荷塘》《叹这一生》就是听不够,https://vd2.bdstatic.com/mda-ndb4qj7zj31uw8kq/1080p/cae_h264_delogo/1649810230042185158/mda-ndb4qj7zj31uw8kq.mp4
 
 欣赏频道,#genre#
+CCTV1,http://rihou.cc:555/tv/Pd|央视综合l
+tvbs闽南,http://rihou.cc:555/tv/Hk|tvbs闽南l
 好先生电视剧,http://8.155.43.98:35455/douyu/9650792
 欢乐颂电视剧,http://8.155.43.98:35455/douyu/3756989
 
@@ -8000,8 +7978,8 @@ CCTV-1综合,http://173.208.212.130:8181/720p/cctv1.m3u8
 CCTV-1综合,http://173.208.212.130:8181/1080p/cctv1.m3u8
 CCTV-2财经,http://173.208.212.130:8181/720p/cctv2.m3u8
 CCTV-2财经,http://173.208.212.130:8181/1080p/cctv2.m3u8
-CCTV-3综艺,http://173.208.212.130:8181/720p/cctv3.m3u8
 CCTV-3综艺,http://173.208.212.130:8181/1080p/cctv3.m3u8
+CCTV-3综艺,http://173.208.212.130:8181/720p/cctv3.m3u8
 CCTV-4K超高清,http://173.208.212.130:8181/720p/cctv4k.m3u8
 CCTV-4中文国际,http://173.208.212.130:8181/1080p/cctv4.m3u8
 CCTV-4中文国际,http://173.208.212.130:8181/720p/cctv4.m3u8
@@ -8049,10 +8027,7 @@ CCTV-高尔夫网球,http://173.208.212.130:8181/720p/gefwq.m3u8
 浙江国际,http://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 
 浙江频道,#genre#
-中国蓝新闻,https://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8?#https://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel009/1080p.m3u8
-浙江国际,https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8?
 浙江教科影院,http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8$订阅源
-浙江新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel07/720p.m3u8
 浙江生活,http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 
 海外,#genre#
@@ -8415,8 +8390,6 @@ CinemaWorld,http://37.27.111.214:8080/live/30/hls.m3u8$订阅源
 HISTORY频道,http://37.27.111.214:8080/live/27/hls.m3u8$订阅源
 HITs电影频道,http://37.27.111.214:8080/live/28/hls.m3u8$订阅源
 [韩]野兽们的战争,https://v.cdnlz11.com/20231217/18739_fd0f9b07/2000k/hls/mixed.m3u8
-安徽影视,http://112.27.235.94:8000/hls/24/index.m3u8
-影视娱乐,https://ali-m-l.cztv.com/channels/lantian/channel05/720p.m3u8
 画江湖之不良帅,https://v.cdnlz11.com/20240111/19241_3af8d963/2000k/hls/mixed.m3u8
 
 电视,#genre#
@@ -8636,8 +8609,8 @@ The Jamie Oliver Channel,https://jamieoliver-xumo.amagi.tv/playlist.m3u8
 全汤肥牛,https://vd2.bdstatic.com/mda-nbc9jdz0e547ga0m/hd/cae_h264_nowatermark_delogo/1644738793530014099/mda-nbc9jdz0e547ga0m.mp4?
 全羊宴,https://vd2.bdstatic.com/mda-mi8b8n1fapkfzy30/hd/cae_h264_nowatermark/1631177030299243081/mda-mi8b8n1fapkfzy30.mp4?
 全羊宴,https://vd2.bdstatic.com/mda-mi8b8n1fapkfzy30/hd/cae_h264_nowatermark/1631177030299243081/mda-mi8b8n1fapkfzy30.mp4?auth_key=1655204410-0-0-3251cfef0e96bbbe4193a73d6a4cd92f&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=1810327203&vid=2629651966226721826&abtest=all
-卤牛舌,https://vd4.bdstatic.com/mda-mha9ctbvx0p7xpeg/hd/cae_h264_nowatermark/1628666552624701166/mda-mha9ctbvx0p7xpeg.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1655257501-0-0-304a2529a6a9b285d3d10fc72149c2a5&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=0901421755&vid=9780762439742807862&abtest=all
 卤牛舌,https://vd4.bdstatic.com/mda-mha9ctbvx0p7xpeg/hd/cae_h264_nowatermark/1628666552624701166/mda-mha9ctbvx0p7xpeg.mp4?
+卤牛舌,https://vd4.bdstatic.com/mda-mha9ctbvx0p7xpeg/hd/cae_h264_nowatermark/1628666552624701166/mda-mha9ctbvx0p7xpeg.mp4?v_from_s=hkapp-haokan-nanjing&auth_key=1655257501-0-0-304a2529a6a9b285d3d10fc72149c2a5&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=0901421755&vid=9780762439742807862&abtest=all
 古法烧鸽,https://vd3.bdstatic.com/mda-mm099uaj0ke9fihc/hd/cae_h264_delogo/1643394054911732959/mda-mm099uaj0ke9fihc.mp4?v_from_s=hkapp-haokan-hnb&auth_key=1655038328-0-0-24729d553323f678544e3a29d8ba535a&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=1328609491&vid=4857230690725699951&abtest=all
 古法烧鸽,https://vd3.bdstatic.com/mda-mm099uaj0ke9fihc/hd/cae_h264_delogo/1643394054911732959/mda-mm099uaj0ke9fihc.mp4?
 叫花牛蹄,https://vd3.bdstatic.com/mda-nb82f0r4ehxpchn9/hd/cae_h264_nowatermark_delogo/1644394964122599695/mda-nb82f0r4ehxpchn9.mp4?v_from_s=hkapp-haokan-hbe&auth_key=1655037263-0-0-72228e882810c7c4f1b5ed3d1b3a49f2&bcevod_channel=searchbox_feed&pd=1&cd=0&pt=3&logid=0262954778&vid=10258566865842026441&abtest=all
@@ -8899,10 +8872,10 @@ TBS,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=
 TOKYO MX,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=gd08&isp=10&bind=0&uin=159413&playseek=0
 キッズステ???ション,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07&isp=10&bind=0&uin=159413&playseek=0
 ゴルフネットワーク,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs03&isp=10&bind=0&uin=159413&playseek=0
-スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?clive/playlist.m3u8?cid=gd01&isp=10&bind=0&uin=159413&playseek=0
-スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cmehome.com:8000/zhongying/live/playlist.m3u8?clive/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=0
 スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cu8?cid=gd02&isp=10&bind=0&uin=159413&playseek=0
+スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?clive/playlist.m3u8?cid=gd01&isp=10&bind=0&uin=159413&playseek=0
 スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?come.com:8000/zhongying/live/playlist.m3u8?cid=gd04&isp=10&bind=0&uin=159413&playseek=0
+スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cmehome.com:8000/zhongying/live/playlist.m3u8?clive/playlist.m3u8?cid=cs01&isp=10&bind=0&uin=159413&playseek=0
 スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?c??ズステ???ション,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs07&isp=10&bind=0&uin=159413&playseek=0
 スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?c://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs20&isp=10&bind=0&uin=159413&playseek=0
 スカイA,http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?c000/zhongying/live/playlist.m3u8?cid=gx06&isp=10&bind=0&uin=159413&playseek=0
@@ -9001,8 +8974,8 @@ JJ斗地主,https://www.goodiptv.club/huya/14079954
 M恐怖片正在直播,https://www.goodiptv.club/yy/1352956876
 【动漫】斗罗斗破,https://www.goodiptv.club/yy/35742228
 【动漫】斗罗斗破,https://www.goodiptv.club/yy/1353098382
-【动漫】斗罗斗破超清全屏,https://www.goodiptv.club/yy/1382689904
 【动漫】斗罗斗破超清全屏,https://www.goodiptv.club/yy/28796627
+【动漫】斗罗斗破超清全屏,https://www.goodiptv.club/yy/1382689904
 【天龙八部】蓝光超清,https://www.goodiptv.club/yy/28996058
 【康熙王朝】,https://www.goodiptv.club/yy/37033366
 【成龙经典】动作,https://www.goodiptv.club/yy/34460526
@@ -9077,8 +9050,8 @@ M恐怖片正在直播,https://www.goodiptv.club/yy/1352956876
 火炬手,https://www.goodiptv.club/yy/1382851618
 燕双鹰专场,https://www.goodiptv.club/yy/23026835
 牛大叔提干,https://www.goodiptv.club/yy/1382851615
-狂飙,https://www.goodiptv.club/yy/1382764587
 狂飙,https://www.goodiptv.club/yy/1382754187
+狂飙,https://www.goodiptv.club/yy/1382764587
 狂飙,https://www.goodiptv.club/yy/1382690078
 狂飙2,https://www.goodiptv.club/yy/1456622512
 狄仁杰等你哦,https://www.goodiptv.club/yy/1457579747
@@ -9269,7 +9242,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_0018,https://zo392.cdnedge.live/file/avple-images/hls/616aff06cd55b923abce18c4/playlist.m3u8
 麻豆传媒_0019,https://zo392.cdnedge.live/file/avple-images/hls/616afec9cd55b923abce18c3/playlist.m3u8
 麻豆传媒_0021,https://8bb88.cdnedge.live/file/avple-images/hls/616afe52cd55b923abce18c2/playlist.m3u8
-麻豆传媒_0024,https://u89ey.cdnedge.live/file/avple-images/hls/616717a551121708a790a1ba/playlist.m3u8
 麻豆传媒_0026,https://je40u.cdnedge.live/file/avple-images/hls/616716b551121708a790a1b8/playlist.m3u8
 麻豆传媒_0028,https://zo392.cdnedge.live/file/avple-images/hls/6167158951121708a790a1b5/playlist.m3u8
 麻豆传媒_0030,https://je40u.cdnedge.live/file/avple-images/hls/6165a771687fa15ce79fee7b/playlist.m3u8
@@ -9281,7 +9253,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_0040,https://47b61.cdnedge.live/file/avple-images/hls/61630f75114a6a29b065cdeb/playlist.m3u8
 麻豆传媒_0041,https://8bb88.cdnedge.live/file/avple-images/hls/61630ec1114a6a29b065cdea/playlist.m3u8
 麻豆传媒_0044,https://zo392.cdnedge.live/file/avple-images/hls/61628f7ec778383b6b882d05/playlist.m3u8
-麻豆传媒_0045,https://u89ey.cdnedge.live/file/avple-images/hls/61628e90c778383b6b882d04/playlist.m3u8
 麻豆传媒_0046,https://10j99.cdnedge.live/file/avple-images/hls/61628da0c778383b6b882d03/playlist.m3u8
 麻豆传媒_0047,https://u89ey.cdnedge.live/file/avple-images/hls/61628d27c778383b6b882d02/playlist.m3u8
 麻豆传媒_0048,https://8bb88.cdnedge.live/file/avple-images/hls/61628cafc778383b6b882d01/playlist.m3u8
@@ -9319,21 +9290,18 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_0739,https://8bb88.cdnedge.live/file/avple-images/hls/6123918dab291c1c98ec95ec/playlist.m3u8
 麻豆传媒_0741,https://zo392.cdnedge.live/file/avple-images/hls/612390d9ab291c1c98ec95ea/playlist.m3u8
 麻豆传媒_0742,https://10j99.cdnedge.live/file/avple-images/hls/61239061ab291c1c98ec95e9/playlist.m3u8
-麻豆传媒_0745,https://u89ey.cdnedge.live/file/avple-images/hls/61213861403e3b0240f6ce8d/playlist.m3u8
 麻豆传媒_0750,https://zo392.cdnedge.live/file/avple-images/hls/611fe44dcb6af013cda8c75f/playlist.m3u8
 麻豆传媒_0751,https://10j99.cdnedge.live/file/avple-images/hls/611fe2a9cb6af013cda8c75e/playlist.m3u8
 麻豆传媒_0752,https://u89ey.cdnedge.live/file/avple-images/hls/611fbbc1cb6af013cda8c75d/playlist.m3u8
 麻豆传媒_0753,https://u89ey.cdnedge.live/file/avple-images/hls/611f3ad977c1ef3b10c4acd5/playlist.m3u8
 麻豆传媒_0756,https://8bb88.cdnedge.live/file/avple-images/hls/611e4d6d77c1ef3b10c4acd1/playlist.m3u8
 麻豆传媒_0758,https://10j99.cdnedge.live/file/avple-images/hls/614905c936d1ea113b7004a2/playlist.m3u8
-麻豆传媒_0759,https://u89ey.cdnedge.live/file/avple-images/hls/611e3fd577c1ef3b10c4accf/playlist.m3u8
 麻豆传媒_0764,https://10j99.cdnedge.live/file/avple-images/hls/611c9059d9cf491e4fb831d4/playlist.m3u8
 麻豆传媒_0765,https://u89ey.cdnedge.live/file/avple-images/hls/611b9be5d9cf491e4fb831c1/playlist.m3u8
 麻豆传媒_0767,https://zo392.cdnedge.live/file/avple-images/hls/611b332159cbd94fb4651d73/playlist.m3u8
 麻豆传媒_0769,https://u89ey.cdnedge.live/file/avple-images/hls/61490599aa66a611331a8a68/playlist.m3u8
 麻豆传媒_0770,https://1xp60.cdnedge.live/file/avple-images/hls/611a5ec959cbd94fb4651d65/playlist.m3u8
 麻豆传媒_0771,https://u89ey.cdnedge.live/file/avple-images/hls/611a2e095821847403ed2e05/playlist.m3u8
-麻豆传媒_0774,https://u89ey.cdnedge.live/file/avple-images/hls/6119b4a15821847403ed2e02/playlist.m3u8
 麻豆传媒_0776,https://zo392.cdnedge.live/file/avple-images/hls/6118b4ed12a11c257c188881/playlist.m3u8
 麻豆传媒_0777,https://je40u.cdnedge.live/file/avple-images/hls/61185df912a11c257c188880/playlist.m3u8
 麻豆传媒_0779,https://8bb88.cdnedge.live/file/avple-images/hls/611735f57dc0bd6385362f57/playlist.m3u8
@@ -9426,7 +9394,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_0942,https://10j99.cdnedge.live/file/avple-images/hls/60e41fd50d5d0e3f3fd2313a/playlist.m3u8
 麻豆传媒_0943,https://1xp60.cdnedge.live/file/avple-images/hls/60e3a0190d5d0e3f3fd23138/playlist.m3u8
 麻豆传媒_0944,https://zo392.cdnedge.live/file/avple-images/hls/60e39fde0d5d0e3f3fd23137/playlist.m3u8
-麻豆传媒_0946,https://u89ey.cdnedge.live/file/avple-images/hls/60e235495b5296742ba652c6/playlist.m3u8
 麻豆传媒_0947,https://je40u.cdnedge.live/file/avple-images/hls/60e1d4f55b5296742ba652c5/playlist.m3u8
 麻豆传媒_0948,https://u89ey.cdnedge.live/file/avple-images/hls/60e1879d5b5296742ba652bd/playlist.m3u8
 麻豆传媒_0950,https://8bb88.cdnedge.live/file/avple-images/hls/60e0f07192e6433249b78d51/playlist.m3u8
@@ -9530,7 +9497,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_1123,https://8bb88.cdnedge.live/file/avple-images/hls/613cd161cbbf650a74d2f3e7/playlist.m3u8
 麻豆传媒_1124,https://u89ey.cdnedge.live/file/avple-images/hls/60a97ba5f53d4b6424cf4577/playlist.m3u8
 麻豆传媒_1125,https://10j99.cdnedge.live/file/avple-images/hls/60a97af1f53d4b6424cf4576/playlist.m3u8
-麻豆传媒_1126,https://u89ey.cdnedge.live/file/avple-images/hls/60a8d501a1402d273404d4e0/playlist.m3u8
 麻豆传媒_1130,https://47b61.cdnedge.live/file/avple-images/hls/60a7b9e1a1402d273404d4dc/playlist.m3u8
 麻豆传媒_1131,https://10j99.cdnedge.live/file/avple-images/hls/60a73f4da43f1d662953ee32/playlist.m3u8
 麻豆传媒_1132,https://u89ey.cdnedge.live/file/avple-images/hls/60a67761ecb5514aa7c6d5c5/playlist.m3u8
@@ -9575,7 +9541,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_1225,https://8bb88.cdnedge.live/file/avple-images/hls/608bce1f36e7a0592df039ed/playlist.m3u8
 麻豆传媒_1226,https://q2cyl7.cdnedge.live/file/avple-images/hls/608b80c736e7a0592df039cc/playlist.m3u8
 麻豆传媒_1228,https://d862cp.cdnedge.live/file/avple-images/hls/608a8f5f922fba251a8a09cf/playlist.m3u8
-麻豆传媒_1229,https://u89ey.cdnedge.live/file/avple-images/hls/608a6e8f3e0b854199f48110/playlist.m3u8
 麻豆传媒_1231,https://q2cyl7.cdnedge.live/file/avple-images/hls/60889c289bbcab57af358b29/playlist.m3u8
 麻豆传媒_1232,https://q2cyl7.cdnedge.live/file/avple-images/hls/60893480abf5f3418be7cb0b/playlist.m3u8
 麻豆传媒_1233,https://8bb88.cdnedge.live/file/avple-images/hls/608818e99bbcab57af358b28/playlist.m3u8
@@ -9615,7 +9580,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_1294,https://d862cp.cdnedge.live/file/avple-images/hls/6072c3f8c029b66341324a91/playlist.m3u8
 麻豆传媒_1295,https://u89ey.cdnedge.live/file/avple-images/hls/6072aa31c029b66341324a90/playlist.m3u8
 麻豆传媒_1296,https://10j99.cdnedge.live/file/avple-images/hls/61376cad0e331421568a29dd/playlist.m3u8
-麻豆传媒_1297,https://u89ey.cdnedge.live/file/avple-images/hls/6072aa31c029b66341324a8f/playlist.m3u8
 麻豆传媒_1298,https://e2fa6.cdnedge.live/file/avple-images/hls/6072aa30c029b66341324a8e/playlist.m3u8
 麻豆传媒_1299,https://10j99.cdnedge.live/file/avple-images/hls/6072a7dac029b66341324a8d/playlist.m3u8
 麻豆传媒_1300,https://u89ey.cdnedge.live/file/avple-images/hls/6072a7d9c029b66341324a8c/playlist.m3u8
@@ -9639,7 +9603,6 @@ MSD-113/爽操少妇喷白浆,https://ypmnkbb.saejeuj.com/api/app/media/m3u8/av/
 麻豆传媒_1327,https://je40u.cdnedge.live/file/avple-images/hls/6069cb183104833265cf6c85/playlist.m3u8
 麻豆传媒_1328,https://q2cyl7.cdnedge.live/file/avple-images/hls/6069c8c03104833265cf6c82/playlist.m3u8
 麻豆传媒_1329,https://8bb88.cdnedge.live/file/avple-images/hls/61361b2d02f5a053701f2859/playlist.m3u8
-麻豆传媒_1331,https://u89ey.cdnedge.live/file/avple-images/hls/6069c8c13104833265cf6c83/playlist.m3u8
 麻豆传媒_1332,https://e2fa6.cdnedge.live/file/avple-images/hls/6069c6683104833265cf6c80/playlist.m3u8
 麻豆传媒_1333,https://d862cp.cdnedge.live/file/avple-images/hls/606704f0c0ea82492987e923/playlist.m3u8
 麻豆传媒_1334,https://je40u.cdnedge.live/file/avple-images/hls/606704f1c0ea82492987e924/playlist.m3u8
@@ -9925,28 +9888,28 @@ TVBS欢乐,http://37.27.111.214:8080/live/24/hls.m3u8$LR•IPV4『线路6』
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw$LR•IPV4『线路2』
 凤凰中文,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzw$LR•IPV4『线路4』
 凤凰中文,http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2$LR•IPV4『线路27』
-凤凰中文,https://cdn.163189.xyz/live/fhzw/stream.m3u8$LR•IPV4『线路28』
 凤凰中文,http://cdn.163189.xyz/live/fhzw/stream.m3u8$LR•IPV4『线路41』
+凤凰中文,https://cdn.163189.xyz/live/fhzw/stream.m3u8$LR•IPV4『线路28』
 凤凰资讯,http://ax.micaesoft.com/YMitv/YMITV_CN_ifengNEW.m3u8?
-凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2$LR•IPV4『线路41』
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx$LR•IPV4『线路35』
+凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2$LR•IPV4『线路41』
 凤凰资讯,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx$LR•IPV4『线路8』
 凤凰资讯,http://221.7.175.154:8445/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0$LR•IPV4『线路36』
 凤凰香港,http://php.jdshipin.com/TVOD/iptv.php?id=fhhk$LR•IPV4『线路4』
 凤凰香港,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhhk$LR•IPV4『线路3』
 华视新闻,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv052
 台视新闻,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv051
-民视,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv155
 民视,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv002
+民视,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv155
 民视台湾,http://xtvantsc.xyz/litv_ts.php?id=4gtv-4gtv001
 民视新闻,http://xtvantsc.xyz/litv_ts.php?id=litv-ftv13
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct$LR•IPV4『线路3』
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct3$LR•IPV4『线路4』
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct2$LR•IPV4『线路22』
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct$LR•IPV4『线路3』
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct3$LR•IPV4『线路5』
 翡翠台,http://php.jdshipin.com:8880/PLTV/iptv.php?id=fct3$LR•IPV4『线路19』
-翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4$LR•IPV4『线路15』
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct4$LR•IPV4『线路13』
+翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4$LR•IPV4『线路15』
 翡翠台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct2$LR•IPV4『线路14』
 翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=fct$LR•IPV4『线路12』
 翡翠台,http://r.jdshipin.com/GeWKr?id=fct720$LR•IPV4『线路31』
@@ -9998,8 +9961,8 @@ Taiwan+,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/T
 三立新聞,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV75.m3u8
 八大電視,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV74.m3u8
 天才衝衝衝,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV26.m3u8
-寰宇新聞,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV76.m3u8
 寰宇新聞,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV02.m3u8
+寰宇新聞,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV76.m3u8
 鏡新聞,https://ghproxy.com/https://raw.githubusercontent.com/eddyyung/TV/main/TV70.m3u8
 
 🇹🇼台灣電視,#genre#
@@ -10118,10 +10081,10 @@ CETV-2,http://182.61.15.84:80/923287211
 龙珠Z色情模仿,http://12156.vod.redtraffic.xyz/ph5ac6cf254f3ec/play.m3u8
 
 🎎｜VIP直播测试_0721,#genre#
-0,https://1xp60.cdnedge.live/file/avple-images/hls/628ab12ba1c1cd0b44683ef5/playlist.m3u8
 0,https://zo392.cdnedge.live/file/avple-images/hls/62924a7c777f8769be5fdfaa/playlist.m3u8
-0,https://zo392.cdnedge.live/file/avple-images/hls/61892cf535829357ea3d3e9c/playlist.m3u8
 0,https://zo392.cdnedge.live/file/avple-images/hls/6256b2c8bd3519566877455b/playlist.m3u8
+0,https://1xp60.cdnedge.live/file/avple-images/hls/628ab12ba1c1cd0b44683ef5/playlist.m3u8
+0,https://zo392.cdnedge.live/file/avple-images/hls/61892cf535829357ea3d3e9c/playlist.m3u8
 0,https://q2cyl7.cdnedge.live/file/avple-images/hls/61846201fddb3b0ce1f32683/playlist.m3u8
 1,https://zo392.cdnedge.live/file/avple-images/hls/618d1a6d608a75437203bdff/playlist.m3u8
 1,https://8bb88.cdnedge.live/file/avple-images/hls/627a577a1a1d9a347dd9853a/playlist.m3u8
@@ -10153,22 +10116,22 @@ CETV-2,http://182.61.15.84:80/923287211
 11,https://8bb88.cdnedge.live/file/avple-images/hls/6280d34eef039d550798916c/playlist.m3u8
 11,https://q2cyl7.cdnedge.live/file/avple-images/hls/61a287f9c4f43c7ba5009c26/playlist.m3u8
 11,https://1xp60.cdnedge.live/file/avple-images/hls/61a523f1a992bd3d5c3eb619/playlist.m3u8
-11,https://d862cp.cdnedge.live/file/avple-images/hls/61bad4fdd56b7626e975d4ee/playlist.m3u8
 11,https://d862cp.cdnedge.live/file/avple-images/hls/6211ae465e73c82284228828/playlist.m3u8
+11,https://d862cp.cdnedge.live/file/avple-images/hls/61bad4fdd56b7626e975d4ee/playlist.m3u8
 11,https://q2cyl7.cdnedge.live/file/avple-images/hls/6241c035d6283a39fd9e3c27/playlist.m3u8
 11,https://zo392.cdnedge.live/file/avple-images/hls/627cde30afbf916250ff4d5b/playlist.m3u8
 11,https://u89ey.cdnedge.live/file/avple-images/hls/61846279fddb3b0ce1f32684/playlist.m3u8
 11,https://d862cp.cdnedge.live/file/avple-images/hls/6295f4087ef42454a69c76d3/playlist.m3u8
 12,https://zo392.cdnedge.live/file/avple-images/hls/627e6499c60346652e396c7d/playlist.m3u8
 12,https://8bb88.cdnedge.live/file/avple-images/hls/6280d697ef039d550798916e/playlist.m3u8
-12,https://q2cyl7.cdnedge.live/file/avple-images/hls/61efa21b5d579208810784f8/playlist.m3u8
 12,https://zo392.cdnedge.live/file/avple-images/hls/62bbeec8ea3d425e0a93b7a0/playlist.m3u8
-12,https://d862cp.cdnedge.live/file/avple-images/hls/62a2a5d356220431fa6b0d88/playlist.m3u8
+12,https://q2cyl7.cdnedge.live/file/avple-images/hls/61efa21b5d579208810784f8/playlist.m3u8
 12,https://q2cyl7.cdnedge.live/file/avple-images/hls/61a5251da992bd3d5c3eb61a/playlist.m3u8
 12,https://q2cyl7.cdnedge.live/file/avple-images/hls/628f83a3531f007e5ba30afd/playlist.m3u8
-13,https://1xp60.cdnedge.live/file/avple-images/hls/62722b724deadc023a8a0994/playlist.m3u8
+12,https://d862cp.cdnedge.live/file/avple-images/hls/62a2a5d356220431fa6b0d88/playlist.m3u8
 13,https://zo392.cdnedge.live/file/avple-images/hls/62bbef7cea3d425e0a93b7a2/playlist.m3u8
 13,https://zo392.cdnedge.live/file/avple-images/hls/62230f6b1fdb77263ccb3868/playlist.m3u8
+13,https://1xp60.cdnedge.live/file/avple-images/hls/62722b724deadc023a8a0994/playlist.m3u8
 13,https://je40u.cdnedge.live/file/avple-images/hls/62a5ace294b044303b9622dc/playlist.m3u8
 13,https://je40u.cdnedge.live/file/avple-images/hls/62230e3e1fdb77263ccb3865/playlist.m3u8
 13,https://zo392.cdnedge.live/file/avple-images/hls/61bad2a5d56b7626e975d4eb/playlist.m3u8
@@ -10187,14 +10150,14 @@ CETV-2,http://182.61.15.84:80/923287211
 15,https://8bb88.cdnedge.live/file/avple-images/hls/6242fdf2e092281092d3775a/playlist.m3u8
 15,https://zo392.cdnedge.live/file/avple-images/hls/62246e0ac6370a74fa39c70e/playlist.m3u8
 15,https://1xp60.cdnedge.live/file/avple-images/hls/62764bc63847697e5124b6d4/playlist.m3u8
-15,https://d862cp.cdnedge.live/file/avple-images/hls/62a5ac6b94b044303b9622db/playlist.m3u8
 15,https://q2cyl7.cdnedge.live/file/avple-images/hls/62957968180f8c65c7d908b3/playlist.m3u8
+15,https://d862cp.cdnedge.live/file/avple-images/hls/62a5ac6b94b044303b9622db/playlist.m3u8
 15,https://d862cp.cdnedge.live/file/avple-images/hls/627d162bafbf916250ff4d8d/playlist.m3u8
 15,https://d862cp.cdnedge.live/file/avple-images/hls/61c189c98ac9db578c18b7f1/playlist.m3u8
 15,https://d862cp.cdnedge.live/file/avple-images/hls/6219e9c6b9e8e9119a2f1fe8/playlist.m3u8
 16,https://1xp60.cdnedge.live/file/avple-images/hls/62764bc73847697e5124b6d5/playlist.m3u8
-16,https://zo392.cdnedge.live/file/avple-images/hls/6280d3c6ef039d550798916d/playlist.m3u8
 16,https://e2fa6.cdnedge.live/file/avple-images/hls/6280da2fef039d5507989172/playlist.m3u8
+16,https://zo392.cdnedge.live/file/avple-images/hls/6280d3c6ef039d550798916d/playlist.m3u8
 16,https://zo392.cdnedge.live/file/avple-images/hls/6224709ec6370a74fa39c715/playlist.m3u8
 16,https://d862cp.cdnedge.live/file/avple-images/hls/627e6603c60346652e396c7f/playlist.m3u8
 16,https://d862cp.cdnedge.live/file/avple-images/hls/62aacc3a21a7da2e6584bc81/playlist.m3u8
@@ -10217,8 +10180,8 @@ CETV-2,http://182.61.15.84:80/923287211
 18,https://je40u.cdnedge.live/file/avple-images/hls/62bbef03ea3d425e0a93b7a1/playlist.m3u8
 18,https://zo392.cdnedge.live/file/avple-images/hls/61c6abed668fd93b4250a327/playlist.m3u8
 18,https://d862cp.cdnedge.live/file/avple-images/hls/61ce0f55b418404e15c812fe/playlist.m3u8
-18,https://q2cyl7.cdnedge.live/file/avple-images/hls/629f652a1b03d86e173f7d3c/playlist.m3u8
 18,https://q2cyl7.cdnedge.live/file/avple-images/hls/62059e64d69d37216eb636d7/playlist.m3u8
+18,https://q2cyl7.cdnedge.live/file/avple-images/hls/629f652a1b03d86e173f7d3c/playlist.m3u8
 18,https://q2cyl7.cdnedge.live/file/avple-images/hls/61b6cc551458462c26eadc8a/playlist.m3u8
 18 Years Old Tight Pussy Getting Fucked,http://12156.vod.redtraffic.xyz/ph5ad4e021dbc0a/play.m3u8
 18videoz-操他_我們去逛街,http://12204.vod.redtraffic.xyz/ph58ee00f21fb70/play.m3u8
@@ -10228,21 +10191,21 @@ CETV-2,http://182.61.15.84:80/923287211
 19,https://zo392.cdnedge.live/file/avple-images/hls/623e746276b51e756d5edbfb/playlist.m3u8
 19,https://e2fa6.cdnedge.live/file/avple-images/hls/6197acc2f1d93a199d1cf179/playlist.m3u8
 19,https://d862cp.cdnedge.live/file/avple-images/hls/62ac60491ea6384bb6ca9f86/playlist.m3u8
-19,https://q2cyl7.cdnedge.live/file/avple-images/hls/61b6cd091458462c26eadc8c/playlist.m3u8
 19,https://d862cp.cdnedge.live/file/avple-images/hls/61ce1082b418404e15c81300/playlist.m3u8
+19,https://q2cyl7.cdnedge.live/file/avple-images/hls/61b6cd091458462c26eadc8c/playlist.m3u8
 19,https://q2cyl7.cdnedge.live/file/avple-images/hls/6205a006d69d37216eb636db/playlist.m3u8
 19,https://q2cyl7.cdnedge.live/file/avple-images/hls/629f652a1b03d86e173f7d3d/playlist.m3u8
-2,https://1xp60.cdnedge.live/file/avple-images/hls/62492509ddaa1830ff7bacb5/playlist.m3u8
 2,https://e2fa6.cdnedge.live/file/avple-images/hls/62aad43121a7da2e6584bc8b/playlist.m3u8
+2,https://1xp60.cdnedge.live/file/avple-images/hls/62492509ddaa1830ff7bacb5/playlist.m3u8
 2,https://zo392.cdnedge.live/file/avple-images/hls/62a1cb2956220431fa6b0d83/playlist.m3u8
 2,https://u89ey.cdnedge.live/file/avple-images/hls/626fb4473ddea14c11aa4aac/playlist.m3u8
 2,https://d862cp.cdnedge.live/file/avple-images/hls/61a0e8e53006a4603929a392/playlist.m3u8
 2,https://zo392.cdnedge.live/file/avple-images/hls/618d1e30608a75437203be02/playlist.m3u8
 2,https://q2cyl7.cdnedge.live/file/avple-images/hls/61869c018928100853d28991/playlist.m3u8
-2,https://q2cyl7.cdnedge.live/file/avple-images/hls/6280d3c6ef039d550798916d/playlist.m3u8
 2,https://q2cyl7.cdnedge.live/file/avple-images/hls/61e24c319e31551b4fa3beb1/playlist.m3u8
-20,https://1xp60.cdnedge.live/file/avple-images/hls/61c6a701668fd93b4250a31e/playlist.m3u8
+2,https://q2cyl7.cdnedge.live/file/avple-images/hls/6280d3c6ef039d550798916d/playlist.m3u8
 20,https://e2fa6.cdnedge.live/file/avple-images/hls/6197af56f1d93a199d1cf17a/playlist.m3u8
+20,https://1xp60.cdnedge.live/file/avple-images/hls/61c6a701668fd93b4250a31e/playlist.m3u8
 20,https://8bb88.cdnedge.live/file/avple-images/hls/61b6cccd1458462c26eadc8b/playlist.m3u8
 20,https://1xp60.cdnedge.live/file/avple-images/hls/6280b3effc27be165aeb81d6/playlist.m3u8
 20,https://zo392.cdnedge.live/file/avple-images/hls/6241c035d6283a39fd9e3c26/playlist.m3u8
@@ -10255,17 +10218,17 @@ CETV-2,http://182.61.15.84:80/923287211
 21,https://zo392.cdnedge.live/file/avple-images/hls/6242c7d80de0ad7cfd08f0bb/playlist.m3u8
 21,https://zo392.cdnedge.live/file/avple-images/hls/60ba6f55ecb87a1b5b8fa848/playlist.m3u8
 21,https://8bb88.cdnedge.live/file/avple-images/hls/61bad40ed56b7626e975d4ec/playlist.m3u8
-21,https://je40u.cdnedge.live/file/avple-images/hls/62879668d28d4f134ac69045/playlist.m3u8
-21,https://je40u.cdnedge.live/file/avple-images/hls/617e2716eb87aa24a1c4102c/playlist.m3u8
 21,https://8bb88.cdnedge.live/file/avple-images/hls/628ab68ea1c1cd0b44683efb/playlist.m3u8
+21,https://je40u.cdnedge.live/file/avple-images/hls/617e2716eb87aa24a1c4102c/playlist.m3u8
+21,https://je40u.cdnedge.live/file/avple-images/hls/62879668d28d4f134ac69045/playlist.m3u8
 21,https://je40u.cdnedge.live/file/avple-images/hls/6233c8faaefa78093f9ffdd1/playlist.m3u8
 21,https://u89ey.cdnedge.live/file/avple-images/hls/6242c15681f80f77774148cd/playlist.m3u8
+21,https://1xp60.cdnedge.live/file/avple-images/hls/622d4a16e5f4997685910d1a/playlist.m3u8
 21,https://d862cp.cdnedge.live/file/avple-images/hls/61d0c1918ec5397ce0e2cde2/playlist.m3u8
 21,https://d862cp.cdnedge.live/file/avple-images/hls/62aed0a9c556631aff1378f1/playlist.m3u8
-21,https://1xp60.cdnedge.live/file/avple-images/hls/622d4a16e5f4997685910d1a/playlist.m3u8
 21,https://q2cyl7.cdnedge.live/file/avple-images/hls/62a2a68556220431fa6b0d8a/playlist.m3u8
-21,https://q2cyl7.cdnedge.live/file/avple-images/hls/62104e029d14d648884aa818/playlist.m3u8
 21,https://q2cyl7.cdnedge.live/file/avple-images/hls/62555b368fabfe03b7ab4be5/playlist.m3u8
+21,https://q2cyl7.cdnedge.live/file/avple-images/hls/62104e029d14d648884aa818/playlist.m3u8
 21,https://q2cyl7.cdnedge.live/file/avple-images/hls/61bc3cfe942b586818e33e80/playlist.m3u8
 21,https://d862cp.cdnedge.live/file/avple-images/hls/622b634a99043721e41f476f/playlist.m3u8
 22,https://zo392.cdnedge.live/file/avple-images/hls/61584c9d4617d9667f1fa688/playlist.m3u8
@@ -10280,10 +10243,10 @@ CETV-2,http://182.61.15.84:80/923287211
 22,https://d862cp.cdnedge.live/file/avple-images/hls/622d4746e5f4997685910d13/playlist.m3u8
 22,https://d862cp.cdnedge.live/file/avple-images/hls/62aed121c556631aff1378f2/playlist.m3u8
 22,https://u89ey.cdnedge.live/file/avple-images/hls/624426335b48055614930059/playlist.m3u8
-23,https://1xp60.cdnedge.live/file/avple-images/hls/61d0c3ad8ec5397ce0e2cde7/playlist.m3u8
 23,https://1xp60.cdnedge.live/file/avple-images/hls/62323b7a8cc9324f49436132/playlist.m3u8
 23,https://zo392.cdnedge.live/file/avple-images/hls/61de125126bc6674a0936d1e/playlist.m3u8
 23,https://e2fa6.cdnedge.live/file/avple-images/hls/61f392da23581479b901ae15/playlist.m3u8
+23,https://1xp60.cdnedge.live/file/avple-images/hls/61d0c3ad8ec5397ce0e2cde7/playlist.m3u8
 23,https://zo392.cdnedge.live/file/avple-images/hls/6246e3c7abd4e014b3b11182/playlist.m3u8
 23,https://je40u.cdnedge.live/file/avple-images/hls/61d0c5518ec5397ce0e2cde9/playlist.m3u8
 23,https://d862cp.cdnedge.live/file/avple-images/hls/622fc71ee14ae771445e47fb/playlist.m3u8
@@ -10299,8 +10262,8 @@ CETV-2,http://182.61.15.84:80/923287211
 24,https://8bb88.cdnedge.live/file/avple-images/hls/61c6a91d668fd93b4250a321/playlist.m3u8
 24,https://zo392.cdnedge.live/file/avple-images/hls/6249250addaa1830ff7bacb8/playlist.m3u8
 24,https://q2cyl7.cdnedge.live/file/avple-images/hls/61c6aef9668fd93b4250a32b/playlist.m3u8
-24,https://q2cyl7.cdnedge.live/file/avple-images/hls/6272341e4deadc023a8a0998/playlist.m3u8
 24,https://d862cp.cdnedge.live/file/avple-images/hls/61d62465f2772f49dcde1d4c/playlist.m3u8
+24,https://q2cyl7.cdnedge.live/file/avple-images/hls/6272341e4deadc023a8a0998/playlist.m3u8
 24,https://q2cyl7.cdnedge.live/file/avple-images/hls/62aacf8121a7da2e6584bc86/playlist.m3u8
 24,https://d862cp.cdnedge.live/file/avple-images/hls/62b431daea01b50f6781dc58/playlist.m3u8
 24,https://d862cp.cdnedge.live/file/avple-images/hls/622fca68e14ae771445e4800/playlist.m3u8
@@ -10308,10 +10271,10 @@ CETV-2,http://182.61.15.84:80/923287211
 25,https://zo392.cdnedge.live/file/avple-images/hls/617e2625eb87aa24a1c4102a/playlist.m3u8
 25,https://8bb88.cdnedge.live/file/avple-images/hls/61c6a95a668fd93b4250a322/playlist.m3u8
 25,https://1xp60.cdnedge.live/file/avple-images/hls/61d8f735188cab78b243b40a/playlist.m3u8
-25,https://d862cp.cdnedge.live/file/avple-images/hls/628ab86ea1c1cd0b44683efe/playlist.m3u8
 25,https://q2cyl7.cdnedge.live/file/avple-images/hls/6215b892cef8321ac4bf99a8/playlist.m3u8
-25,https://e2fa6.cdnedge.live/file/avple-images/hls/628cc69cde01360ccb2f8e9e/playlist.m3u8
 25,https://q2cyl7.cdnedge.live/file/avple-images/hls/6272350d4deadc023a8a0999/playlist.m3u8
+25,https://e2fa6.cdnedge.live/file/avple-images/hls/628cc69cde01360ccb2f8e9e/playlist.m3u8
+25,https://d862cp.cdnedge.live/file/avple-images/hls/628ab86ea1c1cd0b44683efe/playlist.m3u8
 25,https://d862cp.cdnedge.live/file/avple-images/hls/6190b7813e002b78fa02b86c/playlist.m3u8
 25,https://q2cyl7.cdnedge.live/file/avple-images/hls/61c848a92beaee4e833a9d6a/playlist.m3u8
 26,https://8bb88.cdnedge.live/file/avple-images/hls/626fb4bc3ddea14c11aa4aad/playlist.m3u8
@@ -10323,8 +10286,8 @@ CETV-2,http://182.61.15.84:80/923287211
 26,https://q2cyl7.cdnedge.live/file/avple-images/hls/6274cccf84b95e04c28dde29/playlist.m3u8
 27,https://8bb88.cdnedge.live/file/avple-images/hls/61c843f92beaee4e833a9d66/playlist.m3u8
 27,https://je40u.cdnedge.live/file/avple-images/hls/61869e1d8928100853d28995/playlist.m3u8
-27,https://d862cp.cdnedge.live/file/avple-images/hls/61db6dad5fb6a835028c9aed/playlist.m3u8
 27,https://1xp60.cdnedge.live/file/avple-images/hls/61de152126bc6674a0936d23/playlist.m3u8
+27,https://d862cp.cdnedge.live/file/avple-images/hls/61db6dad5fb6a835028c9aed/playlist.m3u8
 27,https://q2cyl7.cdnedge.live/file/avple-images/hls/6274d1b984b95e04c28dde2d/playlist.m3u8
 27,https://q2cyl7.cdnedge.live/file/avple-images/hls/6219ea7ab9e8e9119a2f1fe9/playlist.m3u8
 27,https://q2cyl7.cdnedge.live/file/avple-images/hls/61c998c287883b68401d1b35/playlist.m3u8
@@ -10339,8 +10302,8 @@ CETV-2,http://182.61.15.84:80/923287211
 28,https://q2cyl7.cdnedge.live/file/avple-images/hls/627a41341a1d9a347dd98536/playlist.m3u8
 28,https://q2cyl7.cdnedge.live/file/avple-images/hls/61cacf4db4a41e7b51c24d4e/playlist.m3u8
 28,https://q2cyl7.cdnedge.live/file/avple-images/hls/62b9d010cf31541a6d4d7b4e/playlist.m3u8
-29,https://1xp60.cdnedge.live/file/avple-images/hls/61e53275dc7fbb10cb2c4ed9/playlist.m3u8
 29,https://zo392.cdnedge.live/file/avple-images/hls/62549ca33d5bac30b2603dc7/playlist.m3u8
+29,https://1xp60.cdnedge.live/file/avple-images/hls/61e53275dc7fbb10cb2c4ed9/playlist.m3u8
 29,https://8bb88.cdnedge.live/file/avple-images/hls/61c84bb587883b68401d1b31/playlist.m3u8
 29,https://d862cp.cdnedge.live/file/avple-images/hls/619a41ed8a9163545f3c8173/playlist.m3u8
 29,https://d862cp.cdnedge.live/file/avple-images/hls/623e7c9676b51e756d5edc09/playlist.m3u8
@@ -10350,12 +10313,12 @@ CETV-2,http://182.61.15.84:80/923287211
 29,https://d862cp.cdnedge.live/file/avple-images/hls/61e11a19b12f2d3579c3423e/playlist.m3u8
 3,https://zo392.cdnedge.live/file/avple-images/hls/6190ba513e002b78fa02b872/playlist.m3u8
 3,https://1xp60.cdnedge.live/file/avple-images/hls/628f7ef3531f007e5ba30af6/playlist.m3u8
-3,https://1xp60.cdnedge.live/file/avple-images/hls/618d1ae5608a75437203be00/playlist.m3u8
 3,https://zo392.cdnedge.live/file/avple-images/hls/62a1cbdf56220431fa6b0d84/playlist.m3u8
+3,https://1xp60.cdnedge.live/file/avple-images/hls/618d1ae5608a75437203be00/playlist.m3u8
 3,https://je40u.cdnedge.live/file/avple-images/hls/61994e2d4a94103a79bc9481/playlist.m3u8
 3,https://u89ey.cdnedge.live/file/avple-images/hls/62986df623d5972db0bfc9a7/playlist.m3u8
-3,https://u89ey.cdnedge.live/file/avple-images/hls/626fb8423ddea14c11aa4ab1/playlist.m3u8
 3,https://q2cyl7.cdnedge.live/file/avple-images/hls/61e3bc66ec201f6b0a3a89a6/playlist.m3u8
+3,https://u89ey.cdnedge.live/file/avple-images/hls/626fb8423ddea14c11aa4ab1/playlist.m3u8
 3,https://d862cp.cdnedge.live/file/avple-images/hls/61a0e9213006a4603929a393/playlist.m3u8
 3,https://q2cyl7.cdnedge.live/file/avple-images/hls/62837472ef2c1c6dbc484240/playlist.m3u8
 3,https://q2cyl7.cdnedge.live/file/avple-images/hls/6239262ea14fb341a31f13dc/playlist.m3u8
@@ -10367,8 +10330,8 @@ CETV-2,http://182.61.15.84:80/923287211
 30,https://q2cyl7.cdnedge.live/file/avple-images/hls/6280b7a8fc27be165aeb81d9/playlist.m3u8
 30,https://q2cyl7.cdnedge.live/file/avple-images/hls/61ce129db418404e15c81307/playlist.m3u8
 30,https://u89ey.cdnedge.live/file/avple-images/hls/6256b161bd35195668774558/playlist.m3u8
-30,https://d862cp.cdnedge.live/file/avple-images/hls/619e96c1364f6c1f6030fe58/playlist.m3u8
 30,https://q2cyl7.cdnedge.live/file/avple-images/hls/6233ca63aefa78093f9ffdd4/playlist.m3u8
+30,https://d862cp.cdnedge.live/file/avple-images/hls/619e96c1364f6c1f6030fe58/playlist.m3u8
 30,https://d862cp.cdnedge.live/file/avple-images/hls/61e3beefe6eb656b1d2d857e/playlist.m3u8
 30,https://d862cp.cdnedge.live/file/avple-images/hls/624908e9ecadf8296558c708/playlist.m3u8
 4,https://1xp60.cdnedge.live/file/avple-images/hls/628f85bd531f007e5ba30b01/playlist.m3u8
@@ -10382,10 +10345,10 @@ CETV-2,http://182.61.15.84:80/923287211
 5,https://8bb88.cdnedge.live/file/avple-images/hls/62323a8b8cc9324f4943612f/playlist.m3u8
 5,https://je40u.cdnedge.live/file/avple-images/hls/619e9595364f6c1f6030fe55/playlist.m3u8
 5,https://d862cp.cdnedge.live/file/avple-images/hls/628f8543531f007e5ba30b00/playlist.m3u8
-5,https://zo392.cdnedge.live/file/avple-images/hls/62a5aefe94b044303b9622de/playlist.m3u8
 5,https://e2fa6.cdnedge.live/file/avple-images/hls/62b1b5feeec8264ea0826f2b/playlist.m3u8
-5,https://zo392.cdnedge.live/file/avple-images/hls/6205a34fd69d37216eb636dc/playlist.m3u8
+5,https://zo392.cdnedge.live/file/avple-images/hls/62a5aefe94b044303b9622de/playlist.m3u8
 5,https://q2cyl7.cdnedge.live/file/avple-images/hls/623aa436a36ac22379912388/playlist.m3u8
+5,https://zo392.cdnedge.live/file/avple-images/hls/6205a34fd69d37216eb636dc/playlist.m3u8
 5,https://d862cp.cdnedge.live/file/avple-images/hls/6202e0aa152c48301ba2ac71/playlist.m3u8
 5,https://q2cyl7.cdnedge.live/file/avple-images/hls/6284e7b1c71b08247ee18e38/playlist.m3u8
 5,https://q2cyl7.cdnedge.live/file/avple-images/hls/6190b9613e002b78fa02b870/playlist.m3u8
@@ -10395,17 +10358,17 @@ CETV-2,http://182.61.15.84:80/923287211
 6,https://8bb88.cdnedge.live/file/avple-images/hls/627ef135c60346652e396c85/playlist.m3u8
 6,https://je40u.cdnedge.live/file/avple-images/hls/61a285a1c4f43c7ba5009c21/playlist.m3u8
 6,https://je40u.cdnedge.live/file/avple-images/hls/62924646777f8769be5fdfa3/playlist.m3u8
-6,https://q2cyl7.cdnedge.live/file/avple-images/hls/623e76bb76b51e756d5edc00/playlist.m3u8
 6,https://q2cyl7.cdnedge.live/file/avple-images/hls/61924e2689e9d231c0a0b0e7/playlist.m3u8
+6,https://q2cyl7.cdnedge.live/file/avple-images/hls/623e76bb76b51e756d5edc00/playlist.m3u8
 6,https://zo392.cdnedge.live/file/avple-images/hls/6197abd1f1d93a199d1cf176/playlist.m3u8
 6,https://d862cp.cdnedge.live/file/avple-images/hls/629247ae777f8769be5fdfa7/playlist.m3u8
-6,https://d862cp.cdnedge.live/file/avple-images/hls/6202e0e6152c48301ba2ac72/playlist.m3u8
 6,https://u89ey.cdnedge.live/file/avple-images/hls/62246faec6370a74fa39c712/playlist.m3u8
+6,https://d862cp.cdnedge.live/file/avple-images/hls/6202e0e6152c48301ba2ac72/playlist.m3u8
 6,https://q2cyl7.cdnedge.live/file/avple-images/hls/62879a28d28d4f134ac6904d/playlist.m3u8
-7,https://e2fa6.cdnedge.live/file/avple-images/hls/61c6a779668fd93b4250a31f/playlist.m3u8
 7,https://zo392.cdnedge.live/file/avple-images/hls/619c01d1f0d6ad68f95a08a8/playlist.m3u8
-7,https://1xp60.cdnedge.live/file/avple-images/hls/6193ba5e1ab2cd467ae53598/playlist.m3u8
+7,https://e2fa6.cdnedge.live/file/avple-images/hls/61c6a779668fd93b4250a31f/playlist.m3u8
 7,https://zo392.cdnedge.live/file/avple-images/hls/62aad51f21a7da2e6584bc8d/playlist.m3u8
+7,https://1xp60.cdnedge.live/file/avple-images/hls/6193ba5e1ab2cd467ae53598/playlist.m3u8
 7,https://zo392.cdnedge.live/file/avple-images/hls/6274cead84b95e04c28dde2a/playlist.m3u8
 7,https://8bb88.cdnedge.live/file/avple-images/hls/627ef1e7c60346652e396c86/playlist.m3u8
 7,https://je40u.cdnedge.live/file/avple-images/hls/629246f9777f8769be5fdfa5/playlist.m3u8
@@ -10427,9 +10390,9 @@ CETV-2,http://182.61.15.84:80/923287211
 8,https://q2cyl7.cdnedge.live/file/avple-images/hls/623e78d776b51e756d5edc06/playlist.m3u8
 8,https://d862cp.cdnedge.live/file/avple-images/hls/620c6397d0ea7c7d841b2f37/playlist.m3u8
 8,https://q2cyl7.cdnedge.live/file/avple-images/hls/61ea6977dabdc15a14562f7c/playlist.m3u8
-9,https://1xp60.cdnedge.live/file/avple-images/hls/62a2a55956220431fa6b0d87/playlist.m3u8
 9,https://zo392.cdnedge.live/file/avple-images/hls/62bb1bd1ea3d425e0a93b795/playlist.m3u8
 9,https://e2fa6.cdnedge.live/file/avple-images/hls/6274c11484b95e04c28dde28/playlist.m3u8
+9,https://1xp60.cdnedge.live/file/avple-images/hls/62a2a55956220431fa6b0d87/playlist.m3u8
 9,https://8bb88.cdnedge.live/file/avple-images/hls/6238249a3f90d26204d0e67a/playlist.m3u8
 9,https://8bb88.cdnedge.live/file/avple-images/hls/61e1183ab12f2d3579c3423a/playlist.m3u8
 9,https://8bb88.cdnedge.live/file/avple-images/hls/6280b3effc27be165aeb81d6/playlist.m3u8
@@ -10480,7 +10443,6 @@ Whitney,https://lajiao-bo.com/20190521/rkuqKIid/index.m3u8
 🍓7传媒10,https://zo392.cdnedge.live/file/avple-images/hls/62bd88f0d0fa6a48496bbf60/playlist.m3u8
 🍓7传媒11,https://je40u.cdnedge.live/file/avple-images/hls/62bd88b4d0fa6a48496bbf5f/playlist.m3u8
 🍓7传媒13,https://d862cp.cdnedge.live/file/avple-images/hls/62bd8531d0fa6a48496bbf5a/playlist.m3u8
-🐂7传媒7传媒05,https://u89ey.cdnedge.live/file/avple-images/hls/62c43a3c366b240e3b67be27/playlist.m3u8
 🐂7传媒7传媒08,https://je40u.cdnedge.live/file/avple-images/hls/62c43af1366b240e3b67be29/playlist.m3u8
 🐂7传媒7传媒11,https://je40u.cdnedge.live/file/avple-images/hls/62c4426c366b240e3b67be34/playlist.m3u8
 🐂7传媒7传媒12,https://q2cyl7.cdnedge.live/file/avple-images/hls/62c44231366b240e3b67be33/playlist.m3u8
@@ -10495,7 +10457,6 @@ Whitney,https://lajiao-bo.com/20190521/rkuqKIid/index.m3u8
 🐍7传媒07,https://8bb88.cdnedge.live/file/avple-images/hls/62c5a50a36c38433078a694e/playlist.m3u8
 🐍7传媒09,https://q2cyl7.cdnedge.live/file/avple-images/hls/62c596ee36c38433078a694b/playlist.m3u8
 🐍7传媒10,https://u89ey.cdnedge.live/file/avple-images/hls/62c596ee36c38433078a694c/playlist.m3u8
-🐍7传媒11,https://u89ey.cdnedge.live/file/avple-images/hls/62c592b936c38433078a694a/playlist.m3u8
 🐴6传媒03,https://e2fa6.cdnedge.live/file/avple-images/hls/62bbf60aea3d425e0a93b7ae/playlist.m3u8
 🐴6传媒04,https://8bb88.cdnedge.live/file/avple-images/hls/62bbf3efea3d425e0a93b7a9/playlist.m3u8
 🐴6传媒05,https://je40u.cdnedge.live/file/avple-images/hls/62bbf592ea3d425e0a93b7ad/playlist.m3u8
@@ -11027,8 +10988,8 @@ lifetime,http://37.27.111.214:8080/live/71/hls.m3u8$订阅源-1920x1080
 博斯运动1,http://37.27.111.214:8080/live/14/hls.m3u8$订阅源-1920x1080
 博斯高球1,http://37.27.111.214:8080/live/13/hls.m3u8$订阅源-1920x1080
 台视新闻,http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8?blog.ntnas.top$订阅源-1920x1080
-唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8$订阅源-854x480
 唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8$订阅源-854x480
+唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8$订阅源-854x480
 時尚FTV,http://80.94.54.42/fashiontv/stream/playlist.m3u8$订阅源-800x450
 智林体育,http://37.27.111.214:8080/live/77/hls.m3u8$订阅源-1920x1080
 民视,http://37.27.111.214:8080/live/6/hls.m3u8$订阅源-1920x1080
@@ -11818,8 +11779,8 @@ CCTV-4,http://112.99.193.34:9901/tsfile/live/1036_1.m3u8?key=txiptv&amp;playlive
 CCTV-5,http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009
 CCTV-6,http://38.75.136.137:98/gslb/dsdqca/cctv6hd.m3u8?auth=test20251009
 CCTV-8,http://38.75.136.137:98/gslb/dsdqbv/cctv8hd.m3u8?auth=test20251009
-CCTV-8,http://107.150.60.122/live/cctv8k.m3u8
 CCTV-8,http://74.91.26.218:82/live/cctv8hd.m3u8
+CCTV-8,http://107.150.60.122/live/cctv8k.m3u8
 文化精品,http://107.150.60.122/live/ysjp.m3u8
 
 📺歐飛嗅探,#genre#
@@ -11876,8 +11837,8 @@ RTHK-32,http://php.jdshipin.com/PLTV/iptv.php?id=rthk32$美国iptv代理
 魔幻手机之重回2003,https://vd3.bdstatic.com/mda-pi72kjkh3bibqvfc/sc/cae_h264/1694215643936724842/mda-pi72kjkh3bibqvfc.mp4
 
 📺美国频道,#genre#
-Al Horreya TV,http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
 Al Horreya TV,http://media.smc-host.com:1935/alhorreya.tv/mp4:alhorreya3/playlist.m3u8
+Al Horreya TV,http://media.smc-host.com:1935/alhorreya.tv/alhorreya.smil/playlist.m3u8
 Alkarma TV Australia,https://5a8308add0b31.streamlock.net/alkarmatv.com/alkarmaau.smil/playlist.m3u8
 CSat TV,http://media.smc-host.com:1935/csat.tv/smil:csat.smil/playlist.m3u8
 Elbeshara GTV,http://media3.smc-host.com:1935/elbesharagtv.com/gtv.smil/playlist.m3u8
@@ -12269,11 +12230,9 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产12传媒221,https://d862cp.cdnedge.live/file/avple-images/hls/617c4ed1f0db60036839e949/playlist.m3u8
 国产12传媒222,https://8bb88.cdnedge.live/file/avple-images/hls/617c4e59f0db60036839e948/playlist.m3u8
 国产12传媒224,https://8bb88.cdnedge.live/file/avple-images/hls/617c4da5f0db60036839e946/playlist.m3u8
-国产12传媒225,https://u89ey.cdnedge.live/file/avple-images/hls/617c4d69f0db60036839e945/playlist.m3u8
 国产12传媒226,https://u89ey.cdnedge.live/file/avple-images/hls/617c4cf1f0db60036839e944/playlist.m3u8
 国产12传媒228,https://q2cyl7.cdnedge.live/file/avple-images/hls/617a04a5933dae5425d49b8f/playlist.m3u8
 国产12传媒230,https://q2cyl7.cdnedge.live/file/avple-images/hls/617a033d933dae5425d49b8c/playlist.m3u8
-国产12传媒232,https://u89ey.cdnedge.live/file/avple-images/hls/617836ed6275b513e05eef0b/playlist.m3u8
 国产12传媒233,https://d862cp.cdnedge.live/file/avple-images/hls/617835fd6275b513e05eef0a/playlist.m3u8
 国产12传媒234,https://je40u.cdnedge.live/file/avple-images/hls/617789ac4835757d4271a1ec/playlist.m3u8
 国产12传媒235,https://e2fa6.cdnedge.live/file/avple-images/hls/6177207dad20e84f6e46a0b2/playlist.m3u8
@@ -12299,7 +12258,6 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产12传媒35,https://d862cp.cdnedge.live/file/avple-images/hls/61adb9e9779a324ef83699c3/playlist.m3u8
 国产12传媒36,https://u89ey.cdnedge.live/file/avple-images/hls/61adba9d779a324ef83699c5/playlist.m3u8
 国产12传媒37,https://e2fa6.cdnedge.live/file/avple-images/hls/61adba25779a324ef83699c4/playlist.m3u8
-国产12传媒38,https://u89ey.cdnedge.live/file/avple-images/hls/61accd47779a324ef83699bf/playlist.m3u8
 国产12传媒39,https://q2cyl7.cdnedge.live/file/avple-images/hls/61accd46779a324ef83699bd/playlist.m3u8
 国产12传媒41,https://e2fa6.cdnedge.live/file/avple-images/hls/61accd44779a324ef83699bb/playlist.m3u8
 国产12传媒42,https://e2fa6.cdnedge.live/file/avple-images/hls/61accd41779a324ef83699b7/playlist.m3u8
@@ -12311,7 +12269,6 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产12传媒51,https://e2fa6.cdnedge.live/file/avple-images/hls/61a940fd0791fe25b65cea19/playlist.m3u8
 国产12传媒52,https://q2cyl7.cdnedge.live/file/avple-images/hls/61a940c10791fe25b65cea18/playlist.m3u8
 国产12传媒53,https://q2cyl7.cdnedge.live/file/avple-images/hls/61a940490791fe25b65cea17/playlist.m3u8
-国产12传媒55,https://u89ey.cdnedge.live/file/avple-images/hls/61a7d53d7aac5d7ef57bda24/playlist.m3u8
 国产12传媒56,https://je40u.cdnedge.live/file/avple-images/hls/61a7d4c57aac5d7ef57bda23/playlist.m3u8
 国产12传媒57,https://e2fa6.cdnedge.live/file/avple-images/hls/61a7d4117aac5d7ef57bda22/playlist.m3u8
 国产12传媒58,https://e2fa6.cdnedge.live/file/avple-images/hls/61a7d3d57aac5d7ef57bda21/playlist.m3u8
@@ -12330,7 +12287,6 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产2传媒39,https://e2fa6.cdnedge.live/file/avple-images/hls/61fb8b8f11eff304d6e1379d/playlist.m3u8
 国产2传媒40,https://q2cyl7.cdnedge.live/file/avple-images/hls/61fb8c0611eff304d6e1379e/playlist.m3u8
 国产2传媒42,https://q2cyl7.cdnedge.live/file/avple-images/hls/61fb8a9e11eff304d6e1379a/playlist.m3u8
-国产2传媒43,https://u89ey.cdnedge.live/file/avple-images/hls/61fb8a2611eff304d6e13799/playlist.m3u8
 国产2传媒45,https://e2fa6.cdnedge.live/file/avple-images/hls/61fb89a2be50fb04df5de3f7/playlist.m3u8
 国产2传媒47,https://e2fa6.cdnedge.live/file/avple-images/hls/61fb893911eff304d6e13796/playlist.m3u8
 国产2传媒55,https://je40u.cdnedge.live/file/avple-images/hls/61f9a8be9053272327957adb/playlist.m3u8
@@ -12356,7 +12312,6 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产4传媒48,https://q2cyl7.cdnedge.live/file/avple-images/hls/624eeb896d742407ed435445/playlist.m3u8
 国产4传媒49,https://je40u.cdnedge.live/file/avple-images/hls/624eec006d742407ed435446/playlist.m3u8
 国产4传媒51,https://8bb88.cdnedge.live/file/avple-images/hls/624eea246d742407ed435442/playlist.m3u8
-国产4传媒52,https://u89ey.cdnedge.live/file/avple-images/hls/624d7cc08d83843ab3a678c7/playlist.m3u8
 国产4传媒53,https://e2fa6.cdnedge.live/file/avple-images/hls/624d663b8d83843ab3a678c5/playlist.m3u8
 国产4传媒56,https://d862cp.cdnedge.live/file/avple-images/hls/624bef3d528c292827c459d7/playlist.m3u8
 国产4传媒59,https://8bb88.cdnedge.live/file/avple-images/hls/624bea18528c292827c459d4/playlist.m3u8
@@ -12427,7 +12382,6 @@ FC2PPV-1235208,https://vip1.slbfsl.com/20220818/wKqrwRYW/index.m3u8
 国产8传媒08,https://10j99.cdnedge.live/file/avple-images/hls/630bf906fa4dc50519c9fa75/playlist.m3u8
 国产8传媒08,https://d862cp.cdnedge.live/file/avple-images/hls/630e8586c7dee322f1acb08e/playlist.m3u8
 国产8传媒09,https://d862cp.cdnedge.live/file/avple-images/hls/630e493cf6f3c02fb820950c/playlist.m3u8
-国产8传媒10,https://u89ey.cdnedge.live/file/avple-images/hls/630bf7d9fa4dc50519c9fa71/playlist.m3u8
 国产8传媒11,https://10j99.cdnedge.live/file/avple-images/hls/630e2ac5f6f3c02fb820950a/playlist.m3u8
 国产8传媒11,https://d862cp.cdnedge.live/file/avple-images/hls/630bf816fa4dc50519c9fa72/playlist.m3u8
 国产8传媒12,https://q2cyl7.cdnedge.live/file/avple-images/hls/630e286cf6f3c02fb8209509/playlist.m3u8
@@ -12953,8 +12907,8 @@ TRAVELXP TV 4K,http://cdnx1.plusx.tv:8880/Travelxp/mono.m3u8?token=24cce35b06aec
 明日花绮罗,https://sy4.3sybf.com/20201214/vlUV0Z6y/index.m3u8
 明日花绮罗,https://vip2.bfbfhao.com/20220709/dF8XlVaV/index.m3u8
 明日花绮罗,https://vip1.bfbfhao.com/20210707/Udtzc7zW/index.m3u8
-橋本ありな,https://cdn2.shayubf.com/20200226/LSQhQkj8/index.m3u8
 橋本ありな,https://cdn2.shayubf.com/20200303/fiEneQrm/index.m3u8
+橋本ありな,https://cdn2.shayubf.com/20200226/LSQhQkj8/index.m3u8
 苍井空,https://vip5.3sybf.com/20210502/DaigjTSe/index.m3u8
 麻生希,https://vip2.bfbfhao.com/20220222/B8yvtu3O/index.m3u8
 
