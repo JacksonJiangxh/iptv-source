@@ -1,31 +1,31 @@
 # IPTV 播放列表
 
-> 最后更新：2026-08-16 08:45:46 (北京时间)
+> 最后更新：2026-08-17 08:42:08 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **11716** |
+| 总频道数 | **11667** |
 | 已知别名 | 1863 |
 | 分类数量 | 506 |
 | GitHub 来源 | 79532 |
-| 失败源数 | 447726 |
+| 失败源数 | 447775 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1417 个频道
+1. **未分类** - 1404 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
-5. **麻豆传媒** - 385 个频道
+5. **麻豆传媒** - 379 个频道
 6. **Turkey** - 353 个频道
-7. **🎎｜VIP直播测试_0721** - 321 个频道
+7. **🎎｜VIP直播测试_0721** - 320 个频道
 8. **Sport** - 292 个频道
 9. **美食** - 269 个频道
 10. **传媒壹一_00** - 254 个频道
-11. **🔞国产传媒_8585** - 245 个频道
-12. **EX-Yu** - 242 个频道
+11. **EX-Yu** - 242 个频道
+12. **🔞国产传媒_8585** - 242 个频道
 13. **🔞欧美福利_8585** - 225 个频道
 14. **传媒贰二_00** - 178 个频道
 15. **传媒叁三_00** - 166 个频道
@@ -82,25 +82,25 @@
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD YESILCAM 6 HD
-- 无主名 (出现 13 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **Blonde** (出现 6 次): Blonde
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD KEMAL SUNAL 6 4K,TR: BLUMAX HD YESILCAM 5 HD
+- 无主名 (出现 13 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
+- **Blonde** (出现 6 次): Blonde
 - **Gangbang** (出现 5 次): Gangbang
-- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
+- **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
 - **Gay** (出现 4 次): Gay
-- **重温经典** (出现 4 次): 重温经典
 - **TVB星河** (出现 4 次): TVB星河,TVB星河频道,[MY]TVB星河
+- **重温经典** (出现 4 次): 重温经典
 - **Sky News** (出现 4 次): Sky News
 - **Global News** (出现 4 次): Global News
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
-- **Cuckold** (出现 4 次): Cuckold
-- **Hardcore** (出现 4 次): Hardcore
 - **Interracial** (出现 4 次): Interracial
-- **Russian** (出现 4 次): Russian
+- **Asian** (出现 4 次): Asian
+- **Hardcore** (出现 4 次): Hardcore
+- **Blowjob** (出现 4 次): Blowjob
 
-> 共 93 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 92 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
