@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-08-19 08:43:12 (北京时间)
+> 最后更新：2026-08-20 08:43:17 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **11472** |
+| 总频道数 | **11449** |
 | 已知别名 | 1863 |
 | 分类数量 | 503 |
-| GitHub 来源 | 80660 |
-| 失败源数 | 448215 |
+| GitHub 来源 | 81226 |
+| 失败源数 | 448268 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1369 个频道
+1. **未分类** - 1362 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
@@ -23,7 +23,7 @@
 7. **🎎｜VIP直播测试_0721** - 295 个频道
 8. **Sport** - 292 个频道
 9. **美食** - 269 个频道
-10. **传媒壹一_00** - 249 个频道
+10. **传媒壹一_00** - 247 个频道
 11. **EX-Yu** - 242 个频道
 12. **🔞欧美福利_8585** - 225 个频道
 13. **🔞国产传媒_8585** - 221 个频道
@@ -76,19 +76,19 @@
 29. `DEN'S TV`
 30. `DJ`
 
-> 共 452 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 451 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD HALK MUZIGI 1 HD,TR: BLUMAX HD HALK MUZIGI 2 HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD AKSIYON HD,TR: BLUMAX HD ILYAS SALMAN,TR: BLUMAX HD YESILCAM 7 4K
 - 无主名 (出现 13 次): ,4K60PSDR-H264-AAC测试,4K高清岳云鹏
-- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
+- **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
 - **Blonde** (出现 6 次): Blonde
 - **Gangbang** (出现 5 次): Gangbang
-- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
+- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
 - **Gay** (出现 4 次): Gay
@@ -98,9 +98,9 @@
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
 - **Brunette** (出现 4 次): Brunette
+- **Russian** (出现 4 次): Russian
 - **Asian** (出现 4 次): Asian
 - **Cuckold** (出现 4 次): Cuckold
-- **Interracial** (出现 4 次): Interracial
 - **Blowjob** (出现 4 次): Blowjob
 
 > 共 90 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
