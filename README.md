@@ -1,20 +1,20 @@
 # IPTV 播放列表
 
-> 最后更新：2026-08-26 08:44:30 (北京时间)
+> 最后更新：2026-08-27 13:51:15 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **11234** |
+| 总频道数 | **11203** |
 | 已知别名 | 1863 |
 | 分类数量 | 494 |
-| GitHub 来源 | 84620 |
-| 失败源数 | 448715 |
+| GitHub 来源 | 85186 |
+| 失败源数 | 448773 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1326 个频道
+1. **未分类** - 1311 个频道
 2. **HHH_798798** - 532 个频道
 3. **🎎｜VIP直播资源3_0721** - 478 个频道
 4. **Albania** - 472 个频道
@@ -76,19 +76,19 @@
 29. `DJ`
 30. `DJ舞曲`
 
-> 共 446 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 445 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD KEMAL SUNAL 3 HD,TR: BLUMAX HD YESILCAM 3 4K,TR: BLUMAX HD YILMAZ GUNEY HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD HALK MUZIGI 1 HD,TR: BLUMAX HD YESILCAM 2 4K
 - 无主名 (出现 13 次): ,4K60PHLG-HEVC-EAC3测试,4K高清岳云鹏
-- **Blonde** (出现 6 次): Blonde
 - **CCTV** (出现 6 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV4K
+- **Blonde** (出现 6 次): Blonde
 - **Gangbang** (出现 5 次): Gangbang
-- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **Arirang** (出现 5 次): Arirang,Arirang[1280x720]
+- **HBO** (出现 5 次): HBO,[MY]HBO,[TW]HBO HD
 - **CNBC** (出现 5 次): CNBC,[MY]CNBC
 - **Anal** (出现 5 次): Anal
 - **Gay** (出现 4 次): Gay
@@ -96,11 +96,11 @@
 - **Global News** (出现 4 次): Global News
 - **HISTORY** (出现 4 次): HISTORY,HISTORY频道,[MY]HISTORY
 - **CHC家庭影院** (出现 4 次): CHC家庭影院
-- **Brunette** (出现 4 次): Brunette
 - **Cuckold** (出现 4 次): Cuckold
-- **Hardcore** (出现 4 次): Hardcore
 - **Russian** (出现 4 次): Russian
+- **Hardcore** (出现 4 次): Hardcore
 - **Interracial** (出现 4 次): Interracial
-- **Blowjob** (出现 4 次): Blowjob
+- **Asian** (出现 4 次): Asian
+- **Brunette** (出现 4 次): Brunette
 
-> 共 89 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 88 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
