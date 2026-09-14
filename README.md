@@ -1,30 +1,30 @@
 # IPTV 播放列表
 
-> 最后更新：2026-09-13 10:11:12 (北京时间)
+> 最后更新：2026-09-14 10:29:21 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **21839** |
+| 总频道数 | **21699** |
 | 已知别名 | 1863 |
-| 分类数量 | 686 |
-| GitHub 来源 | 94597 |
-| 失败源数 | 540752 |
+| 分类数量 | 684 |
+| GitHub 来源 | 95167 |
+| 失败源数 | 540955 |
 
 ## 📺 频道分类 TOP 15
 
-1. **卫视频道** - 2180 个频道
-2. **未分类** - 1965 个频道
-3. **央视频道** - 1086 个频道
+1. **卫视频道** - 2157 个频道
+2. **未分类** - 1921 个频道
+3. **央视频道** - 1078 个频道
 4. **HHH_798798** - 531 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
-7. **📡卫视** - 471 个频道
+7. **📡卫视** - 468 个频道
 8. **卫视** - 425 个频道
-9. **📡卫视频道** - 410 个频道
+9. **📡卫视频道** - 407 个频道
 10. **Turkey** - 353 个频道
-11. **🇨🇳央视** - 324 个频道
+11. **🇨🇳央视** - 320 个频道
 12. **麻豆传媒** - 308 个频道
 13. **Sport** - 292 个频道
 14. **🎎｜VIP直播测试_0721** - 270 个频道
@@ -56,51 +56,51 @@
 9. `74.91.26.218:82`
 10. `AEC`
 11. `AKTV`
-12. `ANIME Radio`
-13. `ASIAN Radio`
-14. `Adult`
-15. `Adventure`
-16. `Albania`
-17. `Aleatórios`
-18. `Anak-Anak`
-19. `BS2 (primehome)`
-20. `Badminiton`
-21. `Bangla`
-22. `Business News`
-23. `CCTV`
-24. `CCTV 4K`
-25. `CS3 (primehome)`
-26. `Croatia`
-27. `Culture`
-28. `Cyprus`
-29. `DJ`
-30. `DJ舞曲`
+12. `ASIAN Radio`
+13. `Adult`
+14. `Adventure`
+15. `Albania`
+16. `Aleatórios`
+17. `Anak-Anak`
+18. `BS2 (primehome)`
+19. `Badminiton`
+20. `Bangla`
+21. `Business News`
+22. `CCTV`
+23. `CCTV 4K`
+24. `CS3 (primehome)`
+25. `Croatia`
+26. `Culture`
+27. `Cyprus`
+28. `DJ`
+29. `DJ舞曲`
+30. `DJ音乐`
 
-> 共 616 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 614 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD YESILCAM 3  HD,TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD YESILCAM 7 HD
-- 无主名 (出现 34 次): ,4K电影 高清,高清电影
-- **熊猫** (出现 22 次): 熊猫频道01高清,熊猫频道2,熊猫频道9
-- **CHC动作电影** (出现 15 次): CHC动作电影,CHC动作电影HD
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD HALK MUZIGI 2 HD,TR: BLUMAX HD KEMAL SUNAL 6 4K,TR: BLUMAX HD YESILCAM 6 4K
+- 无主名 (出现 34 次): ,4K高清岳云鹏,高清电影
+- **熊猫** (出现 22 次): 熊猫频道1,熊猫频道10,熊猫频道3
 - **CHC家庭影院** (出现 15 次): CHC家庭影院,CHC家庭影院HD
-- **山东教育** (出现 11 次): 山东教育,山东教育卫视
+- **CHC动作电影** (出现 15 次): CHC动作电影,CHC动作电影HD
 - **CCTV** (出现 11 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
+- **山东教育** (出现 11 次): 山东教育,山东教育卫视
 - **CETV1** (出现 10 次): CETV1,CETV1HD
 - **乐游** (出现 8 次): 乐游,乐游HD
-- **CHC影迷电影** (出现 8 次): CHC影迷电影
 - **TVB星河** (出现 8 次): TVB星河,TVB星河频道,[MY]TVB星河
 - **CETV2** (出现 8 次): CETV2
+- **CHC影迷电影** (出现 8 次): CHC影迷电影
 - **重温经典** (出现 7 次): 重温经典
 - **14** (出现 7 次): 14
 - **风云足球** (出现 7 次): 风云足球,风云足球HD
-- **中华特产** (出现 6 次): 中华特产
 - **中学生** (出现 6 次): 中学生
-- **新视觉** (出现 6 次): 新视觉,新视觉HD
 - **新动漫** (出现 6 次): 新动漫
 - **Blonde** (出现 6 次): Blonde
+- **中华特产** (出现 6 次): 中华特产
+- **CETV4** (出现 6 次): CETV4
 
-> 共 231 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 229 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
