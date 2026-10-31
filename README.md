@@ -1,30 +1,30 @@
 # IPTV 播放列表
 
-> 最后更新：2026-10-30 11:37:52 (北京时间)
+> 最后更新：2026-10-31 11:22:25 (北京时间)
 
 ## 📊 统计概览
 
 | 项目 | 数量 |
 |------|------|
-| 总频道数 | **15486** |
+| 总频道数 | **15419** |
 | 已知别名 | 1863 |
 | 分类数量 | 581 |
-| GitHub 来源 | 120968 |
-| 失败源数 | 564019 |
+| GitHub 来源 | 121532 |
+| 失败源数 | 564436 |
 
 ## 📺 频道分类 TOP 15
 
-1. **未分类** - 1476 个频道
-2. **卫视频道** - 1315 个频道
-3. **央视频道** - 688 个频道
+1. **未分类** - 1523 个频道
+2. **卫视频道** - 1308 个频道
+3. **央视频道** - 687 个频道
 4. **HHH_798798** - 530 个频道
 5. **🎎｜VIP直播资源3_0721** - 478 个频道
 6. **Albania** - 472 个频道
 7. **Turkey** - 353 个频道
 8. **📡卫视** - 310 个频道
 9. **Sport** - 292 个频道
-10. **少儿动画** - 280 个频道
-11. **卫视** - 255 个频道
+10. **少儿动画** - 272 个频道
+11. **卫视** - 250 个频道
 12. **📡卫视频道** - 245 个频道
 13. **麻豆传媒** - 243 个频道
 14. **EX-Yu** - 242 个频道
@@ -54,53 +54,53 @@
 7. `4K频道`
 8. `74.91.26.218:82`
 9. `AKTV`
-10. `ASIAN Radio`
-11. `Adult`
-12. `Adventure`
-13. `Albania`
-14. `Aleatórios`
-15. `BS2 (primehome)`
-16. `Badminiton`
-17. `Bangla`
-18. `CCTV`
-19. `CCTV 4K`
-20. `CS3 (primehome)`
-21. `Croatia`
-22. `Culture`
-23. `Cyprus`
-24. `DJ`
-25. `DJ音乐`
-26. `DTV3 (primehome)`
-27. `Desporto`
-28. `EX-Yu`
-29. `EngNEWS`
-30. `Entertainment`
+10. `ASD Español`
+11. `ASIAN Radio`
+12. `Adult`
+13. `Adventure`
+14. `Albania`
+15. `Aleatórios`
+16. `BS2 (primehome)`
+17. `Badminiton`
+18. `Bangla`
+19. `CCTV`
+20. `CCTV 4K`
+21. `CS3 (primehome)`
+22. `Croatia`
+23. `Culture`
+24. `Cyprus`
+25. `DJ`
+26. `DJ音乐`
+27. `DTV3 (primehome)`
+28. `Desporto`
+29. `Drama`
+30. `EX-Yu`
 
-> 共 514 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
+> 共 513 个未知分类，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
 
 ## 📝 待添加到 alias.txt 的别名建议
 
 以下频道名称建议添加别名映射：
 
-- **TR: BLUMAX** (出现 40 次): TR: BLUMAX HD  EZEL TV 2 HD,TR: BLUMAX HD ANKARA HAVALARI 2,TR: BLUMAX HD YESILCAM 5 4K
-- **斗鱼电影** (出现 39 次): 斗鱼电影HD19,斗鱼电影HD20,斗鱼电影HD42
-- **熊猫** (出现 21 次): 熊猫频道10,熊猫频道5,熊猫频道6
-- **斗鱼电视剧** (出现 14 次): 斗鱼电视剧HD11,斗鱼电视剧HD2,斗鱼电视剧HD8
+- **TR: BLUMAX** (出现 40 次): TR: BLUMAX  HD SENER SEN 1 HD,TR: BLUMAX HD KADIR INANIR HD,TR: BLUMAX HD KEMAL SUNAL 4 4K
+- **斗鱼电影** (出现 39 次): 斗鱼电影HD20,斗鱼电影HD36,斗鱼电影HD41
+- **熊猫** (出现 21 次): 熊猫频道2,熊猫频道5,熊猫频道7
+- **斗鱼电视剧** (出现 14 次): 斗鱼电视剧HD12,斗鱼电视剧HD13,斗鱼电视剧HD6
 - **CHC家庭影院** (出现 12 次): CHC家庭影院
 - **CHC动作电影** (出现 11 次): CHC动作电影
-- 无主名 (出现 10 次): ,4K60PSDR-H264-AAC测试,高清电影
+- 无主名 (出现 10 次): ,4K60PHLG-HEVC-EAC3测试,高清电影
 - **CCTV** (出现 10 次): CCTV-4K (1080p),CCTV-8K (1080p),CCTV8K
 - **CETV1** (出现 8 次): CETV1
 - **TVB星河** (出现 7 次): TVB星河,TVB星河频道
 - **14** (出现 7 次): 14
-- **龙华电影** (出现 6 次): 龙华电影
-- **CETV2** (出现 6 次): CETV2
-- **重温经典** (出现 6 次): 重温经典
 - **Blonde** (出现 6 次): Blonde
+- **CETV2** (出现 6 次): CETV2
+- **龙华电影** (出现 6 次): 龙华电影
+- **重温经典** (出现 6 次): 重温经典
 - **靖天映画** (出现 6 次): 靖天映画
 - **15** (出现 6 次): 15
 - **新视觉** (出现 5 次): 新视觉,新视觉HD
-- **乐游** (出现 5 次): 乐游
 - **Gangbang** (出现 5 次): Gangbang
+- **乐游** (出现 5 次): 乐游
 
 > 共 138 条建议，完整列表见 [new-aliasdemo.txt](new-aliasdemo.txt)
